@@ -1,5 +1,6 @@
 # BETK---Documents
 
+## ENG
 BETK Supply Chain Working Group – Guidelines & Materials
 
 This repository contains guidelines and other materials produced by the BETK Working Group (Precast Concrete Supply Chain).
@@ -23,3 +24,29 @@ Errors and suggestions can be reported via Issues or contributed through Pull Re
 📄 License
 
 Unless otherwise noted, the content is licensed under CC BY-SA 4.0.
+
+
+## FI
+BETK-toimitusketjutyöryhmä – Soveltamisohjeet ja aineisto
+
+Tämä repository kokoaa BETK-työryhmän (Betonielementtitoimitusketju) laatimat soveltamisohjeet ja muun tuotetun aineiston.
+Tavoitteena on tukea betonielementtitoimitusketjun digitalisointia ja standardien käyttöönottoa.
+
+📂 Sisältö
+
+soveltamisohjeet/ – ohjeet standardien ja prosessien soveltamiseen
+
+aineisto/ – esimerkit, mallidatat ja dokumentit
+
+esitykset/ – työryhmän esitykset ja kaaviot
+
+pilotit/ – pilotointien raportit ja tulokset
+
+🔄 Päivitykset
+
+Aineisto julkaistaan versionhallittuna.
+Virheistä ja parannusehdotuksista voi avata Issue-tiketin tai tehdä Pull Requestin.
+
+📄 Lisenssi
+
+Ellei toisin mainita, sisältö on lisensoitu CC BY-SA 4.0 -ehdoin.
