@@ -7,17 +7,22 @@ This repository contains guidelines and other materials produced by the BETK Wor
 Its purpose is to support the digitalization of precast concrete supply chains and the adoption of common standards.
 
 📂 Contents
-<code>guidelines/</code> – application guidelines for standards and processes
-<code>materials/</code> – examples, sample data, and documents
-<code>presentations/</code> – working group presentations and diagrams
-<code>pilots/</code> – reports and results from pilot projects
+<html>
+<tr><code>guidelines/</code> – application guidelines for standards and processes</tr><br>
+<tr><code>materials/</code> – examples, sample data, and documents</tr><br>
+<tr><code>presentations/</code> – working group presentations and diagrams</tr><br>
+<tr><code>pilots/</code> – reports and results from pilot projects</tr><br>
+</html><br>
 
 🔄 Updates
-All materials are version-controlled.
-Errors and suggestions can be reported via Issues or contributed through Pull Requests.
+<html>
+<tr>All materials are version-controlled.</tr><br>
+<tr>Errors and suggestions can be reported via Issues or contributed through Pull Requests.</tr><br>
 
-📄 License
-CC BY-SA 4.0 © BETK
+
+<br>📄 License<br>
+<html>
+<tr>CC BY-SA 4.0 © BETK</tr><br>
 
 
 ## FI
