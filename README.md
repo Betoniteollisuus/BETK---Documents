@@ -24,7 +24,7 @@ Tämä repository kokoaa BETK-työryhmän laatimat soveltamisohjeet ja muun tuot
 
 🔄 Päivitykset
 <html>
-<tr>Aineisto julkaistaan versionhallittuna.</tr>
+<tr>Aineisto julkaistaan versionhallittuna.</tr><br>
 <tr>Virheistä ja parannusehdotuksista voi avata Issue-tiketin tai tehdä Pull Requestin.</tr>
 </html><br>
 
