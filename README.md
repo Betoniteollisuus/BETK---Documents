@@ -22,14 +22,6 @@ This repository contains guidelines and other materials produced by the BETK Wor
 Tämä repository kokoaa BETK-työryhmän laatimat soveltamisohjeet ja muun tuotetun aineiston.
 
 
-📂 Sisältö
-<html>
-<tr><code>soveltamisohjeet/</code> – ohjeet standardien ja prosessien soveltamiseen</tr><br>
-<tr><code>aineisto/</code> – esimerkit, mallidatat ja dokumentit</tr><br>
-<tr><code>esitykset/</code> – työryhmän esitykset ja kaaviot</tr><br>
-<tr><code>pilotit/</code> – pilotointien raportit ja tulokset</tr><br>
-</html><br>
-
 🔄 Päivitykset
 <html>
 <tr>Aineisto julkaistaan versionhallittuna.</tr>
