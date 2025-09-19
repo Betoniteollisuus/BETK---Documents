@@ -189,7 +189,6 @@
       <td>@1R</td>
       <td>000B</td>
       <td>→ Elementin oikea reuna: asennettu 1 m korkeuteen. RFID-tagin orientaatio pituussuunnassa sivun mukaisesti.  Asennus surrilangalla raudoitus verkkoon.</td>
-</tr><tr>
 </tr>
 </tbody>
 </table>
