@@ -1,6 +1,6 @@
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
-<tr><td colspan="8"><br><strong>1: Installing the RFID tag into the precast concrete element</strong><br><br></td></tr>
+<tr><td colspan="8"><br><strong>1: Installation of the RFID tag into the precast concrete element</strong><br><br></td></tr>
 <tr>
   <td><strong>Elem. ID</strong></td>
   <td><strong>Install date</strong></td>
@@ -296,7 +296,6 @@
   <td>65</td>
   <td>Element stored vertically. Read from the end face.</td>
 </tr>
-
 <tr>
   <td rowspan="3">V-21009</td>
   <td>@2</td>
@@ -354,7 +353,6 @@
   <td>60</td>
   <td>Element stored vertically. Read from the end face.</td>
 </tr>
-
 <tr>
   <td rowspan="3">V-21305</td>
   <td>@2</td>
@@ -383,7 +381,6 @@
   <td>73</td>
   <td>Element stored vertically. Read from the end face.</td>
 </tr>
-
 <tr>
   <td rowspan="3">V-2502</td>
   <td>@2</td>
@@ -499,7 +496,6 @@
   <td>57</td>
   <td>Element stored vertically. Read from the end face.</td>
 </tr>
-
 <tr>
   <td rowspan="3">V-2909</td>
   <td>@2</td>
