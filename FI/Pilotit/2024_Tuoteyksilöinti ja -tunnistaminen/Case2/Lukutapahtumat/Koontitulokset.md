@@ -300,7 +300,7 @@
       <td>2024-11-28T14:29</td>
       <td> - </td>
       <td> - </td>
-      <td>Luenta tehtiin useampaan kertaan molemmilta puolilta ja -sivuilta elementtiä, mutta RFID-TUNNISTEEN signaalia ei paikallistettu. Oletuksena elementtiin ei ole asennettua RFID:tä tai siru on epäkunnossa.</td>
+      <td>Luenta tehtiin useampaan kertaan molemmilta puolilta ja -sivuilta elementtiä, mutta RFID-TUNNISTEEN signaalia ei paikallistettu. </td>
 </tr><tr>
       <td>VG-1702</td>
       <td>7</td>
