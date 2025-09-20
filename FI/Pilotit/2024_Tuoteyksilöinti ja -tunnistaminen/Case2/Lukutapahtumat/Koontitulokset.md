@@ -165,6 +165,24 @@
 </tbody>
 </table>
 
+<table border="1" cellspacing="5" cellpadding="5">
+<tbody>
+<tr><td colspan="8"><br><strong>2: RFID-piirin luenta valmistuksen jälkeen</strong><br><br></td>
+<tr><td colspan="8">Ei toteutettu, Testattiin porttia?</td>
+</tr>
+</tbody>
+</table>
+
+
+<table border="1" cellspacing="5" cellpadding="5">
+<tbody>
+<tr><td colspan="8"><br><strong>3: RFID-piirin luenta työmaalla vastaanoton yhteydessä</strong><br><br></td>
+<tr><td colspan="8">Ei toteutettu</td>
+</tr>
+</tbody>
+</table>
+
+
 
 
 <table border="1" cellspacing="5" cellpadding="5">
