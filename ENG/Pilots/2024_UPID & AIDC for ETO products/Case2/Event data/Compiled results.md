@@ -1,6 +1,6 @@
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
-<tr><td colspan="8"><br><strong>1: Installation of the RFID circuit into the precast concrete element</strong><br><br></td>
+<tr><td colspan="8"><br><strong>1: Installation of the RFID tag into the precast concrete element</strong><br><br></td>
 </tr><tr>
       <td><strong>Element ID</strong></td>
       <td><strong>Installation date</strong></td>
@@ -167,7 +167,7 @@
 
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
-<tr><td colspan="8"><br><strong>2: Reading of the RFID circuit after manufacturing</strong><br><br></td>
+<tr><td colspan="8"><br><strong>2: Reading of the RFID tag after manufacturing</strong><br><br></td>
 <tr><td colspan="8">Not carried out</td>
 </tr>
 </tbody>
@@ -175,7 +175,7 @@
 
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
-<tr><td colspan="8"><br><strong>3: Reading of the RFID circuit on site at goods receipt</strong><br><br></td>
+<tr><td colspan="8"><br><strong>3: Reading of the RFID tag on site at goods receipt</strong><br><br></td>
 <tr><td colspan="8">Not carried out</td>
 </tr>
 </tbody>
@@ -183,7 +183,7 @@
 
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
-<tr><td colspan="9"><br><strong>4: Reading of the RFID circuit on site after installation</strong><br><br></td>
+<tr><td colspan="9"><br><strong>4: Reading of the RFID tag on site after installation</strong><br><br></td>
 <tr><td colspan="9">Reading was performed with a handheld reader.</td>
 </tr><tr>
       <td><strong>Element ID</strong></td>
