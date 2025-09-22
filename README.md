@@ -1,6 +1,6 @@
 # BETK---Documents
 
-## ENG - BETK Supply Chain Working Group – Guidelines & Materials
+## EN - BETK Supply Chain Working Group – Guidelines & Materials
 
 This repository contains guidelines and other materials produced by the BETK Working Group.
 
