@@ -787,7 +787,7 @@
       <td>2024-10-16T12:56</td>
       <td> - </td>
       <td> - </td>
-      <td>Luenta suoritettiin noin 100 0mm etäisyydeltä elementistä, pystysaumat pumppaamatta.</td>
+      <td>Luenta ei onnistunut käsilukijalla.</td>
 </tr><tr>
       <td>@1L</td>
       <td>0013</td>
@@ -795,7 +795,7 @@
       <td>2024-10-16T12:51</td>
       <td>1000</td>
       <td>71</td>
-      <td>Luenta suoritettiin kohtisuoraan elementistä noin 150 mm etäisyydeltä (molemmin puolin elementtiä), pystysaumat pumppaamatta. </td>
+      <td>Luenta suoritettiin noin 1000mm etäisyydeltä elementistä, pystysaumat pumppaamatta.</td>
 </tr><tr>
       <td>@1R</td>
       <td>0014</td>
@@ -803,7 +803,7 @@
       <td>2024-10-16T12:54</td>
       <td>150</td>
       <td>72</td>
-      <td>Luenta ei onnistunut käsilukijalla.</td>
+      <td>Luenta suoritettiin kohtisuoraan elementistä noin 150 mm etäisyydeltä (molemmin puolin elementtiä), pystysaumat pumppaamatta. </td>
 </tr><tr>
       <td rowspan="3">V-21005</td>
       <td rowspan="3">13</td>
