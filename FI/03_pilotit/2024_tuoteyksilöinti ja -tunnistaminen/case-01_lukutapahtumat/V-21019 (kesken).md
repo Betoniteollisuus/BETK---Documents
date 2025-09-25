@@ -76,19 +76,19 @@
     </tr>
     <tr>
       <td>(01) GTIN:</td>
-      <td><code></code></td>
+      <td><code>6419389000008</code></td>
       <td><code></code></td>
       <td><code></code></td>
     </tr>
     <tr>
       <td>(21) Serial:</td>
-      <td><code></code></td>
+      <td><code>00000000028</code></td>
       <td><code></code></td>
       <td><code></code></td>
     </tr>
     <tr>
       <td>(242) MTO Variation number:</td>
-      <td><code></code></td>
+      <td><code>0007</code></td>
       <td><code></code></td>
       <td><code></code></td>
     </tr>
@@ -100,7 +100,7 @@
     </tr>
     <tr>
       <td>(92) GUID:</td>
-      <td><code></code></td>
+      <td><code>ed86f4a0-04ff-4a4d-86c2-19135fe5ad8e</code></td>
       <td><code></code></td>
       <td><code></code></td>
     </tr>
@@ -178,7 +178,7 @@
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code>-</code></td>
+      <td><code>2024-10-15_K6_V-21019;</code><code>2024-10-15_K6_V-21019 (001C)</code></td>
       <td><code>-</code></td>
       <td><code>-</code></td>
     </tr>
