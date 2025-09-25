@@ -140,7 +140,7 @@
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code>-</code></td>
+      <td><code>2024-08-19_K2_V-21019 (001C)</code></td>
       <td><code>-</code></td>
       <td><code>-</code></td>
     </tr>
@@ -178,7 +178,7 @@
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code>2024-10-15_K6_V-21019;</code><code>2024-10-15_K6_V-21019 (001C)</code></td>
+      <td><code>-</code></td>
       <td><code>-</code></td>
       <td><code>-</code></td>
     </tr>
@@ -186,3 +186,64 @@
       <td>Luentaetäisyys (mm):</td>
       <td><code>-</code></td>
       <td><code>-</code></td>
+      <td><code>-</code></td>
+    </tr>
+    <tr>
+      <td>RSSI:</td>
+      <td><code>-</code></td>
+      <td><code>-</code></td>
+      <td><code>-</code></td>
+    </tr>
+    <tr>
+      <td>Luenta-ajankohta:</td>
+      <td><code>-</code></td>
+      <td><code>-</code></td>
+      <td><code>-</code></td>
+    </tr>
+    <tr>
+      <td>Havainnot:</td>
+      <td><code>-</code></td>
+      <td><code>-</code></td>
+      <td><code>-</code></td>
+    </tr>
+
+    <tr><td colspan="5"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
+    <tr>
+      <td>Lukutapahtuma onnistui:</td>
+      <td><code>Kyllä</code></td>
+      <td><code>Kyllä</code></td>
+      <td><code>Ei</code></td>
+      <td rowspan="6"></td>
+    </tr>
+    <tr>
+      <td>Valokuvat:</td>
+      <td><code>2024-10-15_K6_V-21019;</code><code>2024-10-15_K6_V-21019 (001C)</code></td>
+      <td><code>-</code></td>
+      <td><code>-</code></td>
+    </tr>
+    <tr>
+      <td>Luentaetäisyys (mm):</td>
+      <td><code>100</code></td>
+      <td><code>100</code></td>
+      <td><code>-</code></td>
+    </tr>
+    <tr>
+      <td>RSSI:</td>
+      <td><code>58</code></td>
+      <td><code>65</code></td>
+      <td><code>-</code></td>
+    </tr>
+    <tr>
+      <td>Luenta-ajankohta:</td>
+      <td><code>2024-10-15T12:59</code></td>
+      <td><code>2024-10-15T12:59</code></td>
+      <td><code>2024-10-15T12:59</code></td>
+    </tr>
+    <tr>
+      <td>Havainnot:</td>
+      <td><code>Luenta n. 100 mm päästä kohtisuoraan elementtiin, pystysaumat pumpattu.</code></td>
+      <td><code>Luenta n. 100 mm päästä kohtisuoraan elementtiin, pystysaumat pumpattu.</code></td>
+      <td><code>Luenta ei onnistunut asennuksen jälkeen.</code></td>
+    </tr>
+  </tbody>
+</table>
