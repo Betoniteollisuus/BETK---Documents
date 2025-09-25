@@ -77,20 +77,20 @@
     <tr>
       <td>(01) GTIN:</td>
       <td><code>6419389000008</code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>6419389000008</code></td>
+      <td><code>6419389000008</code></td>
     </tr>
     <tr>
       <td>(21) Serial:</td>
       <td><code>00000000028</code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>00000000029</code></td>
+      <td><code>00000000030</code></td>
     </tr>
     <tr>
       <td>(242) MTO Variation number:</td>
       <td><code>0007</code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>0008</code></td>
+      <td><code>0008</code></td>
     </tr>
     <tr>
       <td>(91) Elementtitunnus:</td>
@@ -101,8 +101,8 @@
     <tr>
       <td>(92) GUID:</td>
       <td><code>ed86f4a0-04ff-4a4d-86c2-19135fe5ad8e</code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>ed86f4a0-04ff-4a4d-86c2-19135fe5ad8e</code></td>
+      <td><code>ed86f4a0-04ff-4a4d-86c2-19135fe5ad8e</code></td>
     </tr>
     <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
     <tr>
@@ -126,9 +126,9 @@
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code>-</code></td>
-      <td><code>-</code></td>
-      <td><code>-</code></td>
+      <td><code>2024-08-19_K1_V-21019 (001C)</code></td>
+      <td><code>2024-08-19_K1_V-21019 (001D)</code></td>
+      <td><code>2024-08-19_K1_V-21019 (001E)</code></td>
     </tr>
     <tr><td colspan="5"><strong>2. RFID-piirin luenta valmistuksen jälkeen</strong></td></tr>
     <tr>
@@ -141,7 +141,7 @@
     <tr>
       <td>Valokuvat:</td>
       <td><code>2024-08-19_K2_V-21019 (001C)</code></td>
-      <td><code>-</code></td>
+      <td><code>2024-08-19_K2_V-21019 (001D)</code></td>
       <td><code>-</code></td>
     </tr>
     <tr>
@@ -217,7 +217,7 @@
     <tr>
       <td>Valokuvat:</td>
       <td><code>2024-10-15_K6_V-21019;</code><code>2024-10-15_K6_V-21019 (001C)</code></td>
-      <td><code>-</code></td>
+      <td><code>2024-10-15_K6_V-21019;</code><code>2024-10-15_K6_V-21019 (001D)</code></td>
       <td><code>-</code></td>
     </tr>
     <tr>
