@@ -110,7 +110,11 @@
       <td><code>← Vasen reuna, 1 m korkeus, asennus surrilangalla raudoitusverkkoon</code></td>
       <td><code>→ Oikea reuna, 1 m korkeus, asennus surrilangalla raudoitusverkkoon</code></td>
       <td><code>↑ Yläpinta, orientaatio pituussuunnassa</code></td>
-      <td rowspan="4"></td>
+      <td rowspan="4">
+        <img width="959" height="875" alt="2024-08-15_K2_V-21305 (0007)" src="https://github.com/user-attachments/assets/07bdb87a-856f-49e5-aa4f-9e60c5bee389" /><br> Kuva. 2024-08-15_K2_V-21305 (0007)
+        <img width="959" height="875" alt="2024-08-15_K2_V-21305 (0008)" src="https://github.com/user-attachments/assets/072c9065-7e09-45ff-aded-6cbad7e9c777" /><br> Kuva. 2024-08-15_K2_V-21305 (0008)
+        <img width="959" height="875" alt="2024-08-15_K1_V-21305 (0009)" src="https://github.com/user-attachments/assets/38cfa46d-f91a-4d6e-82ff-472a38389db0" /><br> Kuva. 2024-08-15_K1_V-21305 (0009)
+      </td>
     </tr>
     <tr>
       <td>Asennusajankohta:</td>
@@ -136,7 +140,10 @@
       <td><code>Kyllä</code></td>
       <td><code>Kyllä</code></td>
       <td><code>Ei</code></td>
-      <td rowspan="6"></td>
+      <td rowspan="6">
+        <img width="959" height="875" alt="2024-08-15_K1_V-21305 (0007)" src="https://github.com/user-attachments/assets/29b4a8d1-e3ea-4a64-9911-c215ebd7c806" /><br> Kuva. 2024-08-15_K1_V-21305 (0007)
+        <img width="959" height="875" alt="2024-08-15_K1_V-21305 (0008)" src="https://github.com/user-attachments/assets/6672c467-4322-4cd5-93f3-0e3e0de02add" /><br> Kuva. 2024-08-15_K1_V-21305 (0008)
+      </td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
@@ -212,7 +219,13 @@
       <td><code>Kyllä</code></td>
       <td><code>Kyllä</code></td>
       <td><code>Ei</code></td>
-      <td rowspan="6"></td>
+      <td rowspan="6">
+        <img width="959" height="875" alt="2024-10-15_K6_V-21305 (0007)" src="https://github.com/user-attachments/assets/af69bda4-e99f-4426-9a06-a4a4d7647816" /><br> Kuva. 2024-10-15_K6_V-21305 (0007)
+        <img width="959" height="875" alt="2024-10-15_K6-1_V-21305 (0007" src="https://github.com/user-attachments/assets/227964a1-d60d-468c-8422-490d7da5b8af" /><br> Kuva. 2024-10-15_K6-1_V-21305 (0007
+        <img width="959" height="875" alt="2024-08-15_K3_V-21305 (0008)" src="https://github.com/user-attachments/assets/6a49be53-314d-4a2a-a7af-b552a428db22" /><br> Kuva. 2024-08-15_K3_V-21305 (0008)
+        <img width="959" height="875" alt="2024-10-15_K6_V-21305 (0008)" src="https://github.com/user-attachments/assets/dbc717d9-8806-4e43-bd4a-ebe730c754e5" /><br> Kuva. 2024-10-15_K6_V-21305 (0008)
+        <img width="959" height="875" alt="2024-10-15_K6-1_V-21305 (0008)" src="https://github.com/user-attachments/assets/4ac4cf30-cd37-4388-83d5-cc4a1e9d4550" /><br> Kuva. 2024-10-15_K6-1_V-21305 (0008)
+       </td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
