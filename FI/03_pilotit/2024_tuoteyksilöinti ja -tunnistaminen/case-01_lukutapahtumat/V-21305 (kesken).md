@@ -77,20 +77,20 @@
     <tr>
       <td>(01) GTIN:</td>
       <td><code>6419389000008</code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>6419389000008</code></td>
+      <td><code>6419389000008</code></td>
     </tr>
     <tr>
       <td>(21) Serial:</td>
       <td><code>00000000007</code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>00000000008</code></td>
+      <td><code>00000000009</code></td>
     </tr>
     <tr>
       <td>(242) MTO Variation number:</td>
       <td><code>0002</code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>0002</code></td>
+      <td><code>0003</code></td>
     </tr>
     <tr>
       <td>(91) Elementtitunnus:</td>
@@ -101,8 +101,8 @@
     <tr>
       <td>(92) GUID:</td>
       <td><code>769858bb-3b5e-4d3b-922a-f2ee42a4d470</code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>769858bb-3b5e-4d3b-922a-f2ee42a4d470</code></td>
+      <td><code>769858bb-3b5e-4d3b-922a-f2ee42a4d470</code></td>
     </tr>
     <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
     <tr>
@@ -127,8 +127,8 @@
     <tr>
       <td>Valokuvat:</td>
       <td><code>2024-08-15_K3_V-21305 (0007)</code></td>
-      <td><code>-</code></td>
-      <td><code>-</code></td>
+      <td><code>2024-08-15_K2_V-21305 (0008)</code></td>
+      <td><code>2024-08-15_K1_V-21305 (0009)</code></td>
     </tr>
     <tr><td colspan="5"><strong>2. RFID-piirin luenta valmistuksen jälkeen (esim. välivarasto)</strong></td></tr>
     <tr>
@@ -141,8 +141,8 @@
     <tr>
       <td>Valokuvat:</td>
       <td><code>2024-08-15_K2_V-21305 (0007)</code>;<code>2024-08-15_K1_V-21305 (0007)</code></td>
-      <td><code>-</code></td>
-      <td><code>2024-08-15T10:04</code></td>
+      <td><code>2024-08-15_K1_V-21305 (0008)</code>;<code>2024-08-15_K3_V-21305 (0008)</code></td>
+      <td><code></code></td>
     </tr>
     <tr>
       <td>Luentaetäisyys (mm):</td>
@@ -217,7 +217,7 @@
     <tr>
       <td>Valokuvat:</td>
       <td><code>2024-10-15_K6_V-21305 (0007)</code>;<code>2024-10-15_K6-1_V-21305 (0007)</code></td>
-      <td><code>-</code></td>
+      <td><code>2024-10-15_K6_V-21305 (0008)</code>;<code>2024-10-15_K6-1_V-21305 (0008)</code></td>
       <td><code>-</code></td>
     </tr>
     <tr>
