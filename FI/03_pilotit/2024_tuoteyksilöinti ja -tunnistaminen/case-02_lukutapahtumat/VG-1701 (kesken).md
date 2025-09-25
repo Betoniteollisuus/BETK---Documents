@@ -47,7 +47,6 @@
 </tr>
 </tbody>
 </table>
-
 <table border="1" cellspacing="0" cellpadding="0">
   <tbody>
     <tr><td colspan="5"><br><strong>TARKASTUSKOHDAT</strong><br></td></tr>
@@ -113,7 +112,6 @@
       <td>Valokuvat:</td>
       <td><code></code></td><td><code></code></td><td><code>-</code></td>
     </tr>
-
     <tr><td colspan="5"><strong>2. RFID-piirin luenta valmistuksen jälkeen (esim. välivarasto)</strong></td></tr>
     <tr>
       <td>Lukutapahtuma onnistui:</td>
@@ -140,7 +138,6 @@
       <td>Havainnot:</td>
       <td><code></code></td><td><code></code></td><td><code>Ei toteutettu</code></td>
     </tr>
-
     <tr><td colspan="5"><strong>3. RFID-piirin luenta työmaalla vastaanoton yhteydessä (elementin purkupaikalla)</strong></td></tr>
     <tr>
       <td>Lukutapahtuma onnistui:</td>
