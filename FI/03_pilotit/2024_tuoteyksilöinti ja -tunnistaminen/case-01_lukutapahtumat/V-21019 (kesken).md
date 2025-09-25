@@ -206,7 +206,6 @@
       <td><code>-</code></td>
       <td><code>-</code></td>
     </tr>
-
     <tr><td colspan="5"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
     <tr>
       <td>Lukutapahtuma onnistui:</td>
