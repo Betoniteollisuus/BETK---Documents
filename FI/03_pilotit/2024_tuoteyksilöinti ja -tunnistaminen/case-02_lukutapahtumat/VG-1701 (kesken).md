@@ -11,7 +11,6 @@
   <td>Vastaanottaja:</td>
   <td><code></code></td>
 </tr>
-
 <tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
 <tr>
   <td>Sijainti (kerros):</td>
@@ -21,7 +20,6 @@
   <td>Elementissä raudoitusverkko:</td>
   <td><code>Kyllä</code></td>
 </tr>
-
 <tr><td colspan="2"><strong>RFID-PIIRIN TIEDOT:</strong></td></tr>
 <tr>
   <td>Muisti:</td>
@@ -91,7 +89,6 @@
       <td>(92) GUID:</td>
       <td><code></code></td><td><code></code></td><td><code></code></td>
     </tr>
-
     <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
     <tr>
       <td>RFID-tunnisteen asennustapa:</td>
@@ -164,7 +161,6 @@
       <td>Havainnot:</td>
       <td><code></code></td><td><code></code></td><td><code>Ei toteutettu</code></td>
     </tr>
-
     <tr><td colspan="5"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
     <tr>
       <td>Lukutapahtuma onnistui:</td>
