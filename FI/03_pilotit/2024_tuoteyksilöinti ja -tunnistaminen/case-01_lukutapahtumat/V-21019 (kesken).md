@@ -110,7 +110,11 @@
       <td><code>← Vasen reuna, 1 m korkeus</code></td>
       <td><code>→ Oikea reuna, 1 m korkeus</code></td>
       <td><code>↑ Yläpinta, orientaatio pituussuunnassa</code></td>
-      <td rowspan="4"></td>
+      <td rowspan="4">
+ <img width="959" height="875" alt="2024-08-19_K1_V-21019 (001C)" src="https://github.com/user-attachments/assets/9c0c1a87-f42d-4219-ae6c-c8784d61850b" /><br> Kuva. 2024-08-19_K1_V-21019 (001C)
+ <img width="959" height="875" alt="2024-08-19_K1_V-21019 (001D)" src="https://github.com/user-attachments/assets/1864998e-de39-4279-972e-be3d5d35444f" /><br> Kuva. 2024-08-19_K1_V-21019 (001D)
+ <img width="959" height="875" alt="2024-08-19_K1_V-21019 (001E)" src="https://github.com/user-attachments/assets/21a8ec7e-f8e0-4a12-a9ee-6d03bf25173d" /><br> Kuva. 2024-08-19_K1_V-21019 (001E)      
+      </td>
     </tr>
     <tr>
       <td>Asennusajankohta:</td>
@@ -136,7 +140,10 @@
       <td><code>Kyllä</code></td>
       <td><code>Kyllä</code></td>
       <td><code>Ei</code></td>
-      <td rowspan="6"></td>
+      <td rowspan="6">
+          <img width="959" height="875" alt="2024-08-19_K2_V-21019 (001C)" src="https://github.com/user-attachments/assets/797d83d9-169c-4dc2-8adf-4f22f0733c02" /><br> Kuva. 2024-08-19_K2_V-21019 (001C)
+          <img width="959" height="875" alt="2024-08-19_K2_V-21019 (001D)" src="https://github.com/user-attachments/assets/41ccbe4b-3f2e-4b1e-b9de-06e39df851d1" /><br> Kuva. 2024-08-19_K2_V-21019 (001D)
+      </td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
@@ -212,7 +219,11 @@
       <td><code>Kyllä</code></td>
       <td><code>Kyllä</code></td>
       <td><code>Ei</code></td>
-      <td rowspan="6"></td>
+      <td rowspan="6">
+        <img width="959" height="875" alt="2024-10-15_K6_V-21019 (001C)" src="https://github.com/user-attachments/assets/bbdb7dda-0329-4b36-9df8-a9fdfd832928" /><br> Kuva. 2024-10-15_K6_V-21019 (001C)
+        <img width="959" height="875" alt="2024-10-15_K6_V-21019 (001D)" src="https://github.com/user-attachments/assets/37d57078-e315-4b24-9e5a-72948a9fb272" /><br> Kuva. 2024-10-15_K6_V-21019 (001D)
+        <img width="959" height="875" alt="2024-10-15_K6_V-21019" src="https://github.com/user-attachments/assets/d0d2be89-63df-475b-b525-e16035eb1223" /><br> Kuva. 2024-10-15_K6_V-21019   
+      </td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
