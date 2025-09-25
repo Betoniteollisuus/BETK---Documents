@@ -76,21 +76,21 @@
     </tr>
     <tr>
       <td>(01) GTIN:</td>
-      <td><code></code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>6419389000008</code></td>
+      <td><code>6419389000008</code></td>
+      <td><code>6419389000008</code></td>
     </tr>
     <tr>
       <td>(21) Serial:</td>
-      <td><code></code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>00000000022</code></td>
+      <td><code>00000000023</code></td>
+      <td><code>00000000024</code></td>
     </tr>
     <tr>
       <td>(242) MTO Variation number:</td>
-      <td><code></code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>0006</code></td>
+      <td><code>0006</code></td>
+      <td><code>0006</code></td>
     </tr>
     <tr>
       <td>(91) Elementtitunnus:</td>
@@ -100,9 +100,9 @@
     </tr>
     <tr>
       <td>(92) GUID:</td>
-      <td><code></code></td>
-      <td><code></code></td>
-      <td><code></code></td>
+      <td><code>600e0ac9-8ed2-4b61-a1ac-e2b17c4fe2ee</code></td>
+      <td><code>600e0ac9-8ed2-4b61-a1ac-e2b17c4fe2ee</code></td>
+      <td><code>600e0ac9-8ed2-4b61-a1ac-e2b17c4fe2ee</code></td>
     </tr>
     <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
     <tr>
