@@ -212,12 +212,16 @@
       <td><code>Kyllä</code></td>
       <td><code>Kyllä</code></td>
       <td><code>Ei</code></td>
-      <td rowspan="6"></td>
+      <td rowspan="6">
+        <img width="959" height="875" alt="2024-10-02_K6_V-21009" src="https://github.com/user-attachments/assets/90cef7b9-2348-40b0-883a-9f88916d4377" /><br> Kuva. 2024-10-02_K6_V-21009
+        <img width="959" height="875" alt="2024-10-02_K6_V-21009 (0016)" src="https://github.com/user-attachments/assets/392908ad-b3b9-4511-b12b-008526937fbf" /><br> Kuva. 2024-10-02_K6_V-21009 (0016)
+        <img width="959" height="875" alt="2024-10-02_K6_V-21009 (0017)" src="https://github.com/user-attachments/assets/c5e7b36e-5989-49ea-ad6e-6d3197f3aafc" /><br> Kuva. 2024-10-02_K6_V-21009 (0017)
+      </td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code>-</code></td>
-      <td><code>-</code></td>
+      <td><code>2024-10-02_K6_V-21009</code>;<code>2024-10-02_K6_V-21009 (0016)</code></code></td>
+      <td><code>2024-10-02_K6_V-21009 (0017)</code></td>
       <td><code>-</code></td>
     </tr>
     <tr>
