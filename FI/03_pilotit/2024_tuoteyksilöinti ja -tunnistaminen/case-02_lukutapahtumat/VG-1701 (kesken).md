@@ -41,7 +41,7 @@
 <tr><td colspan="2"><strong>RFID-LUKIJAN TIEDOT:</strong></td></tr>
 <tr>
   <td>Käsilukija (työmaalla):</td>
-  <td><code></code></td>
+  <td><code>HH85 Nordic ID </code></td>
 </tr>
 </tbody>
 </table>
