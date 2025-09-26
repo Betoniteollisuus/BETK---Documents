@@ -164,7 +164,7 @@
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code>-</code></td>
+      <td><code>VG-1702</code></td>
     </tr>
     <tr>
       <td>Luentaetäisyys (mm):</td>
