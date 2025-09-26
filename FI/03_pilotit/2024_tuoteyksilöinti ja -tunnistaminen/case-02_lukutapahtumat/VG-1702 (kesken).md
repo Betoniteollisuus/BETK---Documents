@@ -5,11 +5,11 @@
 <tr><td colspan="2"><strong>KOHDETIEDOT</strong></td></tr>
 <tr>
   <td>Valmistaja:</td>
-  <td><code>Consolis Parma</code></td>
+  <td><code>Parma Consolis, Kangasalan tehdas</code></td>
 </tr>
 <tr>
   <td>Vastaanottaja:</td>
-  <td><code>NCC</code></td>
+  <td><code>NCC, asuinkerrostalokohde Rauhanniemi</code></td>
 </tr>
 <tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
 <tr>
