@@ -23,19 +23,19 @@
 <tr><td colspan="2"><strong>RFID-PIIRIN TIEDOT:</strong></td></tr>
 <tr>
   <td>Muisti:</td>
-  <td><code></code></td>
+  <td><code>Confidex ironside classic: EPC 128 bytes, RAM 512 bytes, TID 96 bytes </code></td>
 </tr>
 <tr>
   <td>Tyyppi:</td>
-  <td><code></code></td>
+  <td><code>Passiivinen R/W EPC</code></td>
 </tr>
 <tr>
   <td>Taajuus:</td>
-  <td><code></code></td>
+  <td><code>Global 865-928MHz </code></td>
 </tr>
 <tr>
   <td>Kotelointi:</td>
-  <td><code></code></td>
+  <td><code>Operating temperature -35°C to +85°C / -31°F to +185°F Ambient temperature -35°C to +85°C /-31°F to +185°F IP classification IP68 </code></td>
 </tr>
 
 <tr><td colspan="2"><strong>RFID-LUKIJAN TIEDOT:</strong></td></tr>
