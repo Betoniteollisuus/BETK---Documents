@@ -1,6 +1,6 @@
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
-<tr><td colspan="2"><br><strong>CASE 4: VG-1710</strong><br><br></td></tr>
+<tr><td colspan="2"><br><strong>CASE: VG-1710</strong><br><br></td></tr>
 <tr><td colspan="2"><strong>KOHDETIEDOT</strong></td></tr>
 <tr><td>Valmistaja:</td><td><code>Consolis Parma</code></td></tr>
 <tr><td>Vastaanottaja:</td><td><code>NCC</code></td></tr>
@@ -20,14 +20,14 @@
 <tbody>
 <tr><td colspan="5"><strong>TARKASTUSKOHDAT</strong></td></tr>
 <tr><td colspan="5"><strong>ELEMENTIN ID:</strong> Tiedot kirjataan, jos mahdollista.</td></tr>
-<tr><td></td><td><strong>#4 - RFID-tunniste</strong></td><td><strong>Valokuva</strong></td></tr>
+<tr><td></td><td><strong>RFID-tunniste</strong></td><td><strong>Valokuva</strong></td></tr>
 <tr><td>RFID-tunnisteen antennin suunta:</td><td><code>@2L</code></td><td rowspan="7"></td></tr>
 <tr><td>RFID tunnisteen yksilöivä tunniste:</td><td><code>0014</code></td></tr>
-<tr><td>(01) GTIN:</td><td><code></code></td></tr>
-<tr><td>(21) Serial:</td><td><code></code></td></tr>
-<tr><td>(242) MTO Variation number:</td><td><code></code></td></tr>
+<tr><td>(01) GTIN:</td><td><code>0643006205004322</code></td></tr>
+<tr><td>(21) Serial:</td><td><code>18969079</code></td></tr>
+<tr><td>(242) MTO Variation number:</td><td><code>643011</code></td></tr>
 <tr><td>(91) Elementtitunnus:</td><td><code>VG-1710</code></td></tr>
-<tr><td>(92) GUID:</td><td><code></code></td></tr>
+<tr><td>(92) GUID:</td><td><code>bd76fd81-1e60-43f9-9b4e-52fa9e532724</code></td></tr>
 <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
 <tr><td>RFID-tunnisteen asennustapa:</td><td><code>↑ Yläpinta (@2L): Elementin päästä 1000–1200 mm, vasen sivu</code></td><td rowspan="4"></td></tr>
 <tr><td>Asennusajankohta:</td><td><code>2024-10-15</code></td></tr>
@@ -48,8 +48,10 @@
 <tr><td>Luenta-ajankohta:</td><td><code>-</code></td></tr>
 <tr><td>Havainnot:</td><td><code>Ei toteutettu</code></td></tr>
 <tr><td colspan="5"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
-<tr><td>Lukutapahtuma onnistui:</td><td><code>Kyllä</code></td><td rowspan="6"></td></tr>
-<tr><td>Valokuvat:</td><td><code>-</code></td></tr>
+<tr><td>Lukutapahtuma onnistui:</td><td><code>Kyllä</code></td><td rowspan="6">
+  <img width="625" height="831" alt="image" src="https://github.com/user-attachments/assets/a80fb543-950e-4d9a-a224-ddb13d8aa96f" /> Kuva. VG-1710
+</td></tr>
+<tr><td>Valokuvat:</td><td><code>VG-1710</code></td></tr>
 <tr><td>Luentaetäisyys (mm):</td><td><code>~125</code></td></tr>
 <tr><td>RSSI:</td><td><code>75</code></td></tr>
 <tr><td>Luenta-ajankohta:</td><td><code>2024-11-28T14:21</code></td></tr>
