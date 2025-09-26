@@ -1,11 +1,16 @@
-<!-- CASE 13 -->
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
-<tr><td colspan="2"><br><strong>CASE 13: VG-1919</strong><br><br></td></tr>
+<tr><td colspan="2"><br><strong>CASE: VG-1919</strong><br><br></td></tr>
 
 <tr><td colspan="2"><strong>KOHDETIEDOT</strong></td></tr>
-<tr><td>Valmistaja:</td><td><code>Consolis Parma</code></td></tr>
-<tr><td>Vastaanottaja:</td><td><code>NCC</code></td></tr>
+<tr>  <td>Valmistaja:</td>
+  <td><code>Parma Consolis, Kangasalan tehdas</code></td>
+</tr>
+<tr>
+  <td>Vastaanottaja:</td>
+  <td><code>NCC, asuinkerrostalokohde Rauhanniemi</code></td>
+</tr>
+<tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
 
 <tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong></td></tr>
 <tr><td>Sijainti (kerros):</td><td><code>9</code></td></tr>
@@ -26,7 +31,7 @@
 <tr><td colspan="5"><strong>ELEMENTIN ID:</strong> Tiedot kirjataan, jos mahdollista.</td></tr>
 
 <!-- Tag (1) -->
-<tr><td></td><td><strong>#13 - RFID-tunniste (1)</strong></td><td><strong>Valokuva</strong></td></tr>
+<tr><td></td><td><strong>RFID-tunniste (1)</strong></td><td><strong>Valokuva</strong></td></tr>
 <tr><td>Antennin suunta (1):</td><td><code>@1LF</code></td><td rowspan="7"></td></tr>
 <tr><td>Tag ID (1):</td><td><code>0004</code></td></tr>
 
