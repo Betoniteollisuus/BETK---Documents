@@ -66,15 +66,15 @@
     </tr>
     <tr>
       <td>(01) GTIN:</td>
-      <td><code></code></td>
+      <td><code>0643006205004322</code></td>
     </tr>
     <tr>
       <td>(21) Serial:</td>
-      <td><code></code></td>
+      <td><code>18969071</code></td>
     </tr>
     <tr>
       <td>(242) MTO Variation number:</td>
-      <td><code></code></td>
+      <td><code>643008</code></td>
     </tr>
     <tr>
       <td>(91) Elementtitunnus:</td>
@@ -82,7 +82,7 @@
     </tr>
     <tr>
       <td>(92) GUID:</td>
-      <td><code></code>
+      <td><code>04870244-4a89-42c5-95dc-2fe2d346216e</code>
     </tr>
     <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
     <tr>
@@ -158,7 +158,9 @@
     <tr>
       <td>Lukutapahtuma onnistui:</td>
       <td><code>Kyllä</code></td>
-      <td rowspan="6"></td>
+      <td rowspan="6">
+        <img width="623" height="839" alt="image" src="https://github.com/user-attachments/assets/fc98f75b-8fd4-43f4-8f12-f26bac9f5571" /> Kuva. VG-1702
+      </td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
