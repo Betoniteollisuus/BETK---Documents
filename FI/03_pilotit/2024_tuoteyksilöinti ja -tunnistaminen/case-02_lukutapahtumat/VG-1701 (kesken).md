@@ -40,7 +40,7 @@
 
 <tr><td colspan="2"><strong>RFID-LUKIJAN TIEDOT:</strong></td></tr>
 <tr>
-  <td>Käsilukija:</td>
+  <td>Käsilukija (työmaalla):</td>
   <td><code></code></td>
 </tr>
 </tbody>
