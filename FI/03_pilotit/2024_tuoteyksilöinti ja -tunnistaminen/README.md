@@ -22,7 +22,7 @@ Status: Julkaistu
 </details>
 
 <details> 
-<Summary>Asiantuntija ryhmä</Summary>
+<Summary>Asiantuntijaryhmä</Summary>
 
 | Nimi               | Organisaatio                   |
 |--------------------|--------------------------------|
