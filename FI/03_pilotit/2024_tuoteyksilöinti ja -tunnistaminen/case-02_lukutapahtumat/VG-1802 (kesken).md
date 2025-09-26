@@ -1,11 +1,17 @@
 <!-- CASE 7 -->
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
-<tr><td colspan="2"><br><strong>CASE 7: VG-1802</strong><br><br></td></tr>
+<tr><td colspan="2"><br><strong>CASE: VG-1802</strong><br><br></td></tr>
 
 <tr><td colspan="2"><strong>KOHDETIEDOT</strong></td></tr>
-<tr><td>Valmistaja:</td><td><code>Consolis Parma</code></td></tr>
-<tr><td>Vastaanottaja:</td><td><code>NCC</code></td></tr>
+<tr>  <td>Valmistaja:</td>
+  <td><code>Parma Consolis, Kangasalan tehdas</code></td>
+</tr>
+<tr>
+  <td>Vastaanottaja:</td>
+  <td><code>NCC, asuinkerrostalokohde Rauhanniemi</code></td>
+</tr>
+<tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
 
 <tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong></td></tr>
 <tr><td>Sijainti (kerros):</td><td><code>8</code></td></tr>
@@ -27,7 +33,7 @@
 <tr><td colspan="5"><strong>TARKASTUSKOHDAT</strong></td></tr>
 <tr><td colspan="5"><strong>ELEMENTIN ID:</strong> Tiedot kirjataan, jos mahdollista.</td></tr>
 
-<tr><td></td><td><strong>#7 - RFID-tunniste</strong></td><td><strong>Valokuva</strong></td></tr>
+<tr><td></td><td><strong>RFID-tunniste</strong></td><td><strong>Valokuva</strong></td></tr>
 <tr><td>RFID-tunnisteen antennin suunta:</td><td><code>@1</code></td><td rowspan="7"></td></tr>
 <tr><td>RFID tunnisteen yksilöivä tunniste:</td><td><code>0010</code></td></tr>
 <tr><td>(01) GTIN:</td><td><code></code></td></tr>
