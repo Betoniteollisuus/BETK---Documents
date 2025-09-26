@@ -52,140 +52,131 @@
     <tr>
       <td></td>
       <td><strong>#1 - RFID-tunniste</strong></td>
-      <td><strong>#2 - RFID-tunniste</strong></td>
-      <td><strong>#3 - RFID-tunniste</strong></td>
       <td><strong>Valokuva</strong></td>
     </tr>
     <tr>
       <td>RFID-tunnisteen antennin suunta:</td>
-      <td><code></code></td>
-      <td><code></code></td>
       <td><code>@2L</code></td>
       <td rowspan="7"></td>
     </tr>
     <tr>
       <td>RFID tunnisteen yksilöivä tunniste:</td>
-      <td><code></code></td>
-      <td><code></code></td>
       <td><code>0015</code></td>
     </tr>
     <tr>
       <td>(01) GTIN:</td>
-      <td><code></code></td><td><code></code></td><td><code></code></td>
+      <td><code></code></td>
     </tr>
     <tr>
       <td>(21) Serial:</td>
-      <td><code></code></td><td><code></code></td><td><code></code></td>
+      <td><code></code></td>
     </tr>
     <tr>
       <td>(242) MTO Variation number:</td>
-      <td><code></code></td><td><code></code></td><td><code></code></td>
+      <td><code></code></td>
     </tr>
     <tr>
       <td>(91) Elementtitunnus:</td>
-      <td><code>VG-1701</code></td><td><code>VG-1701</code></td><td><code>VG-1701</code></td>
+      <td><code>VG-1701</code>
     </tr>
     <tr>
       <td>(92) GUID:</td>
-      <td><code></code></td><td><code></code></td><td><code></code></td>
+      <td><code></code>
     </tr>
     <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
     <tr>
       <td>RFID-tunnisteen asennustapa:</td>
-      <td><code></code></td>
-      <td><code></code></td>
       <td><code>↑ Yläpinta (@2L): Elementin päästä 1000–1200 mm, vasen sivu</code></td>
       <td rowspan="4"></td>
     </tr>
     <tr>
       <td>Asennusajankohta:</td>
-      <td><code></code></td><td><code></code></td><td><code>2024-10-15</code></td>
+      <td><code>2024-10-15</code></td>
     </tr>
     <tr>
       <td>Havainnot:</td>
-      <td><code></code></td><td><code></code></td><td><code>Patterimuotti; valokuva: Kyllä</code></td>
+      <td><code>Patterimuotti; valokuva: Kyllä</code></td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code></code></td><td><code></code></td><td><code>-</code></td>
+      <td>-</code></td>
     </tr>
     <tr><td colspan="5"><strong>2. RFID-piirin luenta valmistuksen jälkeen (esim. välivarasto)</strong></td></tr>
     <tr>
       <td>Lukutapahtuma onnistui:</td>
-      <td><code></code></td><td><code></code></td><td><code>Ei toteutettu</code></td>
+      <td><code>Ei toteutettu</code></td>
       <td rowspan="6"></td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code></code></td><td><code></code></td><td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>Luentaetäisyys (mm):</td>
-      <td><code></code></td><td><code></code></td><td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>RSSI:</td>
-      <td><code></code></td><td><code></code></td><td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>Luenta-ajankohta:</td>
-      <td><code></code></td><td><code></code></td><td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>Havainnot:</td>
-      <td><code></code></td><td><code></code></td><td><code>Ei toteutettu</code></td>
+      <td><code>Ei toteutettu</code></td>
     </tr>
     <tr><td colspan="5"><strong>3. RFID-piirin luenta työmaalla vastaanoton yhteydessä (elementin purkupaikalla)</strong></td></tr>
     <tr>
       <td>Lukutapahtuma onnistui:</td>
-      <td><code></code></td><td><code></code></td><td><code>Ei toteutettu</code></td>
+      <td><code>Ei toteutettu</code></td>
       <td rowspan="6"></td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code></code></td><td><code></code></td><td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>Luentaetäisyys (mm):</td>
-      <td><code></code></td><td><code></code></td><td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>RSSI:</td>
-      <td><code></code></td><td><code></code></td><td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>Luenta-ajankohta:</td>
-      <td><code></code></td><td><code></code></td><td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>Havainnot:</td>
-      <td><code></code></td><td><code></code></td><td><code>Ei toteutettu</code></td>
+      <td><code>Ei toteutettu</code></td>
     </tr>
     <tr><td colspan="5"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
     <tr>
       <td>Lukutapahtuma onnistui:</td>
-      <td><code></code></td><td><code></code></td><td><code>Kyllä</code></td>
+      <td><code>Kyllä</code></td>
       <td rowspan="6"></td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code></code></td><td><code></code></td><td><code>-</code></td>
+      <td><code>-</code></td>
     </tr>
     <tr>
       <td>Luentaetäisyys (mm):</td>
-      <td><code></code></td><td><code></code></td><td><code>~125</code></td>
+      <td><code>~125</code></td>
     </tr>
     <tr>
       <td>RSSI:</td>
-      <td><code></code></td><td><code></code></td><td><code>75</code></td>
+      <td><code>75</code></td>
     </tr>
     <tr>
       <td>Luenta-ajankohta:</td>
-      <td><code></code></td><td><code></code></td><td><code>2024-11-28T14:10</code></td>
+      <td><code>2024-11-28T14:10</code></td>
     </tr>
     <tr>
       <td>Havainnot:</td>
-      <td><code></code></td><td><code></code></td>
       <td><code>Luenta 100–150 mm etäisyydeltä yläreunasta, onnistui molemmilta puolilta. Lattian tasolta yläpuolelta ei onnistunut; tarvittiin kurkotus/A-pukki.</code></td>
     </tr>
   </tbody>
