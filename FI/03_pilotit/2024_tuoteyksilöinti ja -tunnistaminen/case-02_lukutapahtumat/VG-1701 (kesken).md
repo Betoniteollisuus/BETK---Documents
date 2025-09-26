@@ -1,6 +1,6 @@
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
-<tr><td colspan="2"><br><strong>CASE 1: VG-1701</strong><br><br></td></tr>
+<tr><td colspan="2"><br><strong>CASE: VG-1701</strong><br><br></td></tr>
 
 <tr><td colspan="2"><strong>KOHDETIEDOT</strong></td></tr>
 <tr>
@@ -51,7 +51,7 @@
     <tr><td colspan="5"><strong>ELEMENTIN ID:</strong> Tiedot kirjataan, jos mahdollista.</td></tr>
     <tr>
       <td></td>
-      <td><strong>#1 - RFID-tunniste</strong></td>
+      <td><strong>RFID-tunniste</strong></td>
       <td><strong>Valokuva</strong></td>
     </tr>
     <tr>
@@ -163,7 +163,7 @@
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code>-</code></td>
+      <td><code>VG-1701</code></td>
     </tr>
     <tr>
       <td>Luentaetäisyys (mm):</td>
