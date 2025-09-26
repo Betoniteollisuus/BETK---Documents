@@ -2,8 +2,15 @@
 <tbody>
 <tr><td colspan="2"><br><strong>CASE: VG-1707</strong><br><br></td></tr>
 <tr><td colspan="2"><strong>KOHDETIEDOT</strong></td></tr>
-<tr><td>Valmistaja:</td><td><code>Consolis Parma</code></td></tr>
-<tr><td>Vastaanottaja:</td><td><code>NCC</code></td></tr>
+<tr>
+  <td>Valmistaja:</td>
+  <td><code>Parma Consolis, Kangasalan tehdas</code></td>
+</tr>
+<tr>
+  <td>Vastaanottaja:</td>
+  <td><code>NCC, asuinkerrostalokohde Rauhanniemi</code></td>
+</tr>
+<tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
 <tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong></td></tr>
 <tr><td>Sijainti (kerros):</td><td><code>7</code></td></tr>
 <tr><td>Elementissä raudoitusverkko:</td><td><code>Kyllä</code></td></tr>
