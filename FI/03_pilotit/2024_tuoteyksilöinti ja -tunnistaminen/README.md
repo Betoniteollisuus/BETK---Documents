@@ -74,11 +74,19 @@ Pilotoinnissa olivat mukana betonielementtien tuotevalmistajat Parma Oy ja Lujab
 
 #### 3.1.2 Case 1: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
 
+<details> 
+<Summary>Case 1. Koontitulokset</Summary>
+</details>
+
 ### 3.2 Case 2
 
 #### 3.2.1 Käytetty RFID-teknologia
 
 #### 3.2.2 Case 2: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
+
+<details> 
+<Summary>Case 2. Koontitulokset</Summary>
+</details>
 
 ## 4 Johtopäätökset
 
