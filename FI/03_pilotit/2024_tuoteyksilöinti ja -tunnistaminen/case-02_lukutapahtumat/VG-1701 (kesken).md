@@ -5,11 +5,11 @@
 <tr><td colspan="2"><strong>KOHDETIEDOT</strong></td></tr>
 <tr>
   <td>Valmistaja:</td>
-  <td><code></code></td>
+  <td><code>Consolis Parma</code></td>
 </tr>
 <tr>
   <td>Vastaanottaja:</td>
-  <td><code></code></td>
+  <td><code>NCC</code></td>
 </tr>
 <tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
 <tr>
