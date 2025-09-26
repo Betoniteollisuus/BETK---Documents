@@ -52,7 +52,7 @@
     <tr><td colspan="5"><strong>ELEMENTIN ID:</strong> Tiedot kirjataan, jos mahdollista.</td></tr>
     <tr>
       <td></td>
-      <td><strong>#2 - RFID-tunniste</strong></td>
+      <td><strong>#1 - RFID-tunniste</strong></td>
       <td><strong>Valokuva</strong></td>
     </tr>
     <tr>
