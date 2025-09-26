@@ -1,6 +1,6 @@
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
-<tr><td colspan="2"><br><strong>CASE 3: VG-1707</strong><br><br></td></tr>
+<tr><td colspan="2"><br><strong>CASE: VG-1707</strong><br><br></td></tr>
 <tr><td colspan="2"><strong>KOHDETIEDOT</strong></td></tr>
 <tr><td>Valmistaja:</td><td><code>Consolis Parma</code></td></tr>
 <tr><td>Vastaanottaja:</td><td><code>NCC</code></td></tr>
@@ -20,7 +20,7 @@
 <tbody>
 <tr><td colspan="5"><strong>TARKASTUSKOHDAT</strong></td></tr>
 <tr><td colspan="5"><strong>ELEMENTIN ID:</strong> Tiedot kirjataan, jos mahdollista.</td></tr>
-<tr><td></td><td><strong>#3 - RFID-tunniste</strong></td><td><strong>Valokuva</strong></td></tr>
+<tr><td></td><td><strong>RFID-tunniste</strong></td><td><strong>Valokuva</strong></td></tr>
 <tr><td>RFID-tunnisteen antennin suunta:</td><td><code>@1LF</code></td><td rowspan="7"></td></tr>
 <tr><td>RFID tunnisteen yksilöivä tunniste:</td><td><code>0009</code></td></tr>
 <tr><td>(01) GTIN:</td><td><code>0643006205004322</code></td></tr>
