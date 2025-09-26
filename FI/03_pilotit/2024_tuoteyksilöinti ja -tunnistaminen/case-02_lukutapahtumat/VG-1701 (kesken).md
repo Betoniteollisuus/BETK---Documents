@@ -27,7 +27,7 @@
 </tr>
 <tr>
   <td>Tyyppi:</td>
-  <td><code>Passiivinen R/W EPC</code></td>
+  <td><code>Passiivinen R/W EPC Gen 2 (ISO 18000-6C)</code></td>
 </tr>
 <tr>
   <td>Taajuus:</td>
