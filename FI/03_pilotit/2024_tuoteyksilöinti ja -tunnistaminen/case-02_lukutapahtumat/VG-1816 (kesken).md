@@ -65,7 +65,7 @@
 <tr><td colspan="4"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
 <tr><td>RFID-tunnisteen asennustapa:</td><td><code>← Vasen reuna (@1LF): Korkeus 1250–1350 mm</code></td><td><code>→ Oikea reuna (@1RF): Korkeus 1250–1350 mm</code></td><td rowspan="4"></td></tr>
 <tr><td>Asennusajankohta:</td><td><code>2024-10-25</code></td><td><code>2024-10-25</code></td></tr>
-<tr><td>Havainnot:</td><td><code>Valutapa: Vaaka; valokuva: Kyllä</code></td><td><code>Valutapa: Vaaka; valokuva: Kyllä</code></td></tr>
+<tr><td>Havainnot:</td><td><code>Valutapa: Vaakavalu</code></td><td><code>Valutapa: Vaakavalu</code></td></tr>
 <tr><td>Valokuvat:</td><td><code>-</code></td><td><code>-</code></td></tr>
 
 <tr><td colspan="4"><strong>2. RFID-piirin luenta valmistuksen jälkeen (esim. välivarasto)</strong></td></tr>
