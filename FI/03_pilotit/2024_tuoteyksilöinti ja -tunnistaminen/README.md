@@ -68,8 +68,71 @@ Betonielementtien RFID-tunnisteteknologian pilotointi toteutettiin touko–marra
 Pilotoinnissa olivat mukana betonielementtien tuotevalmistajat Parma Oy ja Lujabetoni Oy sekä rakennusyritykset Fira Rakennus Oy ja NCC Suomi Oy. RFID-teknologiaosaamista projektiin toivat Riffid Oy ja NordicId Oy. Lisäksi toteutukseen osallistuivat Rakennusteollisuus RT, RFID Lab Finland Oy, Aalto-yliopisto ja GS1 Finland Oy.
 
 ### 2.1 Betonielementtien tuoteyksilöinti (UPID)
+Tilauksesta suunniteltavien rakennustuotteiden toimitusketjussa haasteena on, että valmistuslogiikan mukaisesti suunniteltavat ja valmistettavat tuotteet ovat yksilöitä, mikä edellyttää tuoteyksilöinnin osalta enemmän informaatiota ja käytettävältä tiedonkantajalta tallennustilaa.
+
+BETK-työryhmässä päädyttiin hyödyntämään GS1-standardia ns. kolmella tuoteyksilöinnin tasolla (esitetty taulukossa 1). Tässä mallissa GTIN-koodilla yksilöidään tietyn valmistajan tietyntyyppinen perustuote. Made-to-Order variation -numeron avulla yksilöidään tämän perustuotteen tietty variantti ja lopulta sarjanumerolla yksilöidään perustuotteen saman variantin identtiset yksilöt. Tässä tapauksessa pelkkä GTIN ei siis yksilöi tiettyä tuotetta, vaan yleisen luokan mahdollisista tilauksen perusteella valmistettavista tuotteen variaatioista.
+
+###### Taulukko 1. GS1-standardiperheen mukaiset tuoteyksilöinnin hierarkia tasot tarkempaan yksilöintiin
+<table>
+  <tr>
+    <td colspan="2"><strong>Tuoteyksilöinnin tasot</strong></td>
+  </tr><tr>
+    <td><strong>Taso 1</strong><br>Tuoteryhmä/perustuote</td>
+    <td>GTIN</td>
+  </tr><tr>
+    <td><strong>Taso 2</strong><br>Tuotevariaation taso</td>
+    <td>GTIN + MTO Varianttinumero</td>
+  </tr><tr>
+    <td><strong>Taso 3</strong><br>Tuoteyksilön taso</td>
+    <td>GTIN + (MTO Varianttinumero) + Sarjanumero (sGTIN)</td>
+  </tr>
+</table>
+
+BETK-työryhmän määrittelemässä taulukossa 2 esitetään minimitietovaatimukset tilauksesta suunniteltavien (ETO) rakennustuotteiden yksilöintiin GS1-sovellustunnusten avulla. GS1-sovellustunnukset (Application Identi-fiers, AI) ovat rakenteellisia tietokenttiä, jotka mahdollistavat tuotteiden ja logististen yksiköiden yksiselitteisen tunnistamisen sekä tiedon hallinnan toimitusketjussa. Jokainen sovellustunnus määrittelee tietyn tyyppisen in-formaation, kuten tuotteen globaalin tunnisteen (GTIN), yksilöllisen sarjanumeron, tilauksesta suunnitellun tuot-teen (MTO) varianttinumeron tai muita kontekstikohtaisia lisätietoja, kuten elementtitunnuksen ja GUID-tunnisteen.
+
+
+###### Taulukko 2. BETK-työryhmän määrittämät tiedonkantajaan sisällytettävät yksilöintitiedot betonielementtien osalta
+<table>
+  <tr>
+    <td colspan="2"><strong>Minimitietovaatimukset tilauksesta suunniteltavien (ETO) rakennustuotteiden yksilöintiin</strong></td>
+  </tr><tr>
+    <td><strong>GS1 Sovellustunnukset (AI) </strong></td>
+    <td><strong>Esimerkki</strong></td>
+  </tr><tr>
+    <td><strong>(01) GTIN-koodi</strong></td>
+    <td><code>06400001000247</code></td>
+  </tr><tr>
+    <td><strong>(242) Made-To-Order (MTO) varianttinumero</strong></td>
+    <td><code>123456</code></td>
+  </tr><tr>
+    <td><strong>(21) Sarjanumero</strong></td>
+    <td><code>12345678910</code></td>
+  </tr>
+    <tr>
+    <td colspan="2"><strong>Valinnaiset lisätiedot betonielementtien tapauksessa</strong></td>
+  </tr><tr>
+    <td><strong>GS1 Sovellustunnukset (AI) </strong></td>
+    <td><strong>Esimerkki</strong></td>
+  </tr><tr>
+    <td><strong>(91) Elementtitunnus</strong></td>
+    <td><code>V-1001</code></td>
+  </tr><tr>
+    <td><strong>(92) GUID</strong></td>
+    <td><code>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4 </code></td>
+  </tr><tr>
+    <td><strong>(99) Verkkotunnus</strong></td>
+    <td><code>id.rt.fi </code></td>
+    </tr>
+</table>
 
 ### 2.2 UHF RFID-tunniste tiedonkantajana (AIDC) betonielementissä
+BETK-työryhmän tuoteyksilöintimäärittelyjen testaamiseksi päätettiin kokeilla betonielementtien tuotetunnistusta RFID-teknologiaan perustuvien tiedonkantajin kautta haastavimmassa mahdollisessa käyttötapauksessa. RFID-teknologia perustuu radiotaajuuksilla tapahtuvaan tiedonsiirtoon, jossa RFID-lukija lähettää radiosignaalin aktivoidakseen tunnisteen. Tunniste vastaa signaaliin heijastamalla siihen tallennetut tiedot takaisin lukijalle, joka edelleen välittää ne tietojärjestelmään.
+
+RFID-järjestelmä ei edellytä suoraa näköyhteyttä ja mahdollistaa automaattisen sekä etäluettavan yksilöinnin. Tunnisteet luokitellaan passiivisiin, puolipassiivisiin ja aktiivisiin niiden virransyöttömekanismin perusteella. RFID-järjestelmät toimivat eri radiotaajuuksilla, joista yleisin on LF-taajuus (matala taajuus, 30–300 kHz), HF (korkea taajuus, 3–30 MHz) ja UHF (erittäin korkea taajuus, 300 MHz - 3 GHz).
+
+Testissä käytettiin koteloituja metallipinnoille soveltuvia passiivisia EPC/RFID Gen2 UHF -tunnisteita, jotka valettiin betonielementtien sisään. Tunnisteen valinta perustui RFID-teknologia-asiantuntijoiden näkemykseen, jossa passiivisten UHF-tunnisteiden lukuetäisyys, kustannustehokkuus ja käyttöympäristön soveltuvuus olivat keskeisiä valintakriteerejä kyseiselle RFID-teknologialle. EPC Globalin Gen2-luokan passiivinen UHF-RFID teknologia on laajasti käytetty, joka toimii 840–960 MHz:n taajuuksilla alueellisista radiomääräyksistä riippuen. Se on kehitetty erityisesti logistiikkaverkoissa käytettäväksi, ja siinä on keskitytty useiden tunnisteiden nopeaan lukemiseen, hy-vään lukuetäisyyteen ja alhaisiin kustannuksiin.
+
+Tiedonkantajien osalta betonielementtien käyttöympäristön haasteena nähtiin betonin emäksisyyden, kosteuden, sekä raudoituksen vaikutukset RFID-tunnisteen toimintaan. RFID-teknologian testauksen tarve perustui aiempien tutkimus- ja kehityshankkeiden tuloksiin, jossa RFID-teknologian etuna nähtiin tiedonkantajan käyttöikä osana tuotetta, sekä automatisoidut lukutapahtumat ja niistä syntyvän tapahtumatiedon jakaminen toimitusketjun osapuolten välisissä prosesseissa.
 
 ## 3 RFID-teknologian testaus toimitusketjussa
 
