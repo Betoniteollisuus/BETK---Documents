@@ -52,9 +52,9 @@
       <td>Kyllä</td>
       <td>Patterimuotti</td>
       <td>Kyllä</td>
-      <td>@2L</td>
+      <td>@2R</td>
       <td>0013</td>
-      <td>↑ Elementin yläpinta: Elementin päästä 1000 mm-1200 mm, vasensivu</td>
+      <td>↑ Elementin yläpinta: Elementin päästä 1000 mm-1200 mm, oikeasivu</td>
 </tr><tr>
       <td>VG-1724</td>
       <td>2024-10-15</td>
@@ -243,7 +243,7 @@
 </tr><tr>
       <td>VG-1711</td>
       <td>7</td>
-      <td>@2L</td>
+      <td>@2R</td>
       <td>0013</td>
       <td>Kyllä</td>
       <td>2024-11-28T14:17</td>
