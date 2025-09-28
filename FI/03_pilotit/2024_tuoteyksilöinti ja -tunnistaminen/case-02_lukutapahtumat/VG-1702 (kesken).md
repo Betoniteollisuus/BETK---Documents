@@ -1,8 +1,8 @@
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
-<tr><td colspan="2"><br><strong>CASE 2: VG-1702</strong><br><br></td></tr>
+<tr><td colspan="3"><br><strong>CASE 2: VG-1702</strong><br><br></td></tr>
 
-<tr><td colspan="2"><strong>KOHDETIEDOT</strong></td></tr>
+<tr><td colspan="3"><strong>KOHDETIEDOT</strong></td></tr>
 <tr>
   <td>Valmistaja:</td>
   <td><code>Parma Consolis, Kangasalan tehdas</code></td>
@@ -11,10 +11,11 @@
   <td>Vastaanottaja:</td>
   <td><code>NCC, asuinkerrostalokohde Rauhanniemi</code></td>
 </tr>
-<tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
+<tr><td colspan="3"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
 <tr>
   <td>Sijainti (kerros):</td>
   <td><code>7</code></td>
+  <td rowspan="2"></td>
 </tr>
 <tr>
   <td>Elementissä raudoitusverkko:</td>
