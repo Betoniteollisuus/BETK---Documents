@@ -52,7 +52,6 @@
 </tr>
 </tbody>
 </table>
-
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
 <tr><td colspan="4"><strong>TARKASTUSKOHDAT</strong></td></tr>
@@ -111,5 +110,104 @@
   <td><code>-</code></td>
   <td><code>-</code></td>
 </tr><tr>
+  <tr><td colspan="4"><strong>2. RFID-piirin luenta valmistuksen jälkeen (esim. välivarasto)</strong></td></tr>
+<tr>
+  <td>Lukutapahtuma onnistui:</td>
+  <td><code>Ei toteutettu</code></td>
+  <td><code>Ei toteutettu</code></td>
+  <td rowspan="6"></td>
+</tr>
+<tr>
+  <td>Valokuvat:</td>
+  <td><code>-</code></td>
+  <td><code>-</code></td>
+</tr>
+<tr>
+  <td>Luentaetäisyys (mm):</td>
+  <td><code>-</code></td>
+  <td><code>-</code></td>
+</tr>
+<tr>
+  <td>RSSI:</td>
+  <td><code>-</code></td>
+  <td><code>-</code></td>
+</tr>
+<tr>
+  <td>Luenta-ajankohta:</td>
+  <td><code>-</code></td>
+  <td><code>-</code></td>
+</tr>
+<tr>
+  <td>Havainnot:</td>
+  <td><code>Ei toteutettu</code></td>
+  <td><code>Ei toteutettu</code></td>
+</tr>
+<tr><td colspan="4"><strong>3. RFID-piirin luenta työmaalla vastaanoton yhteydessä (elementin purkupaikalla)</strong></td></tr>
+<tr>
+  <td>Lukutapahtuma onnistui:</td>
+  <td><code>Ei toteutettu</code></td>
+  <td><code>Ei toteutettu</code></td>
+  <td rowspan="6"></td>
+</tr>
+<tr>
+  <td>Valokuvat:</td>
+  <td><code>-</code></td>
+  <td><code>-</code></td>
+</tr>
+<tr>
+  <td>Luentaetäisyys (mm):</td>
+  <td><code>-</code></td>
+  <td><code>-</code></td>
+</tr>
+<tr>
+  <td>RSSI:</td>
+  <td><code>-</code></td>
+  <td><code>-</code></td>
+</tr>
+<tr>
+  <td>Luenta-ajankohta:</td>
+  <td><code>-</code></td>
+  <td><code>-</code></td>
+</tr>
+<tr>
+  <td>Havainnot:</td>
+  <td><code>Ei toteutettu</code></td>
+  <td><code>Ei toteutettu</code></td>
+</tr>
+<tr><td colspan="4"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
+<tr>
+  <td>Lukutapahtuma onnistui:</td>
+  <td><code>Kyllä</code></td>
+  <td><code>Kyllä</code></td>
+  <td rowspan="6">
+    <img width="623" height="833" alt="image" src="https://github.com/user-attachments/assets/d3610379-81a2-4891-b542-8b11fa194292" /><br>Kuva. VG-1812 (0016)
+    <img width="625" height="834" alt="image" src="https://github.com/user-attachments/assets/881da297-007e-4665-b082-067a1e50d70e" /><br>Kuva. VG-1812 (0001)
+  </td>
+</tr>
+<tr>
+  <td>Valokuvat:</td>
+  <td><code>VG-1812</code></td>
+  <td><code>VG-1812</code></td>
+</tr>
+<tr>
+  <td>Luentaetäisyys (mm):</td>
+  <td><code>600</code></td>
+  <td><code>~125</code></td>
+</tr>
+<tr>
+  <td>RSSI:</td>
+  <td><code>78</code></td>
+  <td><code>53</code></td>
+</tr>
+<tr>
+  <td>Luenta-ajankohta:</td>
+  <td><code>2024-11-28T14:42</code></td>
+  <td><code>2024-11-28T14:42</code></td>
+</tr>
+<tr>
+  <td>Havainnot:</td>
+  <td><code>Luenta onnistui 600 mm päästä. Seinän takana hissikuilu, ei mitattu arvoja.</code></td>
+  <td><code>Luenta huoneiston puolelta 100–150 mm etäisyydeltä elementin yläreunasta.</code></td>
+</tr>
 </tbody>
 </table>
