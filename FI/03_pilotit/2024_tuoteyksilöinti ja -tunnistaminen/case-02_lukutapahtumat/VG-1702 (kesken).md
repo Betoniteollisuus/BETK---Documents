@@ -103,7 +103,7 @@
     </tr>
     <tr>
       <td>Havainnot:</td>
-      <td><code>Patterimuotti</code></td>
+      <td><code>Valutapa: Patterimuotti</code></td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
