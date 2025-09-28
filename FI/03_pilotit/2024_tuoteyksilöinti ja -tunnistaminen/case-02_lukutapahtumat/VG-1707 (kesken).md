@@ -1,25 +1,29 @@
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
-<tr><td colspan="2"><br><strong>CASE: VG-1707</strong><br><br></td></tr>
-<tr><td colspan="2"><strong>KOHDETIEDOT</strong></td></tr>
+<tr><td colspan="3"><br><strong>CASE: VG-1707</strong><br><br></td></tr>
+<tr><td colspan="3"><strong>KOHDETIEDOT</strong></td></tr>
 <tr>
   <td>Valmistaja:</td>
   <td><code>Parma Consolis, Kangasalan tehdas</code></td>
+  <td rowspan="2"></td>
 </tr>
 <tr>
   <td>Vastaanottaja:</td>
   <td><code>NCC, asuinkerrostalokohde Rauhanniemi</code></td>
 </tr>
-<tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
-<tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong></td></tr>
-<tr><td>Sijainti (kerros):</td><td><code>7</code></td></tr>
-<tr><td>Elementissä raudoitusverkko:</td><td><code>Kyllä</code></td></tr>
+<tr><td colspan="3"><strong>ELEMENTIN TIEDOT:</strong></td></tr>
+<tr>
+  <td>Sijainti (kerros):</td>
+  <td><code>7</code></td>
+   <td rowspan="2"></td></tr>
+  <tr>
+  <td>Elementissä raudoitusverkko:</td><td><code>Kyllä</code></td>
+ </tr>
 <tr><td colspan="3"><strong>RFID-PIIRIN TIEDOT:</strong></td></tr>
 <tr>
   <td>Muisti:</td>
   <td><code>Confidex ironside classic: EPC 128 bytes, RAM 512 bytes, TID 96 bytes </code></td>
-  <td rowspan="4"><img width="399" height="186" alt="image" src="https://github.com/user-attachments/assets/1db27682-122b-4bb4-8de4-5c1337e464d1" /> <br> Kuva. RFID-tag
-</td>
+  <td rowspan="4"><img width="399" height="186" alt="image" src="https://github.com/user-attachments/assets/1db27682-122b-4bb4-8de4-5c1337e464d1" /> <br> Kuva. RFID-tag</td>
 </tr>
 <tr>
   <td>Tyyppi:</td>
@@ -33,15 +37,16 @@
   <td>Kotelointi:</td>
   <td><code>Operating temperature -35°C to +85°C / -31°F to +185°F Ambient temperature -35°C to +85°C /-31°F to +185°F IP classification IP68 </code></td>
 </tr>
-<tr><td colspan="2"><strong>RFID-LUKIJAN TIEDOT:</strong></td></tr>
+<tr><td colspan="3"><strong>RFID-LUKIJAN TIEDOT:</strong></td></tr>
 <tr>
   <td>Käsilukija (työmaalla):</td>
   <td><code>HH85 Nordic ID </code></td>
-  <td><img width="526" height="754" alt="image" src="https://github.com/user-attachments/assets/1ba40ea2-0d0c-4942-98f5-38403811eeb6" /><br> Kuva. Käsilukija
-</td>
+  <td><img width="526" height="754" alt="image" src="https://github.com/user-attachments/assets/1ba40ea2-0d0c-4942-98f5-38403811eeb6" /><br> Kuva. Käsilukija</td>
 </tr>
 </tbody>
 </table>
+
+
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
 <tr><td colspan="5"><strong>TARKASTUSKOHDAT</strong></td></tr>
