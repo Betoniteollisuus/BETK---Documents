@@ -62,6 +62,7 @@ Betonielementtien RFID-tunnisteteknologian pilotointi toteutettiin touko–marra
 
 <img width="992" height="370" alt="image" src="https://github.com/user-attachments/assets/68ad12b2-839b-4beb-8800-ee0ef6edd3de" />
 
+###### Kuva 1. Tuoteyksilöinnin ja RFID-tunnistusteknologian pilotointilaajuus toimitusketjun digitaalisen hallinnan näkökulmasta.
 
 **Osallistujat ja yhteistyötahot**<br>
 Pilotoinnissa olivat mukana betonielementtien tuotevalmistajat Parma Oy ja Lujabetoni Oy sekä rakennusyritykset Fira Rakennus Oy ja NCC Suomi Oy. RFID-teknologiaosaamista projektiin toivat Riffid Oy ja NordicId Oy. Lisäksi toteutukseen osallistuivat Rakennusteollisuus RT, RFID Lab Finland Oy, Aalto-yliopisto ja GS1 Finland Oy.
