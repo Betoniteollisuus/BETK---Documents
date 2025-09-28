@@ -12,7 +12,7 @@ Status: Julkaistu
 
 | **Nimi**            | **Organisaatio**     | **Kontribuutio**               |
 |---------------------|----------------------|--------------------------------|
-| Teemu Alaluusua     | Aalto-yliopisto      |1st author + editor             |
+| Teemu Alaluusua     | Aalto-yliopisto      |1st author                      |
 | Tuomas Kekki        | Fira Oy              |aineiston kerääminen            |
 | Eetu Lahtinen       | Consolis Parma Oy    |aineiston kerääminen            |
 | Ville Retulainen    | Lujabetoni           |aineiston kerääminen            |
