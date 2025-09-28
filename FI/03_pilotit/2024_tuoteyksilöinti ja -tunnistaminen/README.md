@@ -137,8 +137,28 @@ Tiedonkantajien osalta betonielementtien käyttöympäristön haasteena nähtiin
 ## 3 RFID-teknologian testaus toimitusketjussa
 RFID-teknologian toimivuutta betonielementtien sisään upotettuna tiedonkantajana testattiin kahdessa erillisessä rakennushankkeessa Helsingissä (Case 1) ja Tampereella (Case 2). Testaukseen osallistuivat kaksi eri pääurakoitsijaa, kaksi eri betonielementtivalmistajaa ja kaksi eri RFID-teknologiatoimittajaa. Testaus toteutettiin suoraan toimitettaviin betonielementteihin ilman erillistä mock-up-vaihetta. Tavoitteena oli arvioida RFID-tunnisteiden asennuksen vaikutusta tuotantoprosessiin ja testata niiden käyttöä toimivassa tuotantoketjussa mahdollisimman vähäisin häiriöin. Testauksessa hyödynnettiin valmiiksi koodattuja RFID-tunnisteita, joita luettiin enimmäkseen käsilukijoilla, mutta myös automaattisilla porttilukijoilla.
 ### 3.1 Case 1
-
+Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Helsingissä, johon Lujabetoni Oy valmisti ja toimitti väliseinäelementtejä. Testauslaajuus ensimmäisen pilotoinnin osalta oli kymmenen (10) väliseinäelementtiä. Toimitusketjussa testattiin RFID-tunnisteiden luentaa eri vaiheissa: elementtitehtaalla käsilukijoilla, työmaan elementtipurkupaikalla kiinteällä automaattisella lukuportilla sekä elementtiasennuksen jälkeisessä tarkastuksessa käsilukijalla.
 #### 3.1.1 Käytetty RFID-teknologia
+
+###### Taulukko 3.
+
+<table border="1" cellspacing="5" cellpadding="5">
+<tbody>
+  <tr>
+    <td colspan="3"><strong>Case 1: Hyödynnetty RFID-teknologia</strong></td>
+  </tr><tr>
+        <td rowspan="3"><strong>1. Osapuolet</strong></td>
+        <td>RFID-teknologia toimittaja:</td>
+        <td>Riffid Oy</td>
+  </tr><tr>
+        <td>Valmistaja:</td>
+        <td>Lujabetoni Oy, Järvenpään betonielementtitehdas</td>
+  </tr><tr>
+        <td>Vastaanottaja:</td>
+        <td>Fira Rakennus Oy, asuinkerrostalokohde Hexagon (Pasila, Helsinki)</td>
+  </tr>
+</tbody>
+</table>
 
 #### 3.1.2 Case 1: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
 
