@@ -43,9 +43,9 @@
       <td>Kyllä</td>
       <td>Patterimuotti</td>
       <td>Kyllä</td>
-      <td>@2L</td>
+      <td>@2R</td>
       <td>0014</td>
-      <td>↑ Elementin yläpinta: Elementin päästä 1000 mm-1200 mm, vasensivu</td>
+      <td>↑ Elementin yläpinta: Elementin päästä 1000 mm-1200 mm, oikeasivu</td>
 </tr><tr>
       <td>VG-1711</td>
       <td>2024-10-15</td>
@@ -233,13 +233,13 @@
 </tr><tr>
       <td>VG-1710</td>
       <td>7</td>
-      <td>@2L</td>
+      <td>@2R</td>
       <td>0014</td>
       <td>Kyllä</td>
       <td>2024-11-28T14:21 </td>
       <td>~125</td>
       <td>75</td>
-      <td>Luenta onnistui noin 100–150 mm etäisyydeltä elementin yläreunasta molemmilta puolilta, mutta yläpuolelta (lattian tasolta) ei kummaltakaan puolelta. Käyttäjän (176 cm) täytyi kurkottaa elementin yläreunaan, jotta luenta onnistui. Luennassa tarvetta A-pukille. RFID-tunniste oli asennettu 1000–1200 mm päähän elementin vasemmalta puolelta. </td>
+      <td>Luenta onnistui noin 100–150 mm etäisyydeltä elementin yläreunasta molemmilta puolilta, mutta yläpuolelta (lattian tasolta) ei kummaltakaan puolelta. Käyttäjän (176 cm) täytyi kurkottaa elementin yläreunaan, jotta luenta onnistui. Luennassa tarvetta A-pukille. RFID-tunniste oli asennettu 1000–1200 mm päähän elementin oikealta puolelta. </td>
 </tr><tr>
       <td>VG-1711</td>
       <td>7</td>
