@@ -203,7 +203,7 @@
 </tr><tr>
       <td>VG-1701</td>
       <td>7</td>
-      <td>@2L</td>
+      <td>@2R</td>
       <td>0015</td>
       <td>Kyllä</td>
       <td>2024-11-28T14:10 </td>
