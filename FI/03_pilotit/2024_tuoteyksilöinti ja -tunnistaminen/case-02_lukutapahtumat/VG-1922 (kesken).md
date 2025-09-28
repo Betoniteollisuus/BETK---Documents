@@ -168,7 +168,7 @@
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code>-</code></td>
+      <td><code>VG-1922-1</code>;<code>VG-1922-2</code></td>
     </tr>
     <tr>
       <td>Luentaetäisyys (mm):</td>
