@@ -65,7 +65,7 @@
     <tr>
       <td>RFID-tunnisteen antennin suunta:</td>
       <td><code>@1LF</code></td>
-      <td rowspan="7"></td>
+      <td rowspan="7"><img width="962" height="875" alt="Case 2 orientaatio-F (FI)" src="https://github.com/user-attachments/assets/1e15aefe-4d57-4595-8717-a5e63cfd0503" /><br> Kuva. RFID tunnisteiden asennuspaikat</td>
     </tr>
     <tr>
       <td>RFID tunnisteen yksilöivä tunniste:</td>
