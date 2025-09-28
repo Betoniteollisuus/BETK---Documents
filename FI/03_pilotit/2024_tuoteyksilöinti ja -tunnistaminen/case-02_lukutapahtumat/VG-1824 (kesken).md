@@ -62,7 +62,7 @@
     <tr>
       <td>RFID-tunnisteen antennin suunta:</td>
       <td><code>@1</code></td>
-      <td rowspan="7"><img width="960" height="874" alt="Case 2 orientaatio (FI)" src="https://github.com/user-attachments/assets/5a08eb61-4529-41c9-9fca-0ccfcbc16ead" /><br> Kuva. 
+      <td rowspan="7"><img width="960" height="874" alt="Case 2 orientaatio (FI)" src="https://github.com/user-attachments/assets/5a08eb61-4529-41c9-9fca-0ccfcbc16ead" /><br> Kuva. RFID tunnisteiden asennuspaikat
 </td>
     </tr>
     <tr>
