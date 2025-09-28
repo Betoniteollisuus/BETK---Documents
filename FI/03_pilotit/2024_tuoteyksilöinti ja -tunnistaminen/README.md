@@ -135,7 +135,7 @@ Testissä käytettiin koteloituja metallipinnoille soveltuvia passiivisia EPC/RF
 Tiedonkantajien osalta betonielementtien käyttöympäristön haasteena nähtiin betonin emäksisyyden, kosteuden, sekä raudoituksen vaikutukset RFID-tunnisteen toimintaan. RFID-teknologian testauksen tarve perustui aiempien tutkimus- ja kehityshankkeiden tuloksiin, jossa RFID-teknologian etuna nähtiin tiedonkantajan käyttöikä osana tuotetta, sekä automatisoidut lukutapahtumat ja niistä syntyvän tapahtumatiedon jakaminen toimitusketjun osapuolten välisissä prosesseissa.
 
 ## 3 RFID-teknologian testaus toimitusketjussa
-
+RFID-teknologian toimivuutta betonielementtien sisään upotettuna tiedonkantajana testattiin kahdessa erillisessä rakennushankkeessa Helsingissä (Case 1) ja Tampereella (Case 2). Testaukseen osallistuivat kaksi eri pääurakoitsijaa, kaksi eri betonielementtivalmistajaa ja kaksi eri RFID-teknologiatoimittajaa. Testaus toteutettiin suoraan toimitettaviin betonielementteihin ilman erillistä mock-up-vaihetta. Tavoitteena oli arvioida RFID-tunnisteiden asennuksen vaikutusta tuotantoprosessiin ja testata niiden käyttöä toimivassa tuotantoketjussa mahdollisimman vähäisin häiriöin. Testauksessa hyödynnettiin valmiiksi koodattuja RFID-tunnisteita, joita luettiin enimmäkseen käsilukijoilla, mutta myös automaattisilla porttilukijoilla.
 ### 3.1 Case 1
 
 #### 3.1.1 Käytetty RFID-teknologia
