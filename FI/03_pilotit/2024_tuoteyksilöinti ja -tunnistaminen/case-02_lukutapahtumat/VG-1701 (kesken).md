@@ -61,7 +61,7 @@
     </tr>
     <tr>
       <td>RFID-tunnisteen antennin suunta:</td>
-      <td><code>@2L</code></td>
+      <td><code>@2R</code></td>
       <td rowspan="7"></td>
     </tr>
     <tr>
@@ -91,7 +91,7 @@
     <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
     <tr>
       <td>RFID-tunnisteen asennustapa:</td>
-      <td><code>↑ Yläpinta (@2L): Elementin päästä 1000–1200 mm, vasen sivu</code></td>
+      <td><code>↑ Yläpinta (@2R): Elementin päästä 1000–1200 mm, oikea sivu</code></td>
       <td rowspan="4"></td>
     </tr>
     <tr>
