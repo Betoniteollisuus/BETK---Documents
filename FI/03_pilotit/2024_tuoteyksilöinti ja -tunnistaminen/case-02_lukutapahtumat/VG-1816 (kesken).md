@@ -90,7 +90,9 @@
   <img width="300" height="964" alt="image" src="https://github.com/user-attachments/assets/375ca83d-81c7-4888-8ab4-eecc290e30d8" /><br> Kuva. VG-1816-1 (0018)
   <img width="300" height="833" alt="image" src="https://github.com/user-attachments/assets/5c5f8514-84f9-480e-af50-bc6034bad2b7" /><br> Kuva. VG-1816-2 (0018)
 </td></tr>
-<tr><td>Valokuvat:</td><td><code>VG-1816</code></td><td><code>VG-1816</code></td></tr>
+<tr><td>Valokuvat:</td>
+  <td><code>VG-1816-1 (0003)</code>;<code>VG-1816-2 (0003)</code></td>
+ <td><code>VG-1816-1 (0018)</code>;<code>VG-1816-2 (0018)</code></td></tr>
 <tr><td>Luentaetäisyys (mm):</td><td><code>600</code></td><td><code>300</code></td></tr>
 <tr><td>RSSI:</td><td><code>31</code></td><td><code>54</code></td></tr>
 <tr><td>Luenta-ajankohta:</td><td><code>2024-11-28T14:40</code></td><td><code>2024-11-28T14:40</code></td></tr>
