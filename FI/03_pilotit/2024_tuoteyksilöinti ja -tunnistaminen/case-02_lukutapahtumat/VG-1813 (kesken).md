@@ -65,7 +65,7 @@
 <tr><td>RFID-tunnisteen asennustapa:</td><td><code>→ Oikea reuna: Korkeus 1250–1350 mm</code></td><td><code>↑ Yläpinta: Elementin päästä 1000–1200 mm, vasensivu</code></td><td rowspan="4"><img width="1078" height="866" alt="image" src="https://github.com/user-attachments/assets/ac7dcde9-4a27-48ef-a2ed-54f74676fcc8" /><br> Kuva. VG-1813-1</td></tr>
 <tr><td>Asennusajankohta:</td><td><code>2024-10-25</code></td><td><code>2024-10-25</code></td></tr>
 <tr><td>Havainnot:</td><td><code>Vaakavalu; valokuva: Kyllä</code></td><td><code>Vaakavalu; valokuva: Kyllä</code></td></tr>
-<tr><td>Valokuvat:</td><td><code>-</code></td><td><code>-</code></td></tr>
+<tr><td>Valokuvat:</td><td><code>VG-1813-1</code></td><td><code>VG-1813-1</code></td></tr>
 
 <tr><td colspan="4"><strong>2. RFID-piirin luenta valmistuksen jälkeen (esim. välivarasto)</strong></td></tr>
 <tr><td>Lukutapahtuma onnistui:</td><td><code>Ei toteutettu</code></td><td><code>Ei toteutettu</code></td><td rowspan="6"></td></tr>
