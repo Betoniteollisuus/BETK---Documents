@@ -1,6 +1,6 @@
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
-<tr><td colspan="3"><br><strong>CASE: VG-1909</strong><br><br></td></tr>
+<tr><td colspan="3"><br><strong>CASE: VG-1919</strong><br><br></td></tr>
 <tr><td colspan="3"><strong>KOHDETIEDOT</strong></td></tr>
 <tr>  
   <td>Valmistaja:</td>
