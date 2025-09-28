@@ -9,7 +9,6 @@
   <td>Vastaanottaja:</td>
   <td><code>NCC, asuinkerrostalokohde Rauhanniemi</code></td>
 </tr>
-<tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
 <tr><td colspan="2"><strong>ELEMENTIN TIEDOT:</strong></td></tr>
 <tr><td>Sijainti (kerros):</td><td><code>7</code></td></tr>
 <tr><td>Elementissä raudoitusverkko:</td><td><code>Kyllä</code></td></tr>
@@ -22,6 +21,8 @@
 <tr><td>Käsilukija (työmaalla):</td><td><code></code></td></tr>
 </tbody>
 </table>
+
+
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
 <tr><td colspan="5"><strong>TARKASTUSKOHDAT</strong></td></tr>
