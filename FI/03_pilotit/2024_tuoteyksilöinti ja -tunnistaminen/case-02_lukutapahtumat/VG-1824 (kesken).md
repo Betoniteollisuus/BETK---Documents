@@ -169,7 +169,7 @@
     </tr>
     <tr>
       <td>Valokuvat:</td>
-      <td><code>-</code></td>
+      <td><code>VG-1824-1</code>;<code>VG-1824-2</code></td>
     </tr>
     <tr>
       <td>Luentaetäisyys (mm):</td>
