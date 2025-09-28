@@ -64,9 +64,9 @@
   <td><strong>Valokuva</strong></td>
 </tr><tr>
   <td>RFID-tunnisteen antennin suunta:</td>
-  <td></td>
+  <td><code>@1RF</code></td>
   <td><code>@2L</code></td>
-  <td rowspan="7">  </td>
+  <td rowspan="7"></td>
 </tr><tr>
   <td>RFID tunnisteen yksilöivä tunniste:</td>
   <td><code>0016</code></td>
@@ -91,13 +91,6 @@
   <td>(92) GUID:</td>
   <td><code></code></td>
   <td><code></code></td>
-</tr><tr>
-  <td></td><td><strong>#9 - RFID-tunniste (2)</strong></td><td><strong>Valokuva</strong></td>
-</tr><tr>
-  <td>RFID-tunnisteen antennin suunta:</td>
-  <td><code>@1RF</code></td>
-  <td><code>@2L</code></td>
-  <td rowspan="7"></td>
 </tr><tr>
   <td colspan="4"><strong>1. RFID-piirin asennus elementtiin</strong></td>
 </tr><tr>
