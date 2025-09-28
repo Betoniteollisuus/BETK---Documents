@@ -2,15 +2,17 @@
 <tbody>
 <tr><td colspan="3"><br><strong>CASE: VG-1711</strong><br><br></td></tr>
 <tr><td colspan="3"><strong>KOHDETIEDOT</strong></td></tr>
-<tr>  <td>Valmistaja:</td>
-  <td><code>Parma Consolis, Kangasalan tehdas</code></td><td rowspam="2"></td>
+<tr>  
+  <td>Valmistaja:</td>
+  <td><code>Parma Consolis, Kangasalan tehdas</code></td>
+  <td rowspan="2"></td>
 </tr>
 <tr>
   <td>Vastaanottaja:</td>
   <td><code>NCC, asuinkerrostalokohde Rauhanniemi</code></td>
 </tr>
 <tr><td colspan="3"><strong>ELEMENTIN TIEDOT:</strong></td></tr>
-<tr><td>Sijainti (kerros):</td><td><code>7</code></td></tr>
+<tr><td>Sijainti (kerros):</td><td><code>7</code></td>  <td rowspan="2"></td></tr>
 <tr><td>Elementissä raudoitusverkko:</td><td><code>Kyllä</code></td></tr>
 <tr><td colspan="3"><strong>RFID-PIIRIN TIEDOT:</strong></td></tr>
 <tr>
