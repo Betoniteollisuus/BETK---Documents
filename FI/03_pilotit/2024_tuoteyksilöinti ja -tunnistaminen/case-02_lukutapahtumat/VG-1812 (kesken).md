@@ -103,8 +103,8 @@
   <td><code>2024-10-25</code></td>
 </tr><tr>
   <td>Havainnot:</td>
-  <td><code>Valutapa: Vaaka; valokuva: Kyllä</code></td>
-  <td><code>Valutapa: Vaaka; valokuva: Kyllä</code></td>
+  <td><code>Valutapa: Vaaka</code></td>
+  <td><code>Valutapa: Vaaka: Kyllä</code></td>
 </tr><tr>
   <td>Valokuvat:</td>
   <td><code>-</code></td>
