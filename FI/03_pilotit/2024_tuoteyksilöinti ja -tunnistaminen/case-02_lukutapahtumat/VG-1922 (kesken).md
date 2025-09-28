@@ -1,7 +1,6 @@
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
 <tr><td colspan="3"><br><strong>CASE: VG-1922</strong><br><br></td></tr>
-
 <tr><td colspan="3"><strong>KOHDETIEDOT</strong></td></tr>
 <tr>
   <td>Valmistaja:</td>
@@ -12,7 +11,6 @@
   <td>Vastaanottaja:</td>
   <td><code>NCC, asuinkerrostalokohde Rauhanniemi</code></td>
 </tr>
-
 <tr><td colspan="3"><strong>ELEMENTIN TIEDOT:</strong><br></td></tr>
 <tr>
   <td>Sijainti (kerros):</td>
@@ -23,7 +21,6 @@
   <td>Elementissä raudoitusverkko:</td>
   <td><code>Kyllä</code></td>
 </tr>
-
 <tr><td colspan="3"><strong>RFID-PIIRIN TIEDOT:</strong></td></tr>
 <tr>
   <td>Muisti:</td>
@@ -43,7 +40,6 @@
   <td>Kotelointi:</td>
   <td><code>Operating temperature -35°C to +85°C / -31°F to +185°F Ambient temperature -35°C to +85°C /-31°F to +185°F IP classification IP68 </code></td>
 </tr>
-
 <tr><td colspan="2"><strong>RFID-LUKIJAN TIEDOT:</strong></td></tr>
 <tr>
   <td>Käsilukija (työmaalla):</td>
@@ -53,7 +49,6 @@
 </tr>
 </tbody>
 </table>
-
 <table border="1" cellspacing="0" cellpadding="0">
   <tbody>
     <tr><td colspan="5"><br><strong>TARKASTUSKOHDAT</strong><br></td></tr>
@@ -92,7 +87,6 @@
       <td>(92) GUID:</td>
       <td><code>24db88c8-855f-4b0e-af89-7a6911f4767b</code>
     </tr>
-
     <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
     <tr>
       <td>RFID-tunnisteen asennustapa:</td>
@@ -111,7 +105,6 @@
       <td>Valokuvat:</td>
       <td><code>-</code></td>
     </tr>
-
     <tr><td colspan="5"><strong>2. RFID-piirin luenta valmistuksen jälkeen (esim. välivarasto)</strong></td></tr>
     <tr>
       <td>Lukutapahtuma onnistui:</td>
@@ -138,7 +131,6 @@
       <td>Havainnot:</td>
       <td><code>Ei toteutettu</code></td>
     </tr>
-
     <tr><td colspan="5"><strong>3. RFID-piirin luenta työmaalla vastaanoton yhteydessä (elementin purkupaikalla)</strong></td></tr>
     <tr>
       <td>Lukutapahtuma onnistui:</td>
@@ -165,12 +157,14 @@
       <td>Havainnot:</td>
       <td><code>Ei toteutettu</code></td>
     </tr>
-
     <tr><td colspan="5"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
     <tr>
       <td>Lukutapahtuma onnistui:</td>
       <td><code>Ei</code></td>
-      <td rowspan="6"></td>
+      <td rowspan="6">
+        <img width="620" height="828" alt="image" src="https://github.com/user-attachments/assets/ffb99d0e-8958-4028-a4f6-f4499cc3a429" /><br> Kuva. VG-1922-1
+        <img width="627" height="833" alt="image" src="https://github.com/user-attachments/assets/dab74a94-6f98-49b5-b357-f01f5b62e850" /><br> Kuva. VG-1922-2
+      </td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
