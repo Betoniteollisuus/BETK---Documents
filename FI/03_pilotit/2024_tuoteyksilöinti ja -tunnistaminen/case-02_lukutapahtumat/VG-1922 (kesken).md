@@ -99,7 +99,7 @@
     </tr>
     <tr>
       <td>Havainnot:</td>
-      <td><code>Patterimuotti; valokuva: Kyllä</code></td>
+      <td><code>Valutapa: Patterimuotti</code></td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
