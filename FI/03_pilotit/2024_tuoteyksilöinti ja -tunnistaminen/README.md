@@ -149,13 +149,13 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
   </tr><tr>
         <td rowspan="3"><strong>1. Osapuolet</strong></td>
         <td>RFID-teknologia toimittaja:</td>
-        <td>Riffid Oy</td>
+        <td><code>Riffid Oy</code></td>
   </tr><tr>
         <td>Valmistaja:</td>
-        <td>Lujabetoni Oy, Järvenpään betonielementtitehdas</td>
+        <td><code>Lujabetoni Oy, Järvenpään betonielementtitehdas</code></td>
   </tr><tr>
         <td>Vastaanottaja:</td>
-        <td>Fira Rakennus Oy, asuinkerrostalokohde Hexagon (Pasila, Helsinki)</td>
+        <td><code>Fira Rakennus Oy, asuinkerrostalokohde Hexagon (Pasila, Helsinki)</code></td>
   </tr>
 </tbody>
 </table>
