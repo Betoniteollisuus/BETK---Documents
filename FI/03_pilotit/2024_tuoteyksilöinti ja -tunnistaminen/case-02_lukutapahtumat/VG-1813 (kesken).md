@@ -62,7 +62,7 @@
 <tr><td>(92) GUID:</td><td><code>e336d813-8408-427a-97ae-ff5a070a415a</code></td><td><code>e336d813-8408-427a-97ae-ff5a070a415a</code></td></tr>
 
 <tr><td colspan="4"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
-<tr><td>RFID-tunnisteen asennustapa:</td><td><code>→ Oikea reuna: Korkeus 1250–1350 mm</code></td><td><code>↑ Yläpinta: Elementin päästä 1000–1200 mm, vasensivu</code></td><td rowspan="4"></td></tr>
+<tr><td>RFID-tunnisteen asennustapa:</td><td><code>→ Oikea reuna: Korkeus 1250–1350 mm</code></td><td><code>↑ Yläpinta: Elementin päästä 1000–1200 mm, vasensivu</code></td><td rowspan="4"><img width="1078" height="866" alt="image" src="https://github.com/user-attachments/assets/ac7dcde9-4a27-48ef-a2ed-54f74676fcc8" /><br> Kuva. VG-1813-1</td></tr>
 <tr><td>Asennusajankohta:</td><td><code>2024-10-25</code></td><td><code>2024-10-25</code></td></tr>
 <tr><td>Havainnot:</td><td><code>Vaakavalu; valokuva: Kyllä</code></td><td><code>Vaakavalu; valokuva: Kyllä</code></td></tr>
 <tr><td>Valokuvat:</td><td><code>-</code></td><td><code>-</code></td></tr>
@@ -84,7 +84,10 @@
 <tr><td>Havainnot:</td><td><code>Ei toteutettu</code></td><td><code>Ei toteutettu</code></td></tr>
 
 <tr><td colspan="4"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
-<tr><td>Lukutapahtuma onnistui:</td><td><code>Kyllä</code></td><td><code>Ei</code></td><td rowspan="6"></td></tr>
+<tr><td>Lukutapahtuma onnistui:</td><td><code>Kyllä</code></td><td><code>Ei</code></td><td rowspan="6">
+  <img width="622" height="830" alt="image" src="https://github.com/user-attachments/assets/6c192850-9981-4aa9-a93c-6b37873d85da" /><br> Kuva. VG-1813-2
+  <img width="617" height="831" alt="image" src="https://github.com/user-attachments/assets/927709e7-78d6-410b-ac93-b4d636c91755" /> <br> Kuva. VG-1813-3
+</td></tr>
 <tr><td>Valokuvat:</td><td><code>VG-1813</code></td><td><code>-</code></td></tr>
 <tr><td>Luentaetäisyys (mm):</td><td><code>600</code></td><td><code>-</code></td></tr>
 <tr><td>RSSI:</td><td><code>78</code></td><td><code>-</code></td></tr>
