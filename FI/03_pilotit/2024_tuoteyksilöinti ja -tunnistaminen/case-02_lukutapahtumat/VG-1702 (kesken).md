@@ -6,6 +6,7 @@
 <tr>
   <td>Valmistaja:</td>
   <td><code>Parma Consolis, Kangasalan tehdas</code></td>
+  <td rowspan="2"></td>
 </tr>
 <tr>
   <td>Vastaanottaja:</td>
