@@ -78,7 +78,8 @@
 <tr><td>Havainnot:</td><td><code>Ei toteutettu</code></td></tr>
 
 <tr><td colspan="5"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
-<tr><td>Lukutapahtuma onnistui:</td><td><code>Ei</code></td><td rowspan="6"></td></tr>
+<tr><td>Lukutapahtuma onnistui:</td><td><code>Ei</code></td><td rowspan="6"><img width="623" height="833" alt="image" src="https://github.com/user-attachments/assets/81255d60-efd5-4dd6-9e62-a218c61d1dde"/> <br> Kuva. VG-1807
+</td></tr>
 <tr><td>Valokuvat:</td><td><code>-</code></td></tr>
 <tr><td>Luentaetäisyys (mm):</td><td><code>-</code></td></tr>
 <tr><td>RSSI:</td><td><code>-</code></td></tr>
