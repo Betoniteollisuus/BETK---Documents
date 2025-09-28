@@ -6,7 +6,7 @@
 <tr>
   <td>Valmistaja:</td>
   <td><code>Parma Consolis, Kangasalan tehdas</code></td>
-  <td colrow="2"></td>
+  <td rowspan="2"></td>
 </tr>
 <tr>
   <td>Vastaanottaja:</td>
@@ -16,7 +16,7 @@
 <tr>
   <td>Sijainti (kerros):</td>
   <td><code>7</code></td>
-  <td colrow="2"></td>
+  <td rowspan="2"></td>
 </tr>
 <tr>
   <td>Elementissä raudoitusverkko:</td>
@@ -26,7 +26,7 @@
 <tr>
   <td>Muisti:</td>
   <td><code>Confidex ironside classic: EPC 128 bytes, RAM 512 bytes, TID 96 bytes </code></td>
-  <td colrow="4"><img width="399" height="186" alt="image" src="https://github.com/user-attachments/assets/1db27682-122b-4bb4-8de4-5c1337e464d1" /> <br> Kuva. RFID-tag
+  <td rowspan="4"><img width="399" height="186" alt="image" src="https://github.com/user-attachments/assets/1db27682-122b-4bb4-8de4-5c1337e464d1" /> <br> Kuva. RFID-tag
 </td>
 </tr>
 <tr>
