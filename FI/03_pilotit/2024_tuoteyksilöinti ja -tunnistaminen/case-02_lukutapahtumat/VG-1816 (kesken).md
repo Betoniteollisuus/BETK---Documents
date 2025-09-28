@@ -83,9 +83,13 @@
 <tr><td>RSSI:</td><td><code>-</code></td><td><code>-</code></td></tr>
 <tr><td>Luenta-ajankohta:</td><td><code>-</code></td><td><code>-</code></td></tr>
 <tr><td>Havainnot:</td><td><code>Ei toteutettu</code></td><td><code>Ei toteutettu</code></td></tr>
-
 <tr><td colspan="4"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
-<tr><td>Lukutapahtuma onnistui:</td><td><code>Kyllä</code></td><td><code>Kyllä</code></td><td rowspan="6"></td></tr>
+<tr><td>Lukutapahtuma onnistui:</td><td><code>Kyllä</code></td><td><code>Kyllä</code></td><td rowspan="6">
+  <img width="620" height="833" alt="image" src="https://github.com/user-attachments/assets/3b3cbaba-5e29-4473-b039-3f797473b235" /> Kuva. VG-1816-1 ()
+  <img width="623" height="834" alt="image" src="https://github.com/user-attachments/assets/a1de3a2d-048e-495a-9496-479c60c79f93" />  Kuva. VG-1816-2 ()
+  <img width="716" height="964" alt="image" src="https://github.com/user-attachments/assets/375ca83d-81c7-4888-8ab4-eecc290e30d8" /> Kuva. VG-1816-1 ()
+  <img width="614" height="833" alt="image" src="https://github.com/user-attachments/assets/5c5f8514-84f9-480e-af50-bc6034bad2b7" /> Kuva. VG-1816-2 ()
+</td></tr>
 <tr><td>Valokuvat:</td><td><code>VG-1816</code></td><td><code>VG-1816</code></td></tr>
 <tr><td>Luentaetäisyys (mm):</td><td><code>600</code></td><td><code>300</code></td></tr>
 <tr><td>RSSI:</td><td><code>31</code></td><td><code>54</code></td></tr>
