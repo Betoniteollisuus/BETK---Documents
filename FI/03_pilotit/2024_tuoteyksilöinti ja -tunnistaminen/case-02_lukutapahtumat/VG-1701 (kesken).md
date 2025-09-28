@@ -41,7 +41,6 @@
   <td>Kotelointi:</td>
   <td><code>Operating temperature -35°C to +85°C / -31°F to +185°F Ambient temperature -35°C to +85°C /-31°F to +185°F IP classification IP68 </code></td>
 </tr>
-
 <tr><td colspan="2"><strong>RFID-LUKIJAN TIEDOT:</strong></td></tr>
 <tr>
   <td>Käsilukija (työmaalla):</td>
