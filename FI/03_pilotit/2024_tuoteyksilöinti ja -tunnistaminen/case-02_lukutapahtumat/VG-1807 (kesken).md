@@ -35,11 +35,11 @@
 <tr><td></td><td><strong>RFID-tunniste</strong></td><td><strong>Valokuva</strong></td></tr>
 <tr><td>RFID-tunnisteen antennin suunta:</td><td><code>@1</code></td><td rowspan="7"></td></tr>
 <tr><td>RFID tunnisteen yksilöivä tunniste:</td><td><code>0012</code></td></tr>
-<tr><td>(01) GTIN:</td><td><code></code></td></tr>
-<tr><td>(21) Serial:</td><td><code></code></td></tr>
-<tr><td>(242) MTO Variation number:</td><td><code></code></td></tr>
+<tr><td>(01) GTIN:</td><td><code>0643006205004322</code></td></tr>
+<tr><td>(21) Serial:</td><td><code>18969108</code></td></tr>
+<tr><td>(242) MTO Variation number:</td><td><code>643009</code></td></tr>
 <tr><td>(91) Elementtitunnus:</td><td><code>VG-1807</code></td></tr>
-<tr><td>(92) GUID:</td><td><code></code></td></tr>
+<tr><td>(92) GUID:</td><td><code>dbbd790a-e88b-4414-9e6f-5938f86443ec</code></td></tr>
 
 <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
 <tr><td>RFID-tunnisteen asennustapa:</td><td><code>↔ Vasen tai oikea reuna (@1): Korkeus 1250–1350 mm</code></td><td rowspan="4"></td></tr>
