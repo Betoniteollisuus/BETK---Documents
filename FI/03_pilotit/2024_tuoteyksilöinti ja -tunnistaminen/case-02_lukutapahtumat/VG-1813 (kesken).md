@@ -55,41 +55,158 @@
 
 <table border="1" cellspacing="0" cellpadding="0">
 <tbody>
-<tr><td colspan="5"><strong>TARKASTUSKOHDAT</strong></td></tr>
-<tr><td colspan="5"><strong>ELEMENTIN ID:</strong> Tiedot kirjataan, jos mahdollista.</td></tr>
-
-<!-- Tag (1) -->
-<tr><td></td><td><strong>RFID-tunniste (1)</strong></td><td><strong>Valokuva</strong></td></tr>
-<tr><td>Antennin suunta (1):</td><td><code>@2R</code></td><td rowspan="7"></td></tr>
-<tr><td>Tag ID (1):</td><td><code>0002</code></td></tr>
-<tr><td>(91) Elementtitunnus:</td><td><code>VG-1813</code></td></tr>
-
-<!-- Tag (2) -->
-<tr><td></td><td><strong>#10 - RFID-tunniste (2)</strong></td><td><strong>Valokuva</strong></td></tr>
-<tr><td>Antennin suunta (2):</td><td><code>@1RF</code></td><td rowspan="7"></td></tr>
-<tr><td>Tag ID (2):</td><td><code>0017</code></td></tr>
-<tr><td>(91) Elementtitunnus:</td><td><code>VG-1813</code></td></tr>
-
-<tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
-<tr><td>Asennus:</td><td><code>(1) ↑ Yläpinta (@2R): 1000–1200 mm, vasensivu; (2) → Oikea reuna (@1RF): 1250–1350 mm</code></td><td rowspan="4"></td></tr>
-<tr><td>Asennusajankohta:</td><td><code>2024-10-25</code></td></tr>
-<tr><td>Havainnot:</td><td><code>Valutapa: Vaaka; valokuva: Kyllä</code></td></tr>
-<tr><td>Valokuvat:</td><td>-</td></tr>
-
-<tr><td colspan="5"><strong>2. Luenta valmistuksen jälkeen</strong></td></tr>
-<tr><td>Lukutapahtuma onnistui:</td><td><code>Ei toteutettu</code></td><td rowspan="6"></td></tr>
-
-<tr><td colspan="5"><strong>3. Luenta vastaanotossa</strong></td></tr>
-<tr><td>Lukutapahtuma onnistui:</td><td><code>Ei toteutettu</code></td><td rowspan="6"></td></tr>
-
-<tr><td colspan="5"><strong>4. Luenta asennuksen jälkeen</strong></td></tr>
-<tr><td>Lukutapahtuma onnistui (1):</td><td><code>Ei</code></td></tr>
-<tr><td>Luenta-ajankohta (1):</td><td><code>2024-11-28T12:39</code></td></tr>
-<tr><td>Havainnot (1):</td><td><code>Ei löydy vasemmasta yläreunasta; epäily virheellisestä asennuspuolesta (oikea, nostolenkin kohta).</code></td></tr>
-<tr><td>Lukutapahtuma onnistui (2):</td><td><code>Kyllä</code></td></tr>
-<tr><td>Luentaetäisyys (2) (mm):</td><td><code>600</code></td></tr>
-<tr><td>RSSI (2):</td><td><code>78</code></td></tr>
-<tr><td>Luenta-ajankohta (2):</td><td><code>2024-11-28T12:39</code></td></tr>
-<tr><td>Havainnot (2):</td><td><code>Luenta 600 mm; seinän takana hissikuilu (ei mitattu arvoja).</code></td></tr>
+<tr><td colspan="4"><strong>TARKASTUSKOHDAT</strong></td></tr>
+<tr><td colspan="4"><strong>ELEMENTIN ID:</strong> Tiedot kirjataan, jos mahdollista.</td></tr>
+<tr>
+  <td></td>
+  <td><strong>RFID-tunniste (1)</strong></td>
+  <td><strong>RFID-tunniste (2)</strong></td>
+  <td><strong>Valokuva</strong></td>
+</tr><tr>
+  <td>RFID-tunnisteen antennin suunta:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+  <td rowspan="7"></td>
+</tr><tr>
+  <td>RFID tunnisteen yksilöivä tunniste:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr><tr>
+  <td>(01) GTIN:</td>
+  <td><code>0643006205004321</code></td>
+  <td><code>0643006205004321</code></td>
+</tr><tr>
+  <td>(21) Serial:</td>
+  <td><code>18969114</code></td>
+  <td><code>18969114</code></td>
+</tr><tr>
+  <td>(242) MTO Variation number:</td>
+  <td><code>643002</code></td>
+  <td><code>643002</code></td>
+</tr><tr>
+  <td>(91) Elementtitunnus:</td>
+  <td><code>VG-1813</code></td>
+  <td><code>VG-1813</code></td>
+</tr><tr>
+  <td>(92) GUID:</td>
+  <td><code>e336d813-8408-427a-97ae-ff5a070a415a</code></td>
+  <td><code>e336d813-8408-427a-97ae-ff5a070a415a</code></td>
+</tr><tr>
+  <td colspan="4"><strong>1. RFID-piirin asennus elementtiin</strong></td>
+</tr><tr>
+  <td>RFID-tunnisteen asennustapa:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+  <td rowspan="4"></td>
+</tr><tr>
+  <td>Asennusajankohta:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr><tr>
+  <td>Havainnot:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr><tr>
+  <td>Valokuvat:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr><tr>
+  <tr><td colspan="4"><strong>2. RFID-piirin luenta valmistuksen jälkeen (esim. välivarasto)</strong></td></tr>
+<tr>
+  <td>Lukutapahtuma onnistui:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+  <td rowspan="6"></td>
+</tr>
+<tr>
+  <td>Valokuvat:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>Luentaetäisyys (mm):</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>RSSI:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>Luenta-ajankohta:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>Havainnot:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr><td colspan="4"><strong>3. RFID-piirin luenta työmaalla vastaanoton yhteydessä (elementin purkupaikalla)</strong></td></tr>
+<tr>
+  <td>Lukutapahtuma onnistui:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+  <td rowspan="6"></td>
+</tr>
+<tr>
+  <td>Valokuvat:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>Luentaetäisyys (mm):</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>RSSI:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>Luenta-ajankohta:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>Havainnot:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr><td colspan="4"><strong>4. RFID-piirin luenta työmaalla asennuksen jälkeen</strong></td></tr>
+<tr>
+  <td>Lukutapahtuma onnistui:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+  <td rowspan="6">
+  </td>
+</tr>
+<tr>
+  <td>Valokuvat:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>Luentaetäisyys (mm):</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>RSSI:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>Luenta-ajankohta:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
+<tr>
+  <td>Havainnot:</td>
+  <td><code></code></td>
+  <td><code></code></td>
+</tr>
 </tbody>
 </table>
