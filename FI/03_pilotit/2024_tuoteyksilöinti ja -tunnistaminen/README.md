@@ -56,10 +56,14 @@ Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimit
 ## 2 Yleiskuvaus pilotista
 Työn tarkoituksena oli selvittää ja todentaa konseptitodistuksen (engl. Proof of Concept, PoC) avulla RFID-teknologian toimivuutta vakioidun yksilöintitiedon kantamiseen betonielementtien toimitusketjussa ja luoda lähtökohdat yhteisen, avoimen, GS1 EPC -standardeja käyttävän RFID/EPC-pohjaisen järjestelmän käyttöönotolle. Tämä toteutettiin käyttämällä betonielementtien sisään valettuja passiivisia UHF RFID -tunnisteita. Hankkeen yhtenä tarkoituksena oli myös luoda tulevaisuuden toimintamalleja, joissa RFID-teknologiaa hyödynnetään tuotteiden tunnistamisessa koko arvoverkossa. Lisäksi tavoitteena oli havainnoida käyttöympäristön tuomia haasteita toimitusketjun hallinnan näkökulmasta. 
 
-**Pilotoinnin toteutus**
+**Pilotoinnin toteutus**<br>
 Betonielementtien RFID-tunnisteteknologian pilotointi toteutettiin touko–marraskuun 2024 aikana kahdella kerrostalotyömaalla Helsingissä ja Tampereella. Testaus kattoi toimitusketjun vaiheet tuotevalmistuksesta työmaalle asennukseen asti. Toimitusketjun hallinnan näkökulmasta pilotointi rajattiin keskittymään tuoteyksilöinnin ja -tunnistamisen menetelmiin (kuva 1). Tämä lähestymistapa loi perustan laajemmalle toimitusketjun tapahtumatiedon jakamisen testaamiselle, joka on suunniteltu toteutettavaksi myöhemmässä vaiheessa.  
 
-**Osallistujat ja yhteistyötahot**
+
+<img width="992" height="370" alt="image" src="https://github.com/user-attachments/assets/68ad12b2-839b-4beb-8800-ee0ef6edd3de" />
+
+
+**Osallistujat ja yhteistyötahot**<br>
 Pilotoinnissa olivat mukana betonielementtien tuotevalmistajat Parma Oy ja Lujabetoni Oy sekä rakennusyritykset Fira Rakennus Oy ja NCC Suomi Oy. RFID-teknologiaosaamista projektiin toivat Riffid Oy ja NordicId Oy. Lisäksi toteutukseen osallistuivat Rakennusteollisuus RT, RFID Lab Finland Oy, Aalto-yliopisto ja GS1 Finland Oy.
 
 ### 2.1 Betonielementtien tuoteyksilöinti (UPID)
