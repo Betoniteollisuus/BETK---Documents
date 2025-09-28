@@ -55,7 +55,7 @@
 <tr><td>(91) Elementtitunnus:</td><td><code>VG-1711</code></td></tr>
 <tr><td>(92) GUID:</td><td><code>c1c32f66-e504-4864-8cf9-ea2522e57eab</code></td></tr>
 <tr><td colspan="5"><strong>1. RFID-piirin asennus elementtiin</strong></td></tr>
-<tr><td>RFID-tunnisteen asennustapa:</td><td><code>↑ Yläpinta (@2L): Elementin päästä 1000–1200 mm, oikea sivu</code></td><td rowspan="4"></td></tr>
+<tr><td>RFID-tunnisteen asennustapa:</td><td><code>↑ Yläpinta (@2R): Elementin päästä 1000–1200 mm, oikea sivu</code></td><td rowspan="4"></td></tr>
 <tr><td>Asennusajankohta:</td><td><code>2024-10-15</code></td></tr>
 <tr><td>Havainnot:</td><td><code>Patterimuotti; valokuva: Kyllä</code></td></tr>
 <tr><td>Valokuvat:</td><td>-</td></tr>
