@@ -162,7 +162,10 @@
     <tr>
       <td>Lukutapahtuma onnistui:</td>
       <td><code>Ei</code></td>
-      <td rowspan="6"></td>
+      <td rowspan="6">
+        <img width="628" height="833" alt="image" src="https://github.com/user-attachments/assets/0cb5430a-bdb0-4637-b063-ce57a85bf8ff" /> Kuva. VG-1824-1
+        <img width="627" height="830" alt="image" src="https://github.com/user-attachments/assets/f3de1a7c-d65d-471c-a4b0-6e561a40bc4b" /> Kuva. VG-1824-2
+      </td>
     </tr>
     <tr>
       <td>Valokuvat:</td>
