@@ -47,7 +47,7 @@
 <tr><td colspan="5"><strong>ELEMENTIN ID:</strong> Tiedot kirjataan, jos mahdollista.</td></tr>
 
 <tr><td></td><td><strong>RFID-tunniste</strong></td><td><strong>Valokuva</strong></td></tr>
-<tr><td>RFID-tunnisteen antennin suunta:</td><td><code>@1</code></td><td rowspan="7"></td></tr>
+<tr><td>RFID-tunnisteen antennin suunta:</td><td><code>@1</code></td>      <td rowspan="7"><img width="960" height="874" alt="Case 2 orientaatio (FI)" src="https://github.com/user-attachments/assets/5a08eb61-4529-41c9-9fca-0ccfcbc16ead" /><br> Kuva. RFID tunnisteiden asennuspaikat</tr>
 <tr><td>RFID tunnisteen yksilöivä tunniste:</td><td><code>0010</code></td></tr>
 <tr><td>(01) GTIN:</td><td><code>0643006205004322</code></td></tr>
 <tr><td>(21) Serial:</td><td><code>18969103</code></td></tr>
