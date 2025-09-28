@@ -104,7 +104,7 @@
 </tr><tr>
   <td>Havainnot:</td>
   <td><code>Valutapa: Vaaka</code></td>
-  <td><code>Valutapa: Vaaka: Kyllä</code></td>
+  <td><code>Valutapa: Vaaka</code></td>
 </tr><tr>
   <td>Valokuvat:</td>
   <td><code>-</code></td>
