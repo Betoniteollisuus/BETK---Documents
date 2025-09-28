@@ -186,8 +186,8 @@
 </tr>
 <tr>
   <td>Valokuvat:</td>
-  <td><code>VG-1812</code></td>
-  <td><code>VG-1812</code></td>
+  <td><code>VG-1812 (0016)</code></td>
+  <td><code>VG-1812 (0001)</code></td>
 </tr>
 <tr>
   <td>Luentaetäisyys (mm):</td>
