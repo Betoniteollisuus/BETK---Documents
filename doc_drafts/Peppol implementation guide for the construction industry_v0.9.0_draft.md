@@ -57,8 +57,6 @@ This document provides guidance for implementing **Peppol Catalogue** and **Orde
 
 ## 1. Introduction to Peppol
 
-This document provides guidance for the implementation of Peppol catalogue and ordering advice processes for Finnish construction industry.
-
 **[Peppol](https://peppol.org/)** is a network and specification of electronic business transactions. It is used to exchange information between organizations in a structured way. Peppol network is based on the so called four corner model. It means that every end user organization is free to choose their own Peppol service provider without having to consider which service provider their business partners use. Everyone has to connect just once to a Peppol service provider in order to exchange electronic business documents with all other end users in the Peppol network.
 
 Peppol is not a procurement system, a portal or an ERP. It enables different organizations to connect their information systems together and offers a shared digital language for organizations all over the world.
