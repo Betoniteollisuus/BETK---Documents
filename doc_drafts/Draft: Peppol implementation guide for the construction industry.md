@@ -1,4 +1,4 @@
-# Peppol implementation guide for construction industry (Engineer‑to‑Order precast concrete)
+# Peppol implementation guide for the construction industry
 
 **Engineer-To-Order Construction products**  
 >**Publisher:** Peppol Authority of Finland (State Treasury) & Rakennusteollisuus ry\
