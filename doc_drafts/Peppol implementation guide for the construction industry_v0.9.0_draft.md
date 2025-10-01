@@ -63,6 +63,7 @@ This document provides guidance for the implementation of Peppol catalogue and o
 
 Peppol is not a procurement system, a portal or an ERP. It enables different organizations to connect their information systems together and offers a shared digital language for organizations all over the world.
 This implementation guide is focused on the data needs of Finnish construction industry in engineer-to-order precast concrete. Any rules that apply to the usage of Peppol in general are not changed by this document. This document does not cover all possible scenarios. Please refer to general **[Peppol BIS](https://docs.peppol.eu/poacc/upgrade-3/)** guidelines if something is not stated here. For example, all currencies, dates, times, decimals and code lists are to be used as instructed in the general Peppol guidelines.
+
 ---
 
 ## 2. Change management
