@@ -1,5 +1,11 @@
 # Peppol implementation guide for construction industry (Engineer‑to‑Order precast concrete)
 
+**Engineer-To-Order Construction products**  
+>**Publisher:** Peppol Authority of Finland (State Treasury) & Rakennusteollisuus ry\
+>**Release:** 2025-10-01  
+**Versio:** 0.9.0  
+**Status:** Draft
+
 This document provides guidance for implementing **Peppol Catalogue** and **Ordering/Order Response** (plus Advanced Despatch/Receipt Advice placeholder) for the Finnish construction industry, with a focus on **engineer‑to‑order (ETO) precast concrete**.
 
 > **Note:** This guide does not change general Peppol BIS rules. When something is not stated here, refer to the official Peppol BIS documentation (e.g., rules for currencies, dates, times, decimals, code lists). It is forbidden to repurpose elements for uses other than their intended meaning.
