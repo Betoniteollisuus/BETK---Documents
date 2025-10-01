@@ -35,4 +35,4 @@ Tämä repository kokoaa BETK-työryhmän laatimat soveltamisohjeet ja muun tuot
 
 ## doc_drafts
 
-This repository contains draft documents.<br>
+📝This repository contains draft documents.<br>
