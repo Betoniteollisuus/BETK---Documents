@@ -6,9 +6,8 @@
 **Versio:** 0.9.0  
 **Status:** Draft
 
-This document guides the implementation of the **Peppol Catalogue** and **Ordering/Order Response** (plus Advanced Despatch/Receipt Advice placeholder) for the Finnish construction industry, with a focus on **engineer-to-order (ETO) precast concrete**.
-
 > [!NOTE]
+> This document guides the implementation of the **Peppol Catalogue** and **Ordering/Order Response** (plus Advanced Despatch/Receipt Advice placeholder) for the Finnish construction industry, with a focus on **engineer-to-order (ETO) precast concrete**.
 > This guide does not change general Peppol BIS rules. When something is not stated here, refer to the official Peppol BIS documentation (e.g., rules for currencies, dates, times, decimals, code lists). It is forbidden to repurpose elements for uses other than their intended meaning.
 
 ---
@@ -64,10 +63,10 @@ This document guides the implementation of the **Peppol Catalogue** and **Orderi
 
 ## 1. Introduction to Peppol
 
-**[Peppol](https://peppol.org/)** is a network and specification of electronic business transactions. It is used to exchange information between organizations in a structured way. Peppol network is based on the so called four corner model. It means that every end user organization is free to choose their own Peppol service provider without having to consider which service provider their business partners use. Everyone has to connect just once to a Peppol service provider in order to exchange electronic business documents with all other end users in the Peppol network.
+[Peppol](https://peppol.org/) is a network and specification of electronic business transactions. It is used to exchange information between organizations in a structured way. Peppol network is based on the so called four corner model. It means that every end user organization is free to choose their own Peppol service provider without having to consider which service provider their business partners use. Everyone has to connect just once to a Peppol service provider in order to exchange electronic business documents with all other end users in the Peppol network.
 
 Peppol is not a procurement system, a portal or an ERP. It enables different organizations to connect their information systems together and offers a shared digital language for organizations all over the world.
-This implementation guide is focused on the data needs of Finnish construction industry in engineer-to-order precast concrete. Any rules that apply to the usage of Peppol in general are not changed by this document. This document does not cover all possible scenarios. Please refer to general **[Peppol BIS](https://docs.peppol.eu/poacc/upgrade-3/)** guidelines if something is not stated here. For example, all currencies, dates, times, decimals and code lists are to be used as instructed in the general Peppol guidelines.
+This implementation guide is focused on the data needs of Finnish construction industry in engineer-to-order precast concrete. Any rules that apply to the usage of Peppol in general are not changed by this document. This document does not cover all possible scenarios. Please refer to general [Peppol BIS](https://docs.peppol.eu/poacc/upgrade-3/) guidelines if something is not stated here. For example, all currencies, dates, times, decimals and code lists are to be used as instructed in the general Peppol guidelines.
 
 ---
 
