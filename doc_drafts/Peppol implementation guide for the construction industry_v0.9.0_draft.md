@@ -1,4 +1,4 @@
-# Peppol implementation guide for the construction industry (Engineer‑to‑Order precast concrete)
+# Peppol implementation guide for construction industry (Engineer‑to‑Order precast concrete)
 
 This document provides guidance for implementing **Peppol Catalogue** and **Ordering/Order Response** (plus Advanced Despatch/Receipt Advice placeholder) for the Finnish construction industry, with a focus on **engineer‑to‑order (ETO) precast concrete**.
 
@@ -69,76 +69,85 @@ This implementation guide focuses on **data needs specific to Finnish ETO precas
 
 This implementation guide was created jointly by **BETK** project representatives and the **Peppol Authority of Finland (State Treasury)**.
 
-For questions or updates, contact **State Treasury**: `peppol@valtiokonttori.fi`. The State Treasury will convene relevant industry representatives for updates.
+For questions or updates, contact **State Treasury**: `peppol@valtiokonttori.fi`.  The State Treasury will gather relevant industry representatives to the update process.
 
 ---
 
 ## 3. Covered Business Interoperability Specifications
 
-This guide covers three Peppol BIS processes:
+This implementation guide covers three Peppol Business Interoperability Specifications (BIS) used in the Peppol network:
 
 * **BIS Catalogue with response**
 * **BIS Ordering**
 * **BIS Advanced Despatch Advice with Receipt Advice**
 
+---
+
 ### 3.1 BIS Catalogue with response
 
-Covers *Catalogue* and *Catalogue Response* transactions. The receiver **must** respond to each Catalogue with a Catalogue Response (received/accepted/rejected).
+BIS Catalogue with response covers *Catalogue* and *Catalogue Response* transactions. The catalogue receiver **must** respond to each catalogue with the catalogue response transaction. The catalogue response transaction is used to notify the catalogue sender that the receiver has received, accepted or rejected the catalogue.
 
-> Peppol transaction syntaxes: **T19** (Catalogue), **T58** (Catalogue Response).
+The syntaxes of the [Peppol Catalogue transaction (T19)](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/tree/) and [Peppol Catalogue Response transaction (T58)](https://docs.peppol.eu/poacc/upgrade-3/syntax/CatalogueResponse/tree/) are covered later in this document.
+
+<img width="939" height="636" alt="image" src="https://github.com/user-attachments/assets/4486effd-27a4-4ac1-846a-ce4b8e505ac6" /> <br> Figure. 1
 
 
 ### 3.2 BIS Ordering
 
-Covers *Order* and *Order Response* transactions. The supplier **must** respond to each Order with an Order Response (received/accepted/declined/partially accepted). Delivery dates can be added to the response.
+[BIS Ordering](https://docs.peppol.eu/poacc/upgrade-3/profiles/28-ordering/) covers order and order response transactions. The supplier must respond to each order with an order response transaction. The order response transaction is used to tell the buyer that the order was received, accepted, declined or accepted partially. Information about delivery dates can be added to the order response.
+The syntaxes of the Peppol Order transaction (T01) and Peppol Order Response transaction (T76) are covered later in this document.
 
-> Peppol transaction syntaxes: **T01** (Order), **T76** (Order Response).
+The syntaxes of the [Peppol Order transaction (T01)](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/tree/) and [Peppol Order Response transaction (T76)](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/tree/) are covered later in this document.
+
+<img width="939" height="366" alt="image" src="https://github.com/user-attachments/assets/daa54d07-c133-451e-834e-c774894cb8ff" /> <br> Figure. 2
+
 
 ### 3.3 BIS Advanced Despatch Advice with Receipt Advice
 
-*Tämä täytetään lomakauden jälkeen.*
+> $\color{red}{\textsf{Draft note:}}$ *Tämä täytetään lomakauden jälkeen.*
 
 ---
 
 ## 4. Catalogue (T19) – implementation details
 
-The full syntax is defined on the Peppol website. This guide adds no new elements—follow all general Peppol rules and intended element semantics.
+The whole syntax of the Peppol Catalogue transaction (T19) is covered on the [Peppol website](https://peppol.org). This implementation guide does not add any additional elements to the syntax. All general Peppol rules must be followed. It is forbidden to use an element for some other purpose than what it is intended to be used for. Please refer to the general Peppol guidance if some element is not covered in this implementation guide.
+
+---
 
 ### 4.1 Document header level
 
-* **`cbc:ID`** – Catalogue identifier (mandatory).
-* **`cbc:ActionCode`** – First issue/replacement/line update/deletion. Use values from *Catalogue Action code, header level (OpenPeppol)*. If omitted, the catalogue fully replaces the source catalogue.
-* **`cbc:Name`** – Optional human‑readable catalogue name.
-* **`cbc:IssueDate`** – Catalogue issue date (YYYY‑MM‑DD) (mandatory).
-* **`cbc:VersionID`** – Version tracking for updates.
-* **`cac:ValidityPeriod`** – Time period during which the catalogue is valid (mandatory). Use `cbc:StartDate`, `cbc:EndDate` (dates) and time as HH:MM:SS where applicable.
-* **`cac:ReferencedContract`** – Reference to the contract; invoicing terms are agreed in the contract.
-* **`cac:SourceCatalogueReference/cbc:ID`** – Reference to previous version; important for updates and change tracking.
-* **`cac:TradingTerms/cbc:Information`** – General payment conditions.
+- [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is the catalogue identifier, the main identifier for this document. It is a mandatory field.
+- [cbc:ActionCode]() is used to tell if the catalogue is sent for the first time, it replaces a catalogue entirely, it updates some catalogue lines or if the catalogue is deleted. Use values from Catalogue Action code, header level (OpenPeppol) codelist. If this field is not in the catalogue, it means that the catalogue fully replaces the source catalogue. 
+- [cbc:Name]() can be used to give the catalogue a name.
+- [cbc:IssueDate]() is a mandatory element which is used to convey the issue date of the catalogue. The date must be formatted as YYYY-MM-DD.
+- [cbc:VersionID]() is used to keep track of the up-to-date version of the catalogue as there might be updates to the catalogue.
+- [cac:ValidityPeriod]() tells the time period when the catalogue is valid and can be used to order. It is a mandatory element. The time must be formatted as HH:MM:SS.
+- [cac:ReferencedContract]() is used to refer to a contract between the buyer and the seller. This is an important value as the terms of invoicing are agreed in the contract.
+- [cac:SourceCatalogueReference]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is used to refer to the previous version of the catalogue. This is important when making updated to the current version of the catalogue to track changes.
+- [cac:TradingTerms]() / [cbc:Information]() can be used to refer to the general payment conditions
 
 ### 4.2 Parties
 
-> **Electronic addresses (`cbc:EndpointID`)**
->
-> Use the mandatory `@schemeID` with EndpointID. For Finnish organisations, EndpointID is usually **OVT** with scheme **0216**. GLN is also possible with scheme **0088**.
-
-| `cbc:EndpointID` | `@schemeID` | Notes                                                                                                                            |
-| ---------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| `003712345678`   | `0216`      | Finnish EDI identifier (OVT). Structure: `0037` (fixed) + Business ID (Y‑tunnus, no dash) + optional 1–5 internal alphanumerics. |
-| `6412345678901`  | `0088`      | GLN (Global Location Number), administered by GS1.                                                                               |
+>  $\color{red}{\textsf{Draft note:}}$ **Electronic addresses (`cbc:EndpointID`)**
 
 #### 4.2.1 Provider Party (seller)
 
-* **`cac:ProviderParty`** issues the catalogue and acts as the seller. (*Seller Supplier Party* is not applicable: in this use case the seller is always the issuer.)
-* **`cbc:EndpointID`** – Seller’s Peppol address with `@schemeID` (mandatory).
-* **`cac:PartyIdentification/cbc:ID`** – Internal ID understood by buyer and/or seller (e.g., factory GLN). `@schemeID` optional.
-* **`cac:PostalAddress`** – Company address (e.g., HQ), *not* delivery address.
-* **`cac:PartyLegalEntity/cbc:RegistrationName`** – Official company name.
-* **`cac:PartyLegalEntity/cbc:CompanyID`** – Business Identity Code (Y‑tunnus). If using ISO 6523 ICD, scheme `0212` for Finnish Business Identity Code.
-* **`cac:PartyLegalEntity/cac:RegistrationAddress`** – City and country of registration (`cbc:CityName`; `cac:Country/cbc:IdentificationCode`).
+The [cac:ProviderParty]() is the one who issues the catalogue and acts as a seller. The syntax also includes Seller Supplier Party, but that is not applicable to the concrete element use case as the seller is always the one who issues the catalogue.
 
-**Example – Provider Party**
+- [cbc:EndpointID]() is used to convey the electronic Peppol address of the seller. The [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cbc-EndpointID/schemeID/) is mandatory to be used with the EndpointID element. For Finnish organisations the EndpointID is always an OVT code with scheme ID 0216. Examples of [cbc:EndpointID]() and [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cbc-EndpointID/schemeID/) values:
 
+| cbc:EndpointID | schemeID | Notes |
+|--------------------|----------|-------|
+| `003712345678`       | `0216`     | SchemeID 0216 stands for Finnish EDI identifier (OVT code). OVT Code structure is:<br>· ‘0037’ is a fixed value<br>· Company ID (Y-tunnus) without the dash mark ‘-’<br>· Optional (up to 5) internal numbers or capital letters (A-Z) within the company |
+| `6412345678901`      | `0088`     | Scheme ID 0088 stands for GLN (Global Location Number) administered by GS1. |
+
+- [cac:PartyIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cac-PartyIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) can contain an internal ID understood by the buyer and/or seller. This can be for example a GLN of the factory. [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cbc-EndpointID/schemeID/) is not mandatory for this field.
+- [cac:PostalAddress]() and its child elements are used for the Address of the company. This is for example the address of the head quarters building, not the delivery address.
+- [cac:PartyLegalEntity]() / [cbc:RegistrationName]() is used to tell the official name of the company.
+- [cac:PartyLegalEntity]() / [cbc:CompanyID]() is used for the business identity code (Y-tunnus) of the company.
+- [cac:PartyLegalEntity]() / [cac:RegistrationAddress]() / [cbc:CityName]() / [cac:Country]() / [cbc:IdentificationCode]() structure is used to tell in which city and country the company is officially registered in.
+
+**Example - Provider Party segment**
 ```xml
 <cac:ProviderParty>
   <cbc:EndpointID schemeID="0216">003712345678</cbc:EndpointID>
@@ -168,15 +177,21 @@ The full syntax is defined on the Peppol website. This guide adds no new element
 
 #### 4.2.2 Receiver Party (buyer)
 
-* **`cac:ReceiverParty`** receives the catalogue and acts as the buyer. (*Buyer Supplier Party* is not applicable: the buyer is always the receiver.)
-* **`cbc:EndpointID`** – Buyer’s Peppol address with `@schemeID` (mandatory).
-* **`cac:PartyIdentification/cbc:ID`** – Internal ID (e.g., construction site GLN). `@schemeID` optional.
-* **`cac:PostalAddress`** – Company (HQ) address, not delivery address.
-* **`cac:PartyLegalEntity/cbc:RegistrationName`** – Official company name.
-* **`cac:PartyLegalEntity/cbc:CompanyID`** – Business Identity Code (Y‑tunnus).
-* **`cac:PartyLegalEntity/cac:RegistrationAddress`** – Registration city and country.
+The [cac:ReceiverParty]() is the one who the catalogue is sent to and acts as a buyer. The syntax also includes Buyer Supplier Party, but that is not applicable to the concrete element use case as the buyer is always the one who the catalogue is sent to.  
+- [cbc:EndpointID]() is used to convey the electronic Peppol address of the buyer. The @schemeID is mandatory to be used with the EndpointID element. For Finnish organisations the EndpointID is always an OVT code with scheme ID 0216. Examples of [cbc:EndpointID]() and @schemeID values:
 
-**Example – Receiver Party**
+| cbc:EndpointID | schemeID | Notes |
+|----------------|----------|-------|
+| `003712345678`   | `0216`     | SchemeID 0216 stands for Finnish EDI identifier (OVT code). OVT Code structure is:<br>· ‘0037’ is a fixed value<br>· Company ID (Y-tunnus) without the dash mark ‘-’<br>· Optional (up to 5) internal numbers or capital letters (A-Z) within the company |
+| `6412345678901`  | `0088`     | Scheme ID 0088 stands for GLN (Global Location Number) administered by GS1. |
+
+- [cac:PartyIdentification]() / [cbc:ID]() can contain an internal ID understood by the buyer and/or seller. This can be for example a GLN of the construction site. @schemeID is not mandatory for this field.  
+- [cac:PostalAddress]() and its child elements are used for the Address of the company. This is for example the address of the headquarters building, not the delivery address.  
+- [cac:PartyLegalEntity]() / [cbc:RegistrationName]() is used to tell the official name of the company.  
+- [cac:PartyLegalEntity]() / [cbc:CompanyID]() is used for the business identity code (Y-tunnus) of the company.  
+- [cac:PartyLegalEntity]() / [cac:RegistrationAddress]() / [cbc:CityName]() / [cac:Country]() / [cbc:IdentificationCode]() structure is used to tell in which city and country the company is officially registered in.  
+
+**Example – Receiver Party segment**
 
 ```xml
 <cac:ReceiverParty>
@@ -207,310 +222,636 @@ The full syntax is defined on the Peppol website. This guide adds no new element
 
 ### 4.3 Catalogue line level
 
-* **`cac:CatalogueLine/cbc:ID`** – Identifier of the catalogue line.
-* **`cac:CatalogueLine/cbc:ActionCode`** – `Add`, `Update`, `Delete` (Catalogue Action code, line level – OpenPeppol).
-* **`cac:CatalogueLine/cbc:OrderableIndicator`** – Whether the line is orderable (`true`/`false`, default `true`; Boolean indicator – OpenPeppol).
-* **`cac:CatalogueLine/cbc:OrderableUnit`** – Unit of measure for the orderable unit. Use **UN/ECE Rec 20/21 (prefixed X)**. See [Attachment A](#attachment-a-quantityunitcode-usage) for shortlist.
-* **`cac:CatalogueLine/cbc:ContentUnitQuantity`** – Quantity inside an orderable package; `@unitCode` mandatory (UN/ECE Rec 20/21). See Attachment A.
-* **`cac:CatalogueLine/cbc:OrderQuantityIncrementNumeric`** – Order increments (default 1 for concrete elements).
-* **`cac:CatalogueLine/cbc:MinimumOrderQuantity`**, **`.../cbc:MaximumOrderQuantity`** – Minimum/maximum orderable quantities; `@unitCode` mandatory. For unique items use value `1`.
-* **`cac:CatalogueLine/cbc:WarrantyInformation`** – Warranty information (optional).
-* **`cac:CatalogueLine/cbc:PackLevelCode`** – Packaging level: `CU` (Base Unit), `DU` (Pallet), `TU` (Case), `HN` (Handling Unit); *GS1 7009* (mandatory codelist).
-* **`cac:CatalogueLine/cac:LineValidityPeriod`** – Validity period (`cbc:StartDate`, `cbc:EndDate`). Use for promotional prices, discontinuations, etc.
-* **`cac:CatalogueLine/cac:ItemComparison`** – Price per quantity (optional; typically not used for precast elements).
-* **`cac:CatalogueLine/cac:RequiredItemLocationQuantity`** – Price and lead‑time dependent information (optional; typically not used for precast elements).
+**Catalogue Line**
 
-  * **`.../cbc:LeadTimeMeasure`** – Time from order to availability; `@unitCode` mandatory (UN/ECE Rec 20/21), e.g., `DAY`, `HUR`.
-  * **`cbc:MinimumQuantity`**, **`cbc:MaximumQuantity`** – Thresholds for the price; `@unitCode` mandatory.
-  * **`cac:ApplicableTerritoryAddress`** – Address to which the price applies.
-  * **`cac:Price`** – Price per base unit; **`cbc:PriceAmount`** and **`cbc:BaseQuantity`**; **`cac:ValidityPeriod`** for price validity.
+- [cac:CatalogueLine]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) identifies each catalogue line.  
 
-**Simple price example**
+- [cac:CatalogueLine]() / [cbc:ActionCode]() is used to tell if the catalogue line is **new**, **updated** or **deleted**.  
+  - Possible values: “Add”, “Update” or “Delete”  
+  - As stated in the *Catalogue Action code, line level (OpenPeppol)* codelist.  
+
+- [cac:CatalogueLine]() / [cbc:OrderableIndicator]() indicates if the catalogue line can be used for ordering.  
+  - Can be used to tell if the item is **out of stock** or otherwise not ready to be ordered.  
+  - Values: **true** or **false**, as stated in the *Boolean indicator (OpenPeppol)* codelist.  
+  - Default value: **true** (catalogue line is active).  
+
+- [cac:CatalogueLine]() / [cbc:OrderableUnit]() describes the unit of measure for the orderable unit.  
+  - Codelist **Recommendation 20**, including **Recommendation 21** codes (prefixed with X, UN/ECE) must be used.  
+  - Unit of measure shortlist is defined in *Attachment A*.  
+
+- [cac:CatalogueLine]() / [cbc:ContentUnitQuantity]() is used if the orderable unit is a **package containing other units**.  
+  - Tells how many units the package contains.  
+  - [cbc:ContentUnitQuantity]() `@unitCode` is mandatory.  
+  - Use **Recommendation 20/21 (X-prefixed)** codes.  
+
+- [cac:CatalogueLine]() / [cbc:OrderQuantityIncrementNumeric]() tells the increments which can be ordered.  
+  - Example: can half a product be ordered?  
+  - For concrete elements, default = **1**.  
+
+- [cac:CatalogueLine]() / [cbc:MinimumOrderQuantity]() and [cac:CatalogueLine]() / [cbc:MaximumOrderQuantity]() tell the minimum and maximum amount of items that can be ordered.  
+  - `@unitCode` is mandatory.  
+  - For unique items, use value **1**.  
+
+- [cac:CatalogueLine]() / [cbc:WarrantyInformation]() can be used for any warranty-related information.  
+
+- [cac:CatalogueLine]() / [cbc:PackLevelCode]() conveys packaging information. Possible values ([GS1 7009 codelist](https://docs.peppol.eu/poacc/upgrade-3/codelist/GS17009/)):  
+  - “CU” = Base Unit level  
+  - “DU” = Pallet level  
+  - “TU” = Case level  
+  - “HN” = Handling Unit  
+
+- [cac:CatalogueLine]() / [cac:LineValidityPeriod]() tree that includes [cbc:StartDate]() and [cbc:EndDate]() is used to tell when the catalogue line is valid. The use case can for example be a promotianal price that expires at a certain point or a product that is discontinued.  
+
+- [cac:CatalogueLine]() / [cac:ItemComparison]() tree is used to tell the price per a quantity of unit of measure. For example how much one kilogram or litre of the product costs. This is a non mandatory element. In precast concrete element case this element is not neccessary, as prices are not part of the typical use case. For other products this is a relevant element to be used.  
+
+- [cac:CatalogueLine]() / [cac:RequiredItemLocationQuantity]() tree is used to convey information about the price of the product or if a price is depentant on the lead time when the delivery needs to be made. For precast concrete elements this element tree is not neccessary, as prices of the products are not part of the typical scenario. For other products this is a relevant element to be used.  
+
+If the element is used, then the [cac:CatalogueLine]() / [cac:RequiredItemLocationQuantity]() / [cbc:LeadTimeMeasure]() would indicate the time from when the order is placed until the item is available for delivery from the sellers' premises or at the applicable address specified for the price. @unitCode is mandatory to be used with values from the Recommendation 20, including Recommendation 21 codes - prefixed with X (UN/ECE) codelist. “DAY” = day, “HUR” = hour.  
+[cbc:MinimumQuantity]() and [cbc:MaximumQuantity]() with mandatory @unitCodes from the same code list would indicate threshold and maximum quantities for the given price. [cac:ApplicableTerritoryAddress]() tree tells the address which the price is related to.  
+
+- [cac:Price]() tree then tells the actual price per base unit and [cac:ValidityPeriod]() tree is used to indicate the validity period of the price.  
+
+All the price elements are non-mandatory. A typical use case could only be that the price is the same regardless of the location. In that case the example XML could look like this:  
 
 ```xml
-<cac:Price>
+<cac:Price> 
   <cbc:PriceAmount currencyID="EUR">100</cbc:PriceAmount>
   <cbc:BaseQuantity unitCode="EA">1</cbc:BaseQuantity>
 </cac:Price>
 ```
 
-**Item information (`cac:Item`)**
+- [cac:CatalogueLine]() / [cac:Item]() tree holds the information about the item in question.
 
-* **`cbc:Description`** – General description (precast: *Yleisnimi*).
-* **`cbc:PackQuantity`** – Not used for precast elements (used for MTS items). `@unitCode` mandatory (UN/ECE Rec 20/21). See Attachment A.
-* **`cbc:Name`** – Item name (e.g., *Väliseinä* for precast element type).
-* **`cac:BuyersItemIdentification/cbc:ID`** – GUID/UUID for the element.
-* **`cac:ManufacturersItemIdentification/cbc:ID`** – Element code.
-* **`cac:StandardItemIdentification/cbc:ID`** – GTIN or SGTIN. `@schemeID` mandatory: `0160` (GTIN), `0209` (SGTIN).
-* **`cac:ItemSpecificationDocumentReference`** – Additional documents (e.g., links to production drawings). Use `cbc:DocumentTypeCode` value **`6`** (Product specification report).
-* **`cac:OriginCountry/cbc:IdentificationCode`** – Origin country (`FI`, `SE`; ISO 3166‑1 alpha‑2).
-* **`cac:TransactionConditions/cbc:ActionCode`** – `CT` to indicate contracted item; `NON_RETURNABLE` for non‑returnable.
-* **`cac:ClassifiedTaxCategory`** – VAT category (not relevant for precast use case).
-* **`cac:AdditionalItemProperty`** – Multiple properties; see [Attachment B](#attachment-b-additionalitemproperty-usage). Use agreed names consistently.
-* **`cac:ItemInstance/cbc:BestBeforeDate`** – Best before date (if applicable); **`.../cac:LotIdentification/cbc:LotNumberID`** for lot ID.
-* **`cac:Certificate`** – Certificate info (e.g., environmental).
-* **`cac:Dimension`** – Dimensions of the product:
+- [cac:CatalogueLine]() / [cac:Item]() / [cbc:Description]() is used to provide general description of the item. For precast concrete this is “Yleisnimi”.
 
-  * **`cbc:AttributeID`** (mandatory) – Attribute code from *UNCL6313* (e.g., `LN` length, `HT` height).
-  * **`cbc:Measure`** with mandatory `@unitCode` – Use `MMT` (mm) for length/height/width; `KGM` for weight.
-  * **`cbc:Description`** – Optional detail (e.g., whether length is gross/net). Use values from [Attachment C](#attachment-c-dimension-descriptions) where applicable.
+- [cac:CatalogueLine]() / [cac:Item]() / [cbc:PackQuantity]() is not used for precast concrete elements, but it is relevant for Make-to-Stock products. It is used to tell for example how many boxes are in a pallet. @unitCode is mandatory element with values from the Recommendation 20, including Recommendation 21 codes - prefixed with X (UN/ECE) codelist. Unit of measure shortlist related to this implementation guide is defined in attachment A.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cbc:Name]() is used for the name of the precast concrete element. For example *Väliseinä*.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:BuyersItemIdentification]() / [cbc:ID]() is used for GUID or UUID for the precast concrete element.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:ManufacturersItemIdentification]() / [cbc:ID]() is used for the element code.
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:StandardItemIdentification]() / [cbc:ID]() is used for GTIN or SGTIN of the precast concrete element. @schemeID is mandatory. Use value `0209` for SGTIN and `0160` for GTIN.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:ItemSpecificationDocumentReference]() tree is used to provide additional documents about the product. In the precast concrete element use case these can for example be links to pictures of the precast production drawings. In [cbc:DocumentTypeCode]() use value `6` for Product specification report. 
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:OriginCountry]() / [cbc:IdentificationCode]() can be used to indicate the origin country of the product. Use value `FI` for Finland, `SE` for Sweden. The values must be according to Country codes (ISO 3166-1:Alpha2) codelist.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:TransactionConditions]() / [cbc:ActionCode]() with value `CT` to indicate that the item is contracted. Another possibility is to use `NON_RETURNABLE` value to indicate a non-returnable item.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:ClassifiedTaxCategory]() is used for VAT category codes and percents. Not relevant for precast concrete element use case.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:AdditionalItemProperty]() tree is used for multiple different types of information. A list of used terms is provided in the Attachment B *AdditionalItemProperty usage*. It is important to use the same names for the values to make sure that all parties know what is being referenced.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:ItemInstance]() / [cbc:BestBeforeDate]() can be used if there is a need to indicate a best before date.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:ItemInstance]() / [cbc:BestBeforeDate]() / [cac:LotIdentification]() / [cbc:LotNumberID]() is used for production lot identification.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:Certificate]() tree can be used to provide information about a certificate related to the product, for example an environmental certificate.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:Dimension]() tree is used for the dimensions of the product.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:Dimension]() / [cbc:AttributeID]() is a mandatory element which indicates which dimension is being referenced. Codelist *Measured attribute code (UNCL6313)* must be used. For example `LN` indicates length and `HT` height dimension.  
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:Dimension]() / [cbc:Measure]() with mandatory @unitCode is used for units of measure for the dimension in question. For length, height and width, use millimeters `MMT` and for weight kilograms `KGM`. 
+
+- [cac:CatalogueLine]() / [cac:Item]() / [cac:Dimension]() / [cbc:Description]() is used to give more detailed description if applicable. This can for example be a text value that indicates that the length in question is the *Gross length*, meaning the length in transport. Or it can say that it is about the *Net length*, which means that it is the length of the actual product without packaging. For dimension descriptions use values from **Attachment C** if applicable.  
+
 
 ---
 
 ## 5. Catalogue Response (T58)
 
-A simple transaction to inform the sender whether their catalogue has been **accepted**, **rejected**, or **acknowledged**.
+The whole syntax of the **Peppol Catalogue Response transaction (T58)** is covered on the [Peppol website](https://peppol.org).  
+This implementation guide does not add any additional elements to the syntax.  
+
+All general Peppol rules must be followed.  
+It is forbidden to use an element for some other purpose than what it was intended to be used for.  
+Please refer to the general Peppol guidance if some element is not covered in this implementation guide.  
+
+The catalogue response is a simple transaction whose purpose is just to tell the sender of the catalogue if their catalogue has been **accepted**, **rejected** or **acknowledged**.  
+
+---
 
 ### 5.1 Document header level
 
-* **`cbc:ID`** – Identifier of the catalogue response.
-* **`cbc:IssueDate`**, **`cbc:IssueTime`** – Date (mandatory) and time of issuance.
-* **`cbc:Note`** – Free text for additional info not placed elsewhere.
+- [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) identifies the catalogue response.  
+- [cbc:IssueDate]() and [cbc:IssueTime]() are used to indicate the date and time of the issuance of the catalogue response.  
+  - Only the issue date is mandatory.  
+- [cbc:Note]() is a free text element that can be used to convey information relevant to the catalogue response that cannot be placed elsewhere.  
 
 ### 5.2 Parties
-
 #### 5.2.1 Sender Party
 
-* **`cbc:EndpointID`** – Sender’s Peppol address with `@schemeID` (mandatory). See the table in [4.2 Parties](#42-parties).
-* **`cac:PartyIdentification/cbc:ID`** – Identifies the sender (e.g., Business Identity Code or internal ID). `@schemeID` optional; for Finnish BIC use `0212`.
-* **`cac:PartyLegalEntity/cbc:RegistrationName`** – Legal name of the sender.
+- [cbc:EndpointID]() is used to convey the electronic Peppol address of the sender party.  
+  - [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cbc-EndpointID/schemeID/) is mandatory  
+  - For Finnish organisations the EndpointID is always an **OVT code** with scheme ID **0216**  
+
+Examples of [cbc:EndpointID]() and [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cbc-EndpointID/schemeID/) values:
+
+| [cbc:EndpointID]() | schemeID | Notes |
+|--------------------|----------|-------|
+| 003712345678       | 0216     | SchemeID 0216 stands for Finnish EDI identifier (OVT code).<br>· `0037` is a fixed value<br>· Company ID (Y-tunnus) without the dash mark `-`<br>· Optional (up to 5) internal numbers or capital letters (A-Z) within the company |
+| 6412345678901      | 0088     | Scheme ID 0088 stands for GLN (Global Location Number) administered by GS1. |
+
+- [cac:PartyIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cac-PartyIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is used to identify the sender party.  
+  - Identifier can be the **Business Identity Code** of the sender company  
+  - Or it can be an internal identifier known by the sender and the receiver  
+  - [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cbc-EndpointID/schemeID/) is not mandatory, but if the identifier is on the **ISO 6523 ICD list**, please use it  
+  - Code for Business Identity Code for Finnish companies: `0212`  
+
+- [cac:PartyLegalEntity]() / [cbc:RegistrationName]() is used for the **legal name** of the sender party.  
 
 #### 5.2.2 Receiver Party
 
-* **`cbc:EndpointID`** – Receiver’s Peppol address with `@schemeID` (mandatory). See the table in [4.2 Parties](#42-parties).
-* **`cac:PartyIdentification/cbc:ID`** – Identifies the receiver (e.g., Business Identity Code or internal ID). `@schemeID` optional; for Finnish BIC use `0212`.
-* **`cac:PartyLegalEntity/cbc:RegistrationName`** – Legal name of the receiver.
+
+- [cbc:EndpointID]() is used to convey the electronic Peppol address of the receiver party.  
+  - [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cbc-EndpointID/schemeID/) is mandatory  
+  - For Finnish organisations the EndpointID is always an **OVT code** with scheme ID **0216**  
+
+Examples of [cbc:EndpointID]() and [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cbc-EndpointID/schemeID/) values:
+
+| [cbc:EndpointID]() | schemeID | Notes |
+|--------------------|----------|-------|
+| 003712345678       | 0216     | SchemeID 0216 stands for Finnish EDI identifier (OVT code).<br>· `0037` is a fixed value<br>· Company ID (Y-tunnus) without the dash mark `-`<br>· Optional (up to 5) internal numbers or capital letters (A-Z) within the company |
+| 6412345678901      | 0088     | Scheme ID 0088 stands for GLN (Global Location Number) administered by GS1. |
+
+- [cac:PartyIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cac-PartyIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is used to identify the receiver party.  
+  - Identifier can be the **Business Identity Code** of the receiver company  
+  - Or it can be an internal identifier known by the sender and the receiver  
+  - [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cbc-EndpointID/schemeID/) is not mandatory, but if the identifier is on the **ISO 6523 ICD list**, please use it  
+  - Code for Business Identity Code for Finnish companies: `0212`  
+
+- [cac:PartyLegalEntity]() / [cbc:RegistrationName]() is used for the **legal name** of the receiver party.  
 
 ### 5.3 Document response
 
-* **`cac:Response/cbc:ResponseCode`** – Use *Application Response type code (UNCL4343 subset)*: `AB` (Acknowledgement), `AP` (Accepted), `RE` (Rejected).
+- [cac:Response]() / [cbc:ResponseCode]() is used to tell if the catalogue has been **accepted**, **rejected** or **acknowledged**.  
+  - *Application Response type code (UNCL4343 Subset)* codelist must be used  
+  - **AB = Message acknowledgement**  
+  - **AP = Accepted**  
+  - **RE = Rejected**  
 
-### 5.4 Referencing the original catalogue
+**Referencing the original catalogue**
 
-* **`cac:DocumentReference/cbc:ID`** – Original catalogue ID being responded to.
-* **`cbc:VersionID`** – If prior updates exist.
+- [cac:DocumentReference]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is used for the **original ID** of the catalogue that the response refers to.  
+- [cbc:VersionID]() can be used if there have been prior updates to the catalogue.
 
 ---
 
 ## 6. Order (T01)
 
-The full syntax is on the Peppol website. This guide adds no new elements—follow all Peppol rules.
+The whole syntax of the **Peppol Order transaction (T01)** is covered on the [Peppol website](https://peppol.org).  
+This implementation guide does not add any additional elements to the syntax.  
+
+All general Peppol rules must be followed. It is forbidden to use an element for some other purpose than what it is intended to be used for.  
+Please refer to the general Peppol guidance if some element is not covered in this implementation guide.  
+
+---
 
 ### 6.1 Document header level
 
-* **`cbc:ID`** – Identifier of the order.
-* **`cbc:SalesOrderID`** – Reference to the seller’s sales order (optional).
-* **`cbc:IssueDate`**, **`cbc:IssueTime`** – Order date (mandatory) and time. Date format **YYYY‑MM‑DD**; time **HH:MM:SS**.
-* **`cbc:OrderTypeCode`** – Order type from *UNCL1001 subset*. Default **220** (Order). Others by prior agreement.
-* **`cbc:Note`** – Free text for information without explicit place.
-* **`cbc:DocumentCurrencyCode`** – Default currency (ISO 4217), e.g., **EUR**.
-* **`cbc:CustomerReference`** – Buyer reference (appears on invoice).
-* **`cbc:AccountingCost`** – Buyer’s reference for automated booking (project/account), to be repeated in invoice.
-* **`cac:ValidityPeriod/cbc:EndDate`** – End date by which the seller must respond (mandatory).
+- [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is the identifier of the order.  
+- [cbc:SalesOrderID]() can be used to reference a sales order issued by the seller.  
+- [cbc:IssueDate]() and [cbc:IssueTime]() are the date and time when the order is made.  
+  - Dates must be formatted as **YYYY-MM-DD**  
+  - Times as **HH:MM:SS**  
+  - Only the date is mandatory  
 
-**References**
+- [cbc:OrderTypeCode]() is used to tell what type of order is being made.  
+  - Values from the *Order type code (UNCL1001 subset)* list must be used  
+  - Default value: **220 = Order**  
+  - Other values can be used if agreed beforehand by the parties  
 
-* **`cac:QuotationDocumentReference/cbc:ID`** – Quotation referenced.
-* **`cac:OrderDocumentReference/cbc:ID`** – Previous (rejected) order being replaced.
-* **`cac:OriginatorDocumentReference/cbc:ID`** – Buyer’s internal requisition.
-* **`cac:CatalogueReference/cbc:ID`** – Catalogue referenced (especially important for precast elements).
-* **`cac:AdditionalDocumentReference`** – Attach document or reference via URI.
-* **`cac:Contract/cbc:ID`** – Contract reference.
-* **`cac:ProjectReference/cbc:ID`** – Project/site identifier (construction site ID in precast case).
+- [cbc:Note]() is used for information or notes that do not have any explicit place on the order message.  
+- [cbc:DocumentCurrencyCode]() tells the default currency of the order.  
+  - Use `EUR` for Euros  
+  - Values from the **ISO 4217 Currency codes** must be used  
+
+- [cbc:CustomerReference]() is used to reference the buyer of the products or services.  
+  - Known also as Buyer Reference  
+  - Repeated on the invoice  
+
+- [cbc:AccountingCost]() is used by the buyer to specify a reference that should be repeated in e.g. invoice to enable the buyer to automatically book to the right project or account.  
+
+- [cac:ValidityPeriod]() / [cbc:EndDate]() is used to tell the **end date** when the order is valid.  
+  - The end date for the time period within which the seller must respond  
+  - This is a **mandatory element**  
+
+The order header level includes multiple references to different document types:
+
+- [cac:QuotationDocumentReference]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is used to reference quotations that the order is based on.  
+- [cac:OrderDocumentReference]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is used to reference a previous order that was rejected and a new order is issued.  
+- [cac:OriginatorDocumentReference]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is used to give a reference to the internal requisition on the buyer site on which the order is based.  
+- [cac:CatalogueReference]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is used to reference the catalogue which the order is based on.  
+  - This is especially important in the concrete element case  
+
+Any additional document references can be made using the [cac:AdditionalDocumentReference]() tree.  
+- A document can be attached or it can be referenced via an URI.  
+
+- [cac:Contract]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) references the contract the order is based on.  
+- [cac:ProjectReference]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is used to reference a project.  
+  - In the concrete element case this is the **identifier of the construction site**  
 
 ### 6.2 Parties
 
 #### 6.2.1 Buyer Customer Party
 
-* **`cbc:EndpointID`** – Buyer’s electronic address with `@schemeID` (mandatory; typically OVT `0216`, or GLN `0088`).
-* **`cac:PartyIdentification/cbc:ID`** – Buyer GLN (optional `@schemeID`; for GLN use `0088`).
-* **`cac:PartyName/cbc:Name`** – Trading name (not necessarily official name).
-* **`cac:PostalAddress`** – Buyer address (HQ, not delivery).
-* **`cac:PartyTaxScheme/cbc:CompanyID`** – VAT ID (Finland: `FI` + Business ID without dash). `cac:TaxScheme/cbc:ID` should be `VAT`.
-* **`cac:PartyLegalEntity/cbc:RegistrationName`** – Official legal name.
-* **`cac:PartyLegalEntity/cbc:CompanyID`** – Business Identity Code (Finland scheme `0212`).
-* **`cac:PartyLegalEntity/cac:RegistrationAddress/cbc:CityName`** and **`.../cac:Country/cbc:IdentificationCode`** (e.g., `FI`).
-* **`cac:Contact`** – Contact details: `cbc:Name`, `cbc:Telephone`, `cbc:ElectronicMail`.
+- [cbc:EndpointID]() is used to convey the electronic address of the buyer.  
+  - [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cbc-EndpointID/schemeID/) is mandatory  
+  - For Finnish organisations the EndpointID is always an **OVT code** with scheme ID **0216**  
+
+Examples of [cbc:EndpointID]() and  values:
+
+| [cbc:EndpointID]() | schemeID | Notes |
+|--------------------|----------|-------|
+| 003712345678       | 0216     | SchemeID 0216 stands for Finnish EDI identifier (OVT code).<br>· `0037` is a fixed value<br>· Company ID (Y-tunnus) without the dash mark `-`<br>· Optional (up to 5) internal numbers or capital letters (A-Z) within the company |
+| 6412345678901      | 0088     | Scheme ID 0088 stands for GLN (Global Location Number) administered by GS1. |
+
+- [cac:PartyIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cac-PartyIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) can contain the **GLN of the buyer**.  
+  -  is not mandatory for this field  
+  - If the code is on the **ISO 6523 ICD list**, please use it  
+  - Code for GLN: `0088`  
+
+- [cac:PartyName]() / [cbc:Name]() is the **trading name** of the party.  
+  - It does not have to be an official name registered with the Company ID  
+
+- [cac:PostalAddress]() tree contains the **address of the buyer**.  
+  - This is e.g. the HQ address, not the delivery address  
+
+- [cac:PartyTaxScheme]() / [cbc:CompanyID]() contains the buyer’s **VAT identification code** in international format.  
+  - For Finnish companies: `FI` + Company ID (Y-tunnus) without the dash mark `-`  
+  - [cbc:TaxScheme]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) should be `VAT`  
+
+- [cac:PartyLegalEntity]() / [cbc:RegistrationName]() is the official legal name of the buyer.  
+- [cac:PartyLegalEntity]() / [cbc:CompanyID]() for Finnish companies is the **Business Identity Code**.  
+  -  for Business Identity Code on the **ISO 6523 ICD list** is `0212`  
+
+- [cac:PartyLegalEntity]() / [cac:RegistrationAddress]() / [cbc:CityName]() is the **city** where the company is registered.  
+  - [cac:Country]() / [cbc:IdentificationCode]() must also be used  
+  - For Finland: `FI` (ISO 3166-1 Alpha-2)  
+
+- [cac:Contact]() tree includes contact details of the buyer. Possible details:  
+  - [cbc:Name]()  
+  - [cbc:Telephone]()  
+  - [cbc:ElectronicMail]()  
 
 #### 6.2.2 Seller Supplier Party
 
-* **`cbc:EndpointID`** – Seller’s electronic address with `@schemeID` (mandatory; typically OVT `0216`, or GLN `0088`).
-* **`cac:PartyIdentification/cbc:ID`** – Seller GLN (optional `@schemeID`; for GLN use `0088`).
-* **`cac:PartyName/cbc:Name`** – Trading name.
-* **`cac:PostalAddress`** – Seller address (HQ, not delivery).
-* **`cac:PartyLegalEntity/cbc:RegistrationName`** – Official legal name.
-* **`cac:PartyLegalEntity/cbc:CompanyID`** – Business Identity Code (Finland scheme `0212`).
-* **`cac:PartyLegalEntity/cac:RegistrationAddress`** – Registration city and country (`FI`).
-* **`cac:Contact`** – Contact details: `cbc:Name`, `cbc:Telephone`, `cbc:ElectronicMail`.
+- [cbc:EndpointID]() is used to convey the electronic address of the seller.  
+  -  is mandatory  
+  - For Finnish organisations the EndpointID is always an **OVT code** with scheme ID **0216**  
 
-> *Originator Customer Party* and *Accounting Customer Party* are not covered by this guide.
+Examples of [cbc:EndpointID]() and  values:
+
+| cbc:EndpointID     | schemeID | Notes |
+|--------------------|----------|-------|
+| `003712345678`     | `0216`   | SchemeID 0216 stands for Finnish EDI identifier (OVT code).<br>· `0037` is a fixed value<br>· Company ID (Y-tunnus) without the dash mark `-`<br>· Optional (up to 5) internal numbers or capital letters (A-Z) within the company |
+| `6412345678901`    | `0088`    | Scheme ID 0088 stands for GLN (Global Location Number) administered by GS1. |
+
+- [cac:PartyIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cac-PartyIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) can contain the **GLN of the seller**.  
+  -  is not mandatory  
+  - If the code is on the **ISO 6523 ICD list**, please use it  
+  - Code for GLN: `0088`  
+
+- [cac:PartyName]() / [cbc:Name]() is the **trading name** of the seller.  
+- [cac:PostalAddress]() tree contains the **address of the seller**.  
+  - This is e.g. the HQ address, not the delivery address  
+
+- [cac:PartyLegalEntity]() / [cbc:RegistrationName]() is the official legal name of the seller.  
+- [cac:PartyLegalEntity]() / [cbc:CompanyID]() for Finnish companies is the **Business Identity Code**.  
+  -  for Business Identity Code on the **ISO 6523 ICD list** is `0212`  
+
+- [cac:PartyLegalEntity]() / [cac:RegistrationAddress]() / [cbc:CityName]() is the **city** where the seller is registered.  
+  - [cac:Country]() / [cbc:IdentificationCode]() must also be used  
+  - For Finland: `FI`  
+
+- [cac:Contact]() tree includes contact details of the seller. Possible details:  
+  - [cbc:Name]()  
+  - [cbc:Telephone]()  
+  - [cbc:ElectronicMail]()  
+
+#### 6.2.3 Other Parties
+
+- Originator Customer Party or Accounting Customer Party are **not covered** by this implementation guide.  
+
 
 ### 6.3 Delivery
 
-*(“Jos rivitasolla on osoite, käytetään sitä. Muuten voidaan käyttää otsikkoa.”)*
+*(Jos rivitasolla on osoite, käytetään sitä. Muuten voidaan käyttää otsikkoa)*  
 
-Delivery can be stated at **order (header)** level or **order line** level.
+The delivery information can be stated at the whole order level or on the order line level.  
+- Use the whole order level for **pre-packed-loads**  
+- For **non-pre-packed-loads** use the order line level  
 
-* Use **header level** for **pre‑packed loads**.
-* Use **line level** for **non‑pre‑packed loads**.
+- [cac:DeliveryLocation]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is the identifier of the delivery address.  
+  - This can be e.g. a **GLN** address of a construction site  
+  -  is not mandatory  
+  - If you use GLN, the code for it is **0088**  
+  - Codes from **ISO 6523 ICD list** must be used  
 
-**Header‑level delivery**
+- [cac:DeliveryLocation]() / [cbc:Name]() is the **name** of the delivery location.  
+  - E.g. the name of the construction site or a location inside it  
 
-* **`cac:DeliveryLocation/cbc:ID`** – Identifier of the delivery address (e.g., construction site GLN). `@schemeID` optional; for GLN use `0088` (ISO 6523 ICD codes).
-* **`cac:DeliveryLocation/cbc:Name`** – Name of the delivery location (site name or sub‑location).
-* **`cac:DeliveryLocation/cac:Address`** – Delivery address structure.
-* **`cac:RequestedDeliveryPeriod`** – `cbc:StartDate`, `cbc:StartTime`, `cbc:EndDate`, `cbc:EndTime`. If it is a single day, set Start and End to the same date. **Dates:** `DD‑MM‑YYYY`; **Time:** `HH:MM:SS`. For multiple delivery slots, use `cbc:Note` (Peppol doesn’t currently support multiple slots).
-* **`cac:DeliveryParty`** – Not covered (buyer is expected to be the delivery recipient).
-* **`cac:Shipment/cbc:ShippingPriorityLevelCode`** – Priority (use *UNCL4219* Transport service priority code).
-* **`cac:Shipment/cac:TransportHandlingUnit/cbc:ShippingMarks`** – SSCC printed on the handling unit (header level).
-* **`cac:DeliveryTerms`** – Incoterms.
+- [cac:DeliveryLocation]() / [cac:Address]() structure is used for the **delivery address**.  
 
-*Payment terms and monetary totals are not covered (precast use case excludes prices).*
+- The [cac:RequestedDeliveryPeriod]() has:  
+  - [cbc:StartDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-StartDate/)  
+  - [cbc:StartTime]()  
+  - [cbc:EndDate]()  
+  - [cbc:EndTime]()  
+
+  If the delivery period is not a range of days, but just one day, please add both Start and End date on the same day.  
+  - Dates must be formatted as **DD-MM-YYYY**  
+  - Times must be formatted as **HH:MM:SS**  
+
+  For multiple delivery slots use the [cbc:Note]() since that functionality is not currently supported by **Peppol**.  
+
+- [cac:DeliveryParty]() is not covered by this implementation guide as the buyer is always expected to be the one to whom the goods are delivered.  
+
+- [cac:Shipment]() / [cbc:ShippingPriorityLevelCode]() can be used to indicate if a shipment is required to be made quickly.  
+  - *Transport service priority code (UNCL4219)* codelist must be used  
+
+- [cac:Shipment]() / [cac:TransportHandlingUnit]() / [cbc:ShippingMarks]() is used for **SSCC information** that is printed on the transport handling unit.  
+  - This is on the whole order level  
+
+- [cac:DeliveryTerms]() structure is used for **Incoterms**.  
+
+> [!IMPORTANT]
+> Payment terms and monetary totals are not covered by this implementation guide as the **concrete element use case does not include prices**.
 
 ### 6.4 Order line level
 
-* **`cbc:Note`** – Free text (e.g., multiple delivery time slots if needed).
-* **`cbc:ID`** – Identifier of the order line.
-* **`cbc:Quantity`** – Quantity ordered. `@unitCode` **mandatory** (see Attachment A for common units).
-* **`cbc:PartialDeliveryIndicator`** – Whether partial deliveries are allowed. Default `true`; for precast, use `false`.
-* **`cbc:AccountingCost`** – Reference to be repeated on invoice (e.g., instalment reference).
-* **`cac:Delivery`** – Use line‑level delivery for elements not part of pre‑made deliveries.
+- [cbc:Note]() is a freetext element that can be used for things that do not have an explicit place elsewhere in the order structure.  
+  - This can for example be information about delivery time slots if there are multiple.  
 
-  * **`cbc:ID`** – Delivery location identifier (e.g., site GLN or internal sub‑location). `@schemeID` optional (`0088` for GLN). *Address details at line level are currently not supported; a request has been made to OpenPeppol to add them.*
-  * **`cac:RequestedDeliveryPeriod`** – Same rules as header level (dates `DD‑MM‑YYYY`; time `HH:MM:SS`; single day = same Start/End; multiple slots via `cbc:Note`).
+- [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is the identifier of the order line.  
 
-*Price details are not covered for precast.*
+- [cbc:Quantity](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cbc-Quantity/) marks the quantity of items on the order line.  
+  - `@unitCode` must be used.  
+  - The most used units of measure are listed in *Attachment A*.  
+
+- [cbc:PartialDeliveryIndicator]() is used to tell if the order can be delivered in multiple instances.  
+  - The default value is **true**, meaning that it would be allowed.  
+  - In the concrete element case, use **false**.  
+
+- [cbc:AccountingCost]() is used for a reference that is wanted to be repeated on the invoice.  
+  - This can be for example a reference to the instalment.  
+
+- Use the [cac:Delivery]() structure on the order line level for concrete elements that are not part of pre-made-deliveries.  
+
+- [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is the identifier of the delivery location.  
+  - This can for example be a **GLN** of the construction site or a place inside of the construction site.  
+  -  is not mandatory, but the code for GLN is **0088**.  
+  - A request has been made to **OpenPeppol** to add also delivery address details on order line level. Currently they are not supported.  
+
+- The [cac:RequestedDeliveryPeriod]() has:  
+  - [cbc:StartDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-StartDate/)  
+  - [cbc:StartTime]()  
+  - [cbc:EndDate]()  
+  - [cbc:EndTime]()  
+
+  If the delivery period is not a range of days, but just one day, please add both Start and End date on the same day.  
+  - The dates must be formatted as **DD-MM-YYYY**  
+  - The time must be formatted as **HH:MM:SS**  
+
+  For multiple delivery slots use the [cbc:Note]() since that functionality is not currently supported by **Peppol**.  
+
+
+> [!IMPORTANT]
+> Price details are not covered by this implementation guide as prices are not part of the concrete element use case.
+
+
 
 ### 6.5 Item information on the order line
-
-* **`cac:Item/cbc:Description`** – “General name” of the precast element.
-* **`cac:Item/cbc:Name`** – Type of the precast element.
-* **`cac:BuyersItemIdentification/cbc:ID`** – GUID of the element.
-* **`cac:ManufacturersItemIdentification/cbc:ID`** – Identifier including element type provided by manufacturer.
-* **`cac:StandardItemIdentification/cbc:ID`** – GTIN (`0160`) or SGTIN (`0209`) with mandatory `@schemeID` (ISO 6523 ICD list).
-* **`cac:ItemSpecificationDocumentReference/cbc:ID`** – Identifier of the drawing number.
-* **`cac:AdditionalItemProperty`** – Multiple uses; see [Attachment B](#attachment-b-additionalitemproperty-usage). Use the agreed texts to enable automation.
+- [cac:Item](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/) / [cbc:Description](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/cbc-Description/) is the **"General name"** of the precast concrete element.  
+- [cac:Item](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/) / [cbc:Name](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/cbc-Name/) is the **Type** of the precast concrete element.  
+- [cac:BuyersItemIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/cac-BuyersItemIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/cac-BuyersItemIdentification/cbc-ID/) is the **GUID** of the concrete element.  
+- [cac:ManufacturersItemIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/cac-ManufacturersItemIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/cac-BuyersItemIdentification/cbc-ID/) is the **identifier including the type** of the precast concrete element provided by the manufacturer.  
+- [cac:StandardItemIdentification]() / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/cac-BuyersItemIdentification/cbc-ID/) is the **GTIN** or **SGTIN** of the concrete element.  
+  -  is mandatory.  
+  - Code for **GTIN** is `0160` and for **SGTIN** is `0209`.  
+  - Values from **[ISO 6523 ICD list](https://docs.peppol.eu/poacc/upgrade-3/codelist/ICD/)** must be used.  
+- [cac:ItemSpecificationDocumentReference](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/cac-StandardItemIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/cac-ItemSpecificationDocumentReference/cbc-ID/) is used for referencing the **identifier of the drawing number**.  
+- [cac:AdditionalItemProperty](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-OrderLine/cac-LineItem/cac-Item/cac-AdditionalItemProperty/) structure is used for multiple different use cases.  
+  - The list of possible things to be stated here are listed on *[Attachment B](#attachment-b-additionalitemproperty-usage)*.  
+  - It is important to use the texts agreed on this implementation guide to make it possible for automating the handling of the information.
 
 ---
 
 ## 7. Order Response (T76)
 
-The full syntax is on the Peppol website. This guide adds no new elements—follow all Peppol rules.
+The whole syntax of the **Peppol Order Response transaction (T76)** is covered on the [Peppol website](https://peppol.org).  
+This implementation guide does not add any additional elements to the syntax.  
+
+All general Peppol rules must be followed. It is forbidden to use an element for some other purpose than what it is intended to be used for.  
+Please refer to the general Peppol guidance if some element is not covered in this implementation guide.  
+
+---
 
 ### 7.1 Document header level
 
-* **`cbc:ID`** – Identifier of the order response.
-* **`cbc:SalesOrderID`** – Seller’s sales order reference.
-* **`cbc:IssueDate`**, **`cbc:IssueTime`** – Issue date (mandatory) and time (YYYY‑MM‑DD; HH:MM:SS).
-* **`cbc:OrderResponseCode`** – Use *UNCL4343 subset*: `AP` (Accepted), `RE` (Rejected), `CA` (Conditionally accepted), `AB` (Message acknowledgement).
+- [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-ID/) is used to identify the order response.  
+- [cbc:SalesOrderID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-SalesOrderID/) is used to reference a sales order that is issued by the seller.  
+- [cbc:IssueDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-IssueDate/) and [cbc:IssueTime](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-IssueTime/) are used to indicate the time and date when the order response is issued.  
+  - Only the issue date is mandatory.  
+  - The date must be formatted as **YYYY-MM-DD** and the time as **HH:MM:SS**.  
 
-  * `AP`/`RE`: No line‑level information (whole order accepted/rejected).
-  * `CA`/`AB`: All order response lines are sent.
-* **`cbc:Note`** – Free text (e.g., reason for rejection).
-* **`cbc:DocumentCurrencyCode`** – ISO 4217 (e.g., `EUR`).
-* **`cbc:CustomerReference`** – For routing in purchasing system (defined by buyer, provided by seller in response).
-* **`cac:OrderReference/cbc:ID`** – Reference to the original order.
+- [cbc:OrderResponseCode](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-OrderResponseCode/) indicates if the order has been **Accepted**, **Conditionally accepted**, **Rejected** or **Acknowledged**.  
+  - The *Order Response type code (UNCL4343 Subset)* must be used.  
+  - **AP = Accepted**  
+  - **RE = Rejected**  
+  - **CA = Conditionally accepted**  
+  - **AB = Message acknowledgement**  
+
+If codes **AP** or **RE** are used, no order response line level information is sent as the order has been accepted or rejected as a whole.  
+If code **CA** or **AB** is used, all order response lines are sent.  
+
+- [cbc:Note](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-Note/) is a free text field that can be used to convey information that can not be stated elsewhere.  
+  - This can for example be a reason for the rejection of the order.  
+
+- [cbc:DocumentCurrencyCode](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-DocumentCurrencyCode/) tells the default currency of the order response.  
+  - Values from the **ISO 4217 Currency codes** must be used.  
+  - For Euros, use `EUR`.  
+
+- [cbc:CustomerReference](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-CustomerReference/) is used for routing the transaction correctly in the purchasing system.  
+  - The customer reference is defined by the buyer, but provided by the seller in the order response.  
+
+- [cac:OrderReference](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderReference/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderReference/cbc-ID/) is used to reference the order that is being responded to.
+
 
 ### 7.2 Parties
 
-* **Seller Supplier Party**
+#### Seller Supplier Party
 
-  * **`cbc:EndpointID`** with `@schemeID` (mandatory; typically OVT `0216` or GLN `0088`).
-  * **`cac:PartyIdentification/cbc:ID`** – Internal ID (e.g., factory GLN). `@schemeID` optional.
-  * **`cac:PartyLegalEntity/cbc:RegistrationName`** – Legal name.
-* **Buyer Customer Party**
+- [cbc:EndpointID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-SellerSupplierParty/cac-Party/cbc-EndpointID/) is used to convey the electronic Peppol address of the Seller Party.  
+  The [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-SellerSupplierParty/cac-Party/cbc-EndpointID/schemeID/) is mandatory to be used with the EndpointID element.  
+  For Finnish organisations the EndpointID is always an **OVT code** with scheme ID **0216**.  
 
-  * **`cbc:EndpointID`** with `@schemeID` (mandatory; typically OVT `0216` or GLN `0088`).
-  * **`cac:PartyIdentification/cbc:ID`** – Internal ID. `@schemeID` optional.
-  * **`cac:PartyLegalEntity/cbc:RegistrationName`** – Legal name.
+Examples of `cbc:EndpointID` and  values:
+
+| cbc:EndpointID     | schemeID | Notes                                                                                                                                                                                                                                                     |
+|--------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `003712345678`     | `0216`   | SchemeID 0216 stands for Finnish EDI identifier (OVT code). OVT Code structure is:<br>· `0037` is a fixed value<br>· Company ID (Y-tunnus) without the dash mark `-`<br>· Optional (up to 5) internal numbers or capital letters (A-Z) within the company |
+| `6412345678901`    | `0088`   | Scheme ID 0088 stands for GLN (Global Location Number) administered by GS1.                                                                                                                                                                               |
+
+- [cac:PartyIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-SellerSupplierParty/cac-Party/cac-PartyIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-SellerSupplierParty/cac-Party/cac-PartyIdentification/cbc-ID/) can contain an internal ID understood by the buyer and/or seller.  
+  This can be for example a **GLN** of the factory.  
+  [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cbc-EndpointID/schemeID/) is not mandatory for this field.  
+
+- [cac:PartyLegalEntity](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-SellerSupplierParty/cac-Party/cac-PartyLegalEntity/) / [cbc:RegistrationName](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-SellerSupplierParty/cac-Party/cac-PartyLegalEntity/cbc-RegistrationName/) is the legal name of the seller.  
+
+---
+
+#### Buyer Customer Party
+
+- [cbc:EndpointID]() is used to convey the electronic Peppol address of the Buyer Party.  
+  The [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cbc-EndpointID/schemeID/) is mandatory to be used with the EndpointID element.  
+  For Finnish organisations the EndpointID is always an **OVT code** with scheme ID **0216**.  
+
+Examples of `cbc:EndpointID` and  values:
+
+| cbc:EndpointID | schemeID | Notes |
+|----------------|----------|-------|
+| `003712345678` | `0216`   | SchemeID 0216 stands for Finnish EDI identifier (OVT code). OVT Code structure is:<br>· `0037` is a fixed value<br>· Company ID (Y-tunnus) without the dash mark `-`<br>· Optional (up to 5) internal numbers or capital letters (A-Z) within the company |
+| `6412345678901`| `0088`   | Scheme ID 0088 stands for GLN (Global Location Number) administered by GS1. |
+
+- [cac:PartyIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cac-PartyIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cac-PartyIdentification/cbc-ID/) can contain an internal ID understood by the buyer and/or seller.  
+  This can be for example a **GLN** of the factory.  
+  [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cbc-EndpointID/schemeID/) is not mandatory for this field.  
+
+- [cac:PartyLegalEntity](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cac-PartyLegalEntity/) / [cbc:RegistrationName](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-BuyerCustomerParty/cac-Party/cac-PartyLegalEntity/cbc-RegistrationName/) is the legal name of the buyer.
+
 
 ### 7.3 Delivery
 
-* **`cac:Delivery/cac:PromisedDeliveryPeriod`** – Confirmed delivery period: `cbc:StartDate`, `cbc:StartTime`, `cbc:EndDate`, `cbc:EndTime`. Single day = same Start/End. Format `DD‑MM‑YYYY` and `HH:MM:SS`.
+On the order response the seller can confirm the delivery period for the order on the [cac:Delivery](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/) / [cac:PromisedDeliveryPeriod](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/) tree.  
 
-  * Can be at **document level** (use for pre‑packed loads) or **line level** (use for non‑pre‑packed loads).
-  * Multiple time slots via `cbc:Note` (multiple slots not currently supported in Peppol structures).
+The promised delivery period has:  
+- [cbc:StartDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-StartDate/)  
+- [cbc:StartTime](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-StartTime/)  
+- [cbc:EndDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-EndDate/)  
+- [cbc:EndTime](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-EndTime/)  
+
+If the delivery period is not a range of days, but just one day, please add both Start and End date on the same day.  
+The dates must be formatted as **DD-MM-YYYY** and the time as **HH:MM:SS**.  
+
+The delivery period can be for the whole order or on order response line. For pre-packed-loads use the document level delivery periods.  
+
+If there are multiple delivery time slots, use [cbc:Note](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-Note/) element for those as multiple delivery slots are not currently supported by **Peppol**.
 
 ### 7.4 Order response lines
 
-* **Included only when `cbc:OrderResponseCode` = `AB` (acknowledged) or `CA` (conditionally accepted).**
-* **`cbc:ID`** – Order response line ID.
-* **`cbc:Note`** – Additional information (e.g., clarification of supplier’s decision).
-* **`cbc:LineStatusCode`** – Use *UNCL1229 Action code*:
+The lines are only part of the order response if the [cbc:OrderResponseCode](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-OrderResponseCode/) is **AB = Message acknowledgement** or **CA = Conditionally accepted**.  
+On **AP = Accepted** or **RE = Rejected** codes no order response lines are sent as part of the order response.
 
-  * `1` Added
-  * `3` Changed
-  * `5` Accepted without amendment
-  * `7` Not accepted
-  * `42` Already delivered
-* **`cbc:Quantity`** – Quantity supplier promises to deliver; `@unitCode` mandatory (see Attachment A).
-* **`cbc:MaximumBackorderQuantity`** – If backorder allowed by agreement, state quantity to be delivered later.
-* **`cac:Delivery/cac:PromisedDeliveryPeriod`** – Confirmed period (see formats above). Prefer **line level** for non‑pre‑packed loads.
-* **`cac:Price`** – Not used in precast case; for other products, use `cbc:PriceAmount` and `cbc:BaseQuantity`.
-* **Item details (restricted vs Order)**
+- [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cbc-ID/) is the ID of the order response line.  
+- [cbc:Note](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cbc-Note/) can be used to convey information that does not have explicit place in the order response transaction such as clarifications for the suppliers decision on the line.  
+- [cbc:LineStatusCode](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cbc-LineStatusCode/) is used to tell if the order line has been accepted or changed in any way. A code list **[Action code (UNCL1229)](https://docs.peppol.eu/poacc/upgrade-3/codelist/UNCL1229/)** must be used. The possible values are:  
+  `1` Order line is added  
+  `3` Changed  
+  `5` Accepted without amendment  
+  `7` Not accepted  
+  `42` Already delivered  
 
-  * **`cac:Item/cbc:Name`** – Element name (e.g., *Väliseinä*).
-  * **`cac:Item/cac:BuyersItemIdentification/cbc:ID`** – GUID/UUID.
-  * **`cac:Item/cac:StandardItemIdentification/cbc:ID`** – GTIN/SGTIN with `@schemeID` (`0209` SGTIN, `0160` GTIN).
-* **`cac:SellerSubstitutedLineItem`** – Not covered by this guide.
-* **`cac:OrderLineReference/cbc:LineID`** – **Mandatory**: link to the corresponding order line.
+- [cbc:Quantity](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cbc-Quantity/) describes the quantity of items that the supplier promises to deliver. For Quantity, unit of measure must be provided in [@unitCode](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cbc-Quantity/unitCode/) element. See *Attachment A* for the usage of [@unitCode](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cbc-Quantity/unitCode/).  
+- [cbc:MaximumBackorderQuantity](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cbc-MaximumBackorderQuantity/) must be agreed by the business parties if backorder is allowed. If it is allowed, this element is used to tell the quantity of the goods that will be delivered at a later date.  
+
+On the order response line level the seller can confirm the delivery period for the order on the [cac:Delivery](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Delivery/) / [cac:PromisedDeliveryPeriod](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Delivery/cac-PromisedDeliveryPeriod/) tree.  
+The promised delivery period has:  
+- [cbc:StartDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-StartDate/)
+- [cbc:StartTime](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-StartTime/) 
+- [cbc:EndDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-EndDate/)
+- [cbc:EndTime](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-EndTime/)  
+
+If the delivery period is not a range of days, but just one day, please add both Start and End date on the same day.  
+The dates must be formatted as **DD-MM-YYYY** and the time as **HH:MM:SS**.  
+
+The delivery period can be for the whole order or on order response line. For non-pre-packed-loads use the order response line level.  
+If there are multiple delivery time slots, use [cbc:Note](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cbc-Note/) element for those as multiple delivery slots are not currently supported by **Peppol** ([Peppol official site](https://peppol.org)).
+
+The price information is not used in the concrete element case, but for other products it can be used in the [cac:Price](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Price/) structure by using:  
+- [cbc:PriceAmount](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Price/cbc-PriceAmount/)  
+- [cbc:BaseQuantity](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Price/cbc-BaseQuantity/)  
+
+Compared to the order transaction, the item details are more restricted in the order response.  
+
+* [cac:Item](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Item/) / [cbc:Name](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Item/cbc-Name/) contains the item name is used for the name of the precast concrete element. For example **Väliseinä**.  
+* [cac:Item](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Item/) / [cac:BuyersItemIdentification/cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Item/cac-BuyersItemIdentification/) is used for **GUID** or **UUID** for the precast concrete element.  
+* [cac:Item](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Item/) / [cac:StandardItemIdentification/cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Item/cac-StandardItemIdentification/) is used for **GTIN** or **SGTIN** of the precast concrete element. [@schemeID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-LineItem/cac-Item/cac-StandardItemIdentification/cbc-ID/schemeID/) is mandatory.  
+  - Use value `0209` for **SGTIN**  
+  - Use value `0160` for **GTIN**  
+
+Usage of [cac:SellerSubstitutedLineItem](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-SellerSubstitutedLineItem/) is not covered by this implementation guide.  
+
+[cac:OrderLineReference](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-OrderLineReference/) / [cbc:LineID](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-OrderLine/cac-OrderLineReference/cbc-LineID/) is mandatory to be used. It links the order response line to the order line.
+
+
+
+
+
 
 ---
 
 ## Attachment A: Quantity/@unitCode usage
+In Peppol, the unit of measure codes must follow UN/ECE’s code list Recommendation 20, including [Recommendation 21 codes – prefixed with X (UN/ECE)](https://docs.peppol.eu/poacc/upgrade-3/codelist/UNECERec20/). As this list is very large, this following subset of that list are the values that are recommended to be used in the concrete element supply chain.
 
-Use **UN/ECE Recommendation 20** (including **Rec 21** codes, prefixed with **X**) for unit codes. The following shortlist is recommended for the concrete element supply chain. For possible expansion, consider the Swedish shortlist first.
+For possible expansion of this list, [see short list in Sweden first.](https://skr.se/download/18.427140af179361c4e462c7c8/1620639375793/SFTI%20Shortlist_UnitsOfMeasureCodes_20191017.pdf)
 
-| `cbc:Quantity/@unitCode` | English description | Finnish     | Swedish      | Notes                                                                          |
-| ------------------------ | ------------------- | ----------- | ------------ | ------------------------------------------------------------------------------ |
-| C62                      | one                 | kappale     | styck        | Use `EA` when *writing* messages; `C62` *should be understood* when receiving. |
-| H87                      | piece               | kappale     | styck        | Use `EA` when *writing* messages; `H87` *should be understood* when receiving. |
-| EA                       | each                | kappale     | styck        | Preferred code for messages.                                                   |
-| KGM                      | kilogram            | kilogramma  | kilogram     |                                                                                |
-| MTK                      | square metre        | neliömetri  | kvadratmeter |                                                                                |
-| MTQ                      | cubic metre         | kuutiometri | kubikmeter   |                                                                                |
-| MTR                      | metre               | metri       | meter        |                                                                                |
+>  $\color{red}{\textsf{Draft note:}}$ *Use **UN/ECE Recommendation 20** (including **Rec 21** codes, prefixed with **X**) for unit codes. The following shortlist is recommended for the concrete element supply chain. For possible expansion, consider the Swedish shortlist first.*
+
+| cbc:Quantity/@unitCode   | Description in English | Description in Finnish  | Description in Swedish  | Notes                                                                                                                    |
+| -------------------------- | ---------------------- | ----------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `C62`                      | one                    | kappale                 | styck                   | Use code value `EA` instead of `C62` when writing messages.<br> <br> `C62` should be understood when receiving messages. |
+| `H87`                      | piece                  | kappale                 | styck                   | Use `EA` when *writing* messages; `H87` *should be understood* when receiving.                                           |
+| `EA`                       | each                   | kappale                 | styck                   | Preferred code for messages.                                                                                             |
+| `KGM`                      | kilogram               | kilogramma              | kilogram                |                                                                                                                          |
+| `MTK`                      | square metre           | neliömetri              | kvadratmeter            |                                                                                                                          |
+| `MTQ`                      | cubic metre            | kuutiometri             | kubikmeter              |                                                                                                                          |
+| `MTR`                      | metre                  | metri                   | meter                   |                                                                                                                          |
 
 ---
 
 ## Attachment B: AdditionalItemProperty usage
 
-Use the following **`cac:AdditionalItemProperty`** names and values consistently to enable automated processing. (Examples shown where available.)
+>  $\color{red}{\textsf{Draft note:}}$ *Use the following **`cac:AdditionalItemProperty`** names and values consistently to enable automated processing. (Examples shown where available.)*
 
-| `cbc:Name`                   | `cbc:Value (Example)`                                                               | Description | Finnish description             |
-| ---------------------------- | ----------------------------------------------------------------------------------- | ----------- | ------------------------------- |
-| Name of the building         | *Rakennuksen nimi*                                                                  |             |                                 |
-| Building block name          | *Rakennuslohkon nimi*                                                               |             |                                 |
-| Floor name                   | *Kerroksen nimi*                                                                    |             |                                 |
-| Installation block 1         | *Asennuslohko 1*                                                                    |             |                                 |
-| Installation block 2         | *Asennuslohko 2*                                                                    |             |                                 |
-| Installation block 3         | *Asennuslohko 3*                                                                    |             |                                 |
-| Stairwell                    | *Rappu*                                                                             |             |                                 |
-| Space/Room                   | *Tila*                                                                              |             |                                 |
-| Planned factory casting date |                                                                                     |             | *Suunniteltu tehtaan valupäivä* |
-| Planned delivery date        |                                                                                     |             | *Suunniteltu toimituspäivä*     |
-| MTO – Variation Number       |                                                                                     |             |                                 |
-| Data carrier                 | *RFID:n tunnus*                                                                     |             |                                 |
-| CO₂ / ESG                    | *Hiilidioksidiekvivalentti*                                                         |             |                                 |
-| Assembly type                | *BETONIELEMENTTI / PAIKALLAVALU / TERÄSKOKOONPANO / PUUKOKOONPANO / MUU KOKOONPANO* |             |                                 |
-| Contracted item              | `True` / `False`                                                                    |             |                                 |
-| **Kääntökivi**               |                                                                                     |             |                                 |
+| Cbc:Name                                  | Cbc:Value (Example)                                                                                        | Description                                           | Description (Finnish)          |
+|-------------------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|--------------------------------|
+|                                           |                                                                                                            | $\color{red}{\textsf{Building block name}}$           | Rakennuslohkon nimi            |
+|                                           |                                                                                                            | $\color{red}{\textsf{Floor name}}$                    | Kerroksen nimi                 |
+|                                           |                                                                                                            | $\color{red}{\textsf{Installation block 1}}$          | Asennuslohko 1                 |
+|                                           |                                                                                                            | $\color{red}{\textsf{Installation block 2}}$          | Asennuslohko 2                 |
+|                                           |                                                                                                            | $\color{red}{\textsf{Installation block 3}}$          | Asennuslohko 3                 |
+|                                           |                                                                                                            | $\color{red}{\textsf{Stairwell}}$                     | Rappu                          |
+|                                           |                                                                                                            | $\color{red}{\textsf{Space/Room}}$                    | Tila                           |
+|                                           |                                                                                                            | $\color{red}{\textsf{Planned factory casting date}}$  | Suunniteltu tehtaan valupäivä  |
+|                                           |                                                                                                            |                                                       | Suunniteltu toimituspäivä      |
+|                                           |                                                                                                            |                                                       | MTO – Variation Number         |
+|                                           |                                                                                                            | Data carrier                                          | RFID:n tunnus                  |
+|                                           |                                                                                                            | Co2 / ESG                                             | Hiilidioksidiekvivalentti      |
+|                                           | `BETONILEMENTTI` <br> `PAIKALLAVALU` <br> `TERÄSKOKOONPANO` <br> `PUUKOKOONPANO` <br> `MUU KOKOONPANO`     | $\color{red}{\textsf{Assembly type}}$                 | Kokoonpanon tyyppi             |
+|                                           |  `True` / `False`                                                                                          |                                                       | Kääntökivi                     |
 
-> Fill in exact descriptions and controlled values as agreed by the parties. Keep naming **identical** across documents.
+
+
+
+>  $\color{red}{\textsf{Draft note:}}$ *Fill in exact descriptions and controlled values as agreed by the parties. Keep naming **identical** across documents.*
 
 ---
 
 ## Attachment C: Dimension descriptions
 
-| `AttributeID` | Explanation      | Unit of measure | Description (Finnish) |
-| ------------- | ---------------- | --------------- | --------------------- |
-| HT            | Height dimension | MMT             | Maksimikorkeus        |
-| HT            | Height dimension | MMT             | Betoniosan korkeus    |
-| WD            | Width dimension  | MMT             | Maksimi paksuus       |
-| WD            | Width dimension  | MMT             | Betoniosan paksuus    |
-| LN            | Length           | MMT             | Maksimipituus         |
-| LN            | Length           | MMT             | Betoniosan pituus     |
-| GW            | Gross Weight     | KGM             | Bruttopaino           |
+| AttributeID     | Explanation      | Unit of measure | Description (Finnish) |
+| --------------- | ---------------- | --------------- | --------------------- |
+| `HT`            | Height dimension | MMT             | Maksimikorkeus        |
+| `HT`            | Height dimension | MMT             | Betoniosan korkeus    |
+| `WD`            | Width dimension  | MMT             | Maksimi paksuus       |
+| `WD`            | Width dimension  | MMT             | Betoniosan paksuus    |
+| `LN`            | Length           | MMT             | Maksimipituus         |
+| `LN`            | Length           | MMT             | Betoniosan pituus     |
+| `GW`            | Gross Weight     | KGM             | Bruttopaino           |
 
 ---
 
