@@ -342,7 +342,7 @@ The catalogue response is a simple transaction whose purpose is just to tell the
 ### 5.1 Document header level
 
 - [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) identifies the catalogue response.  
-- [cbc:IssueDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-IssueDate/) and [cbc:IssueTime]() are used to indicate the date and time of the issuance of the catalogue response.  
+- [cbc:IssueDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-IssueDate/) and [cbc:IssueTime](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-IssueTime/) are used to indicate the date and time of the issuance of the catalogue response.  
   - Only the issue date is mandatory.  
 - [cbc:Note](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-Note/) is a free text element that can be used to convey information relevant to the catalogue response that cannot be placed elsewhere.  
 
@@ -419,7 +419,7 @@ Please refer to the general Peppol guidance if some element is not covered in th
 
 - [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is the identifier of the order.  
 - [cbc:SalesOrderID]() can be used to reference a sales order issued by the seller.  
-- [cbc:IssueDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-IssueDate/) and [cbc:IssueTime]() are the date and time when the order is made.  
+- [cbc:IssueDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-IssueDate/) and [cbc:IssueTime](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-IssueTime/) are the date and time when the order is made.  
   - Dates must be formatted as **YYYY-MM-DD**  
   - Times as **HH:MM:SS**  
   - Only the date is mandatory  
