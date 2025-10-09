@@ -795,8 +795,6 @@ Usage of [cac:SellerSubstitutedLineItem](https://docs.peppol.eu/poacc/upgrade-3/
 
 
 
-
-
 ---
 
 ## Attachment A: Quantity/@unitCode usage
