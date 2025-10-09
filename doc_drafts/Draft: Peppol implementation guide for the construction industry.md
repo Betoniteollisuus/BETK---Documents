@@ -190,8 +190,8 @@ The [cac:ReceiverParty](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/
 | `003712345678`   | `0216`     | SchemeID 0216 stands for Finnish EDI identifier (OVT code). OVT Code structure is:<br>· ‘0037’ is a fixed value<br>· Company ID (Y-tunnus) without the dash mark ‘-’<br>· Optional (up to 5) internal numbers or capital letters (A-Z) within the company |
 | `6412345678901`  | `0088`     | Scheme ID 0088 stands for GLN (Global Location Number) administered by GS1. |
 
-- [cac:PartyIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ReceiverParty/cac-PartyIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ReceiverParty/cac-PartyIdentification/cbc-ID/) can contain an internal ID understood by the buyer and/or seller. This can be for example a GLN of the construction site. @schemeID is not mandatory for this field.  
-- [cac:PostalAddress](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PostalAddress/) and its child elements are used for the Address of the company. This is for example the address of the headquarters building, not the delivery address.  
+- [cac:PartyIdentification](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ReceiverParty/cac-PartyIdentification/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ReceiverParty/cac-PartyIdentification/cbc-ID/) can contain an internal ID understood by the buyer and/or seller. For example, this could be a GLN of the construction site. @schemeID is not mandatory for this field.  
+- [cac:PostalAddress](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PostalAddress/) and its child elements are used for the Address of the company. For example, this could be the address of the headquarters building, not the delivery address.  
 - [cac:PartyLegalEntity](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PartyLegalEntity/) / [cbc:RegistrationName](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PartyLegalEntity/cbc-RegistrationName/) is used to tell the official name of the company.  
 - [cac:PartyLegalEntity](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PartyLegalEntity/) / [cbc:CompanyID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PartyLegalEntity/cbc-CompanyID/) is used for the business identity code (Y-tunnus) of the company.  
 - [cac:PartyLegalEntity](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PartyLegalEntity/) / [cac:RegistrationAddress](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PartyLegalEntity/cac-RegistrationAddress/) / [cbc:CityName](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PartyLegalEntity/cac-RegistrationAddress/cbc-CityName/) / [cac:Country](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PartyLegalEntity/cac-RegistrationAddress/cac-Country/) / [cbc:IdentificationCode](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ProviderParty/cac-PartyLegalEntity/cac-RegistrationAddress/cac-Country/cbc-IdentificationCode/) structure is used to tell in which city and country the company is officially registered in.  
@@ -249,32 +249,32 @@ The [cac:ReceiverParty](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/
   - [cbc:ContentUnitQuantity](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cbc-ContentUnitQuantity/) `@unitCode` is mandatory.  
   - Use **Recommendation 20/21 (X-prefixed)** codes.  
 
-- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cbc:OrderQuantityIncrementNumeric]() tells the increments which can be ordered.  
+- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cbc:OrderQuantityIncrementNumeric](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cbc-OrderQuantityIncrementNumeric/) tells the increments which can be ordered.  
   - Example: Can half a product be ordered?  
   - For concrete elements, default = **1**.  
 
-- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cbc:MinimumOrderQuantity](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cbc-MinimumOrderQuantity/) and [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cbc:MaximumOrderQuantity]() tell the minimum and maximum amount of items that can be ordered.  
+- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cbc:MinimumOrderQuantity](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cbc-MinimumOrderQuantity/) and [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cbc:MaximumOrderQuantity](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cbc-MaximumOrderQuantity/) tell the minimum and maximum amount of items that can be ordered.  
   - `@unitCode` is mandatory.  
   - For unique items, use value **1**.  
 
-- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cbc:WarrantyInformation]() can be used for any warranty-related information.  
+- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cbc:WarrantyInformation](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cbc-WarrantyInformation/) can be used for any warranty-related information.  
 
-- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cbc:PackLevelCode]() conveys packaging information. Possible values ([GS1 7009 codelist](https://docs.peppol.eu/poacc/upgrade-3/codelist/GS17009/)):  
+- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cbc:PackLevelCode](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cbc-PackLevelCode/) conveys packaging information. Possible values ([GS1 7009 codelist](https://docs.peppol.eu/poacc/upgrade-3/codelist/GS17009/)):  
   - “CU” = Base Unit level  
   - “DU” = Pallet level  
   - “TU” = Case level  
   - “HN” = Handling Unit  
 
-- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cac:LineValidityPeriod]() tree that includes [cbc:StartDate]() and [cbc:EndDate]() is used to tell when the catalogue line is valid. The use case can for example be a promotianal price that expires at a certain point or a product that is discontinued.  
+- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cac:LineValidityPeriod](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-LineValidityPeriod/) tree that includes [cbc:StartDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-LineValidityPeriod/cbc-StartDate/) and [cbc:EndDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-LineValidityPeriod/cbc-EndDate/) is used to tell when the catalogue line is valid. The use case can, for example, be a promotional price that expires at a certain point or a product that is discontinued.  
 
-- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cac:ItemComparison]() tree is used to tell the price per a quantity of unit of measure. For example how much one kilogram or litre of the product costs. This is a non mandatory element. In precast concrete element case this element is not neccessary, as prices are not part of the typical use case. For other products this is a relevant element to be used.  
+- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cac:ItemComparison](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-ItemComparison/) tree is used to tell the price per a quantity of unit of measure. For example, how much one kilogram or litre of the product costs. This is a non-mandatory element. In the precast concrete element case, this element is not necessary, as prices are not part of the typical use case. For other products this is a relevant element to be used.  
 
-- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cac:RequiredItemLocationQuantity]() tree is used to convey information about the price of the product or if a price is depentant on the lead time when the delivery needs to be made. For precast concrete elements this element tree is not neccessary, as prices of the products are not part of the typical scenario. For other products this is a relevant element to be used.  
+- [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cac:RequiredItemLocationQuantity](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-RequiredItemLocationQuantity/) tree is used to convey information about the price of the product or if a price is depentant on the lead time when the delivery needs to be made. For precast concrete elements, this element tree is not necessary, as the prices of the products are not part of the typical scenario. For other products, this is a relevant element to be used.  
 
-If the element is used, then the [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cac:RequiredItemLocationQuantity]() / [cbc:LeadTimeMeasure]() would indicate the time from when the order is placed until the item is available for delivery from the sellers' premises or at the applicable address specified for the price. @unitCode is mandatory to be used with values from the Recommendation 20, including Recommendation 21 codes - prefixed with X (UN/ECE) codelist. “DAY” = day, “HUR” = hour.  
+If the element is used, then the [cac:CatalogueLine](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/) / [cac:RequiredItemLocationQuantity](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-RequiredItemLocationQuantity/) / [cbc:LeadTimeMeasure](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-RequiredItemLocationQuantity/cbc-LeadTimeMeasure/) would indicate the time from when the order is placed until the item is available for delivery from the sellers' premises or at the applicable address specified for the price. @unitCode is mandatory to be used with values from the Recommendation 20, including Recommendation 21 codes - prefixed with X (UN/ECE) codelist. “DAY” = day, “HUR” = hour.  
 [cbc:MinimumQuantity]() and [cbc:MaximumQuantity]() with mandatory @unitCodes from the same code list would indicate threshold and maximum quantities for the given price. [cac:ApplicableTerritoryAddress]() tree tells the address which the price is related to.  
 
-- [cac:Price]() tree then tells the actual price per base unit and [cac:ValidityPeriod](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ValidityPeriod/) tree is used to indicate the validity period of the price.  
+- [cac:Price](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-RequiredItemLocationQuantity/cac-Price/) tree then tells the actual price per base unit and [cac:ValidityPeriod](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ValidityPeriod/) tree is used to indicate the validity period of the price.  
 
 All the price elements are non-mandatory. A typical use case could only be that the price is the same regardless of the location. In that case the example XML could look like this:  
 
@@ -440,7 +440,7 @@ Please refer to the general Peppol guidance if some element is not covered in th
 
 - [cbc:AccountingCost]() is used by the buyer to specify a reference that should be repeated in e.g. invoice to enable the buyer to automatically book to the right project or account.  
 
-- [cac:ValidityPeriod](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ValidityPeriod/) / [cbc:EndDate]() is used to tell the **end date** when the order is valid.  
+- [cac:ValidityPeriod](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-ValidityPeriod/) / [cbc:EndDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-LineValidityPeriod/cbc-EndDate/) is used to tell the **end date** when the order is valid.  
   - The end date for the time period within which the seller must respond  
   - This is a **mandatory element**  
 
@@ -564,7 +564,7 @@ The delivery information can be stated at the whole order level or on the order 
 - The [cac:RequestedDeliveryPeriod]() has:  
   - [cbc:StartDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-StartDate/)  
   - [cbc:StartTime]()  
-  - [cbc:EndDate]()  
+  - [cbc:EndDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-LineValidityPeriod/cbc-EndDate/)  
   - [cbc:EndTime]()  
 
   If the delivery period is not a range of days, but just one day, please add both Start and End date on the same day.  
@@ -614,7 +614,7 @@ The delivery information can be stated at the whole order level or on the order 
 - The [cac:RequestedDeliveryPeriod]() has:  
   - [cbc:StartDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cac-Delivery/cac-PromisedDeliveryPeriod/cbc-StartDate/)  
   - [cbc:StartTime]()  
-  - [cbc:EndDate]()  
+  - [cbc:EndDate](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cac-CatalogueLine/cac-LineValidityPeriod/cbc-EndDate/)  
   - [cbc:EndTime]()  
 
   If the delivery period is not a range of days, but just one day, please add both Start and End date on the same day.  
