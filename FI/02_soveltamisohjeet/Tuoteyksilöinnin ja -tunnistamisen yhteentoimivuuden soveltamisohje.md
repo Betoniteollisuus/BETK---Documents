@@ -3,7 +3,7 @@
 **Tilauksesta suunniteltavat rakennustuotteet**  
 >Julkaisija: Rakennusteollisuus ry\
 >Julkaistu: 27.6.2025  
-Versio: 1.3  
+Versio: 1.4
 Status: Julkaistu
 
 
@@ -18,6 +18,7 @@ Status: Julkaistu
 | 1.1       | 2024-12-16    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
 | 1.2       | 2025-01-09    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
 | 1.3       | 2025-06-17    |TAla         | Lisätty puuttuvia tietoja ja korjattu kirjoitusvirheitä |
+| 1.4       | 2025-10-13    |TAla         | Päivitetty GS sovellustunnus (01) GTIN --> (03) MTO GTIN |
 </details>
 
 <details> 
