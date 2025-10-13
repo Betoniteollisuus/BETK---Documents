@@ -187,11 +187,11 @@ Tässä dokumentissa määritellään kaksi tapaa yhdistää verkkotunnus muihin
 GS1 Digital Link on GS1:n määrittämä standardi miten verkkotunnuksen avulla voidaan määrittää tuotteelle URLosoite. GS1 ei kuitenkaan ole määritellyt miten verkkotunnuksen voisi kirjoittaa RFID-tunnisteeseen kun halutaan määrittää GS1 Digital Link yksilötasolla. (Määritys on GS1:ssä työn alla, mutta toistaiseksi BETK:ssa noudatetaan omaa tapaa.)
 
 BETK soveltamisohjeen mukaisesti GS1 Digital Link muodostetaan seuraavasti:  
-**Yksilöinnin Taso 1:** ```https://<verkkotunnus>/01/<GTIN>```  
-**Yksilöinnin Taso 2:** ```https://<verkkotunnus>/01/<GTIN>/242/<MTO varianttinumero>```  
-**Yksilöinnin Taso 3:** ```https://<verkkotunnus>/01/<GTIN>/242/<MTO varianttinumero>/21/<sarjanumero>```  
-**Taso 3 kun ei varianttinumeroa määritetty:** ```https://<verkkotunnus>/01/<GTIN>/21/<sarjanumero>```  
-Viimeiselle tapaukselle esimerkiksi muodostuu: https://id.rt.fi/01/06400001000247/21/12345678910  
+**Yksilöinnin Taso 1:** ```https://<verkkotunnus>/03/<MTO GTIN>```  
+**Yksilöinnin Taso 2:** ```https://<verkkotunnus>/03/<MTO GTIN>/242/<MTO varianttinumero>```  
+**Yksilöinnin Taso 3:** ```https://<verkkotunnus>/03/<MTO GTIN>/242/<MTO varianttinumero>/21/<sarjanumero>```  
+**Taso 3 kun ei varianttinumeroa määritetty:** ```https://<verkkotunnus>/03/<MTO GTIN>/21/<sarjanumero>```  
+Viimeiselle tapaukselle esimerkiksi muodostuu: https://id.rt.fi/03/06400001000247/21/12345678910  
 GS1 Digital Link -standardista on kerrottu lisää tämän ohjeen kappaleessa 4.3.  
 
 #### 3.8.2 IEC 61406 Identification Link muotoisen URL-osoitteen muodostaminen
