@@ -128,7 +128,7 @@ Creating GTIN codes requires a company to have a GS1 Company Prefix (GCP). GTIN 
 
 A GTIN code begins with the GS1 Company Prefix, which can range from 7 to 11 digits in length for prefixes issued by GS1 Finland. Following the company prefix, 1 to 6 digits can be defined by the company, where the use of sequential numbering is recommended. The number of digits available for customization depends on the length of the company prefix. The last digit, the 13th digit, is a check digit calculated using the first 12 digits with the Modulo 10 algorithm. To calculate the check digit, tools such as the GS1 Finland Check Digit Calculator can be used: https://gs1.fi/fi/tarkistusnumerolaskuri
 
-###### Table 3. Structure of a GTIN Code
+###### Table 3. Structure of a MTO GTIN Code
 
 | GS1 Application Identifier (AI) | GS1 Company Prefix ---> <--- Item number  | Check digit   |
 |--------------------|--------------------------------------------------------|---------------|
