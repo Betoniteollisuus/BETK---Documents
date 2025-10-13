@@ -487,7 +487,7 @@ Sitä voidaan käyttää kuten mitä tahansa QR-koodia, eli ohjaamaan älypuheli
 
 GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällyttämiseen. Alla olevassa esimerkissä on muodostettu taulukossa esitetyt minimitietovaatimukset sisältävä GS1 Digital Link URI.
 
-###### Taulukko 14. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa: https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
+###### Taulukko 14. Esimerkin QR-koodi sisältää taulukossa esitetyt tiedot GS1 Digital Link URI -muodossa: https://id.rt.fi/03/06400001000247/242/123456/21/12345678910
 
 <html>
 <table>
