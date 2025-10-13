@@ -77,9 +77,7 @@ Precast concrete elements are inherently Make-To-Order (MTO) and Engineer-To-Ord
 
 Thus, a GTIN alone does not uniquely identify a specific product but rather represents a general category of possible product variations that may be manufactured based on the order.
 
-
-![eng_Kuva1](https://github.com/user-attachments/assets/215e3983-26a9-4685-b42b-ea079cbd948e)
-
+<img width="2343" height="3541" alt="2025-10-13_Kuva1(en)" src="https://github.com/user-attachments/assets/1ba4cb85-e65f-4708-8440-5bc8bcf5e26a" />
 
 ###### Figure 1.  Hierarchical levels of product identification for more precise identification
 
