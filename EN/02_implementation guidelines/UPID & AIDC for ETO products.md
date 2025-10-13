@@ -504,7 +504,7 @@ a GS1 Digital Link URI formed to include the minimum data requirements presented
 <table>
     <tbody>
         <tr>            
-          <th rowspan="5"><img width="110" alt="QR-koodi_Kuva1" src="https://github.com/user-attachments/assets/22a88262-4a5f-469a-bd88-95fa37559281" />
+          <th rowspan="5"><img width="164" height="164" alt="GS1 tiedonkataja esimerkki" src="https://github.com/user-attachments/assets/12c8158b-8280-4ef5-85b1-40d42f631083" />
             </th>   
          <th colspan="2">Example information content</th>
         </tr>
