@@ -3,7 +3,7 @@
 **Engineer-To-Order Construction products**  
 >Publisher: Rakennusteollisuus ry\
 >Release: 27.6.2025  
-Versio: 1.3  
+Versio: 1.4 
 Status: Released
 
 
@@ -18,6 +18,7 @@ Status: Released
 | 1.1        | 2024-12-16        |TAla             | Added missing information and corrected typos  |
 | 1.2        | 2025-01-09        |TAla             | Added missing information and corrected typos  |
 | 1.3        | 2025-06-17        |TAla             | Corrected typos                                |
+| 1.4        | 2025-10-13        |TAla             | Changed GS1 Application Identifier (01) GTIN to (03) MTO GTIN |
 </details>
 
 <details> 
