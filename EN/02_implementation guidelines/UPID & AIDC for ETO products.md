@@ -87,7 +87,7 @@ Thus, a GTIN alone does not uniquely identify a specific product but rather repr
 GS1 Application Identifiers (AI) are numeric prefixes used in barcodes and EPC/RFID tags to define the meaning and format of data elements. The use of AIs enables the differentiation of various data elements within barcodes or EPC/RFID tags. The GS1 standard includes over 100 application identifiers. Each AI is typically a two-, three-, or four-digit number. A comprehensive list of all GS1 Application Identifiers is available on the GS1 website:https://ref.gs1.org/ai/.
 
 The following GS1 Application Identifiers (AIs) have been identified as necessary to meet the minimum data requirements for the identification of precast concrete elements:  
-• ```(01) GTIN```: Global Trade Item Number – identifies the base product type.  
+• ```(03) GTIN```: Global Trade Item Number – identifies the base product type.  
 • ```(242) Made-to-Order Variation Number```: Distinguishes a specific variant of the base product.  
 • ```(21) Serial Number```: Uniquely identifies individual units of the same variant.  
 
@@ -106,7 +106,7 @@ For optical recognition (e.g., QR codes), the inclusion of this information foll
 
 | GS1 Application Identifier (AI)     | Example                      |
 |-------------------------------------|------------------------------|
-|(01) GTIN                            | <code>06400001000247</code>  |
+|(03) GTIN                            | <code>06400001000247</code>  |
 |(242) Made-To-Order variation number | <code>123456</code>          |
 |(21) Serial number                   | <code>12345678910</code>     | 
 
@@ -133,9 +133,9 @@ A GTIN code begins with the GS1 Company Prefix, which can range from 7 to 11 dig
 
 | GS1 Application Identifier (AI) | GS1 Company Prefix ---> <--- Item number  | Check digit   |
 |--------------------|--------------------------------------------------------|---------------|
-| (01)               |  <ins>0</ins> N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12   | N13           |
+| (03)               |  <ins>0</ins> N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12   | N13           |
  
-In barcodes and RFID tags, the Application Identifier (AI) used to express the GTIN is <code>(01)</code>. GS1's international standard development is currently addressing the identification of Make-To-Order (MTO) and Engineer-To-Order (ETO) products. This standardization effort may result in changes to how GTINs are expressed for such products. This guideline will be updated accordingly once the standard is finalized.
+In barcodes and RFID tags, the Application Identifier (AI) used to express the GTIN is <code>(03)</code>. GS1's international standard development is currently addressing the identification of Make-To-Order (MTO) and Engineer-To-Order (ETO) products. This standardization effort may result in changes to how GTINs are expressed for such products. This guideline will be updated accordingly once the standard is finalized.
 
 Note: The longest version of a GTIN is 14 characters. GTINs shorter than 14 characters are padded with leading zeros to reach the 14-character length. A GTIN cannot exceed 14 characters.
 
@@ -457,7 +457,7 @@ GS1 DataMatrix is a two-dimensional barcode developed by GS1 that can be printed
             <td><b>Value (example)</b></td>
         </tr>
         <tr>
-            <td>(01) = GTIN</td>
+            <td>(03) = GTIN</td>
             <td><code>06400001000247</code></td>
         </tr>
          <tr>
@@ -514,7 +514,7 @@ a GS1 Digital Link URI formed to include the minimum data requirements presented
             <td><b>Value (example)</b></td>
         </tr>
         <tr>
-            <td>(01) = GTIN</td>
+            <td>(03) = GTIN</td>
             <td><code>06400001000247</code></td>
         </tr>
          <tr>
