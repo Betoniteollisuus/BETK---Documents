@@ -88,7 +88,7 @@ Betonielementit ovat luonteeltaan tilauksesta valmistettavia (MTO) ja tilauksest
 GS1-sovellustunnukset (AI = Application Identifiers) ovat numeerisia etuliitteitä, joita käytetään viivakoodeissa ja EPC/RFID-tunnisteissa määrittämään tietoelementtien merkitys ja muoto. GS1-sovellustunnusten käyttö mahdollistaa eri tietoelementtien erottamisen toisistaan viivakoodeissa tai EPC/RFID-tunnisteessa. GS1-standardi kattaa yli 100 sovellustunnusta. Jokainen sovellustunniste on oletusarvoisesti kaksi-, kolmi- tai nelinumeroinen luku. Listaus kaikista GS1-sovellustunnuksista on saatavilla GS1:n verkkosivuilla osoitteessa: https://ref.gs1.org/ai/.
 
 Betonielementin yksilöinnissä minimitietovaatimuksissa tarvittaviksi GS1-sovellustunnuksiksi on tunnistettu seuraavat:  
-```(01) GTIN```, ```(242) Made-to-Order variation number``` ja ```(21) Serial number```. 
+```(03) GTIN```, ```(242) Made-to-Order variation number``` ja ```(21) Serial number```. 
 
 GS1-standardissa ei ole kansalliselle Elementtitunnukselle, GUID:lle ja verkkotunnukselle omaa GS1-sovellustunnusta, joten niiden sisällyttämisessä tiedonkantajaan on BETK-projektissa päätetty käytettävän sovellustunnuksia ```(91) Company interal information```, ```(92) Company internal information``` ja ```(99) Company internal information```. Numerolla ```9``` alkavia GS1-sovellustunnuksia käytetään vain silloin, mikäli kyseiselle tiedolle ei ole (vielä) määritetty omaa GS1-sovellustunnustaan. 
 
@@ -97,7 +97,7 @@ Huom! Verkkotunnuksen käsittely RFID-tunnisteissa on tämän ohjeen julkaisuhet
 ###### Taulukko 1. Tiedonkantajaan lisättävät tilauksesta suunniteltavien (ETO) rakennustuotteen minimitietovaatimukset.
 | Sovellustunnus (AI) | Tieto               | Esimerkki                  |
 |---------------------|---------------------|----------------------------|
-|(01)                 | GTIN-koodi          | <code>06400001000247</code>|
+|(03)                 | GTIN-koodi          | <code>06400001000247</code>|
 |(242)                | MTO varianttinumero | <code>123456</code>        |
 |(21)                 | Sarjanumero         | <code>12345678910</code>   | 
 
@@ -123,9 +123,9 @@ GTIN-koodi alkaa GS1-yritystunnisteella, jonka pituus GS1 Finlandilta saatavilla
 
 | GS1-sovellustunnus | GS1-yritystunniste ---> <--- tuotekohtainen numero     |  Tarkistusnumero |
 |--------------------|--------------------------------------------------------|------------------|
-| (01)               |  <ins>0</ins> N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12   | N13              |
+| (03)               |  <ins>0</ins> N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12   | N13              |
  
-Viivakoodeissa ja RFID-tunnisteissa GTIN-koodin ilmaisemiseen käytettävä sovellustunnus on (01). GS1:n kansainvälisessä standardikehityksessä käsitellään parhaillaan tilauksesta valmistettavien ja tilauksesta suunniteltavien tuotteiden yksilöintiä. Tämän standardinkehitystyön tuloksena voi tulla muutoksia tilauksesta valmistettavien/suunniteltavien tuotteiden GTIN-koodien ilmaisemiseen. Tämä ohje päivitetään standardin valmistuessa.
+Viivakoodeissa ja RFID-tunnisteissa GTIN-koodin ilmaisemiseen käytettävä sovellustunnus on (03). GS1:n kansainvälisessä standardikehityksessä käsitellään parhaillaan tilauksesta valmistettavien ja tilauksesta suunniteltavien tuotteiden yksilöintiä. Tämän standardinkehitystyön tuloksena voi tulla muutoksia tilauksesta valmistettavien/suunniteltavien tuotteiden GTIN-koodien ilmaisemiseen. Tämä ohje päivitetään standardin valmistuessa.
 
 Huom! GTIN-koodin pisin versio on 14-merkkiä pitkä ja tätä lyhyemmät GTIN-koodit täydennetään koodin eteen lisättävillä nollilla 14-merkkiä pitkiksi. GTIN-koodi ei voi olla tätä pidempi.
 
@@ -446,7 +446,7 @@ GS1 DataMatrix on GS1:n kehittämä kaksiulotteinen viivakoodi, joka voidaan tul
             <td><b>Arvo (esimerkki)</b></td>
         </tr>
         <tr>
-            <td>(01) = GTIN</td>
+            <td>(03) = GTIN</td>
             <td><code>06400001000247</code></td>
         </tr>
          <tr>
@@ -501,7 +501,7 @@ GS1 Digital Link URI:ssa käytetään GS1-sovellustunnuksia tietojen sisällytt�
             <td><b>Arvo (esimerkki)</b></td>
         </tr>
         <tr>
-            <td>(01) = GTIN-koodi</td>
+            <td>(03) = GTIN-koodi</td>
             <td><code>06400001000247</code></td>
         </tr>
          <tr>
