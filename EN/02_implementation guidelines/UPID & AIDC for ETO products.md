@@ -87,7 +87,7 @@ Thus, a GTIN alone does not uniquely identify a specific product but rather repr
 GS1 Application Identifiers (AI) are numeric prefixes used in barcodes and EPC/RFID tags to define the meaning and format of data elements. The use of AIs enables the differentiation of various data elements within barcodes or EPC/RFID tags. The GS1 standard includes over 100 application identifiers. Each AI is typically a two-, three-, or four-digit number. A comprehensive list of all GS1 Application Identifiers is available on the GS1 website:https://ref.gs1.org/ai/.
 
 The following GS1 Application Identifiers (AIs) have been identified as necessary to meet the minimum data requirements for the identification of precast concrete elements:  
-• ```(03) GTIN```: Global Trade Item Number – identifies the base product type.  
+• ```(03) MTO GTIN```: Global Trade Item Number – identifies the base product type.  
 • ```(242) Made-to-Order Variation Number```: Distinguishes a specific variant of the base product.  
 • ```(21) Serial Number```: Uniquely identifies individual units of the same variant.  
 
@@ -106,7 +106,7 @@ For optical recognition (e.g., QR codes), the inclusion of this information foll
 
 | GS1 Application Identifier (AI)     | Example                      |
 |-------------------------------------|------------------------------|
-|(03) GTIN                            | <code>06400001000247</code>  |
+|(03) MTO GTIN                        | <code>06400001000247</code>  |
 |(242) Made-To-Order variation number | <code>123456</code>          |
 |(21) Serial number                   | <code>12345678910</code>     | 
 
@@ -197,10 +197,10 @@ This document defines two methods for combining a Domain Name with other identif
 
 
 According to the BETK application guideline, GS1 Digital Link is formed as follows:  
-**Identification Level 1:** ```https://<Domain Name>/01/<GTIN>```  
-**Identification Level 2:** ```https://<Domain Name>/01/<GTIN>/242/<MTO variant number>```  
-**Identification Level 3:** ```https://<Domain Name>/01/<GTIN>/242/<MTO variant number>/21/<serial number>```  
-**Level 3 without a variant number:** ```https://<Domain Name>/01/<GTIN>/21/<serial number>```  
+**Identification Level 1:** ```https://<Domain Name>/03/<MTO GTIN>```  
+**Identification Level 2:** ```https://<Domain Name>/03/<MTO GTIN>/242/<MTO variant number>```  
+**Identification Level 3:** ```https://<Domain Name>/03/<MTO GTIN>/242/<MTO variant number>/21/<serial number>```  
+**Level 3 without a variant number:** ```https://<Domain Name>/03/<MTO GTIN>/21/<serial number>```  
 For the last case, an example URL is: https://id.rt.fi/01/06400001000247/21/12345678910  
 More details about the GS1 Digital Link standard can be found in Section 4.3 of this guideline.
 
@@ -212,7 +212,7 @@ Additionally, a URL based on a GUID identifier can be defined in accordance with
 For example, this results in: <code>https://id.rt.fi/ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code>
 
 ## 4 Automatic identification and data capture
-In addition to Unique Product Identification (UPID), suitable Automatic Identification and Data Capture (AIDC) technology must be selected to enable machine readability and facilitate the digitalization of supply chain management. When selecting AIDC technology, the requirements set by the intended use and environmental conditions must be considered. GS1 Data Carriers for automatic identification and data capture (AIDC) can store varying amounts of information to meet the needs of different business processes and trade requirements. The data encoded into GS1 data carriers not only uniquely identify products at all levels of the Product Identification Hierarchy but also provide access to product information and visibility into product movements within the supplychain.  
+In addition to Unique Product Identification (UPID), suitable Automatic Identification and Data Capture (AIDC) technology must be selected to enable machine readability and facilitate the digitalization of supply chain management. When selecting AIDC technology, the requirements set by the intended use and environmental conditions must be considered. GS1 Data Carriers for automatic identification and data capture (AIDC) can store varying amounts of information to meet the needs of different business processes and trade requirements. The data encoded into GS1 data carriers not only uniquely identify products at all levels of the Product Identification Hierarchy but also provide access to product information and visibility into product movements within the supply chain.  
 
 To convey the minimum data requirements for the product identification of precast concrete elements, the implementation guideline recommends at least adding a 2D code based on optical recognition to the product label during manufacturing. According to the GS1 standard, the options for this are a GS1 DataMatrix code or a QR code with data content compliant with the GS1 Digital Link standard. Alongside the 2D code used on the product label, machine-readable data carriers based on RFID technology can also be utilized, either on the product label or embedded into the precast concrete element. Figure 1 illustrates the use and marking of data carriers for precast concrete elements.
 
@@ -457,7 +457,7 @@ GS1 DataMatrix is a two-dimensional barcode developed by GS1 that can be printed
             <td><b>Value (example)</b></td>
         </tr>
         <tr>
-            <td>(03) = GTIN</td>
+            <td>(03) = MTO GTIN</td>
             <td><code>06400001000247</code></td>
         </tr>
          <tr>
@@ -514,7 +514,7 @@ a GS1 Digital Link URI formed to include the minimum data requirements presented
             <td><b>Value (example)</b></td>
         </tr>
         <tr>
-            <td>(03) = GTIN</td>
+            <td>(03) = MTO GTIN</td>
             <td><code>06400001000247</code></td>
         </tr>
          <tr>
