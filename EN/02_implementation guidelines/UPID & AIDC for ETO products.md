@@ -498,7 +498,7 @@ It can be used like any other QR code to direct the user of a smartphone or simi
 The GS1 Digital Link URI incorporates GS1 Application Identifiers for embedding data. The example below shows
 a GS1 Digital Link URI formed to include the minimum data requirements presented in the table
 
-###### Table 14. The QR code in the example contains the information shown in the table in GS1 Digital Link URI format: https://id.rt.fi/01/06400001000247/242/123456/21/12345678910
+###### Table 14. The QR code in the example contains the information shown in the table in GS1 Digital Link URI format: https://id.rt.fi/03/06400001000247/242/123456/21/12345678910
 
 <html>
 <table>
