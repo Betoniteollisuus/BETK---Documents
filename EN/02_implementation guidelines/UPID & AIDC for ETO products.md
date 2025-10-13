@@ -447,7 +447,8 @@ GS1 DataMatrix is a two-dimensional barcode developed by GS1 that can be printed
 <table>
    <tbody>
          <tr>  
-         <th rowspan="7"><img width="110" alt="2025-06-23_Kuva2" src="https://github.com/user-attachments/assets/ce285bc2-6cfd-4abf-80c2-090c914afd56" />
+         <th rowspan="7">
+          <img width="136" height="136" alt="image" src="https://github.com/user-attachments/assets/67511dcd-ef67-4e45-9f03-7c345cfb4c06" />
          </th>   
          <th colspan="2">Example information content</th>
         </tr>
