@@ -109,6 +109,10 @@ The syntaxes of the [Peppol Order transaction (T01)](https://docs.peppol.eu/poac
 
 ### 3.3 BIS Advanced Despatch Advice with Receipt Advice
 
+
+<img width="2578" height="1445" alt="2025-10-14_Kuva3" src="https://github.com/user-attachments/assets/53e529d0-3bc4-4322-81e4-275a553b3a56" />  <br> Figure. 3
+
+
 > $\color{red}{\textsf{Draft note:}}$ *Tämä täytetään lomakauden jälkeen.*
 
 ---
