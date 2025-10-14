@@ -94,7 +94,7 @@ BIS Catalogue with response covers *Catalogue* and *Catalogue Response* transact
 
 The syntaxes of the [Peppol Catalogue transaction (T19)](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/tree/) and [Peppol Catalogue Response transaction (T58)](https://docs.peppol.eu/poacc/upgrade-3/syntax/CatalogueResponse/tree/) are covered later in this document.
 
-<img width="939" height="636" alt="image" src="https://github.com/user-attachments/assets/4486effd-27a4-4ac1-846a-ce4b8e505ac6" /> <br> Figure. 1
+<img width="2497" height="1675" alt="2025-10-14_Kuva1" src="https://github.com/user-attachments/assets/8444b8a4-bccb-45e5-ad60-a817c8eb2a55" /> <br> Figure. 1
 
 
 ### 3.2 BIS Ordering
