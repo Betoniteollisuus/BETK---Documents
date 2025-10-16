@@ -140,14 +140,13 @@ RFID-teknologian toimivuutta betonielementtien sisään upotettuna tiedonkantaja
 Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Helsingissä, johon Lujabetoni Oy valmisti ja toimitti väliseinäelementtejä. Testauslaajuus ensimmäisen pilotoinnin osalta oli kymmenen (10) väliseinäelementtiä. Toimitusketjussa testattiin RFID-tunnisteiden luentaa eri vaiheissa: elementtitehtaalla käsilukijoilla, työmaan elementtipurkupaikalla kiinteällä automaattisella lukuportilla sekä elementtiasennuksen jälkeisessä tarkastuksessa käsilukijalla.
 #### 3.1.1 Käytetty RFID-teknologia
 
-###### Taulukko 3.
+###### Taulukko 3. Case 1: Hyödynnetty RFID-teknologia
 
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
   <tr>
-    <td colspan="3"><strong>Case 1: Hyödynnetty RFID-teknologia</strong></td>
+    <td colspan="2"><strong>1. Osapuolet</strong></td>
   </tr><tr>
-        <td rowspan="3"><strong>1. Osapuolet</strong></td>
         <td>RFID-teknologia toimittaja:</td>
         <td><code>Riffid Oy</code></td>
   </tr><tr>
@@ -163,6 +162,8 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
   <tr>
+    <td colspan = "4"><strong>2. Testikokonaisuudessa käytettyjen RFID-tagien tiedot</strong></td>
+  </tr><tr>
     <td><strong>Muisti</strong></td>
     <td><strong>Tyyppi</strong></td>
     <td><strong>Taajuus</strong></td>
@@ -201,7 +202,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 <table border="1" cellspacing="5" cellpadding="5">
   <body>
     <tr>
-      <td colspan = "4"><strong>2. Testikokonaisuudessa käytettyjen RFID-lukijoiden tiedot</strong></td>
+      <td colspan = "4"><strong>3. Testikokonaisuudessa käytettyjen RFID-lukijoiden tiedot</strong></td>
     </tr><tr>
       <td><strong>Laite</strong></td>
       <td><strong>Valmistaja/tyyppi</strong></td>
