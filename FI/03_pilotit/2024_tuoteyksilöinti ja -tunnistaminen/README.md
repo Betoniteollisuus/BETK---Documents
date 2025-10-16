@@ -59,9 +59,12 @@ Status: Julkaistu
   * [2.2 UHF RFID-tunniste tiedonkantajana (AIDC) betonielementissä](#22)
 * [3 RFID-teknologian testaus toimitusketjussa](#3)
   * [3.1 Case 1]
+    * [3.1.1 ]
+    * [3.1.2 ]
+    * [3.1.3 ]
   * [3.2 Case 2]
-* [4 ]
-* [5 ] 
+* [4 Johtopäätökset]
+* [5 Liitteet] 
 
 ---
 
