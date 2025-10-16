@@ -291,10 +291,9 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
   </body>
 </table>
 
-###### Kiinteä UHF RFID-lukija 1
+###### Kiinteä UHF RFID-lukija
 
 <img width="408" height="408" alt="Impinj_R220-removebg-preview" src="https://github.com/user-attachments/assets/4c19dc8d-a54c-4c25-a66e-d9277f7a9370" />
-
 
 <table border="1" cellspacing="5" cellpadding="5">
   <body>
@@ -304,32 +303,57 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
       <td><strong>Käyttötarkoitus</strong></td>
       <td><strong>Määrä</strong></td>
     </tr><tr>
-      <td rowspan = "3"></td>
-      <td></td>
-      <td></td>
+      <td>Kiinteä UHF RFID-lukija</td>
+      <td>Impinj Speedway R220 UHF-lukija </td>
+      <td>Elementin vastaanotto/kuorman purku työmaalla</td>
       <td>1 kpl</td>
+    </tr>
+  </body>
+</table>
+
+###### Kiinteän UHF RFID-lukijan antenni 1
+
+<img width="293" height="300" alt="0001290_times-7-slimline-a5010-circular-polarized-antenna_300-removebg-preview" src="https://github.com/user-attachments/assets/cf5bbab7-1f75-4b81-851f-2868079f827b" />
+
+<table border="1" cellspacing="5" cellpadding="5">
+  <body>
+    <tr>
+      <td><strong>Laite</strong></td>
+      <td><strong>Valmistaja/tyyppi</strong></td>
+      <td><strong>Käyttötarkoitus</strong></td>
+      <td><strong>Määrä</strong></td>
     </tr><tr>
-      <td></td>
-      <td></td>
+      <td>UHF-antenni</td>
+      <td>UHF-antenni Times-7 A5010 (A5010)</td>
+      <td>Elementin vastaanotto/kuorman purku työmaalla</td>
       <td>1 kpl</td>
+    </tr>
+  </body>
+</table>
+
+###### Kiinteän UHF RFID-lukijan antenni 2
+
+<img width="300" height="200" alt="5bcfddc6b8170-removebg-preview" src="https://github.com/user-attachments/assets/95a4f4b7-2986-4798-bc5e-3c96fe02910a" />
+
+<table border="1" cellspacing="5" cellpadding="5">
+  <body>
+    <tr>
+      <td><strong>Laite</strong></td>
+      <td><strong>Valmistaja/tyyppi</strong></td>
+      <td><strong>Käyttötarkoitus</strong></td>
+      <td><strong>Määrä</strong></td>
     </tr><tr>
-      <td></td>
-      <td></td>
+      <td>UHF-antenni</td>
+      <td>UHF-antenni BRA-08</td>
+      <td>Elementin vastaanotto/kuorman purku työmaalla</td>
       <td>1 kpl</td>
-    </tr><tr>
-      <td rowspan = "3"></td>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
+    </tr>
+  </body>
+</table>
+
+
+
+
       <td colspan = "4"><strong>3. RFID-tunnisteiden sijoittaminen elementtiin</strong></td>
     </tr><tr>
       <td colspan = "4">RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, joista jokaiseen sijoitettiin kolme RFID-tunnistetta. Betonielementin sisälle valetut RFID-tunnisteiden asennussijaintien periaate on esitetty alla olevassa kuvassa, jossa RFID-tunniste on lisätty elementtien molempiin päihin sekä elementin yläpintaan.</td>
