@@ -1368,8 +1368,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
     <td></td>
    </tr><tr>
     <td><strong>Kuva 2.</strong></td>
-    <td colspan = "4"><img width="342" height="158" alt="image" src="https://github.com/user-attachments/assets/d72a4ecb-c5bc-4ddf-9cbf-5f35ada6049b" /> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8037df9b-3bd3-49e9-bcdd-40b63294a5c4" />
-
+    <td colspan = "4"> <img width="400" height="400" alt="Confidex-Survivor-removebg-preview" src="https://github.com/user-attachments/assets/3aee56d2-b062-43d5-9cd2-03ac9feb6112" />
 </td>     
   </tr>
 </tbody>
