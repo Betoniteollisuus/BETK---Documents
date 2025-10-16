@@ -228,10 +228,10 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 </tbody>
 </table>
 
-#### 3.1.3 Case 1: RFID-lukijoiden tiedot
+#### 3.1.3 Case 1: UHF RFID-lukijoiden tiedot
 
-###### RFID-lukija 1
-<img width="600" height="600" alt="nordic-id-exa51e-acd-nur2-1w-uhf-2d-imager-wireless-charging-etsi" src="https://github.com/user-attachments/assets/05e66998-e47a-4fbb-9d9f-0239879c86df" />
+###### Kannettava UHF RFID-lukija 1
+<img width="500" height="500" alt="nordic-id-exa51e-acd-nur2-1w-uhf-2d-imager-wireless-charging-etsi" src="https://github.com/user-attachments/assets/05e66998-e47a-4fbb-9d9f-0239879c86df" />
 
 
 
@@ -243,7 +243,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
       <td><strong>Käyttötarkoitus</strong></td>
       <td><strong>Määrä</strong></td>
     </tr><tr>
-      <td>Käsilukija</td>
+      <td>Kannettava UHF RFID-lukija</td>
       <td>Nordic ID EXA51E </td>
       <td>Elementtitehtaan tapahtumat </td>
       <td>1 kpl</td>
@@ -251,9 +251,9 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
   </body>
 </table>
 
-###### RFID-lukija 2
+###### Kannettava UHF RFID-lukija 2
 
-<img width="600" height="600" alt="Medea_UHF_RFID_Reader_from_Nordic_ID" src="https://github.com/user-attachments/assets/cfcbf999-af75-4f1d-b522-2409c55506ec" />
+<img width="500" height="500" alt="Medea_UHF_RFID_Reader_from_Nordic_ID" src="https://github.com/user-attachments/assets/cfcbf999-af75-4f1d-b522-2409c55506ec" />
 
 <table border="1" cellspacing="5" cellpadding="5">
   <body>
@@ -263,7 +263,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
       <td><strong>Käyttötarkoitus</strong></td>
       <td><strong>Määrä</strong></td>
     </tr><tr>
-      <td>Käsilukija</td>
+      <td>Kannettava UHF RFID-lukija</td>
       <td>Nordic ID Medea</td>
       <td>Elementtitehtaan tapahtumat </td>
       <td>1 kpl</td>
@@ -272,8 +272,25 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 </table>
 
 
+###### Kannettava UHF RFID-lukija 3
 
+<img width="500" height="500" alt="4G-5-7inch-with-Screen-Wireless-UHF-Reader-Writer-Scanners-Device-Asset-Identification-Readers-RFID-PDA-removebg-preview" src="https://github.com/user-attachments/assets/b2f96cf9-e888-43bf-92c1-91050ac37192" />
 
+<table border="1" cellspacing="5" cellpadding="5">
+  <body>
+    <tr>
+      <td><strong>Laite</strong></td>
+      <td><strong>Valmistaja/tyyppi</strong></td>
+      <td><strong>Käyttötarkoitus</strong></td>
+      <td><strong>Määrä</strong></td>
+    </tr><tr>
+      <td>Kannettava UHF RFID-lukija</td>
+      <td>LT-C9082</td>
+      <td>Työmaalla asennuksen jälkeinen tarkastus</td>
+      <td>1 kpl</td>
+    </tr>
+  </body>
+</table>
 
       
 
