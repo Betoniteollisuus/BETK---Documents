@@ -1351,7 +1351,9 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
     <td></td>
   </tr><tr>
     <td><strong>Kuva 1.</strong></td>
-    <td colspan = "4"></td>   
+    <td colspan = "4"> <img width="400" height="408" alt="confidex-ironside-slim-370x273-removebg-preview" src="https://github.com/user-attachments/assets/c5d22a72-13aa-4fd6-ac55-6fc1bef1c32a" />
+
+</td>   
   </tr><tr>
     <td><strong>Muisti</strong></td>
     <td><strong>Tyyppi</strong></td>
@@ -1366,7 +1368,9 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
     <td></td>
    </tr><tr>
     <td><strong>Kuva 2.</strong></td>
-    <td colspan = "4"></td>     
+    <td colspan = "4"><img width="342" height="158" alt="image" src="https://github.com/user-attachments/assets/d72a4ecb-c5bc-4ddf-9cbf-5f35ada6049b" /> <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8037df9b-3bd3-49e9-bcdd-40b63294a5c4" />
+
+</td>     
   </tr>
 </tbody>
 </table>
