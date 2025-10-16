@@ -51,13 +51,11 @@ Status: Julkaistu
 
 ---
 
-## Table of contents
+## Sisällys
 
 * [1 Esipuhe](#1-esipuhe)
 * [2 Yleiskuvaus pilotista](#2-yleiskuvaus-pilotista)
-* [3. Covered Business Interoperability Specifications](#3-covered-business-interoperability-specifications)
-
-  * [3.1 BIS Catalogue with response](#31-bis-catalogue-with-response)
+  * [2.1 Betonielementtien tuoteyksilöinti (UPID)](#2.1-betonielementtien-tuoteyksilöinti-(UPID))
   * [3.2 BIS Ordering](#32-bis-ordering)
   * [3.3 BIS Advanced Despatch Advice with Receipt Advice](#33-bis-advanced-despatch-advice-with-receipt-advice)
 * [4. Catalogue (T19) – implementation details](#4-catalogue-t19--implementation-details)
