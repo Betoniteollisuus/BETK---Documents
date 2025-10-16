@@ -1694,4 +1694,10 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 
 ## 4 Johtopäätökset
 
-## Viittaukset ja lähteet
+RFID-teknologian soveltaminen betonielementtien yksilöintiin ja toimitusketjun tapahtumien seurantaan osoittaa merkittävää potentiaalia tuotantoprosessien ja logistiikan hallinnan parantamisessa. Tämän tutkimuksen tarkoituksena oli analysoida RFID-tunnisteiden toimivuutta eri asennus- ja käyttöympäristöissä sekä arvioida lukutulosten luotettavuutta ja käytettävyyttä. 
+
+Ei voida poissulkea mahdollisuutta, että ne rfid elementit jotka ei löytyneet betonielementit olisi asennettu vääriin sijainteihin 
+
+suppea otanta, jonka vuoksi kattavammalle testaukselle on tarvetta RFID-teknologian todellisten hyötyjen mittaamisessa.  
+
+## 5 Liitteet
