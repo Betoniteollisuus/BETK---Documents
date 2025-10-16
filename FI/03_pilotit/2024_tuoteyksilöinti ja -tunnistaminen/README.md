@@ -77,6 +77,8 @@ Tämä tuoteyksilöinnin ja RFID-teknologian pilotoinnin loppuraportti on tehty 
 
 Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja rakenteettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. Tavoitteen saavuttaminen edellyttää, että tilauksesta suunniteltavien tuotteiden valmistuksessa käytetään yhteisiä, vakioituja menetelmiä tuotteiden yksilöintiin, tunnistamiseen ja tietosisältöjen jakamiseen. Näin voidaan edistää tietojärjestelmien ja palveluiden yhteentoimivuutta, jonka puute on merkittävä este rakennusteollisuuden digitalisaatiolle ja eri toimijoiden väliselle yhteistyölle.  
 
+---
+
 ## 2 Yleiskuvaus pilotista
 Työn tarkoituksena oli selvittää ja todentaa konseptitodistuksen (engl. Proof of Concept, PoC) avulla RFID-teknologian toimivuutta vakioidun yksilöintitiedon kantamiseen betonielementtien toimitusketjussa ja luoda lähtökohdat yhteisen, avoimen, GS1 EPC -standardeja käyttävän RFID/EPC-pohjaisen järjestelmän käyttöönotolle. Tämä toteutettiin käyttämällä betonielementtien sisään valettuja passiivisia UHF RFID -tunnisteita. Hankkeen yhtenä tarkoituksena oli myös luoda tulevaisuuden toimintamalleja, joissa RFID-teknologiaa hyödynnetään tuotteiden tunnistamisessa koko arvoverkossa. Lisäksi tavoitteena oli havainnoida käyttöympäristön tuomia haasteita toimitusketjun hallinnan näkökulmasta. 
 
@@ -157,6 +159,8 @@ RFID-järjestelmä ei edellytä suoraa näköyhteyttä ja mahdollistaa automaatt
 Testissä käytettiin koteloituja metallipinnoille soveltuvia passiivisia EPC/RFID Gen2 UHF -tunnisteita, jotka valettiin betonielementtien sisään. Tunnisteen valinta perustui RFID-teknologia-asiantuntijoiden näkemykseen, jossa passiivisten UHF-tunnisteiden lukuetäisyys, kustannustehokkuus ja käyttöympäristön soveltuvuus olivat keskeisiä valintakriteerejä kyseiselle RFID-teknologialle. EPC Globalin Gen2-luokan passiivinen UHF-RFID teknologia on laajasti käytetty, joka toimii 840–960 MHz:n taajuuksilla alueellisista radiomääräyksistä riippuen. Se on kehitetty erityisesti logistiikkaverkoissa käytettäväksi, ja siinä on keskitytty useiden tunnisteiden nopeaan lukemiseen, hy-vään lukuetäisyyteen ja alhaisiin kustannuksiin.
 
 Tiedonkantajien osalta betonielementtien käyttöympäristön haasteena nähtiin betonin emäksisyyden, kosteuden, sekä raudoituksen vaikutukset RFID-tunnisteen toimintaan. RFID-teknologian testauksen tarve perustui aiempien tutkimus- ja kehityshankkeiden tuloksiin, jossa RFID-teknologian etuna nähtiin tiedonkantajan käyttöikä osana tuotetta, sekä automatisoidut lukutapahtumat ja niistä syntyvän tapahtumatiedon jakaminen toimitusketjun osapuolten välisissä prosesseissa.
+
+---
 
 ## 3 RFID-teknologian testaus toimitusketjussa
 RFID-teknologian toimivuutta betonielementtien sisään upotettuna tiedonkantajana testattiin kahdessa erillisessä rakennushankkeessa Helsingissä (Case 1) ja Tampereella (Case 2). Testaukseen osallistuivat kaksi eri pääurakoitsijaa, kaksi eri betonielementtivalmistajaa ja kaksi eri RFID-teknologiatoimittajaa. Testaus toteutettiin suoraan toimitettaviin betonielementteihin ilman erillistä mock-up-vaihetta. Tavoitteena oli arvioida RFID-tunnisteiden asennuksen vaikutusta tuotantoprosessiin ja testata niiden käyttöä toimivassa tuotantoketjussa mahdollisimman vähäisin häiriöin. Testauksessa hyödynnettiin valmiiksi koodattuja RFID-tunnisteita, joita luettiin enimmäkseen käsilukijoilla, mutta myös automaattisilla porttilukijoilla.
@@ -1826,6 +1830,8 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 </table>
 </details>
 
+---
+
 ## 4 Johtopäätökset
 
 RFID-teknologian soveltaminen betonielementtien yksilöintiin ja toimitusketjun tapahtumien seurantaan osoittaa merkittävää potentiaalia tuotantoprosessien ja logistiikan hallinnan parantamisessa. Tämän tutkimuksen tarkoituksena oli analysoida RFID-tunnisteiden toimivuutta eri asennus- ja käyttöympäristöissä sekä arvioida lukutulosten luotettavuutta ja käytettävyyttä. 
@@ -1833,5 +1839,7 @@ RFID-teknologian soveltaminen betonielementtien yksilöintiin ja toimitusketjun 
 Ei voida poissulkea mahdollisuutta, että ne rfid elementit jotka ei löytyneet betonielementit olisi asennettu vääriin sijainteihin 
 
 suppea otanta, jonka vuoksi kattavammalle testaukselle on tarvetta RFID-teknologian todellisten hyötyjen mittaamisessa.  
+
+---
 
 ## 5 Liitteet
