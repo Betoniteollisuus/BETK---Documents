@@ -104,7 +104,7 @@ The syntaxes of the Peppol Order transaction (T01) and Peppol Order Response tra
 
 The syntaxes of the [Peppol Order transaction (T01)](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/tree/) and [Peppol Order Response transaction (T76)](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/tree/) are covered later in this document.
 
-<img width="939" height="366" alt="image" src="https://github.com/user-attachments/assets/daa54d07-c133-451e-834e-c774894cb8ff" /> <br> Figure. 2
+<img width="3729" height="1674" alt="2025-10-16_Kuva1" src="https://github.com/user-attachments/assets/516ca678-0b62-47f1-9e79-2949d7de3ca1" />  <br> Figure. 2
 
 
 ### 3.3 BIS Advanced Despatch Advice with Receipt Advice
