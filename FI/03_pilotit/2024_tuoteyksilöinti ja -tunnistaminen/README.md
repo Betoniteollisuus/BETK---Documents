@@ -189,7 +189,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
     <td>15 kpl</td>
   </tr><tr>
     <td><strong>Kuva 1.</strong></td>
-    <td colspan = "4"><img width="500" height="300" alt="image" src="[https://github.com/user-attachments/assets/68ad12b2-839b-4beb-8800-ee0ef6edd3de](https://github.com/user-attachments/assets/3bcfff12-084d-4338-8d35-eb72caf17cd8)" />
+    <td colspan = "4"><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3bcfff12-084d-4338-8d35-eb72caf17cd8" />
 </td>   
   </tr><tr>
     <td><strong>Muisti</strong></td>
