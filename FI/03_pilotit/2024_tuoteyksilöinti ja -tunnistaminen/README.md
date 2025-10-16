@@ -1299,6 +1299,110 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 
 #### 3.2.1 Käytetty RFID-teknologia
 
+###### Taulukko 3. Case 2: Hyödynnetty RFID-teknologia
+
+<table border="1" cellspacing="5" cellpadding="5">
+<tbody>
+  <tr>
+    <td colspan="2"><strong>1. Osapuolet</strong></td>
+  </tr><tr>
+        <td>RFID-teknologia toimittaja:</td>
+        <td><code></code></td>
+  </tr><tr>
+        <td>Valmistaja:</td>
+        <td><code></code></td>
+  </tr><tr>
+        <td>Vastaanottaja:</td>
+        <td><code></code></td>
+  </tr>
+</tbody>
+</table>
+
+<table border="1" cellspacing="5" cellpadding="5">
+<tbody>
+  <tr>
+    <td colspan = "4"><strong>2. Testikokonaisuudessa käytettyjen RFID-tagien tiedot</strong></td>
+  </tr><tr>
+    <td><strong>Muisti</strong></td>
+    <td><strong>Tyyppi</strong></td>
+    <td><strong>Taajuus</strong></td>
+    <td><strong>Kotelointi</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr><tr>
+    <td><strong>Kuva 1.</strong></td>
+    <td colspan = "4"></td>   
+  </tr><tr>
+    <td><strong>Muisti</strong></td>
+    <td><strong>Tyyppi</strong></td>
+    <td><strong>Taajuus</strong></td>
+    <td><strong>Kotelointi</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr><tr>
+    <td><strong>Kuva 2.</strong></td>
+    <td colspan = "4"></td>     
+  </tr>
+</tbody>
+</table>
+
+
+
+<table border="1" cellspacing="5" cellpadding="5">
+  <body>
+    <tr>
+      <td colspan = "4"><strong>3. Testikokonaisuudessa käytettyjen RFID-lukijoiden tiedot</strong></td>
+    </tr><tr>
+      <td><strong>Laite</strong></td>
+      <td><strong>Valmistaja/tyyppi</strong></td>
+      <td><strong>Käyttötarkoitus</strong></td>
+      <td><strong>Määrä</strong></td>
+    </tr><tr>
+      <td rowspan = "3"></td>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td rowspan = "3"></td>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td colspan = "4"><strong>3. RFID-tunnisteiden sijoittaminen elementtiin</strong></td>
+    </tr><tr>
+      <td colspan = "4"></td>
+    </tr><tr>
+      <td colspan = "4"></td>
+    </tr>
+  </body>
+</table>
+
 #### 3.2.2 Case 2: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
 
 <details> 
