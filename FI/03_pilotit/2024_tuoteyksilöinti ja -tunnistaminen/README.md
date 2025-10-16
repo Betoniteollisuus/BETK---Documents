@@ -230,6 +230,20 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 
 #### 3.1.3 Case 1: RFID-lukijoiden tiedot
 
+<img width="255" height="197" alt="images-removebg-preview" src="https://github.com/user-attachments/assets/38075b5f-ff46-45fa-89e0-d61e0f836777" />
+
+<table border="1" cellspacing="5" cellpadding="5">
+  <body>
+    <tr>
+      <td><strong>Laite</strong></td>
+      <td><strong>Valmistaja/tyyppi</strong></td>
+      <td><strong>Käyttötarkoitus</strong></td>
+      <td><strong>Määrä</strong></td>
+    </tr><tr>
+      <td>Käsilukija</td>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
 
 
 <table border="1" cellspacing="5" cellpadding="5">
