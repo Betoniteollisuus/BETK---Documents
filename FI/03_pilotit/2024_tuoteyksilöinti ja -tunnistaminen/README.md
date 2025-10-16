@@ -67,7 +67,7 @@ Status: Julkaistu
     * [3.2.2 ](#322)
     * [3.2.3 ](#323)
 * [4 Johtopäätökset](#4)
-* [5 Liitteet](#5)
+* [5 Liitteet](#5-liitteet)
 
 ---
 
