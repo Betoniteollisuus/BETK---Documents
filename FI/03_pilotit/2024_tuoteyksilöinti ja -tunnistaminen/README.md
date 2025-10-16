@@ -55,8 +55,7 @@ Status: Julkaistu
 
 * [1 Esipuhe](#1-esipuhe)
 * [2 Yleiskuvaus pilotista](#2-yleiskuvaus-pilotista)
-  * [2.1 Betonielementtien tuoteyksilöinti (UPID)](#2.1-betonielementtien-tuoteyksilöinti-upid)
-
+  * [2.1 Betonielementtien tuoteyksilöinti (UPID)](#21-betonielementtien-tuoteyksil%C3%B6inti-upid)
 
 ---
 
