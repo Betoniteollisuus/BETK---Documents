@@ -151,33 +151,26 @@ RFID-teknologian toimivuutta betonielementtien sisään upotettuna tiedonkantaja
 ### 3.1 Case 1
 Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Helsingissä, johon Lujabetoni Oy valmisti ja toimitti väliseinäelementtejä. Testauslaajuus ensimmäisen pilotoinnin osalta oli kymmenen (10) väliseinäelementtiä. Toimitusketjussa testattiin RFID-tunnisteiden luentaa eri vaiheissa: elementtitehtaalla käsilukijoilla, työmaan elementtipurkupaikalla kiinteällä automaattisella lukuportilla sekä elementtiasennuksen jälkeisessä tarkastuksessa käsilukijalla.
 
-#### 3.1.1 Käytetty RFID-teknologia
-
-###### Taulukko 3. Case 1: Hyödynnetty RFID-teknologia
+#### 3.1.1 Case 1: Osapuolet
 
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
   <tr>
-    <td colspan="2"><strong>1. Osapuolet</strong></td>
-  </tr><tr>
-        <td>RFID-teknologia toimittaja:</td>
+        <td><strong>RFID-teknologia toimittaja:</strong></td>
         <td><code>Riffid Oy</code></td>
   </tr><tr>
-        <td>Valmistaja:</td>
+        <td><strong>Valmistaja:</strong></td>
         <td><code>Lujabetoni Oy, Järvenpään betonielementtitehdas</code></td>
   </tr><tr>
-        <td>Vastaanottaja:</td>
+        <td><strong>Vastaanottaja:</strong></td>
         <td><code>Fira Rakennus Oy, asuinkerrostalokohde Hexagon (Pasila, Helsinki)</code></td>
   </tr>
 </tbody>
 </table>
 
+#### 3.1.2 Case 1: RFID-tagien tiedot
 
-
-
-##### 2. Testikokonaisuudessa käytettyjen RFID-tagien tiedot
-
-##### RFID tunniste 1
+###### RFID tunniste 1
 <img width="895" height="202" alt="tunniste2-removebg-preview" src="https://github.com/user-attachments/assets/bd892371-d7c1-4ec0-8a2f-aa1ab5d3bef6" />
 
 <table>
@@ -198,30 +191,12 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
  </tbody>
 </table>
   
-
-
+###### RFID tunniste 2
+<img width="831" height="168" alt="tunniste1" src="https://github.com/user-attachments/assets/7c8eeb0f-8367-4a52-adea-0a5d27d4d120" /><br> 
 
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
   <tr>
-    <td colspan = "4"><strong>2. Testikokonaisuudessa käytettyjen RFID-tagien tiedot</strong></td>
-  </tr><tr>
-    <td colspan = "5"> <img width="895" height="202" alt="tunniste2-removebg-preview" src="https://github.com/user-attachments/assets/bd892371-d7c1-4ec0-8a2f-aa1ab5d3bef6" /><br> <strong>Kuva 1.</strong></td>   
-  </tr><tr>
-    <td><strong>Muisti</strong></td>
-    <td><strong>Tyyppi</strong></td>
-    <td><strong>Taajuus</strong></td>
-    <td><strong>Kotelointi</strong></td>
-    <td><strong>Määrä</strong></td>
-  </tr><tr>
-    <td>Alien Technology, Alien Higgs3 chip, 512bits User memory, 96/128bits EPC </td>
-    <td>Passive R/W EPC Class 1 Gen 2/ISO 18000-6C</td>
-    <td>UHF 860-920 MHz</td>
-    <td>Anti metal ABS rfid hard tag Koko:155*32*12mm IP67 </td>
-    <td>15 kpl</td>
-   </tr><tr>
-    <td colspan = "5"><img width="831" height="168" alt="tunniste1" src="https://github.com/user-attachments/assets/7c8eeb0f-8367-4a52-adea-0a5d27d4d120" /><br> <strong>Kuva 2.</strong></td>   
-  </tr><tr>
     <td><strong>Muisti</strong></td>
     <td><strong>Tyyppi</strong></td>
     <td><strong>Taajuus</strong></td>
@@ -237,56 +212,13 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 </tbody>
 </table>
 
-
-
-
-
-<table border="1" cellspacing="5" cellpadding="5">
-<tbody>
-  <tr>
-    <td colspan = "4"><strong>2. Testikokonaisuudessa käytettyjen RFID-tagien tiedot</strong></td>
-  </tr><tr>
-    <td><strong>Muisti</strong></td>
-    <td><strong>Tyyppi</strong></td>
-    <td><strong>Taajuus</strong></td>
-    <td><strong>Kotelointi</strong></td>
-    <td><strong>Määrä</strong></td>
-  </tr><tr>
-    <td>Alien Technology, Alien Higgs3 chip, 512bits User memory, 96/128bits EPC </td>
-    <td>Passive R/W EPC Class 1 Gen 2/ISO 18000-6C</td>
-    <td>UHF 860-920 MHz</td>
-    <td>Anti metal ABS rfid hard tag Koko:155*32*12mm IP67 </td>
-    <td>15 kpl</td>
-  </tr><tr>
-    <td colspan = "5"> <img width="895" height="202" alt="tunniste2-removebg-preview" src="https://github.com/user-attachments/assets/bd892371-d7c1-4ec0-8a2f-aa1ab5d3bef6" /><br> <strong>Kuva 1.</strong>
-
-</td>   
-  </tr><tr>
-    <td><strong>Muisti</strong></td>
-    <td><strong>Tyyppi</strong></td>
-    <td><strong>Taajuus</strong></td>
-    <td><strong>Kotelointi</strong></td>
-    <td><strong>Määrä</strong></td>
-  </tr><tr>
-    <td>Alien Technology, Alien Higgs3 chip, 512bits User memory, 96/128bits EPC </td>
-    <td>Passive R/W EPC Class 1 Gen 2/ISO 18000-6C</td>
-    <td>UHF 860-920 MHz</td>
-    <td>Anti-Metal Passive Tag Plate, Koko:135*21* 17 mm IP68 </td>
-    <td>15 kpl</td>
-   </tr><tr>
-    <td colspan = "5"><img width="831" height="168" alt="tunniste1" src="https://github.com/user-attachments/assets/7c8eeb0f-8367-4a52-adea-0a5d27d4d120" /><br> <strong>Kuva 2.</strong>
-</td>   
-  </tr>
-</tbody>
-</table>
+#### 3.1.3 Case 1: RFID-lukijoiden tiedot
 
 
 
 <table border="1" cellspacing="5" cellpadding="5">
   <body>
     <tr>
-      <td colspan = "4"><strong>3. Testikokonaisuudessa käytettyjen RFID-lukijoiden tiedot</strong></td>
-    </tr><tr>
       <td><strong>Laite</strong></td>
       <td><strong>Valmistaja/tyyppi</strong></td>
       <td><strong>Käyttötarkoitus</strong></td>
