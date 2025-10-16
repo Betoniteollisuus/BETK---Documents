@@ -355,7 +355,9 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 
 RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, joista jokaiseen sijoitettiin kolme RFID-tunnistetta. Betonielementin sisälle valetut RFID-tunnisteiden asennussijaintien periaate on esitetty alla olevassa kuvassa, jossa RFID-tunniste on lisätty elementtien molempiin päihin sekä elementin yläpintaan.
 
+###### RFID tunnisteiden asennuspaikat
 
+<img width="959" height="875" alt="RFID tunnisteiden asennuspaikat" src="https://github.com/user-attachments/assets/abfc967c-aaa0-4fe6-80e5-6308a8fc6eba" />
 
 #### 3.1.5 Case 1: Kiinteän RFID-portin asemointi työmaalla
 
