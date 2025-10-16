@@ -54,7 +54,7 @@ Status: Julkaistu
 ## Table of contents
 
 * [1 Esipuhe](#1-esipuhe)
-* [2. Change management](#2-change-management)
+* [2 Yleiskuvaus pilotista](#2-yleiskuvaus-pilotista)
 * [3. Covered Business Interoperability Specifications](#3-covered-business-interoperability-specifications)
 
   * [3.1 BIS Catalogue with response](#31-bis-catalogue-with-response)
