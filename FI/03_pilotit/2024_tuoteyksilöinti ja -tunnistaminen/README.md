@@ -150,6 +150,7 @@ Tiedonkantajien osalta betonielementtien käyttöympäristön haasteena nähtiin
 RFID-teknologian toimivuutta betonielementtien sisään upotettuna tiedonkantajana testattiin kahdessa erillisessä rakennushankkeessa Helsingissä (Case 1) ja Tampereella (Case 2). Testaukseen osallistuivat kaksi eri pääurakoitsijaa, kaksi eri betonielementtivalmistajaa ja kaksi eri RFID-teknologiatoimittajaa. Testaus toteutettiin suoraan toimitettaviin betonielementteihin ilman erillistä mock-up-vaihetta. Tavoitteena oli arvioida RFID-tunnisteiden asennuksen vaikutusta tuotantoprosessiin ja testata niiden käyttöä toimivassa tuotantoketjussa mahdollisimman vähäisin häiriöin. Testauksessa hyödynnettiin valmiiksi koodattuja RFID-tunnisteita, joita luettiin enimmäkseen käsilukijoilla, mutta myös automaattisilla porttilukijoilla.
 ### 3.1 Case 1
 Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Helsingissä, johon Lujabetoni Oy valmisti ja toimitti väliseinäelementtejä. Testauslaajuus ensimmäisen pilotoinnin osalta oli kymmenen (10) väliseinäelementtiä. Toimitusketjussa testattiin RFID-tunnisteiden luentaa eri vaiheissa: elementtitehtaalla käsilukijoilla, työmaan elementtipurkupaikalla kiinteällä automaattisella lukuportilla sekä elementtiasennuksen jälkeisessä tarkastuksessa käsilukijalla.
+
 #### 3.1.1 Käytetty RFID-teknologia
 
 ###### Taulukko 3. Case 1: Hyödynnetty RFID-teknologia
@@ -171,6 +172,75 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 </tbody>
 </table>
 
+
+
+
+##### 2. Testikokonaisuudessa käytettyjen RFID-tagien tiedot
+
+##### RFID tunniste 1
+<img width="895" height="202" alt="tunniste2-removebg-preview" src="https://github.com/user-attachments/assets/bd892371-d7c1-4ec0-8a2f-aa1ab5d3bef6" />
+
+<table>
+ <tbody>
+  <tr>
+    <td><strong>Muisti</strong></td>
+    <td><strong>Tyyppi</strong></td>
+    <td><strong>Taajuus</strong></td>
+    <td><strong>Kotelointi</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td>Alien Technology, Alien Higgs3 chip, 512bits User memory, 96/128bits EPC </td>
+    <td>Passive R/W EPC Class 1 Gen 2/ISO 18000-6C</td>
+    <td>UHF 860-920 MHz</td>
+    <td>Anti metal ABS rfid hard tag Koko:155*32*12mm IP67 </td>
+    <td>15 kpl</td>
+  </tr>
+ </tbody>
+</table>
+  
+
+
+
+<table border="1" cellspacing="5" cellpadding="5">
+<tbody>
+  <tr>
+    <td colspan = "4"><strong>2. Testikokonaisuudessa käytettyjen RFID-tagien tiedot</strong></td>
+  </tr><tr>
+    <td colspan = "5"> <img width="895" height="202" alt="tunniste2-removebg-preview" src="https://github.com/user-attachments/assets/bd892371-d7c1-4ec0-8a2f-aa1ab5d3bef6" /><br> <strong>Kuva 1.</strong></td>   
+  </tr><tr>
+    <td><strong>Muisti</strong></td>
+    <td><strong>Tyyppi</strong></td>
+    <td><strong>Taajuus</strong></td>
+    <td><strong>Kotelointi</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td>Alien Technology, Alien Higgs3 chip, 512bits User memory, 96/128bits EPC </td>
+    <td>Passive R/W EPC Class 1 Gen 2/ISO 18000-6C</td>
+    <td>UHF 860-920 MHz</td>
+    <td>Anti metal ABS rfid hard tag Koko:155*32*12mm IP67 </td>
+    <td>15 kpl</td>
+   </tr><tr>
+    <td colspan = "5"><img width="831" height="168" alt="tunniste1" src="https://github.com/user-attachments/assets/7c8eeb0f-8367-4a52-adea-0a5d27d4d120" /><br> <strong>Kuva 2.</strong></td>   
+  </tr><tr>
+    <td><strong>Muisti</strong></td>
+    <td><strong>Tyyppi</strong></td>
+    <td><strong>Taajuus</strong></td>
+    <td><strong>Kotelointi</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td>Alien Technology, Alien Higgs3 chip, 512bits User memory, 96/128bits EPC </td>
+    <td>Passive R/W EPC Class 1 Gen 2/ISO 18000-6C</td>
+    <td>UHF 860-920 MHz</td>
+    <td>Anti-Metal Passive Tag Plate, Koko:135*21* 17 mm IP68 </td>
+    <td>15 kpl</td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
   <tr>
@@ -188,8 +258,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
     <td>Anti metal ABS rfid hard tag Koko:155*32*12mm IP67 </td>
     <td>15 kpl</td>
   </tr><tr>
-    <td><strong>Kuva 1.</strong></td>
-    <td colspan = "4"> <img width="895" height="202" alt="tunniste2-removebg-preview" src="https://github.com/user-attachments/assets/bd892371-d7c1-4ec0-8a2f-aa1ab5d3bef6" />
+    <td colspan = "5"> <img width="895" height="202" alt="tunniste2-removebg-preview" src="https://github.com/user-attachments/assets/bd892371-d7c1-4ec0-8a2f-aa1ab5d3bef6" /><br> <strong>Kuva 1.</strong>
 
 </td>   
   </tr><tr>
@@ -205,8 +274,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
     <td>Anti-Metal Passive Tag Plate, Koko:135*21* 17 mm IP68 </td>
     <td>15 kpl</td>
    </tr><tr>
-    <td><strong>Kuva 2.</strong></td>
-    <td colspan = "4"><img width="831" height="168" alt="tunniste1" src="https://github.com/user-attachments/assets/7c8eeb0f-8367-4a52-adea-0a5d27d4d120" />
+    <td colspan = "5"><img width="831" height="168" alt="tunniste1" src="https://github.com/user-attachments/assets/7c8eeb0f-8367-4a52-adea-0a5d27d4d120" /><br> <strong>Kuva 2.</strong>
 </td>   
   </tr>
 </tbody>
