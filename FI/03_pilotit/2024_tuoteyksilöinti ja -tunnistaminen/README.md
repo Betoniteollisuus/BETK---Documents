@@ -160,6 +160,42 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 </tbody>
 </table>
 
+<table border="1" cellspacing="5" cellpadding="5">
+<tbody>
+  <tr>
+    <td><strong>Muisti</strong></td>
+    <td><strong>Tyyppi</strong></td>
+    <td><strong>Taajuus</strong></td>
+    <td><strong>Kotelointi</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td>Alien Technology, Alien Higgs3 chip, 512bits User memory, 96/128bits EPC </td>
+    <td>Passive R/W EPC Class 1 Gen 2/ISO 18000-6C</td>
+    <td>UHF 860-920 MHz</td>
+    <td>Anti metal ABS rfid hard tag Koko:155*32*12mm IP67 </td>
+    <td>15 kpl</td>
+  </tr><tr>
+    <td><strong>Kuva 1.</strong></td>
+    <td colspan = "4"></td>   
+  </tr><tr>
+    <td><strong>Muisti</strong></td>
+    <td><strong>Tyyppi</strong></td>
+    <td><strong>Taajuus</strong></td>
+    <td><strong>Kotelointi</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td>Alien Technology, Alien Higgs3 chip, 512bits User memory, 96/128bits EPC </td>
+    <td>Passive R/W EPC Class 1 Gen 2/ISO 18000-6C</td>
+    <td>UHF 860-920 MHz</td>
+    <td>Anti-Metal Passive Tag Plate, Koko:135*21* 17 mm IP68 </td>
+    <td>15 kpl</td>
+   </tr><tr>
+    <td><strong>Kuva 2.</strong></td>
+    <td colspan = "4"></td>     
+  </tr>
+</tbody>
+</table>
+
 #### 3.1.2 Case 1: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
 
 <details> 
