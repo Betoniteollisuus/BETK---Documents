@@ -234,8 +234,6 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 ###### Kannettava UHF RFID-lukija 1
 <img width="500" height="500" alt="nordic-id-exa51e-acd-nur2-1w-uhf-2d-imager-wireless-charging-etsi" src="https://github.com/user-attachments/assets/05e66998-e47a-4fbb-9d9f-0239879c86df" />
 
-
-
 <table border="1" cellspacing="5" cellpadding="5">
   <body>
     <tr>
@@ -293,7 +291,10 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
   </body>
 </table>
 
-      
+###### Kiinteä UHF RFID-lukija 1
+
+<img width="408" height="408" alt="Impinj_R220-removebg-preview" src="https://github.com/user-attachments/assets/4c19dc8d-a54c-4c25-a66e-d9277f7a9370" />
+
 
 <table border="1" cellspacing="5" cellpadding="5">
   <body>
