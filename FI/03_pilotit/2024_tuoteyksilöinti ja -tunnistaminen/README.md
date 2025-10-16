@@ -55,46 +55,8 @@ Status: Julkaistu
 
 * [1 Esipuhe](#1-esipuhe)
 * [2 Yleiskuvaus pilotista](#2-yleiskuvaus-pilotista)
-  * [2.1 Betonielementtien tuoteyksilöinti (UPID)](#2.1-betonielementtien-tuoteyksilöinti-(UPID))
-  * [3.2 BIS Ordering](#32-bis-ordering)
-  * [3.3 BIS Advanced Despatch Advice with Receipt Advice](#33-bis-advanced-despatch-advice-with-receipt-advice)
-* [4. Catalogue (T19) – implementation details](#4-catalogue-t19--implementation-details)
+  * [2.1 Betonielementtien tuoteyksilöinti (UPID)](#2.1-betonielementtien-tuoteyksilöinti-upid)
 
-  * [4.1 Document header level](#41-document-header-level)
-  * [4.2 Parties](#42-parties)
-
-    * [4.2.1 Provider Party (seller)](#421-provider-party-seller)
-    * [4.2.2 Receiver Party (buyer)](#422-receiver-party-buyer)
-  * [4.3 Catalogue line level](#43-catalogue-line-level)
-* [5. Catalogue Response (T58)](#5-catalogue-response-t58)
-
-  * [5.1 Document header level](#51-document-header-level)
-  * [5.2 Parties](#52-parties)
-
-    * [5.2.1 Sender Party](#521-sender-party)
-    * [5.2.2 Receiver Party](#522-receiver-party)
-  * [5.3 Document response](#53-document-response)
-  * [5.4 Referencing the original catalogue](#54-referencing-the-original-catalogue)
-* [6. Order (T01)](#6-order-t01)
-
-  * [6.1 Document header level](#61-document-header-level)
-  * [6.2 Parties](#62-parties)
-
-    * [6.2.1 Buyer Customer Party](#621-buyer-customer-party)
-    * [6.2.2 Seller Supplier Party](#622-seller-supplier-party)
-  * [6.3 Delivery](#63-delivery)
-  * [6.4 Order line level](#64-order-line-level)
-  * [6.5 Item information on the order line](#65-item-information-on-the-order-line)
-* [7. Order Response (T76)](#7-order-response-t76)
-
-  * [7.1 Document header level](#71-document-header-level)
-  * [7.2 Parties](#72-parties)
-  * [7.3 Delivery](#73-delivery)
-  * [7.4 Order response lines](#74-order-response-lines)
-* [Attachment A: Quantity/@unitCode usage](#attachment-a-quantityunitcode-usage)
-* [Attachment B: AdditionalItemProperty usage](#attachment-b-additionalitemproperty-usage)
-* [Attachment C: Dimension descriptions](#attachment-c-dimension-descriptions)
-* [Example files](#example-files)
 
 ---
 
