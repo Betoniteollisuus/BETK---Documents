@@ -72,7 +72,7 @@ Työn tarkoituksena oli selvittää ja todentaa konseptitodistuksen (engl. Proof
 Betonielementtien RFID-tunnisteteknologian pilotointi toteutettiin touko–marraskuun 2024 aikana kahdella kerrostalotyömaalla Helsingissä ja Tampereella. Testaus kattoi toimitusketjun vaiheet tuotevalmistuksesta työmaalle asennukseen asti. Toimitusketjun hallinnan näkökulmasta pilotointi rajattiin keskittymään tuoteyksilöinnin ja -tunnistamisen menetelmiin (kuva 1). Tämä lähestymistapa loi perustan laajemmalle toimitusketjun tapahtumatiedon jakamisen testaamiselle, joka on suunniteltu toteutettavaksi myöhemmässä vaiheessa.  
 
 
-<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/68ad12b2-839b-4beb-8800-ee0ef6edd3de" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/68ad12b2-839b-4beb-8800-ee0ef6edd3de" />
 
 ###### Kuva 1. Tuoteyksilöinnin ja RFID-tunnistusteknologian pilotointilaajuus toimitusketjun digitaalisen hallinnan näkökulmasta.
 
