@@ -338,7 +338,123 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 </table>
 
 
-#### 3.1.2 Case 1: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
+### 3.2 Case 2
+
+#### 3.2.1 Käytetty RFID-teknologia
+
+###### Taulukko 3. Case 2: Hyödynnetty RFID-teknologia
+
+<table border="1" cellspacing="5" cellpadding="5">
+<tbody>
+  <tr>
+    <td colspan="2"><strong>1. Osapuolet</strong></td>
+  </tr><tr>
+        <td>RFID-teknologia toimittaja:</td>
+        <td><code></code></td>
+  </tr><tr>
+        <td>Valmistaja:</td>
+        <td><code></code></td>
+  </tr><tr>
+        <td>Vastaanottaja:</td>
+        <td><code></code></td>
+  </tr>
+</tbody>
+</table>
+
+<table border="1" cellspacing="5" cellpadding="5">
+<tbody>
+  <tr>
+    <td colspan = "4"><strong>2. Testikokonaisuudessa käytettyjen RFID-tagien tiedot</strong></td>
+  </tr><tr>
+    <td><strong>Muisti</strong></td>
+    <td><strong>Tyyppi</strong></td>
+    <td><strong>Taajuus</strong></td>
+    <td><strong>Kotelointi</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr><tr>
+    <td><strong>Kuva 1.</strong></td>
+    <td colspan = "4"> <img width="400" height="408" alt="confidex-ironside-slim-370x273-removebg-preview" src="https://github.com/user-attachments/assets/c5d22a72-13aa-4fd6-ac55-6fc1bef1c32a" />
+
+</td>   
+  </tr><tr>
+    <td><strong>Muisti</strong></td>
+    <td><strong>Tyyppi</strong></td>
+    <td><strong>Taajuus</strong></td>
+    <td><strong>Kotelointi</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr><tr>
+    <td><strong>Kuva 2.</strong></td>
+    <td colspan = "4"> <img width="400" height="400" alt="Confidex-Survivor-removebg-preview" src="https://github.com/user-attachments/assets/3aee56d2-b062-43d5-9cd2-03ac9feb6112" />
+</td>     
+  </tr>
+</tbody>
+</table>
+
+
+
+<table border="1" cellspacing="5" cellpadding="5">
+  <body>
+    <tr>
+      <td colspan = "4"><strong>3. Testikokonaisuudessa käytettyjen RFID-lukijoiden tiedot</strong></td>
+    </tr><tr>
+      <td><strong>Laite</strong></td>
+      <td><strong>Valmistaja/tyyppi</strong></td>
+      <td><strong>Käyttötarkoitus</strong></td>
+      <td><strong>Määrä</strong></td>
+    </tr><tr>
+      <td rowspan = "3"></td>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td rowspan = "3"></td>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td></td>
+      <td></td>
+      <td>1 kpl</td>
+    </tr><tr>
+      <td colspan = "4"><strong>3. RFID-tunnisteiden sijoittaminen elementtiin</strong></td>
+    </tr><tr>
+      <td colspan = "4"></td>
+    </tr><tr>
+      <td colspan = "4"></td>
+    </tr>
+  </body>
+</table>
+
+
+
+---
+## 4 Tulokset
+
+### 4.1 Case 1: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
 
 <details> 
 <Summary>Case 1. Koontitulokset</Summary>
@@ -1388,118 +1504,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 </table>
 </details>
 
-### 3.2 Case 2
-
-#### 3.2.1 Käytetty RFID-teknologia
-
-###### Taulukko 3. Case 2: Hyödynnetty RFID-teknologia
-
-<table border="1" cellspacing="5" cellpadding="5">
-<tbody>
-  <tr>
-    <td colspan="2"><strong>1. Osapuolet</strong></td>
-  </tr><tr>
-        <td>RFID-teknologia toimittaja:</td>
-        <td><code></code></td>
-  </tr><tr>
-        <td>Valmistaja:</td>
-        <td><code></code></td>
-  </tr><tr>
-        <td>Vastaanottaja:</td>
-        <td><code></code></td>
-  </tr>
-</tbody>
-</table>
-
-<table border="1" cellspacing="5" cellpadding="5">
-<tbody>
-  <tr>
-    <td colspan = "4"><strong>2. Testikokonaisuudessa käytettyjen RFID-tagien tiedot</strong></td>
-  </tr><tr>
-    <td><strong>Muisti</strong></td>
-    <td><strong>Tyyppi</strong></td>
-    <td><strong>Taajuus</strong></td>
-    <td><strong>Kotelointi</strong></td>
-    <td><strong>Määrä</strong></td>
-  </tr><tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr><tr>
-    <td><strong>Kuva 1.</strong></td>
-    <td colspan = "4"> <img width="400" height="408" alt="confidex-ironside-slim-370x273-removebg-preview" src="https://github.com/user-attachments/assets/c5d22a72-13aa-4fd6-ac55-6fc1bef1c32a" />
-
-</td>   
-  </tr><tr>
-    <td><strong>Muisti</strong></td>
-    <td><strong>Tyyppi</strong></td>
-    <td><strong>Taajuus</strong></td>
-    <td><strong>Kotelointi</strong></td>
-    <td><strong>Määrä</strong></td>
-  </tr><tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-   </tr><tr>
-    <td><strong>Kuva 2.</strong></td>
-    <td colspan = "4"> <img width="400" height="400" alt="Confidex-Survivor-removebg-preview" src="https://github.com/user-attachments/assets/3aee56d2-b062-43d5-9cd2-03ac9feb6112" />
-</td>     
-  </tr>
-</tbody>
-</table>
-
-
-
-<table border="1" cellspacing="5" cellpadding="5">
-  <body>
-    <tr>
-      <td colspan = "4"><strong>3. Testikokonaisuudessa käytettyjen RFID-lukijoiden tiedot</strong></td>
-    </tr><tr>
-      <td><strong>Laite</strong></td>
-      <td><strong>Valmistaja/tyyppi</strong></td>
-      <td><strong>Käyttötarkoitus</strong></td>
-      <td><strong>Määrä</strong></td>
-    </tr><tr>
-      <td rowspan = "3"></td>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td rowspan = "3"></td>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td colspan = "4"><strong>3. RFID-tunnisteiden sijoittaminen elementtiin</strong></td>
-    </tr><tr>
-      <td colspan = "4"></td>
-    </tr><tr>
-      <td colspan = "4"></td>
-    </tr>
-  </body>
-</table>
-
-#### 3.2.2 Case 2: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
+### 4.2 Case 2: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
 
 <details> 
 <Summary>Case 2. Koontitulokset</Summary>
@@ -1894,7 +1899,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 
 ---
 
-## 4 Johtopäätökset
+## 5 Johtopäätökset
 
 RFID-teknologian soveltaminen betonielementtien yksilöintiin ja toimitusketjun tapahtumien seurantaan osoittaa merkittävää potentiaalia tuotantoprosessien ja logistiikan hallinnan parantamisessa. Tämän tutkimuksen tarkoituksena oli analysoida RFID-tunnisteiden toimivuutta eri asennus- ja käyttöympäristöissä sekä arvioida lukutulosten luotettavuutta ja käytettävyyttä. 
 
@@ -1904,4 +1909,4 @@ suppea otanta, jonka vuoksi kattavammalle testaukselle on tarvetta RFID-teknolog
 
 ---
 
-## 5 Liitteet
+## 6 Liitteet
