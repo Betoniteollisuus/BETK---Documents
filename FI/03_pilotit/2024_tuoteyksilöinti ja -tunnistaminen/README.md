@@ -189,7 +189,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 ###### RFID tunniste 1
 <img width="895" height="202" alt="tunniste2-removebg-preview" src="https://github.com/user-attachments/assets/bd892371-d7c1-4ec0-8a2f-aa1ab5d3bef6" />
 
-<table>
+<table border="1" cellspacing="5" cellpadding="5">
  <tbody>
   <tr>
     <td><strong>Muisti</strong></td>
