@@ -420,7 +420,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
 
 #### 3.2.2 Case 2: RFID-tagien tiedot
 
-###### RFID tunniste 1
+##### RFID tunniste 1
 
 <img width="400" alt="confidex-ironside-slim-370x273-removebg-preview" src="https://github.com/user-attachments/assets/c5d22a72-13aa-4fd6-ac55-6fc1bef1c32a" />
 
@@ -443,7 +443,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
 </table>
 
 
-###### RFID tunniste 2
+##### RFID tunniste 2
 <img width="400" alt="Confidex-Survivor-removebg-preview" src="https://github.com/user-attachments/assets/3aee56d2-b062-43d5-9cd2-03ac9feb6112" />
 
 <table border="1" cellspacing="5" cellpadding="5">
@@ -466,7 +466,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
 
 #### 3.2.3 Case 2: UHF RFID-lukijoiden tiedot
 
-###### Kannettava UHF RFID-lukija 1
+##### Kannettava UHF RFID-lukija 1
 <img width="500" height="500" alt="nordic-id-hh85-acd-uhf-rfid-2d-imager-dual-band-wlan-a-b-g-n-ac-us-removebg-preview" src="https://github.com/user-attachments/assets/ceb05261-c5bd-4223-b637-6cf087bf7fe5" />
 
 
@@ -487,7 +487,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
 </table>
 
 
-###### Kiinteä UHF RFID-lukija
+##### Kiinteä UHF RFID-lukija
 
 <img width="742" height="336" alt="NPI00002-1-removebg-preview" src="https://github.com/user-attachments/assets/679d4f37-324d-4424-8ef4-8a74ee9e74b5" />
 
@@ -508,7 +508,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
   </body>
 </table>
 
-###### Kiinteän UHF RFID-lukijan antenni
+##### Kiinteän UHF RFID-lukijan antenni
 
 <img width="980" height="254" alt="-nordic-id-rfid-antennas-removebg-preview" src="https://github.com/user-attachments/assets/22ea4aa2-a37f-4420-b7b5-c0ddd92d3f8b" />
 
@@ -532,7 +532,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
 
 
 
-###### RFID tunnisteiden asennuspaikat
+##### RFID tunnisteiden asennuspaikat
 
 
 
