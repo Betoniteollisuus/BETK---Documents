@@ -431,7 +431,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
  </tbody>
 </table>
 
-#### 3.1.3 Case 2: UHF RFID-lukijoiden tiedot
+#### 3.2.3 Case 2: UHF RFID-lukijoiden tiedot
 
 ###### Kannettava UHF RFID-lukija 1
 <img width="500" height="500" alt="nordic-id-hh85-acd-uhf-rfid-2d-imager-dual-band-wlan-a-b-g-n-ac-us-removebg-preview" src="https://github.com/user-attachments/assets/ceb05261-c5bd-4223-b637-6cf087bf7fe5" />
@@ -495,6 +495,15 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
   </body>
 </table>
 
+#### 3.2.4 Case 2: RFID-tunnisteiden sijoittaminen elementtiin
+
+
+
+###### RFID tunnisteiden asennuspaikat
+
+
+
+#### 3.2.5 Case 2: Kiinteän RFID-portin asemointi elementtitehtaalla
 
 
 
