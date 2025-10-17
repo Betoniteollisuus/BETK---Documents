@@ -374,12 +374,17 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
  <body>
   <tr>
    <td><img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/0e3f180d-890a-4ead-b332-2ef33ccc8c59" />
-    <img  widtg="400" height="600" alt="IMG_20240905_092858" src="https://github.com/user-attachments/assets/34e58939-53b1-4da9-9948-9df0d2c6e566"/>
-<br> 
-</td>
+    <img  widtg="400" height="600" alt="IMG_20240905_092858" src="https://github.com/user-attachments/assets/34e58939-53b1-4da9-9948-9df0d2c6e566"/></td>
   </tr>
   <tr>
-   <td></td>
+   <td><img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/78ff5a92-eaeb-46f1-ac76-1013f1dbb79f" />
+   <img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/93aaa61f-d959-49ac-b8b1-bc3da67d4170" /></td>
+  </tr>
+  <tr>
+   <td>
+    <img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/2e37303a-c022-4b5a-9d01-1c9b86258a82" />
+    <img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/be9aec9d-6fe4-4b20-ae14-b38648a8d314" />
+   </td>
   </tr>
  </body>
 </table>
