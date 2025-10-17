@@ -366,6 +366,8 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
 
 #### 3.2.1 Käytetty RFID-teknologia
 
+
+
 ###### Taulukko 3. Case 2: Hyödynnetty RFID-teknologia
 
 <table border="1" cellspacing="5" cellpadding="5">
@@ -385,28 +387,16 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
 </tbody>
 </table>
 
-<table border="1" cellspacing="5" cellpadding="5">
-<tbody>
-  <tr>
-    <td colspan = "4"><strong>2. Testikokonaisuudessa käytettyjen RFID-tagien tiedot</strong></td>
-  </tr><tr>
-    <td><strong>Muisti</strong></td>
-    <td><strong>Tyyppi</strong></td>
-    <td><strong>Taajuus</strong></td>
-    <td><strong>Kotelointi</strong></td>
-    <td><strong>Määrä</strong></td>
-  </tr><tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr><tr>
-    <td><strong>Kuva 1.</strong></td>
-    <td colspan = "4"> <img width="400" height="408" alt="confidex-ironside-slim-370x273-removebg-preview" src="https://github.com/user-attachments/assets/c5d22a72-13aa-4fd6-ac55-6fc1bef1c32a" />
 
-</td>   
-  </tr><tr>
+
+#### 3.1.2 Case 2: RFID-tagien tiedot
+
+###### RFID tunniste 1
+<img width="400" height="408" alt="confidex-ironside-slim-370x273-removebg-preview" src="https://github.com/user-attachments/assets/c5d22a72-13aa-4fd6-ac55-6fc1bef1c32a" />
+
+<table border="1" cellspacing="5" cellpadding="5">
+ <tbody>
+  <tr>
     <td><strong>Muisti</strong></td>
     <td><strong>Tyyppi</strong></td>
     <td><strong>Taajuus</strong></td>
@@ -418,13 +408,33 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
     <td></td>
     <td></td>
     <td></td>
-   </tr><tr>
-    <td><strong>Kuva 2.</strong></td>
-    <td colspan = "4"> <img width="400" height="400" alt="Confidex-Survivor-removebg-preview" src="https://github.com/user-attachments/assets/3aee56d2-b062-43d5-9cd2-03ac9feb6112" />
-</td>     
   </tr>
-</tbody>
+ </tbody>
 </table>
+
+
+###### RFID tunniste 2
+<img width="400" height="400" alt="Confidex-Survivor-removebg-preview" src="https://github.com/user-attachments/assets/3aee56d2-b062-43d5-9cd2-03ac9feb6112" />
+
+<table border="1" cellspacing="5" cellpadding="5">
+ <tbody>
+  <tr>
+    <td><strong>Muisti</strong></td>
+    <td><strong>Tyyppi</strong></td>
+    <td><strong>Taajuus</strong></td>
+    <td><strong>Kotelointi</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+ </tbody>
+</table>
+
+
 
 
 
