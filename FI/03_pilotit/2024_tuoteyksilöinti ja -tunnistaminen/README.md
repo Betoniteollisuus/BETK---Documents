@@ -364,32 +364,25 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
 
 ### 3.2 Case 2
 
-#### 3.2.1 Käytetty RFID-teknologia
-
-
-
-###### Taulukko 3. Case 2: Hyödynnetty RFID-teknologia
+#### 3.2.1 Case 1: Osapuolet
 
 <table border="1" cellspacing="5" cellpadding="5">
 <tbody>
   <tr>
-    <td colspan="2"><strong>1. Osapuolet</strong></td>
-  </tr><tr>
-        <td>RFID-teknologia toimittaja:</td>
+        <td><strong>RFID-teknologia toimittaja:</strong></td>
         <td><code></code></td>
   </tr><tr>
-        <td>Valmistaja:</td>
+        <td><strong>Valmistaja:</strong></td>
         <td><code></code></td>
   </tr><tr>
-        <td>Vastaanottaja:</td>
+        <td><strong>Vastaanottaja:</strong></td>
         <td><code></code></td>
   </tr>
 </tbody>
 </table>
 
 
-
-#### 3.1.2 Case 2: RFID-tagien tiedot
+#### 3.2.2 Case 2: RFID-tagien tiedot
 
 ###### RFID tunniste 1
 
