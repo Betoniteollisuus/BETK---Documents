@@ -1981,13 +1981,11 @@ Kokonaisuudessaan RFID-teknologian käyttö betonielementtien seurannassa osoitt
 
 ## 5 Johtopäätökset
 
-RFID-teknologian soveltaminen betonielementtien yksilöintiin ja toimitusketjun tapahtumien seurantaan osoittaa merkittävää potentiaalia tuotannon, logistiikan ja laadunhallinnan kehittämisessä. Tutkimus osoitti, että RFID-tunnisteiden käyttö betonirakenteissa on teknisesti toteutettavissa ja että tunnisteet voivat säilyä luettavina myös haastavissa olosuhteissa.
+RFID-teknologian soveltaminen betonielementtien tunnistamiseen ja toimitusketjun tapahtumien seurantaan osoittaa merkittävää potentiaalia tuotannon, logistiikan ja laadunhallinnan kehittämisessä. Tutkimus osoitti, että RFID-tunnisteiden käyttö betonielementeissä on teknisesti toteutettavissa ja että tunnisteet voivat säilyä luettavina myös haastavissa olosuhteissa.
 
-Tutkimuksen tavoitteena oli arvioida RFID-tunnisteiden toimivuutta eri asennus- ja käyttöympäristöissä sekä analysoida lukutulosten luotettavuutta ja käytettävyyttä. Tulokset viittaavat siihen, että teknologia soveltuu käytettäväksi osana digitaalista toimitusketjua, mutta käytännön toteutuksessa on edelleen ratkaistavia haasteita, kuten tunnisteiden sijoittelun ja asennustapojen optimointi.
+Tutkimuksen tavoitteena oli arvioida RFID-tunnisteiden toimivuutta eri asennus- ja käyttöympäristöissä sekä analysoida lukutulosten luotettavuutta ja käytettävyyttä. Tulokset viittaavat siihen, että teknologia soveltuu käytettäväksi osana digitaalista toimitusketjua, mutta käytännön toteutuksessa on edelleen ratkaistavia haasteita, kuten tunnisteiden sijoittelun ja asennustapojen optimointi. Tutkimuksessa havaittiin joitakin poikkeamia tunnisteiden luettavuudessa. On mahdollista, että osa lukematta jääneistä RFID-tunnisteista / elementeistä oli asennettu virheellisiin sijainteihin tai asennettujen RFID-tunnisteiden orientaatio betonielementissä lukijaan nähden vaikeutti signaalin lukutapahtumien taltioimista. Nämä havainnot korostavat asennusprosessin huolellisuuden, dokumentoinnin ja laadunvarmistuksen keskeistä merkitystä RFID-teknologian onnistuneessa käyttöönotossa.
 
-Tutkimuksessa havaittiin joitakin poikkeamia tunnisteiden luettavuudessa. On mahdollista, että osa lukematta jääneistä tunnisteista oli asennettu virheellisiin sijainteihin tai peittynyt betonimassan sisään tavalla, joka esti signaalin kulun. Nämä havainnot korostavat asennusprosessin huolellisuuden, dokumentoinnin ja laadunvarmistuksen keskeistä merkitystä RFID-teknologian onnistuneessa käyttöönotossa.
-
-Koska tutkimuksen otanta oli rajallinen, tuloksia tulee pitää suuntaa-antavina. Kattavampi testaus eri elementtityypeillä, tuotantomenetelmillä ja käyttötilanteissa on tarpeen RFID-teknologian todellisten hyötyjen ja rajoitteiden luotettavaksi arvioimiseksi. Laajemmilla kokeilla voidaan lisäksi tarkentaa teknologian soveltuvuutta rakennustuoteteollisuuden standardoituihin tunnistus- ja tiedonhallintaratkaisuihin.
+Koska tutkimuksen otanta oli rajallinen, tuloksia tulee pitää suuntaa-antavina. Kattavampi testaus eri elementtityypeillä ja käyttötilanteissa on tarpeen RFID-teknologian todellisten hyötyjen ja rajoitteiden luotettavaksi arvioimiseksi. Laajemmilla kokeilla voidaan lisäksi tarkentaa teknologian soveltuvuutta rakennustuoteteollisuuden standardoituihin tunnistus- ja tiedonhallintaratkaisuihin.
 
 ---
 
