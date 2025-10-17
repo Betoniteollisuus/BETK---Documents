@@ -392,6 +392,7 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
 #### 3.1.2 Case 2: RFID-tagien tiedot
 
 ###### RFID tunniste 1
+
 <img width="400" height="408" alt="confidex-ironside-slim-370x273-removebg-preview" src="https://github.com/user-attachments/assets/c5d22a72-13aa-4fd6-ac55-6fc1bef1c32a" />
 
 <table border="1" cellspacing="5" cellpadding="5">
