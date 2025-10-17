@@ -370,6 +370,21 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
 
 RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin kautta, elementtien purkupaikalla. RFID-portin antennit oli sijoitettu alla olevan kuvan mukaisesti purkupaikan molemmille puolille, jossa antennit sijaitsivat 9,2 m etäisyydellä toisistaan. Korkeimmat antennit sijoitettiin alueen molemmille puolille 4,5 m korkeuteen. Lisäksi toiselle puolelle asennettiin myös toinen antenni 1,8 m korkeuteen. 
 
+<table>
+ <body>
+  <tr>
+   <td><img width="373" height="569" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/0e3f180d-890a-4ead-b332-2ef33ccc8c59" />
+    <img  widtg="300" height="100" alt="IMG_20240905_092858" src="https://github.com/user-attachments/assets/34e58939-53b1-4da9-9948-9df0d2c6e566"/>
+<br> 
+</td>
+  </tr>
+  <tr>
+   <td></td>
+  </tr>
+ </body>
+</table>
+
+
 ---
 
 ### 3.2 Case 2
