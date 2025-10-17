@@ -58,7 +58,7 @@ Status: Julkaistu
   * [2.1 Betonielementtien tuoteyksilöinti (UPID)](#21-betonielementtien-tuoteyksil%C3%B6inti-upid)
   * [2.2 UHF RFID-tunniste tiedonkantajana (AIDC) betonielementissä](#22)
 * [3 RFID-teknologian testaus toimitusketjussa](#3)
-  * [3.1 Case 1](#31)
+  * [3.1 Case 1](#31-case-1)
     * [3.1.1 ](#311)
     * [3.1.2 ](#312)
     * [3.1.3 ](#313)
