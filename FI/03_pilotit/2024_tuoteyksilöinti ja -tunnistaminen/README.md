@@ -377,7 +377,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
     <img width="400" height="600" alt="IMG_20240905_092858" src="https://github.com/user-attachments/assets/34e58939-53b1-4da9-9948-9df0d2c6e566"/></td>
   </tr>
   <tr>
-    <td><img width="400" height="600" alt="IMG_20240905_092858" src="https://github.com/user-attachments/assets/af5e5f40-f019-43ce-8939-05b84f7ef409"/></td>
+    <td><img width="800" height="600" alt="IMG_20240905_092858" src="https://github.com/user-attachments/assets/af5e5f40-f019-43ce-8939-05b84f7ef409"/></td>
   </tr>
   <tr>
    <td><img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/78ff5a92-eaeb-46f1-ac76-1013f1dbb79f" />
