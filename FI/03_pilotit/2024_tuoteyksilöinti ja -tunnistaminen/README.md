@@ -169,6 +169,9 @@ Tiedonkantajien osalta betonielementtien käyttöympäristön haasteena nähtiin
 
 ## 3 RFID-teknologian testaus toimitusketjussa
 RFID-teknologian toimivuutta betonielementtien sisään upotettuna tiedonkantajana testattiin kahdessa erillisessä rakennushankkeessa Helsingissä (Case 1) ja Tampereella (Case 2). Testaukseen osallistuivat kaksi eri pääurakoitsijaa, kaksi eri betonielementtivalmistajaa ja kaksi eri RFID-teknologiatoimittajaa. Testaus toteutettiin suoraan toimitettaviin betonielementteihin ilman erillistä mock-up-vaihetta. Tavoitteena oli arvioida RFID-tunnisteiden asennuksen vaikutusta tuotantoprosessiin ja testata niiden käyttöä toimivassa tuotantoketjussa mahdollisimman vähäisin häiriöin. Testauksessa hyödynnettiin valmiiksi koodattuja RFID-tunnisteita, joita luettiin enimmäkseen käsilukijoilla, mutta myös automaattisilla porttilukijoilla.
+
+---
+
 ### 3.1 Case 1
 Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Helsingissä, johon Lujabetoni Oy valmisti ja toimitti väliseinäelementtejä. Testauslaajuus ensimmäisen pilotoinnin osalta oli kymmenen (10) väliseinäelementtiä. Toimitusketjussa testattiin RFID-tunnisteiden luentaa eri vaiheissa: elementtitehtaalla käsilukijoilla, työmaan elementtipurkupaikalla kiinteällä automaattisella lukuportilla sekä elementtiasennuksen jälkeisessä tarkastuksessa käsilukijalla.
 
@@ -367,7 +370,7 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
 
 RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin kautta, elementtien purkupaikalla. RFID-portin antennit oli sijoitettu alla olevan kuvan mukaisesti purkupaikan molemmille puolille, jossa antennit sijaitsivat 9,2 m etäisyydellä toisistaan. Korkeimmat antennit sijoitettiin alueen molemmille puolille 4,5 m korkeuteen. Lisäksi toiselle puolelle asennettiin myös toinen antenni 1,8 m korkeuteen. 
 
-
+---
 
 ### 3.2 Case 2
 
