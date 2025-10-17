@@ -361,6 +361,9 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
 
 #### 3.1.5 Case 1: Kiinteän RFID-portin asemointi työmaalla
 
+RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin kautta, elementtien purkupaikalla. RFID-portin antennit oli sijoitettu alla olevan kuvan mukaisesti purkupaikan molemmille puolille, jossa antennit sijaitsivat 9,2 m etäisyydellä toisistaan. Korkeimmat antennit sijoitettiin alueen molemmille puolille 4,5 m korkeuteen. Lisäksi toiselle puolelle asennettiin myös toinen antenni 1,8 m korkeuteen. 
+
+
 
 ### 3.2 Case 2
 
@@ -370,13 +373,13 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
 <tbody>
   <tr>
         <td><strong>RFID-teknologia toimittaja:</strong></td>
-        <td><code></code></td>
+        <td><code>Nordic ID Oy</code></td>
   </tr><tr>
         <td><strong>Valmistaja:</strong></td>
-        <td><code></code></td>
+        <td><code>Parma Consolis Oy, Kangasalan betonielementtitehdas </code></td>
   </tr><tr>
         <td><strong>Vastaanottaja:</strong></td>
-        <td><code></code></td>
+        <td><code>NCC Rakennus Oy, asuinkerrostalokohde TOAS Rauhaniemi 34, (Tampere) </code></td>
   </tr>
 </tbody>
 </table>
@@ -397,11 +400,11 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
     <td><strong>Kotelointi</strong></td>
     <td><strong>Määrä</strong></td>
   </tr><tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Confidex ironside classic: EPC 128 bytes, RAM 512 bytes, TID 96 bytes </td>
+    <td>Passiivinen</td>
+    <td>Global 865-928MHz </td>
+    <td>Koko: 85 x 21 x 10 mm. Operating temperature -35°C to +85°C / -31°F to +185°F Ambient temperature -35°C to +85°C /-31°F to +185°F IP classification IP68 </td>
+    <td>14 kpl</td>
   </tr>
  </tbody>
 </table>
@@ -419,11 +422,11 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
     <td><strong>Kotelointi</strong></td>
     <td><strong>Määrä</strong></td>
   </tr><tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>Confidex Confidex survivor: NXP UCODE G2iM+ Memory: EPC 448 bit; User 640 bit; TID 96 bit </td>
+    <td>Passiivinen </td>
+    <td>EU 865 - 869 MHz</td>
+    <td>Koko: 155 x 26 x 14,5 mm. Operating temperature -35°C to +85°C / -31°F to +185°F Ambient temperature -35°C to +85°C /-31°F to +185°F IP classification IP68</td>
+    <td>5 kpl</td>
   </tr>
  </tbody>
 </table>
@@ -502,6 +505,19 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
 ## 4 Tulokset
 
 ### 4.1 Case 1: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
+
+RFID-teknologian soveltaminen betonielementtien seurantaan osoittaa merkittävää potentiaalia tuotantoprosessien ja logistiikan hallinnan parantamisessa. Tämän tutkimuksen tarkoituksena oli analysoida RFID-tunnisteiden toimivuutta eri asennus- ja käyttöympäristöissä sekä arvioida lukutulosten luotettavuutta ja käytettävyyttä. 
+
+Tunnisteet asennettiin erilaisiin kohtiin betonielementeissä, kuten raudoitusverkkoon, elementtien päälle ja reunoihin. Asennuspaikoilla ja -tavoilla oli merkittävä vaikutus lukutulosten onnistumiseen. Esimerkiksi elementin reunoihin ja raudoitusverkkoon asennetut tunnisteet tarjosivat pääsääntöisesti parempia tuloksia kuin elementin päälle sijoitetut. Tämä johtui osittain siitä, että reunoille asennetut tunnisteet olivat paremmin saavutettavissa lukulaitteilla. Elementin päälle asennetut tunnisteet kohtasivat lukuisia käytännön haasteita, kuten vaikeuksia päästä tarpeeksi lähelle tunnistetta erityisesti työmaalla, missä lukijat eivät aina yltäneet halutulle etäisyydelle. 
+
+Lukutulosten analyysi paljasti, että etäisyys ja lukulaitteen suuntaus suhteessa tunnisteeseen vaikuttivat merkittävästi signaalin voimakkuuteen (RSSI) ja lukutuloksen onnistumiseen. Lyhyet etäisyydet, kuten 100–500 millimetriä, tuottivat johdonmukaisesti vahvempia signaaleja ja luotettavia lukutuloksia. Sen sijaan pitkän matkan lukemiset, esimerkiksi yli 1500 millimetrin etäisyydeltä, onnistuivat vain silloin, kun tunniste oli sijoitettu oikein ja lukeminen suoritettiin suotuisissa olosuhteissa. Työmaalla lukemisen onnistuminen heikkeni usein olosuhteiden, kuten esteiden, pystysaumojen ja moduulien, vuoksi. 
+
+Tutkimuksessa havaittiin myös, että lukutulokset vaihtelivat huomattavasti eri käyttöympäristöissä. Tehdasolosuhteissa tulokset olivat yleisesti ottaen hyviä ja johdonmukaisia, erityisesti suorissa linjaluvuissa. Työmaalla kuitenkin lukemisen onnistuminen oli vaihtelevampaa, ja käsilukijan käytettävyys riippui käyttäjän fyysisestä pääsystä tunnisteen läheisyyteen. Esimerkiksi elementin päälle sijoitetut tunnisteet olivat usein liian korkealla tai estettyjä holveilla tai muilla rakenteilla, mikä vaikeutti niiden lukemista. 
+
+Lukutapahtumien dokumentointi osoittautui erittäin tärkeäksi osaksi prosessia. Jokainen asennus ja lukutapahtuma dokumentoitiin valokuvin, mikä helpotti havaintojen analysointia ja lisäsi tulosten toistettavuutta. Valokuvien järjestelmällinen nimeäminen ja tallentaminen mahdollisti myös yksittäisten tapahtumien tarkastelun jälkikäteen. 
+
+Kokonaisuudessaan RFID-teknologian käyttö betonielementtien seurannassa osoittaa, että teknologia voi merkittävästi parantaa elementtien jäljitettävyyttä ja prosessien tehokkuutta. Haasteet liittyivät erityisesti työmaaolosuhteisiin, joissa lukutulokset olivat alttiimpia olosuhteiden vaihteluille. Tulevaisuudessa järjestelmän luotettavuutta voitaisiin parantaa optimoimalla tunnisteiden sijoittelua, kehittämällä lukulaitteita sekä lisäämällä kiinteitä lukupisteitä työmailla. Nämä toimenpiteet auttaisivat varmistamaan RFID-teknologian täyden potentiaalin hyödyntämisen rakennusteollisuudessa. 
+
 
 <details> 
 <Summary>Case 1. Koontitulokset</Summary>
@@ -1552,6 +1568,8 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
 </details>
 
 ### 4.2 Case 2: RFID-tunnisteiden asennuksen ja lukutulosten analyysi
+
+
 
 <details> 
 <Summary>Case 2. Koontitulokset</Summary>
