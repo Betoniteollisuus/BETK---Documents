@@ -428,7 +428,26 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, jo
  </tbody>
 </table>
 
+#### 3.1.3 Case 1: UHF RFID-lukijoiden tiedot
 
+###### Kannettava UHF RFID-lukija 1
+<img width="500" height="500" alt="nordic-id-exa51e-acd-nur2-1w-uhf-2d-imager-wireless-charging-etsi" src="https://github.com/user-attachments/assets/05e66998-e47a-4fbb-9d9f-0239879c86df" />
+
+<table border="1" cellspacing="5" cellpadding="5">
+  <body>
+    <tr>
+      <td><strong>Laite</strong></td>
+      <td><strong>Valmistaja/tyyppi</strong></td>
+      <td><strong>Käyttötarkoitus</strong></td>
+      <td><strong>Määrä</strong></td>
+    </tr><tr>
+      <td>Kannettava UHF RFID-lukija</td>
+      <td>Nordic ID EXA51E </td>
+      <td>Elementtitehtaan tapahtumat </td>
+      <td>1 kpl</td>
+    </tr>
+  </body>
+</table>
 
 
 
