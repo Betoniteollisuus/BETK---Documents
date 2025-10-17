@@ -1981,11 +1981,13 @@ Kokonaisuudessaan RFID-teknologian käyttö betonielementtien seurannassa osoitt
 
 ## 5 Johtopäätökset
 
-RFID-teknologian soveltaminen betonielementtien yksilöintiin ja toimitusketjun tapahtumien seurantaan osoittaa merkittävää potentiaalia tuotantoprosessien ja logistiikan hallinnan parantamisessa. Tämän tutkimuksen tarkoituksena oli analysoida RFID-tunnisteiden toimivuutta eri asennus- ja käyttöympäristöissä sekä arvioida lukutulosten luotettavuutta ja käytettävyyttä. 
+RFID-teknologian soveltaminen betonielementtien yksilöintiin ja toimitusketjun tapahtumien seurantaan osoittaa merkittävää potentiaalia tuotannon, logistiikan ja laadunhallinnan kehittämisessä. Tutkimus osoitti, että RFID-tunnisteiden käyttö betonirakenteissa on teknisesti toteutettavissa ja että tunnisteet voivat säilyä luettavina myös haastavissa olosuhteissa.
 
-Ei voida poissulkea mahdollisuutta, että ne rfid elementit jotka ei löytyneet betonielementit olisi asennettu vääriin sijainteihin 
+Tutkimuksen tavoitteena oli arvioida RFID-tunnisteiden toimivuutta eri asennus- ja käyttöympäristöissä sekä analysoida lukutulosten luotettavuutta ja käytettävyyttä. Tulokset viittaavat siihen, että teknologia soveltuu käytettäväksi osana digitaalista toimitusketjua, mutta käytännön toteutuksessa on edelleen ratkaistavia haasteita, kuten tunnisteiden sijoittelun ja asennustapojen optimointi.
 
-suppea otanta, jonka vuoksi kattavammalle testaukselle on tarvetta RFID-teknologian todellisten hyötyjen mittaamisessa.  
+Tutkimuksessa havaittiin joitakin poikkeamia tunnisteiden luettavuudessa. On mahdollista, että osa lukematta jääneistä tunnisteista oli asennettu virheellisiin sijainteihin tai peittynyt betonimassan sisään tavalla, joka esti signaalin kulun. Nämä havainnot korostavat asennusprosessin huolellisuuden, dokumentoinnin ja laadunvarmistuksen keskeistä merkitystä RFID-teknologian onnistuneessa käyttöönotossa.
+
+Koska tutkimuksen otanta oli rajallinen, tuloksia tulee pitää suuntaa-antavina. Kattavampi testaus eri elementtityypeillä, tuotantomenetelmillä ja käyttötilanteissa on tarpeen RFID-teknologian todellisten hyötyjen ja rajoitteiden luotettavaksi arvioimiseksi. Laajemmilla kokeilla voidaan lisäksi tarkentaa teknologian soveltuvuutta rakennustuoteteollisuuden standardoituihin tunnistus- ja tiedonhallintaratkaisuihin.
 
 ---
 
