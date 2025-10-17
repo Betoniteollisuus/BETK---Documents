@@ -431,10 +431,11 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
  </tbody>
 </table>
 
-#### 3.1.3 Case 1: UHF RFID-lukijoiden tiedot
+#### 3.1.3 Case 2: UHF RFID-lukijoiden tiedot
 
 ###### Kannettava UHF RFID-lukija 1
-<img width="500" height="500" alt="nordic-id-exa51e-acd-nur2-1w-uhf-2d-imager-wireless-charging-etsi" src="https://github.com/user-attachments/assets/05e66998-e47a-4fbb-9d9f-0239879c86df" />
+<img width="500" height="500" alt="nordic-id-hh85-acd-uhf-rfid-2d-imager-dual-band-wlan-a-b-g-n-ac-us-removebg-preview" src="https://github.com/user-attachments/assets/ceb05261-c5bd-4223-b637-6cf087bf7fe5" />
+
 
 <table border="1" cellspacing="5" cellpadding="5">
   <body>
@@ -445,59 +446,57 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
       <td><strong>Määrä</strong></td>
     </tr><tr>
       <td>Kannettava UHF RFID-lukija</td>
-      <td>Nordic ID EXA51E </td>
-      <td>Elementtitehtaan tapahtumat </td>
+      <td>Nordic ID HH85</td>
+      <td>Rakennustyömaalla RFID-tunnisteiden luenta</td>
       <td>1 kpl</td>
     </tr>
   </body>
 </table>
 
+
+###### Kiinteä UHF RFID-lukija
+
+<img width="742" height="336" alt="NPI00002-1-removebg-preview" src="https://github.com/user-attachments/assets/679d4f37-324d-4424-8ef4-8a74ee9e74b5" />
 
 
 <table border="1" cellspacing="5" cellpadding="5">
   <body>
     <tr>
-      <td colspan = "4"><strong>3. Testikokonaisuudessa käytettyjen RFID-lukijoiden tiedot</strong></td>
-    </tr><tr>
       <td><strong>Laite</strong></td>
       <td><strong>Valmistaja/tyyppi</strong></td>
       <td><strong>Käyttötarkoitus</strong></td>
       <td><strong>Määrä</strong></td>
     </tr><tr>
-      <td rowspan = "3"></td>
-      <td></td>
-      <td></td>
+      <td>Kiinteä UHF RFID-lukija</td>
+      <td>Nordic ID FR22 LTE UHF-lukija </td>
+      <td>Betonielementtitehtaalla valmistuksen / välivaraston välisellä osuudella sijaitseva kiinteä piste</td>
       <td>1 kpl</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td rowspan = "3"></td>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td></td>
-      <td></td>
-      <td>1 kpl</td>
-    </tr><tr>
-      <td colspan = "4"><strong>3. RFID-tunnisteiden sijoittaminen elementtiin</strong></td>
-    </tr><tr>
-      <td colspan = "4"></td>
-    </tr><tr>
-      <td colspan = "4"></td>
     </tr>
   </body>
 </table>
+
+###### Kiinteän UHF RFID-lukijan antenni
+
+<img width="980" height="254" alt="-nordic-id-rfid-antennas-removebg-preview" src="https://github.com/user-attachments/assets/22ea4aa2-a37f-4420-b7b5-c0ddd92d3f8b" />
+
+<table border="1" cellspacing="5" cellpadding="5">
+  <body>
+    <tr>
+      <td><strong>Laite</strong></td>
+      <td><strong>Valmistaja/tyyppi</strong></td>
+      <td><strong>Käyttötarkoitus</strong></td>
+      <td><strong>Määrä</strong></td>
+    </tr><tr>
+      <td>UHF-antenni</td>
+      <td>UHF-antenni Nordic ID GA30</td>
+      <td>Betonielementtitehtaalla valmistuksen / välivaraston välisellä osuudella sijaitseva kiinteä piste</td>
+      <td>4 kpl</td>
+    </tr>
+  </body>
+</table>
+
+
+
 
 
 
