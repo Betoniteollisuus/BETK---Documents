@@ -393,6 +393,13 @@ Teknisestä näkökulmasta Confidex Ironside soveltuu paremmin kompaktien tuotte
 
 #### 3.2.3 Case 2: UHF RFID-lukijoiden tiedot
 
+Toisessa tapaustutkimuksessa testattiin RFID-lukulaitteiden toimivuutta teollisen tuotannon ja työmaan rajapinnassa. Käytössä oli sekä kannettava että kiinteä UHF RFID -lukuratkaisu, jotka edustivat uudemman sukupolven laitekantaa.
+
+Kannettava lukija oli Nordic ID HH85, ergonominen ja teollisuuskäyttöön suunniteltu päätelaite, jossa on suuri akku, integroitu antenni ja kosketusnäyttö. Lukijaa käytettiin rakennustyömaalla elementtien tunnistamiseen ja toimituserien seurantaan, erityisesti asennusvaiheen yhteydessä. Laite mahdollisti tiedon siirron suoraan pilvipalveluun, mikä paransi luentatietojen ajantasaisuutta ja vähensi manuaalista kirjaamista.
+
+Kiinteänä lukijana toimi Nordic ID FR22 LTE, joka asennettiin betonielementtitehtaan tuotannon ja välivaraston väliseen pisteeseen. Lukija keräsi automaattisesti tunnistetietoja elementtien siirtyessä prosessin vaiheiden välillä. FR22-laitteeseen liitettiin neljä Nordic ID GA30 -antennia, jotka muodostivat laajan ja monisuuntaisen lukualueen mahdollistaen tunnisteiden luennan myös betonipinnan sisältä.
+
+Kokonaisuutena laitteisto toimi luotettavasti, ja sen avulla voitiin todentaa automaattisen tunnistamisen soveltuvuus rakennustuotteiden tuotannon ja logistiikan digitaaliseen seurantaan.
 
 <table border="1" cellspacing="5" cellpadding="5">
  <tbody>
