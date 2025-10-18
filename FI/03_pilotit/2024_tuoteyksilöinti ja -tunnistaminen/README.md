@@ -391,7 +391,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
     <td>Betonielementtitehtaalla valmistuksen / välivaraston välisellä osuudella sijaitseva kiinteä piste</td>
     <td>1 kpl</td>
   </tr><tr> 
-    <td><strong>UH-antenni</strong> <br> <img width="500" height="100" alt="-nordic-id-rfid-antennas-removebg-preview" src="https://github.com/user-attachments/assets/22ea4aa2-a37f-4420-b7b5-c0ddd92d3f8b" /></td>
+    <td><strong>UFH-antenni</strong> <br> <img width="800" alt="-nordic-id-rfid-antennas-removebg-preview" src="https://github.com/user-attachments/assets/22ea4aa2-a37f-4420-b7b5-c0ddd92d3f8b" /></td>
     <td>UHF-antenni</td>
     <td>UHF-antenni Nordic ID GA30</td>
     <td>Betonielementtitehtaalla valmistuksen / välivaraston välisellä osuudella sijaitseva kiinteä piste</td>
@@ -399,7 +399,6 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
   </tr>
   </body>
 </table>
-
 
 #### 3.2.4 Case 2: RFID-tunnisteiden sijoittaminen elementtiin
 
