@@ -354,6 +354,13 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
 
 #### 3.2.2 Case 2: RFID-tagien tiedot
 
+Toisessa RFID-tapaustutkimuksessa arvioitiin kahden Confidexin UHF RFID -tunnisteen teknistä soveltuvuutta betonituotteiden yksilöintiin. Molemmat tunnisteet ovat passiivisia EPC Class 1 Gen2 / ISO 18000-6C -standardin mukaisia ja suunniteltu vaativiin teollisuusympäristöihin, joissa vaaditaan mekaanista kestävyyttä, korkeaa luotettavuutta ja metallipintojen läheisyydessä toimivaa antennirakennetta.
+
+Ensimmäinen tunnistetyyppi (Confidex Ironside Classic) perustuu UHF EPC Gen2 / ISO 18000-6C -protokollaan ja toimii taajuusalueella 865–928 MHz. Tunnisteessa käytetään Alien Higgs-3 -sukupolven sirua, jonka muistirakenne sisältää 128 tavua EPC-muistia, 512 tavua käyttäjämuistia (User Memory) ja 96 tavua TID-muistia (Tag Identifier). Nämä muistialueet mahdollistavat sekä yksilöivän EPC-tunnisteen tallennuksen että tuotekohtaisten metatietojen (esim. valmistuserä, valupäivä tai toimitusnumero) upottamisen tunnisteeseen. Fyysisesti tunniste on ABS-komposiittikuorinen, mitoiltaan 85 × 21 × 10 mm, ja se täyttää IP68-luokituksen pöly- ja vesitiiviyden osalta. Käyttölämpötila-alue (−35 °C – +85 °C) kattaa tyypilliset betonielementtiteollisuuden prosessilämpötilat sekä ulkovarastoinnin olosuhteet. Tunnistetta käytettiin kokeessa yhteensä 14 kappaletta
+
+Toinen tutkittu malli (Confidex Survivor) on rakenteeltaan järeämpi ja varustettu NXP UCODE G2iM+ -piirillä, joka tarjoaa suuremman muistikapasiteetin: EPC 448 bittiä, User Memory 640 bittiä ja TID 96 bittiä. Tunniste toimii EU:n säädösten mukaisella taajuusalueella 865–869 MHz ja noudattaa samaa EPC Class 1 Gen2 / ISO 18000-6C -standardia. Fyysiset mitat (155 × 26 × 14,5 mm) mahdollistavat tehokkaamman antennin ja pidemmän lukuetäisyyden ja IP68-luokitus tekevät tunnisteesta mekaanisesti erittäin kestävän, ja sen kapselointi mahdollistaa upotuksen betonimassaan ilman sirun vaurioitumista. Käyttölämpötila-alue on identtinen Ironside-mallin kanssa, mutta Survivor-tunnisteen antennirakenne tarjoaa paremman säteilykuvion ja luentatehon, erityisesti metallipintojen läheisyydessä tai rakenteellisesti vaimennetuissa olosuhteissa. Tässä tutkimuksessa tunnisteita oli käytössä viisi kappaletta.
+
+Teknisestä näkökulmasta Confidex Ironside soveltuu paremmin kompaktien tuotteiden ja lyhyiden lukuetäisyyksien sovelluksiin, kun taas Confidex Survivor tarjoaa pidemmän lukuetäisyyden ja korkeamman luotettavuuden vaativissa teollisuusympäristöissä. Molemmat tunnisteet tukevat EPCIS-yhteensopivaa tapahtumatiedonhallintaa, mikä mahdollistaa tunnistetietojen integroinnin digitaaliseen toimitusketjujärjestelmään.
 
 <table border="1" cellspacing="5" cellpadding="5">
  <tbody>
