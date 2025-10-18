@@ -379,19 +379,19 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
     <td><strong>Käyttötarkoitus</strong></td>
     <td><strong>Määrä</strong></td>
   </tr><tr>
-    <td><strong>Kannettava UHF RFID-lukija 1</strong><br><img width="500" alt="nordic-id-hh85-acd-uhf-rfid-2d-imager-dual-band-wlan-a-b-g-n-ac-us-removebg-preview" src="https://github.com/user-attachments/assets/ceb05261-c5bd-4223-b637-6cf087bf7fe5" /></td>
+    <td><strong>Kannettava UHF RFID-lukija 1</strong><br><img width="400" alt="nordic-id-hh85-acd-uhf-rfid-2d-imager-dual-band-wlan-a-b-g-n-ac-us-removebg-preview" src="https://github.com/user-attachments/assets/ceb05261-c5bd-4223-b637-6cf087bf7fe5" /></td>
     <td>Kannettava UHF RFID-lukija</td>
     <td>Nordic ID HH85</td>
     <td>Rakennustyömaalla RFID-tunnisteiden luenta</td>
     <td>1 kpl</td>
   </tr><tr> 
-    <td><strong>Kiinteä UHF RFID-lukija</strong><br><img width="500" alt="NPI00002-1-removebg-preview" src="https://github.com/user-attachments/assets/679d4f37-324d-4424-8ef4-8a74ee9e74b5" /></td>
+    <td><strong>Kiinteä UHF RFID-lukija</strong><br><img width="400" alt="NPI00002-1-removebg-preview" src="https://github.com/user-attachments/assets/679d4f37-324d-4424-8ef4-8a74ee9e74b5" /></td>
     <td>Kiinteä UHF RFID-lukija</td>
     <td>Nordic ID FR22 LTE UHF-lukija </td>
     <td>Betonielementtitehtaalla valmistuksen / välivaraston välisellä osuudella sijaitseva kiinteä piste</td>
     <td>1 kpl</td>
   </tr><tr> 
-    <td><strong>Kiinteän UHF RFID-lukijan antenni</strong><br> <img height="500" alt="-nordic-id-rfid-antennas-removebg-preview" src="https://github.com/user-attachments/assets/22ea4aa2-a37f-4420-b7b5-c0ddd92d3f8b" /></td>
+    <td><strong>UH-antenni</strong> <br> <img width="500" height="100" alt="-nordic-id-rfid-antennas-removebg-preview" src="https://github.com/user-attachments/assets/22ea4aa2-a37f-4420-b7b5-c0ddd92d3f8b" /></td>
     <td>UHF-antenni</td>
     <td>UHF-antenni Nordic ID GA30</td>
     <td>Betonielementtitehtaalla valmistuksen / välivaraston välisellä osuudella sijaitseva kiinteä piste</td>
