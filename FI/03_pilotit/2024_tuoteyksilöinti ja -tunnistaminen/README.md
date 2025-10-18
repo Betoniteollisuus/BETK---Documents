@@ -201,7 +201,7 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 <table border="1" cellspacing="5" cellpadding="5">
  <tbody>
   <tr>
-    <td>RFID tunniste</td>
+    <td><strong>RFID tunniste</strong></td>
     <td><strong>Muisti</strong></td>
     <td><strong>Tyyppi</strong></td>
     <td><strong>Taajuus</strong></td>
