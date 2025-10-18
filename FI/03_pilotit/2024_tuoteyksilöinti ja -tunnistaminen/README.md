@@ -228,6 +228,62 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 
 #### 3.1.3 Case 1: UHF RFID-lukijoiden tiedot
 
+
+<table border="1" cellspacing="5" cellpadding="5">
+ <tbody>
+  <tr>
+    <td><strong>Laite</strong></td>
+    <td><strong>Tuotetiedot</strong></td>
+    <td><strong>Valmistaja/tyyppi</strong></td>
+    <td><strong>Käyttötarkoitus</strong></td>
+    <td><strong>Määrä</strong></td>
+  </tr><tr>
+    <td><strong>Kannettava UHF RFID-lukija 1</strong><br><img width="500" height="500" alt="nordic-id-exa51e-acd-nur2-1w-uhf-2d-imager-wireless-charging-etsi" src="https://github.com/user-attachments/assets/05e66998-e47a-4fbb-9d9f-0239879c86df" /></td>
+     <td>Kannettava UHF RFID-lukija</td>
+     <td>Nordic ID EXA51E </td>
+     <td>Elementtitehtaan lukutapahtumat </td>
+     <td>1 kpl</td>
+  </tr><tr>
+     <td><strong>Kannettava UHF RFID-lukija 2</strong><br><img width="500" height="500" alt="Medea_UHF_RFID_Reader_from_Nordic_ID" src="https://github.com/user-attachments/assets/cfcbf999-af75-4f1d-b522-2409c55506ec" /></td>
+     <td>Kannettava UHF RFID-lukija</td>
+     <td>Nordic ID Medea</td>
+     <td>Elementtitehtaan tapahtumat </td>
+     <td>1 kpl</td>
+  </tr><tr>
+     <td><strong>Kannettava UHF RFID-lukija 3</strong><br><img width="500" height="500" alt="4G-5-7inch-with-Screen-Wireless-UHF-Reader-Writer-Scanners-Device-Asset-Identification-Readers-RFID-PDA-removebg-preview" src="https://github.com/user-attachments/assets/b2f96cf9-e888-43bf-92c1-91050ac37192" /></td>
+     <td>Kannettava UHF RFID-lukija</td>
+     <td>LT-C9082</td>
+     <td>Työmaalla asennuksen jälkeinen tarkastus</td>
+     <td>1 kpl</td>   
+  </tr><tr>
+     <td><strong>Kiinteä UHF RFID-lukija</strong><br><img width="408" height="408" alt="Impinj_R220-removebg-preview" src="https://github.com/user-attachments/assets/4c19dc8d-a54c-4c25-a66e-d9277f7a9370" /></td>
+     <td>Kiinteä UHF RFID-lukija</td>
+     <td>Impinj Speedway R220 UHF-lukija </td>
+     <td>Elementin vastaanotto/kuorman purku työmaalla</td>
+     <td>1 kpl</td>
+  </tr><tr>
+    <td><strong>Kiinteän UHF RFID-lukijan antenni 1</strong><br> <img width="293" height="300" alt="0001290_times-7-slimline-a5010-circular-polarized-antenna_300-removebg-preview" src="https://github.com/user-attachments/assets/cf5bbab7-1f75-4b81-851f-2868079f827b" /></td>
+    <td>UHF-antenni</td>
+    <td>UHF-antenni Times-7 A5010 (A5010)</td>
+    <td>Elementin vastaanotto/kuorman purku työmaalla</td>
+    <td>1 kpl</td>
+  </tr><tr>
+    <td><strong>Kiinteän UHF RFID-lukijan antenni 2</strong><br> <img width="300" height="200" alt="5bcfddc6b8170-removebg-preview" src="https://github.com/user-attachments/assets/95a4f4b7-2986-4798-bc5e-3c96fe02910a" /></td>
+    <td>UHF-antenni</td>
+    <td>UHF-antenni BRA-08</td>
+    <td>Elementin vastaanotto/kuorman purku työmaalla</td>
+    <td>1 kpl</td>
+  </tr>
+ </tbody>
+</table>
+
+
+
+
+
+
+
+
 ###### Kannettava UHF RFID-lukija 1
 <img width="500" height="500" alt="nordic-id-exa51e-acd-nur2-1w-uhf-2d-imager-wireless-charging-etsi" src="https://github.com/user-attachments/assets/05e66998-e47a-4fbb-9d9f-0239879c86df" />
 
