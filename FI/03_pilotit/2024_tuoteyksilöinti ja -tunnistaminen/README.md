@@ -197,6 +197,15 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 
 #### 3.1.2 Case 1: RFID-tagien tiedot
 
+Ensimmäisessä tapaustutkimuksessa tarkasteltiin kahden erilaisen UHF-taajuusalueella toimivan RFID-tunnisteen soveltuvuutta betonituotteiden yksilölliseen tunnistamiseen ja tiedonsiirtoon. Molemmat testatut tunnisteet perustuivat Alien Technology Higgs3 -siruun, jossa on 512 bitin käyttäjämuisti ja 96/128 bitin EPC-tunniste. Näin ollen ne mahdollistavat sekä pysyvän yksilöintitiedon että rajallisen määrän tuotekohtaista lisädataa tallennettuna itse tunnisteeseen.
+
+Ensimmäinen tunniste (RFID tunniste 1) oli ABS-muovikoteloitu, metallia kestävä hard tag, jonka mitat olivat 155 × 32 × 12 mm ja suojausluokka IP67. Tunniste suunniteltiin erityisesti ympäristöihin, joissa se altistuu kosteudelle, pölylle ja mekaaniselle rasitukselle, kuten betonivalujen yhteydessä tapahtuvassa upotuksessa. Tässä kokeessa tunnisteita oli käytössä yhteensä 15 kappaletta.
+
+Toinen testattu tunniste (RFID tunniste 2) oli vastaavasti anti-metal-tyyppinen passiivinen tunniste, mutta rakenteeltaan pienempi ja matalaprofiilisempi (135 × 21 × 17 mm). Sen kotelointi oli IP68-suojattu, mikä tekee siitä täysin pöly- ja vesitiiviin. Tämä tunnistemalli soveltui erityisen hyvin kohteisiin, joissa tilaa oli rajoitetusti, mutta kestävyydeltä vaadittiin vastaavaa tasoa kuin suuremmassa mallissa. Myös tätä tunnistetyyppiä oli käytössä 15 kappaletta.
+
+Molemmat tunnisteet toimivat passiivisina EPC Class 1 Gen 2 / ISO 18000-6C -standardin mukaisina R/W-tunnisteina taajuusalueella 860–920 MHz, mikä mahdollistaa yhteensopivuuden laajasti käytössä olevien UHF-lukijoiden kanssa. Tunnisteiden valinnassa painotettiin erityisesti testiympäristön vaatimusten mukaista kestävyyttä, luotettavaa luentaa metallipintojen läheisyydessä sekä tiedon pysyvyyttä tuotteen elinkaaren ajan.
+
+****!!!!****Näiden kahden tunnistetyypin vertailun tarkoituksena oli arvioida niiden käytettävyyttä, luettavuutta ja kestävyyttä todellisissa tuotanto- ja työmaaolosuhteissa. Tulokset muodostivat perustan myöhemmille testauksille, joissa RFID-tunnisteet integroitiin osaksi digitaalista tuotetietoketjua ja EPCIS-pohjaista tapahtumatiedonhallintaa.*
 
 <table border="1" cellspacing="5" cellpadding="5">
  <tbody>
