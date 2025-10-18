@@ -337,41 +337,26 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
 
 #### 3.2.2 Case 2: RFID-tagien tiedot
 
-##### RFID tunniste 1
-
-<img width="400" alt="confidex-ironside-slim-370x273-removebg-preview" src="https://github.com/user-attachments/assets/c5d22a72-13aa-4fd6-ac55-6fc1bef1c32a" />
 
 <table border="1" cellspacing="5" cellpadding="5">
  <tbody>
   <tr>
+    <td><strong>RFID tunniste</strong></td>
     <td><strong>Muisti</strong></td>
     <td><strong>Tyyppi</strong></td>
     <td><strong>Taajuus</strong></td>
     <td><strong>Kotelointi</strong></td>
     <td><strong>Määrä</strong></td>
   </tr><tr>
+    <td><strong>RFID tunniste 1 <img width="400" alt="confidex-ironside-slim-370x273-removebg-preview" src="https://github.com/user-attachments/assets/c5d22a72-13aa-4fd6-ac55-6fc1bef1c32a" /></td>
     <td>Confidex ironside classic: EPC 128 bytes, RAM 512 bytes, TID 96 bytes </td>
     <td>Passiivinen</td>
     <td>Global 865-928MHz </td>
     <td>Koko: 85 x 21 x 10 mm. Operating temperature -35°C to +85°C / -31°F to +185°F Ambient temperature -35°C to +85°C /-31°F to +185°F IP classification IP68 </td>
     <td>14 kpl</td>
   </tr>
- </tbody>
-</table>
-
-
-##### RFID tunniste 2
-<img width="400" alt="Confidex-Survivor-removebg-preview" src="https://github.com/user-attachments/assets/3aee56d2-b062-43d5-9cd2-03ac9feb6112" />
-
-<table border="1" cellspacing="5" cellpadding="5">
- <tbody>
   <tr>
-    <td><strong>Muisti</strong></td>
-    <td><strong>Tyyppi</strong></td>
-    <td><strong>Taajuus</strong></td>
-    <td><strong>Kotelointi</strong></td>
-    <td><strong>Määrä</strong></td>
-  </tr><tr>
+    <td><strong>RFID tunniste 2</strong><br> <img width="400" alt="Confidex-Survivor-removebg-preview" src="https://github.com/user-attachments/assets/3aee56d2-b062-43d5-9cd2-03ac9feb6112" /></td>
     <td>Confidex Confidex survivor: NXP UCODE G2iM+ Memory: EPC 448 bit; User 640 bit; TID 96 bit </td>
     <td>Passiivinen </td>
     <td>EU 865 - 869 MHz</td>
@@ -380,6 +365,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
   </tr>
  </tbody>
 </table>
+
 
 #### 3.2.3 Case 2: UHF RFID-lukijoiden tiedot
 
