@@ -237,6 +237,19 @@ Molemmat tunnisteet toimivat passiivisina EPC Class 1 Gen 2 / ISO 18000-6C -stan
 
 #### 3.1.3 Case 1: UHF RFID-lukijoiden tiedot
 
+Tässä tapaustutkimuksessa käytettiin useita erilaisia UHF RFID -lukulaitteita, joiden avulla voitiin kerätä ja lukea tunnistetietoja betonielementteihin upotetuista RFID-tageista eri toimitusketjun vaiheissa. *Lukijat valittiin siten, että ne edustavat sekä kannettavia että kiinteitä ratkaisuja, ja niiden avulla voitiin testata järjestelmän toimivuutta tuotannosta työmaan vastaanottoon asti.*
+
+Ensimmäisenä lukulaitteena testattiin Nordic ID EXA51E -mallia, joka on kevyt ja helposti liikuteltava käsikäyttöinen UHF-lukija. Lukija toimii Bluetooth-yhteydellä ja on suunniteltu erityisesti mobiilikäyttöön esimerkiksi tuotantolinjoilla ja varastoympäristöissä. Tässä tutkimuksessa sitä käytettiin elementtitehtaalla tapahtuvien lukutapahtumien suorittamiseen, kuten valmiiden elementtien tunnistamiseen ja tietojen tallentamiseen.
+
+Toisena kannettavana laitteena käytettiin Nordic ID Medea -lukijaa, joka yhdistää RFID-lukutoiminnot ja viivakoodinlukijan kosketusnäytölliseen päätelaitteeseen. Tämä mahdollisti sekä RFID-tunnisteiden että perinteisten tunnisteiden käsittelyn samassa käyttöliittymässä. Medeaa käytettiin niin ikään elementtitehtaan lukutapahtumissa, joissa vaadittiin tarkkaa tunnistamista ja nopeaa tiedonsiirtoa.
+
+Kolmantena testattiin LT-C9082 -mallista kannettavaa lukijaa, joka perustuu Android-käyttöjärjestelmään ja on varustettu integroidulla UHF-lukijalla sekä kosketusnäytöllä. Tätä laitetta käytettiin erityisesti työmaan asennuksen jälkeisessä tarkastuksessa, jossa haluttiin varmistaa, että tunnisteet olivat edelleen luettavissa ja että tuotteiden yksilöintitiedot vastasivat toimitusasiakirjoja ja tietomallia.
+
+Kiinteiden lukulaitteiden osalta käytössä oli Impinj Speedway R220, joka on teollisuustason UHF RFID -lukija soveltuen jatkuvaan tiedonkeruuseen esimerkiksi portti- tai vastaanottoalueilla. Lukija asennettiin työmaalle elementtien vastaanotto- ja purkualueelle, jossa sen avulla tunnistettiin kuljetuksista purettuja elementtejä automaattisesti.
+
+Kiinteän lukijan yhteyteen asennettiin kaksi erilaista antennia: Times-7 A5010 ja BRA-08. Molemmat antennit toimivat circular polarized -periaatteella, mikä mahdollistaa tunnisteiden luennan eri kulmista ja asennoista. Times-7 A5010 on tunnettu laajasta keilakulmastaan ja kestävyydestään, kun taas BRA-08 soveltuu kompaktimman rakenteensa ansiosta erityisesti rajoitettuihin tiloihin ja tarkasti kohdennettuun luentaan.
+
+Näiden laitteiden ja antennien avulla saatiin kokonaiskuva siitä, miten eri tyyppiset lukuratkaisut soveltuvat rakennustuoteteollisuuden ja työmaan käytännön prosesseihin. Tulosten perusteella voitiin arvioida muun muassa lukumatkoja, signaalin luotettavuutta, metallipintojen vaikutusta sekä käytettävyyttä erilaisissa ympäristöissä. Kokonaisuutena testaus vahvisti, että sekä kannettavat että kiinteät RFID-lukijat voivat muodostaa toimivan osan rakennustuotteiden digitaalista tunnistus- ja seurantajärjestelmää.
 
 <table border="1" cellspacing="5" cellpadding="5">
  <tbody>
