@@ -402,7 +402,7 @@ RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin k
 
 #### 3.2.4 Case 2: RFID-tunnisteiden sijoittaminen elementtiin
 
-
+  <td rowspan="7"><img width="962" height="875" alt="Case 2 orientaatio-F (FI)" src="https://github.com/user-attachments/assets/1e15aefe-4d57-4595-8717-a5e63cfd0503" /><br> Kuva. RFID tunnisteiden asennuspaikat</td>
 
 ##### RFID tunnisteiden asennuspaikat
 
