@@ -197,46 +197,33 @@ Ensimmäisenä pilottikohteena toimi Fira Rakennus Oy:n asuinkerrostalokohde Hel
 
 #### 3.1.2 Case 1: RFID-tagien tiedot
 
-###### RFID tunniste 1
-<img width="895" height="202" alt="tunniste2-removebg-preview" src="https://github.com/user-attachments/assets/bd892371-d7c1-4ec0-8a2f-aa1ab5d3bef6" />
 
 <table border="1" cellspacing="5" cellpadding="5">
  <tbody>
   <tr>
+    <td>RFID tunniste</td>
     <td><strong>Muisti</strong></td>
     <td><strong>Tyyppi</strong></td>
     <td><strong>Taajuus</strong></td>
     <td><strong>Kotelointi</strong></td>
     <td><strong>Määrä</strong></td>
   </tr><tr>
+    <td><strong>RFID tunniste 1 </strong><br><img width="895" height="202" alt="tunniste2-removebg-preview" src="https://github.com/user-attachments/assets/bd892371-d7c1-4ec0-8a2f-aa1ab5d3bef6" /></td>
     <td>Alien Technology, Alien Higgs3 chip, 512bits User memory, 96/128bits EPC </td>
     <td>Passive R/W EPC Class 1 Gen 2/ISO 18000-6C</td>
     <td>UHF 860-920 MHz</td>
     <td>Anti metal ABS rfid hard tag Koko:155*32*12mm IP67 </td>
     <td>15 kpl</td>
   </tr>
- </tbody>
-</table>
-  
-###### RFID tunniste 2
-<img width="831" height="168" alt="tunniste1" src="https://github.com/user-attachments/assets/7c8eeb0f-8367-4a52-adea-0a5d27d4d120" /><br> 
-
-<table border="1" cellspacing="5" cellpadding="5">
-<tbody>
   <tr>
-    <td><strong>Muisti</strong></td>
-    <td><strong>Tyyppi</strong></td>
-    <td><strong>Taajuus</strong></td>
-    <td><strong>Kotelointi</strong></td>
-    <td><strong>Määrä</strong></td>
-  </tr><tr>
+    <td><strong>RFID tunniste 2</strong><br> <img width="831" height="168" alt="tunniste1" src="https://github.com/user-attachments/assets/7c8eeb0f-8367-4a52-adea-0a5d27d4d120" /></td>
     <td>Alien Technology, Alien Higgs3 chip, 512bits User memory, 96/128bits EPC </td>
     <td>Passive R/W EPC Class 1 Gen 2/ISO 18000-6C</td>
     <td>UHF 860-920 MHz</td>
     <td>Anti-Metal Passive Tag Plate, Koko:135*21* 17 mm IP68 </td>
     <td>15 kpl</td>
   </tr>
-</tbody>
+ </tbody>
 </table>
 
 #### 3.1.3 Case 1: UHF RFID-lukijoiden tiedot
