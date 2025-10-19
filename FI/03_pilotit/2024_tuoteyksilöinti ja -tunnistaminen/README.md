@@ -305,7 +305,8 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, ja
 
 #### 3.1.5 Case 1: Kiinteän RFID-portin asemointi työmaalla
 
-RFID-tunnisteiden luentaa testattiin työmaaolosuhteissa kiinteän RFID-portin kautta, elementtien purkupaikalla. RFID-portin antennit oli sijoitettu alla olevan kuvan mukaisesti purkupaikan molemmille puolille, jossa antennit sijaitsivat 9,2 m etäisyydellä toisistaan. Korkeimmat antennit sijoitettiin alueen molemmille puolille 4,5 m korkeuteen. Lisäksi toiselle puolelle asennettiin myös toinen antenni 1,8 m korkeuteen. 
+Kiinteän RFID-portin asemointi toteutettiin työmaaolosuhteissa elementtien purkualueelle siten, että lukujärjestelmä mahdollistaisi automaattisen tapahtumatiedon keruun kuljetusten saapuessa ja purettaessa elementtitelineeseen. Portti muodostettiin kahdelle puolelle asennetuista UHF-antenneista, jotka sijoitettiin 9,2 metrin etäisyydelle toisistaan purkukaistan molemmille puolille. Molempien puolien UHF-antennit sijoitettiin 4,5 metrin korkeuteen, mahdollistaen tunnisteiden luennan myös korkeammalle kuormatuista betonielementeistä sekä ajoneuvojen yläosista. Tien puoleiselle reunalle asennettiin lisäksi toinen antenni 1,8 metrin korkeuteen, jonka tehtävänä oli varmistaa tunnisteiden luenta alemmilta tasoilta, kuten elementtien alaosista ja ajoneuvon lavan läheisyydestä. Antennit kiinnitettiin pystyrakenteisiin, jotka ankkuroitiin työmaan suojarakenteisiin ja julkisivuun. Lukulaitteet ja virransyöttö sijoitettiin sähkökotelointiin (IP-luokan suojaus) purkualueen laidalle, jossa ne yhdistettiin paikalliseen sähköverkkoon. Kaapelointi suojattiin mekaaniselta rasitukselta ja sijoitettiin aidan sisäpuolelle turvallisuuden ja käyttövarmuuden takaamiseksi.
+
 
 <table>
  <body>
