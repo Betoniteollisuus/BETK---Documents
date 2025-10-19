@@ -94,10 +94,14 @@ Kaupan alalla tuotteet on yksilöity GTIN-koodien ja koneluettavien 1D EAN-viiva
 
 Rakennustuotteiden yksilöinti on tiedonvaihdon näkökulmasta tärkeää, sillä rakennustuotteiden käyttöikä on yleensä pitkä, ja jotkut niistä ovat aktiivisessa käytössä jopa yli 100 vuotta. Uusien materiaalien nopea kehitys sekä kestävyyden ja kiertotalouden kasvava merkitys ovat lisänneet tarvetta hallita rakennetuissa kohteissa käytettyjä rakennustuotteita ja niiden ominaisuuksia elinkaaren ajan.
 
+---
+
 ## 2 Soveltamisohjeen tarkoitus
 Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusketjun digitalisoinnin kehityshanketta, BETK-työryhmän toimesta. Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja rakenteettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. Asiakirja on jatkuvasti päivittyvä ja sitä kehitetään edelleen Rakennusteollisuus RT:n kehityshankkeen havaintojen perusteella.
 
 Soveltamisohje keskittyy toimitusketjun digitalisoinnissa tarvittavaan tuotteiden yksilöintiin ja koneelliseen tunnistamiseen. Soveltamisohjeessa kuvataan malli avointen GS1-standardien soveltamisesta tilauksesta suunniteltavien (ETO) rakennustuotteiden toimitusketjun hallintaan, käyttäen esimerkkinä betonielementtejä. GS1:llä on tilauksesta suunniteltavien ja valmistettavien tuotteiden yksilöintiin liittyen käynnissä kansainvälistä standardointityötä. Tämä soveltamisohje on tehty standardoinnin ollessa kesken, joten sitä tullaan tarvittaessa päivittämään myöhemmin.
+
+---
 
 ## 3 Rakennustuotteiden SGTIN-tuoteyksilöinti
 Tuoteyksilöinti on edellytys toimitusketjun digitalisoinnille tuotteiden valmistuslogiikasta riippumatta. Betonielementtien osalta tuoteyksilöinti on skaalautumisen mahdollistamiseksi päätetty toteuttaa tuoteryhmästä riippumattomaan, avoimeen ja kansainväliseen standardiin pohjautuen. GS1-standardin mukainen GTIN-koodi on laajasti käytetty ratkaisu tuotteiden yksilöintiin eri toimialoilla ja sen soveltaminen valikoitui hankkeessa lähtökohdaksi myös tilauksesta suunniteltavien tuotteiden (betonielementtien) yksilöinnille.
@@ -226,6 +230,8 @@ Lisäksi voidaan määrittää GUID-tunnisteeseen perustuva IEC 61406 Identifica
 ```https://<verkkotunnus>/<GUID>```  
 
 Jolloin esimerkiksi muodostuu: <code>https://id.rt.fi/ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code>
+
+---
 
 ## 4 Automaattinen tunnistaminen ja tiedonkantajat
 Tuoteyksilöinnin lisäksi on valittava käytettävä tunnistusteknologia ja tiedonkantaja, jotka mahdollistavat niiden koneellisen luennan. Tunnistusteknologian valinnassa tulee huomioida käyttötarkoituksen ja olosuhteiden asettamat vaatimukset. Automaattiseen tunnistamiseen ja tiedonkeruuseen tarkoitettuihin GS1-tietokantajiin voidaan tallentaa erilaisia tietomääriä eri liiketoimintaprosesseja ja kaupankäynnin vaatimuksia varten. GS1-tietokantajiin koodatut tiedot eivät ainoastaan yksilöi tuotteita yksiselitteisesti kaikilla Tuoteyksilöinnin hierarkia tasoilla, vaan ne tarjoavat myös pääsyn tuotetietoihin ja näkyvyyden tuotteiden liikkeisiin toimitusketjussa.  
@@ -565,6 +571,8 @@ GS1 Digital Link -standardin käyttöä on kuvattu tarkemmin seuraavissa GS1-sta
 https://ref.gs1.org/standards/digital-link/uri-syntax/  
 https://ref.gs1.org/standards/resolver/
 
+---
+
 ## Lyhenteet ja terminologia
 |**Nimike**|**Selite**|
 |-----------|---------------|
@@ -586,6 +594,8 @@ UHF tunniste | Korkeataajuinen (850–960 MHZ) RFID tunniste
 Uniform Resource Identifier, URI  | URI on tietoverkossa sijaitsevan tiedon tunniste. URL on aina myös URI, mutta URI ei välttämättä ole URL. Esimerkiksi <code>https://rt.fi</code> tai <code>urn:ISBN:952-9842-34-1</code>
 Uniform Resource Locator, URL  | URL sisältää tiedon hakemiseen tarvittavan tiedon, kuten protokollan (esim. https) ja palvelimen. Esimerkiksi <code>https://rt.fi</code>
 Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan internetissä tiettyyn IP-osoitteeseen eli palvelimelle. Esimerkiksi <code>www.iso.org</code>
+
+---
 
 ## Viittaukset
 **[1]** GS1 (2022), Recommendation for the use of EPC and ISO RFID symbols   
@@ -609,6 +619,8 @@ Verkkotunnus | Verkkotunnus eli domain-nimi on merkkijono, joka ohjataan interne
 **[10]** ISO/IEC 11578:1996 Information technology - Open Systems Interconnection - Remote Procedure Call (RPC)
 
 **[11]** ISO/IEC 9834-8:2014 - Information technology
+
+---
 
 ## Liite 1
 ![20250109_BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen (1)_1](https://github.com/user-attachments/assets/a815804d-46ae-49bf-bf53-827eaab8e0c9)
