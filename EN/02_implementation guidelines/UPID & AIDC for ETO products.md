@@ -8,7 +8,7 @@ Status: Released
 
 
 
-## Document information
+**Document information**
 <details> 
 <Summary>Log of changes</Summary>
  
@@ -57,7 +57,6 @@ Status: Released
 
 ## Table of Contents
 
-- [Document information](#document-information)
 - [1 Background](#1-background)
 - [2 Purpose of this guideline](#2-purpose-of-this-guideline)
 - [3 SGTIN product identification of construction products](#3-sgtin-product-identification-of-construction-products)
