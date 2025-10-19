@@ -1,12 +1,12 @@
 # Tuoteyksilöinnin ja -tunnistamisen yhteentoimivuuden soveltamisohje
 
-## Asiakirjan tiedot
-
 **Tilauksesta suunniteltavat rakennustuotteet**  
 >Julkaisija: Rakennusteollisuus ry\
 >Julkaistu: 27.6.2025  
 Versio: 1.4
 Status: Julkaistu
+
+**Asiakirjan tiedot**
 
 <details> 
 <Summary>Asiakirjan versio</Summary>
@@ -61,7 +61,6 @@ Status: Julkaistu
 
 ## Sisällys
 
-- [Asiakirjan tiedot](#asiakirjan-tiedot)
 - [1 Tausta](#1-tausta)
 - [2 Soveltamisohjeen tarkoitus](#2-soveltamisohjeen-tarkoitus)
 - [3 Rakennustuotteiden SGTIN-tuoteyksilöinti](#3-rakennustuotteiden-sgtin-tuoteyksilöinti)
@@ -84,6 +83,7 @@ Status: Julkaistu
 - [Viittaukset](#viittaukset)
 - [Liite 1](#liite-1)
 
+---
 
 ## 1 Tausta
 Rakennustuotteiden yksilöinti ja tunnistaminen on merkittävimpiä osatekijöitä kiinteistö- ja rakennusalan digitalisaatiossa. Vakioidut, yhteentoimivat ja globaalisti käytetyt tuoteyksilöinnin ja -tunnistamisen menetelmät mahdollistavat eri toimijoiden välisen tiedonvaihdon yhtenäisellä tavalla, riippumatta toimitusketjun osapuolesta.
