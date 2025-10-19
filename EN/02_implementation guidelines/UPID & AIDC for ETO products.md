@@ -53,6 +53,33 @@ Status: Released
 | Teemu Rantanen      | Rakennustieto Oy               |
 </details>
 
+## Table of Contents
+
+- [Document information](#document-information)
+- [1 Background](#1-background)
+- [2 Purpose of this guideline](#2-purpose-of-this-guideline)
+- [3 SGTIN product identification of construction products](#3-sgtin-product-identification-of-construction-products)
+  - [3.1 Using GS1 application identifiers to identify ETO products](#31-using-gs1-application-identifiers-to-identify-eto-products)
+  - [3.2 GS1 Company Prefix](#32-gs1-company-prefix)
+  - [3.3 GTIN code generation](#33-gtin-code-generation)
+  - [3.4 Identification of product variations](#34-identification-of-product-variations)
+  - [3.5 Serial number](#35-serial-number)
+  - [3.6 National element classification number](#36-national-element-classification-number)
+  - [3.7 GUID](#37-guid)
+  - [3.8 Domain Name](#38-domain-name)
+    - [3.8.1 Generating a GS1 Digital Link URL](#381-generating-a-gs1-digital-link-url)
+    - [3.8.2 Generation of the IEC 61406 Identification Link URL](#382-generation-of-the-iec-61406-identification-link-url)
+- [4 Automatic identification and data capture](#4-automatic-identification-and-data-capture)
+  - [4.1 EPC/RFID Gen2 UHF -tag](#41-epcrfid-gen2-uhf--tag)
+    - [4.1.1 Use of RFID symbol](#411-use-of-rfid-symbol)
+  - [4.2 GS1 DataMatrix barcode](#42-gs1-datamatrix-barcode)
+  - [4.3 GS1 Digital Link QR code](#43-gs1-digital-link-qr-code)
+- [Terms and definitions](#terms-and-definitions)
+- [References](#references)
+- [Annex 1](#annex-1)
+
+
+
 ## 1 Background
 Unique Product Identification (UPID) and Automatic Identification and Data Capture (AIDC) carriers for construction products are key components of digitalization in the real estate and construction sector. Standardized, interoperable, and globally adopted methods for product identification and data capture ensure consistent and reliable information exchange among stakeholders, regardless of their role in the supply chain.
 
