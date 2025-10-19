@@ -444,7 +444,7 @@ Kokonaisuutena laitteisto toimi luotettavasti, ja sen avulla voitiin todentaa au
 
 Kiinteän UHF RFID-portin asemointi suoritettiin elementtitehtaalla tuotantolinjan ja ulkovaraston väliselle kulkureitille. Tavoitteena oli testata RFID-järjestelmän toimintaa automatisoidussa tunnistuksessa, kun betonielementit siirtyvät valmistuksen jälkeen viimeistelyosastolta varastointialueelle.
 
-RFID-lukujärjestelmä koostui Nordic ID FR22 LTE -lukulaitteesta ja neljästä Nordic ID GA30 -UHF-antenneista. Antennit asennettiin tuulikaapin sisäseinään pareittain pystysuunnassa siten, että ylempi antenni sijoitettiin noin 2,5 metrin ja alempi noin 1,0 metrin korkeudelle lattiapinnasta. Antennien sijoittelu perustui kenttämittauksiin, joiden perusteella haluttiin varmistaa luentapeitto sekä ajoneuvon lavalla olevien että lattiatason läheisyydessä sijaitsevien RFID-tunnisteiden osalta.
+RFID-lukujärjestelmä koostui Nordic ID FR22 LTE -lukulaitteesta ja neljästä Nordic ID GA30 -UHF-antenneista. Antennit asennettiin tuulikaapin sisäseinään pareittain pystysuunnassa siten, että ylempi antenni sijoitettiin noin 2 metrin ja alempi noin 1,0 metrin korkeudelle lattiapinnasta. Antennien sijoittelu perustui kenttämittauksiin, joiden perusteella haluttiin varmistaa luentapeitto sekä ajoneuvon lavalla olevien että lattiatason läheisyydessä sijaitsevien RFID-tunnisteiden osalta.
 
 <table>
  <body>
