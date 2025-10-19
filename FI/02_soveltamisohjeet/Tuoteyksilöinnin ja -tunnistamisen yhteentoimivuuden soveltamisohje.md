@@ -1,11 +1,5 @@
 # Tuoteyksilöinnin ja -tunnistamisen yhteentoimivuuden soveltamisohje
 
-**Tilauksesta suunniteltavat rakennustuotteet**  
->Julkaisija: Rakennusteollisuus ry\
->Julkaistu: 27.6.2025  
-Versio: 1.4
-Status: Julkaistu
-
 ## Sisällys
 
 - [Asiakirjan tiedot](#asiakirjan-tiedot)
@@ -33,6 +27,13 @@ Status: Julkaistu
 
 
 ## Asiakirjan tiedot
+
+**Tilauksesta suunniteltavat rakennustuotteet**  
+>Julkaisija: Rakennusteollisuus ry\
+>Julkaistu: 27.6.2025  
+Versio: 1.4
+Status: Julkaistu
+
 <details> 
 <Summary>Asiakirjan versio</Summary>
  
