@@ -1,31 +1,5 @@
 # Tuoteyksilöinnin ja -tunnistamisen yhteentoimivuuden soveltamisohje
 
-## Sisällys
-
-- [Asiakirjan tiedot](#asiakirjan-tiedot)
-- [1 Tausta](#1-tausta)
-- [2 Soveltamisohjeen tarkoitus](#2-soveltamisohjeen-tarkoitus)
-- [3 Rakennustuotteiden SGTIN-tuoteyksilöinti](#3-rakennustuotteiden-sgtin-tuoteyksilöinti)
-  - [3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin](#31-gs1-sovellustunnusten-käyttäminen-eto-tuotteiden-yksilöintiin)
-  - [3.2 GS1- yritystunniste](#32-gs1--yritystunniste)
-  - [3.3 GTIN-koodin muodostaminen](#33-gtin-koodin-muodostaminen)
-  - [3.4 Variaatioiden yksilöinti](#34-variaatioiden-yksilöinti)
-  - [3.5 Sarjanumerointi](#35-sarjanumerointi)
-  - [3.6 Elementtitunnus](#36-elementtitunnus)
-  - [3.7 GUID](#37-guid)
-  - [3.8 Verkkotunnus](#38-verkkotunnus)
-    - [3.8.1 GS1 Digital Link URL-osoitteen muodostaminen](#381-gs1-digital-link-url-osoitteen-muodostaminen)
-    - [3.8.2 IEC 61406 Identification Link muotoisen URL-osoitteen muodostaminen](#382-iec-61406-identification-link-muotoisen-url-osoitteen-muodostaminen)
-- [4 Automaattinen tunnistaminen ja tiedonkantajat](#4-automaattinen-tunnistaminen-ja-tiedonkantajat)
-  - [4.1 Tuotetunnistus passiivisella EPC/RFID Gen2 UHF -tunnisteella](#41-tuotetunnistus-passiivisella-epcrfid-gen2-uhf--tunnisteella)
-    - [4.1.1 RFID-tunniste symbolin käyttö](#411-rfid-tunniste-symbolin-kaytto)
-  - [4.2 Tuotetunnistus GS1 DataMatrix 2D-koodilla](#42-tuotetunnistus-gs1-datamatrix-2d-koodilla)
-  - [4.3 Tuotetunnistus GS1 Digital Link -standardin mukaisella QR-koodilla](#43-tuotetunnistus-gs1-digital-link--standardin-mukaisella-qr-koodilla)
-- [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)
-- [Viittaukset](#viittaukset)
-- [Liite 1](#liite-1)
-
-
 ## Asiakirjan tiedot
 
 **Tilauksesta suunniteltavat rakennustuotteet**  
@@ -84,6 +58,32 @@ Status: Julkaistu
 | Sami Saari         | Rakennustieto Oy               |
 | Teemu Rantanen     | Rakennustieto Oy               |
 </details>
+
+## Sisällys
+
+- [Asiakirjan tiedot](#asiakirjan-tiedot)
+- [1 Tausta](#1-tausta)
+- [2 Soveltamisohjeen tarkoitus](#2-soveltamisohjeen-tarkoitus)
+- [3 Rakennustuotteiden SGTIN-tuoteyksilöinti](#3-rakennustuotteiden-sgtin-tuoteyksilöinti)
+  - [3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin](#31-gs1-sovellustunnusten-käyttäminen-eto-tuotteiden-yksilöintiin)
+  - [3.2 GS1- yritystunniste](#32-gs1--yritystunniste)
+  - [3.3 GTIN-koodin muodostaminen](#33-gtin-koodin-muodostaminen)
+  - [3.4 Variaatioiden yksilöinti](#34-variaatioiden-yksilöinti)
+  - [3.5 Sarjanumerointi](#35-sarjanumerointi)
+  - [3.6 Elementtitunnus](#36-elementtitunnus)
+  - [3.7 GUID](#37-guid)
+  - [3.8 Verkkotunnus](#38-verkkotunnus)
+    - [3.8.1 GS1 Digital Link URL-osoitteen muodostaminen](#381-gs1-digital-link-url-osoitteen-muodostaminen)
+    - [3.8.2 IEC 61406 Identification Link muotoisen URL-osoitteen muodostaminen](#382-iec-61406-identification-link-muotoisen-url-osoitteen-muodostaminen)
+- [4 Automaattinen tunnistaminen ja tiedonkantajat](#4-automaattinen-tunnistaminen-ja-tiedonkantajat)
+  - [4.1 Tuotetunnistus passiivisella EPC/RFID Gen2 UHF -tunnisteella](#41-tuotetunnistus-passiivisella-epcrfid-gen2-uhf--tunnisteella)
+    - [4.1.1 RFID-tunniste symbolin käyttö](#411-rfid-tunniste-symbolin-kaytto)
+  - [4.2 Tuotetunnistus GS1 DataMatrix 2D-koodilla](#42-tuotetunnistus-gs1-datamatrix-2d-koodilla)
+  - [4.3 Tuotetunnistus GS1 Digital Link -standardin mukaisella QR-koodilla](#43-tuotetunnistus-gs1-digital-link--standardin-mukaisella-qr-koodilla)
+- [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)
+- [Viittaukset](#viittaukset)
+- [Liite 1](#liite-1)
+
 
 ## 1 Tausta
 Rakennustuotteiden yksilöinti ja tunnistaminen on merkittävimpiä osatekijöitä kiinteistö- ja rakennusalan digitalisaatiossa. Vakioidut, yhteentoimivat ja globaalisti käytetyt tuoteyksilöinnin ja -tunnistamisen menetelmät mahdollistavat eri toimijoiden välisen tiedonvaihdon yhtenäisellä tavalla, riippumatta toimitusketjun osapuolesta.
