@@ -76,7 +76,7 @@ Status: Julkaistu
     - [3.8.2 IEC 61406 Identification Link muotoisen URL-osoitteen muodostaminen](#382-iec-61406-identification-link-muotoisen-url-osoitteen-muodostaminen)
 - [4 Automaattinen tunnistaminen ja tiedonkantajat](#4-automaattinen-tunnistaminen-ja-tiedonkantajat)
   - [4.1 Tuotetunnistus passiivisella EPC/RFID Gen2 UHF -tunnisteella](#41-tuotetunnistus-passiivisella-epcrfid-gen2-uhf--tunnisteella)
-    - [4.1.1 RFID-tunniste symbolin käyttö](#411-rfid-tunniste-symbolin-kaytto)
+    - [4.1.1 RFID-tunniste symbolin käyttö](#411-rfid-tunniste-symbolin-kayttö)
   - [4.2 Tuotetunnistus GS1 DataMatrix 2D-koodilla](#42-tuotetunnistus-gs1-datamatrix-2d-koodilla)
   - [4.3 Tuotetunnistus GS1 Digital Link -standardin mukaisella QR-koodilla](#43-tuotetunnistus-gs1-digital-link--standardin-mukaisella-qr-koodilla)
 - [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)
