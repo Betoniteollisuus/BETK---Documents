@@ -434,9 +434,6 @@ Kokonaisuutena laitteisto toimi luotettavasti, ja sen avulla voitiin todentaa au
 
   <td rowspan="7"><img width="962" height="875" alt="Case 2 orientaatio-F (FI)" src="https://github.com/user-attachments/assets/1e15aefe-4d57-4595-8717-a5e63cfd0503" /><br> Kuva. RFID tunnisteiden asennuspaikat</td>
 
-##### RFID tunnisteiden asennuspaikat
-
-
 
 #### 3.2.5 Case 2: Kiinteän RFID-portin asemointi elementtitehtaalla
 
