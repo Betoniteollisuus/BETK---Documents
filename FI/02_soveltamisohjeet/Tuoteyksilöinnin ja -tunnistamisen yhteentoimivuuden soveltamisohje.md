@@ -5,7 +5,7 @@
 - [Asiakirjan tiedot](#asiakirjan-tiedot)
 - [1 Tausta](#1-tausta)
 - [2 Soveltamisohjeen tarkoitus](#2-soveltamisohjeen-tarkoitus)
-- [3 Rakennustuotteiden SGTIN-tuoteyksilöinti](#3-rakennustuotteiden-sgtin-tuoteyksilointi)
+- [3 Rakennustuotteiden SGTIN-tuoteyksilöinti](#3-rakennustuotteiden-sgtin-tuoteyksilöinti)
   - [3.1 GS1-sovellustunnusten käyttäminen ETO-tuotteiden yksilöintiin](#31-gs1-sovellustunnusten-kayttaminen-eto-tuotteiden-yksilointiin)
   - [3.2 GS1- yritystunniste](#32-gs1--yritystunniste)
   - [3.3 GTIN-koodin muodostaminen](#33-gtin-koodin-muodostaminen)
