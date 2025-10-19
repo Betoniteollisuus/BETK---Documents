@@ -53,6 +53,8 @@ Status: Released
 | Teemu Rantanen      | Rakennustieto Oy               |
 </details>
 
+---
+
 ## Table of Contents
 
 - [Document information](#document-information)
@@ -78,7 +80,7 @@ Status: Released
 - [References](#references)
 - [Annex 1](#annex-1)
 
-
+---
 
 ## 1 Background
 Unique Product Identification (UPID) and Automatic Identification and Data Capture (AIDC) carriers for construction products are key components of digitalization in the real estate and construction sector. Standardized, interoperable, and globally adopted methods for product identification and data capture ensure consistent and reliable information exchange among stakeholders, regardless of their role in the supply chain.
@@ -89,12 +91,16 @@ In the retail sector, products have been identified using GTIN codes and machine
 
 The identification of construction products is critical from the perspective of information exchange, as the lifespan of these products is typically long, with some remaining in active use for over 100 years. The rapid development of new materials, along with the growing importance of sustainability and the circular economy, has increased the need to manage construction products and their properties throughout their lifecycle.
 
+---
+
 ## 2 Purpose of this guideline
 This implementation guideline has been created as part of the Confederation of Finnish Construction Industries RT's (Rakennusteollisuus RT) development project on product information and supply chain digitalization, led by the BETK working group. The primary goal of the development project is to advance the methods for managing the construction industry's product supply chain, transitioning from manual and unstructured information exchange to fully structured and machine-readable data exchange. This document is continuously updated and further developed based on findings from the ongoing development efforts of Rakennusteollisuus RT.
 
 The implementation guideline focuses on the product identification and data capture required for the digitalization of the supply chain. It outlines a model for applying open GS1 standards to manage the supply chain of Engineer-to-Order (ETO) construction products, using precast concrete elements as an example.
 
 GS1 is conducting international standardization work related to the identification of Engineer-to-Order and Made-to-Order products. As this guideline was created while the standardization process is ongoing, it may be updated as necessary to align with finalized standards.
+
+---
 
 ## 3 SGTIN product identification of construction products
 Unique Product Identification (UPID) is a prerequisite for the digitalization of the supply chain, regardless of the manufacturing logic of the products. For precast concrete elements, product identification has been designed to scale by leveraging an open, product-group-independent, and international standard. The GTIN code, compliant with GS1 standards, is a widely used solution for product identification across various industries. Its application was selected as the foundation for identifying Engineer-To-Order (ETO) products, such as precast concrete elements, within this project.
@@ -236,6 +242,8 @@ Additionally, a URL based on a GUID identifier can be defined in accordance with
 ```https://<Domain Name>/<GUID>```  
 
 For example, this results in: <code>https://id.rt.fi/ba34cf17-0c4b-4c6f-9295-cae05aa74ad4</code>
+
+---
 
 ## 4 Automatic identification and data capture
 In addition to Unique Product Identification (UPID), suitable Automatic Identification and Data Capture (AIDC) technology must be selected to enable machine readability and facilitate the digitalization of supply chain management. When selecting AIDC technology, the requirements set by the intended use and environmental conditions must be considered. GS1 Data Carriers for automatic identification and data capture (AIDC) can store varying amounts of information to meet the needs of different business processes and trade requirements. The data encoded into GS1 data carriers not only uniquely identify products at all levels of the Product Identification Hierarchy but also provide access to product information and visibility into product movements within the supply chain.  
@@ -583,6 +591,8 @@ The use of the GS1 Digital Link standard is described in greater detail in the f
 https://ref.gs1.org/standards/digital-link/uri-syntax/  
 https://ref.gs1.org/standards/resolver/
 
+---
+
 ## Terms and definitions
 
 <html>
@@ -656,6 +666,7 @@ https://ref.gs1.org/standards/resolver/
 </table>
 </html>
 
+---
 
 ## References
 **[1]** GS1 (2022), Recommendation for the use of EPC and ISO RFID symbols   
@@ -679,6 +690,8 @@ https://ref.gs1.org/standards/resolver/
 **[10]** ISO/IEC 11578:1996 Information technology - Open Systems Interconnection - Remote Procedure Call (RPC)
 
 **[11]** ISO/IEC 9834-8:2014 - Information technology
+
+---
 
 ## Annex 1
 ![RFID asemointi eng_3](https://github.com/user-attachments/assets/28703611-f01b-4721-930a-d60a53179d4a)
