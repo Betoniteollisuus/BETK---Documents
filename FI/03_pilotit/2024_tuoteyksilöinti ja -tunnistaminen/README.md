@@ -13,12 +13,12 @@ Status: Julkaistu
 | **Nimi**            | **Organisaatio**     | **Rooli / kontribuutio**               |
 |---------------------|----------------------|--------------------------------|
 | Teemu Alaluusua     | Aalto-yliopisto      |Pääkirjoittaja (1st author)     |
-| Tuomas Kekki        | Fira Oy              |Case 1: aineiston kerääminen    |
-| Eetu Lahtinen       | Consolis Parma Oy    |Case 2: aineiston kerääminen    |
-| Ville Retulainen    | Lujabetoni           |Case 1: aineiston kerääminen    |
+| Tuomas Kekki        | Fira Oy              |Case 1: aineiston tuottaminen ja kerääminen    |
+| Ville Retulainen    | Lujabetoni           |Case 1: aineiston tuottaminen ja kerääminen    |
+| Janne Raitaniemi    | Riffid               |Case 1: RFID-laitetoimittaja   |
+| Eetu Lahtinen       | Consolis Parma Oy    |Case 2: aineiston tuottaminen ja kerääminen    |
 | Arto Nieminen       | NCC                  |Case 2: Työmaanyhteyshenkilö    |
-| Janne Raitaniemi    | Riffid               |Case 1: RFID-laite toimittaja   |
-| Juha Porkka         | NordicID             |Case 2: RFID-laite toimittaja   |
+| Juha Porkka         | NordicID             |Case 2: RFID-laitetoimittaja   |
 </details>
 
 <details> 
