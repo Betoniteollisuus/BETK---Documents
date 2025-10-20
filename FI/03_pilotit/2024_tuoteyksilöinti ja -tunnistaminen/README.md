@@ -115,7 +115,7 @@ BETK-työryhmässä päädyttiin hyödyntämään GS1-standardia ns. kolmella tu
     <td colspan="2"><strong>Tuoteyksilöinnin tasot</strong></td>
   </tr><tr>
     <td><strong>Taso 1</strong><br>Tuoteryhmä/perustuote</td>
-    <td>GTIN</td>
+    <td>MTO GTIN</td>
   </tr><tr>
     <td><strong>Taso 2</strong><br>Tuotevariaation taso</td>
     <td>GTIN + MTO Varianttinumero</td>
@@ -136,7 +136,7 @@ BETK-työryhmän määrittelemässä taulukossa 2 esitetään minimitietovaatimu
     <td><strong>GS1 Sovellustunnukset (AI) </strong></td>
     <td><strong>Esimerkki</strong></td>
   </tr><tr>
-    <td><strong>(01) GTIN-koodi</strong></td>
+    <td><strong>(03) MTO GTIN-koodi</strong></td>
     <td><code>06400001000247</code></td>
   </tr><tr>
     <td><strong>(242) Made-To-Order (MTO) varianttinumero</strong></td>
