@@ -7,6 +7,13 @@ Versio: 1.0
 Status: Julkaistu
 
 ## Asiakirjan tiedot
+<details>
+<summary>BETK-työryhmä</summary>
+Tämä tuoteyksilöinnin ja RFID-teknologian pilotoinnin loppuraportti on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusketjun digitalisoinnin kehityshanketta, betonielementtitoimitusketju (BETK) -työryhmän toimesta.  BETK-työryhmä koostuu tilauksesta suunniteltavien rakennustuotteiden toimitusketjujen eri vaiheiden osapuolista sekä digitaalisen tiedonvaihdon asiantuntijoista. 
+
+Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja rakenteettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. Tavoitteen saavuttaminen edellyttää, että tilauksesta suunniteltavien tuotteiden valmistuksessa käytetään yhteisiä, vakioituja menetelmiä tuotteiden yksilöintiin, tunnistamiseen ja tietosisältöjen jakamiseen. Näin voidaan edistää tietojärjestelmien ja palveluiden yhteentoimivuutta, jonka puute on merkittävä este rakennusteollisuuden digitalisaatiolle ja eri toimijoiden väliselle yhteistyölle.  
+</details>
+
 <details> 
 <Summary>Pilotointi työryhmä</Summary>
 
@@ -81,9 +88,14 @@ Status: Julkaistu
 
 
 ## 1 Esipuhe
-Tämä tuoteyksilöinnin ja RFID-teknologian pilotoinnin loppuraportti on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusketjun digitalisoinnin kehityshanketta, betonielementtitoimitusketju (BETK) -työryhmän toimesta.  BETK-työryhmä koostuu tilauksesta suunniteltavien rakennustuotteiden toimitusketjujen eri vaiheiden osapuolista sekä digitaalisen tiedonvaihdon asiantuntijoista. 
 
-Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja rakenteettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. Tavoitteen saavuttaminen edellyttää, että tilauksesta suunniteltavien tuotteiden valmistuksessa käytetään yhteisiä, vakioituja menetelmiä tuotteiden yksilöintiin, tunnistamiseen ja tietosisältöjen jakamiseen. Näin voidaan edistää tietojärjestelmien ja palveluiden yhteentoimivuutta, jonka puute on merkittävä este rakennusteollisuuden digitalisaatiolle ja eri toimijoiden väliselle yhteistyölle.  
+Tilauksesta suunniteltavien rakennustuotteiden (Engineer-to-Order, ETO) toimitusketjujen digitalisointi on keskeinen edellytys rakennustuoteteollisuuden ja rakennusteollisuuden tuottavuuden ja tiedonhallinnan parantamiselle. Toimitusketjujen hallinta perustuu edelleen suurelta osin manuaaliseen tiedonvaihtoon ja suljetun toimintaympäristön tiedonvaihtoratkaisuihin, mikä rajoittaa tiedon jäljitettävyyttä, vertailtavuutta ja hyödynnettävyyttä eri järjestelmien välillä. Erityisesti elementtituotannossa tuoteyksilötasoinen tunnistaminen ja sen kytkeminen vakioituun tietorakenteeseen on välttämätön edellytys toimitusketjun kokonaisvaltaiselle digitaaliselle ohjaukselle.
+
+ETO-tuotantostrategian mukaisesti valmistettavien tuotteiden yksilöintiä ei ollut aiemmin ratkaistu tuoteyksilötasolla hyödyntäen globaaleihin GS1-standardeihin perustuvaa mallia. Tämän seurauksena tuoteyksilöinti oli toteutettu valmistajakohtaisin ja keskenään yhteensopimattomin ratkaisuin, mikä on rajoittanut tiedon yhtenäistä hyödyntämistä toimitusketjun eri vaiheissa.
+
+Tässä raportissa kuvataan touko–marraskuussa 2024 toteutettu betonielementtien tuoteyksilöinnin ja RFID-teknologian pilotointi osana BETK (Betonielementtitoimitusketju) -työryhmän kehitystyötä. Pilotin tavoitteena oli osoittaa käytännön kokein, että GS1-standardiperheeseen perustuva tuoteyksilöinti (MTO GTIN → MTO-variantti → sarjanumero, sGTIN) voidaan liittää passiiviseen UHF RFID -tunnisteeseen (EPC Class 1 Gen2 / ISO 18000-6C) siten, että tunniste säilyttää luettavuutensa ja tietosisältönsä läpi tuotannon, logistiikan ja työmaan käsittelyvaiheiden. Samalla arvioitiin teknisen ratkaisun soveltuvuutta tuleviin EPCIS- (Electronic Product Code Information Services) -pohjaisiin tapahtumatiedon jakamisen ratkaisuihin, joissa yksilötason tunniste toimii digitaalisena linkkinä fyysisen tuotteen ja sitä koskevan tiedon välillä.
+
+BETK-työryhmän näkökulmasta pilotin merkitys on kaksitasoinen. Ensinnäkin se tuotti empiiristä tietoa siitä, miten GS1:n tunnistamis- ja tiedonvaihtostandardit voidaan sovittaa rakennustuotteiden valmistuksen ja toimitusprosessien erityispiirteisiin. Toiseksi se osoitti, että RFID-teknologia, jota on pitkään hyödynnetty muun muassa logistiikassa ja teollisessa tuotannossa, soveltuu myös rakennustuotannon olosuhteisiin, kun tunnisteiden asennus- ja sijoitusperiaatteet suunnitellaan ja toteutetaan järjestelmällisesti. Tulokset tukevat laajempaa tavoitetta siirtyä kohti rakennustuotteiden koneluettavaa, standardoitua ja jäljitettävää tietovirtaa, joka muodostaa perustan toimitusketjun reaaliaikaiselle läpinäkyvyydelle ja tehokkaalle tiedonhallinnalle.
 
 ---
 
