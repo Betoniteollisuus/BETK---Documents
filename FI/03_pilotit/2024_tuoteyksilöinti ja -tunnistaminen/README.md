@@ -9,7 +9,10 @@ Status: Julkaistu
 ## Asiakirjan tiedot
 <details>
 <summary>BETK-työryhmä</summary>
+
+ 
 Tämä tuoteyksilöinnin ja RFID-teknologian pilotoinnin loppuraportti on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusketjun digitalisoinnin kehityshanketta, betonielementtitoimitusketju (BETK) -työryhmän toimesta.  BETK-työryhmä koostuu tilauksesta suunniteltavien rakennustuotteiden toimitusketjujen eri vaiheiden osapuolista sekä digitaalisen tiedonvaihdon asiantuntijoista. 
+
 
 Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja rakenteettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. Tavoitteen saavuttaminen edellyttää, että tilauksesta suunniteltavien tuotteiden valmistuksessa käytetään yhteisiä, vakioituja menetelmiä tuotteiden yksilöintiin, tunnistamiseen ja tietosisältöjen jakamiseen. Näin voidaan edistää tietojärjestelmien ja palveluiden yhteentoimivuutta, jonka puute on merkittävä este rakennusteollisuuden digitalisaatiolle ja eri toimijoiden väliselle yhteistyölle.  
 </details>
