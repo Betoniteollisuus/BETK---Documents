@@ -10,15 +10,15 @@ Status: Julkaistu
 <details> 
 <Summary>Pilotointi työryhmä</Summary>
 
-| **Nimi**            | **Organisaatio**     | **Kontribuutio**               |
+| **Nimi**            | **Organisaatio**     | **Rooli / kontribuutio**               |
 |---------------------|----------------------|--------------------------------|
-| Teemu Alaluusua     | Aalto-yliopisto      |1st author                      |
-| Tuomas Kekki        | Fira Oy              |aineiston kerääminen            |
-| Eetu Lahtinen       | Consolis Parma Oy    |aineiston kerääminen            |
-| Ville Retulainen    | Lujabetoni           |aineiston kerääminen            |
-| Arto Nieminen       | NCC                  |Työmaayhteys                    |
-| Janne Raitaniemi    | Riffid               |RFID-laite toimittaja           |
-| Juha Porkka         | NordicID             |RFID-laite toimittaja           |
+| Teemu Alaluusua     | Aalto-yliopisto      |Pääkirjoittaja (1st author)     |
+| Tuomas Kekki        | Fira Oy              |Case 1: aineiston kerääminen    |
+| Eetu Lahtinen       | Consolis Parma Oy    |Case 2: aineiston kerääminen    |
+| Ville Retulainen    | Lujabetoni           |Case 1: aineiston kerääminen    |
+| Arto Nieminen       | NCC                  |Case 2: Työmaanyhteyshenkilö    |
+| Janne Raitaniemi    | Riffid               |Case 1: RFID-laite toimittaja   |
+| Juha Porkka         | NordicID             |Case 2: RFID-laite toimittaja   |
 </details>
 
 <details> 
