@@ -92,7 +92,17 @@ Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimit
 
 ## 1 Esipuhe
 
-Tilauksesta suunniteltavien rakennustuotteiden (Engineer-to-Order, ETO) toimitusketjujen digitalisointi on keskeinen edellytys rakennustuoteteollisuuden ja rakennusteollisuuden tuottavuuden ja tiedonhallinnan parantamiselle. Toimitusketjujen hallinta perustuu edelleen suurelta osin manuaaliseen tiedonvaihtoon ja suljetun toimintaympäristön tiedonvaihtoratkaisuihin, mikä rajoittaa tiedon jäljitettävyyttä, vertailtavuutta ja hyödynnettävyyttä eri järjestelmien välillä. Erityisesti elementtituotannossa tuoteyksilötasoinen tunnistaminen ja sen kytkeminen vakioituun tietorakenteeseen on välttämätön edellytys toimitusketjun kokonaisvaltaiselle digitaaliselle ohjaukselle.
+Tilauksesta suunniteltavien rakennustuotteiden (Engineer-to-Order, ETO) toimitusketjujen hallinta perustuu edelleen suurelta osin manuaaliseen tiedonvaihtoon ja suljetun toimintaympäristön tiedonvaihtoratkaisuihin, mikä rajoittaa tiedon siirrettävyyttä, hyödynnettävyyttä ja yhteentoimivuutta eri järjestelmien välillä. ETO-tuotantostrategian mukaisesti valmistettavien betonielementtien yksilöintiä ei ole aiemmin ratkaistu tuoteyksilötasolla hyödyntämällä globaaleihin GS1-standardeihin perustuvaa yhtenäistä mallia, minkä vuoksi käytännöt ovat muodostuneet valmistajakohtaisiksi ja keskenään yhteensopimattomiksi. Tämä on osaltaan vaikeuttanut toimitusketjun tietovirtojen digitalisointia, kokonaisuuden hallintaa sekä rajoittanut tiedon yhtenäistä hyödyntämistä eri osapuolten välillä.
+
+
+
+
+
+
+
+Pilotissa testattiin käytännön tasolla, miten GS1-standardiperheeseen perustuva tuoteyksilöinti ja RFID/EPC-teknologia voidaan yhdistää tukemaan prosessien digitalisointia siten, että tuoteyksilöt voidaan tunnistaa ja seurata automaattisesti toimitusketjun eri vaiheissa. Tarkastelun kohteena olivat erityisesti tunnisteiden tekninen toimivuus, tiedon kytkeminen tuoteyksilöihin sekä ratkaisun soveltuvuus rakennustuotannon käytäntöihin ja olosuhteisiin.
+
+
 
 ETO-tuotantostrategian mukaisesti valmistettavien tuotteiden yksilöintiä ei ollut aiemmin ratkaistu tuoteyksilötasolla hyödyntäen globaaleihin GS1-standardeihin perustuvaa mallia. Tämän seurauksena tuoteyksilöinti oli toteutettu valmistajakohtaisin ja keskenään yhteensopimattomin ratkaisuin, mikä on rajoittanut tiedon yhtenäistä hyödyntämistä toimitusketjun eri vaiheissa.
 
