@@ -551,12 +551,12 @@ Examples of [cbc:EndpointID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catal
 *(Jos rivitasolla on osoite, käytetään sitä. Muuten voidaan käyttää otsikkoa)*  
 
 The delivery information can be stated at the whole order level or on the order line level.  
-- Use the whole order level for **pre-packed-loads**  
-- For **non-pre-packed-loads** use the order line level  
+- Use the order header level for **pre-packed-loads**  
+- For others **non-pre-packed-loads** use the order line level  
 
 - [cac:DeliveryLocation](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-DeliveryLocation/) / [cbc:ID](https://docs.peppol.eu/poacc/upgrade-3/syntax/Catalogue/cbc-ID/) is the identifier of the delivery address.  
   - This can be e.g. a **GLN** address of a construction site  
-  -  is not mandatory  
+  - is not mandatory  
   - If you use GLN, the code for it is **0088**  
   - Codes from **ISO 6523 ICD list** must be used  
 
@@ -579,11 +579,15 @@ The delivery information can be stated at the whole order level or on the order 
 
 - [cac:DeliveryParty](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-DeliveryParty/) is not covered by this implementation guide as the buyer is always expected to be the one to whom the goods are delivered.  
 
+>  $\color{red}{\textsf{Draft note:}}$ -> DeliveryParty / contact -osio hyödyllinen. Voidaan välittää toimituksen vastaanottajan yhteystiedot. (Buyer -osiossa käytännössä vain tilaajan yhteystiedot
+
+
 - [cac:Shipment](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-Shipment/) / [cbc:ShippingPriorityLevelCode](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-Shipment/cbc-ShippingPriorityLevelCode/) can be used to indicate if a shipment is required to be made quickly.  
   - *Transport service priority code (UNCL4219)* codelist must be used  
 
 - [cac:Shipment](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-Delivery/cac-Shipment/) / [cac:TransportHandlingUnit]() / [cbc:ShippingMarks]() is used for **SSCC information** that is printed on the transport handling unit.  
-  - This is on the whole order level  
+  - This is on the whole order level
+  - Text to be written on shipping labels
 
 - [cac:DeliveryTerms](https://docs.peppol.eu/poacc/upgrade-3/syntax/Order/cac-DeliveryTerms/) structure is used for **Incoterms**.  
 
@@ -746,7 +750,7 @@ The promised delivery period has:
 If the delivery period is not a range of days, but just one day, please add both Start and End date on the same day.  
 The dates must be formatted as **DD-MM-YYYY** and the time as **HH:MM:SS**.  
 
-The delivery period can be for the whole order or on order response line. For pre-packed-loads use the document level delivery periods.  
+The delivery period can be for the order header level or on order response line. For pre-packed-loads use the document level delivery periods.  
 
 If there are multiple delivery time slots, use [cbc:Note](https://docs.peppol.eu/poacc/upgrade-3/syntax/OrderResponse/cbc-Note/) element for those as multiple delivery slots are not currently supported by **Peppol**.
 
