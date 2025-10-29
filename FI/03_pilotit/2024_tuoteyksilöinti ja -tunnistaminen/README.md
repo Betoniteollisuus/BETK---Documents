@@ -442,7 +442,7 @@ Kokonaisuutena laitteisto toimi luotettavasti, ja sen avulla voitiin todentaa au
 
 RFID-tunnisteiden sijoittaminen betonielementteihin toteutettiin suunnitelmallisesti siten, että tunnisteiden sijainti ja asennustapa voitiin määrittää joko ennalta sovittujen reunaehtojen mukaisesti tai elementtisuunnitelmia hyödyntäen. Tässä projektissa lähtökohtana oli, että RFID-tunnisteiden asemointi tehtiin elementtisuunnittelijan laatiman tasokuvan perusteella. Sijoituspaikat määriteltiin eri tavoin elementin geometrian ja käyttötarkoituksen mukaan, mutta yhtenä periaatteena oli suunnata tunnisteen lukusuunta elementin etupintaa kohti, jotta tunnistaminen olisi mahdollisimman luotettavaa elementin ollessa paikallaan tai varastoituna.
 
-Käytännön toteutuksessa RFID-tunnisteita asennettiin yhteensä viiteentoista (15) väliseinäelementtiin. Jokainen elementti varustettiin yhdellä tai kahdella tunnisteella, jotka valettiin osaksi betonielementtiä. Tunnisteiden sijoitettiin elementin päihin ja yläpintaan, jolloin niiden antennit suuntautuivat elementin sauman ja muottipinnan suuntaisesti. Tämä asennustapa mahdollisti tunnisteiden luennan sekä valmistuksen, kuljetuksen että työmaavaiheen aikana. Asennusperiaate on havainnollistettu alla olevassa kuvassa.
+Käytännön toteutuksessa RFID-tunnisteita asennettiin yhteensä viiteentoista (15) väliseinäelementtiin. Jokainen elementti varustettiin yhdellä tai kahdella tunnisteella, jotka valettiin osaksi betonielementtiä. Asennusperiaate on havainnollistettu alla olevassa kuvassa.
 
 <img width="962" height="875" alt="Case 2 orientaatio-F (FI)" src="https://github.com/user-attachments/assets/d0214a07-33bd-4098-a9f9-f99ea88142bd" /><br> Kuva. RFID tunnisteiden asennuspaikat</td>
 
