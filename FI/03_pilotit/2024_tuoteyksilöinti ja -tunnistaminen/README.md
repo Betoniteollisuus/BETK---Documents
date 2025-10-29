@@ -440,6 +440,8 @@ Kokonaisuutena laitteisto toimi luotettavasti, ja sen avulla voitiin todentaa au
 
 #### 3.2.4 Case 2: RFID-tunnisteiden sijoittaminen elementtiin
 
+RFID-tunnisteita asennettiin yhteensä viiteentoista (15) väliseinäelementtiin, ja elementteihin sijoitettiin 1-2 RFID-tunnistetta. RFID-tunnisteet valettiin osaksi betonielementtiä siten, että ne sijoitettiin elementin molempiin päihin sekä yläpintaan. RFID-tunnisteen antennit oli suunnattu elementin sauman ja muottipinnan suuntaisesti. Asennussijaintien periaate on esitetty alla olevassa kuvassa.
+
 <img width="962" height="875" alt="Case 2 orientaatio-F (FI)" src="https://github.com/user-attachments/assets/d0214a07-33bd-4098-a9f9-f99ea88142bd" /><br> Kuva. RFID tunnisteiden asennuspaikat</td>
 
 
