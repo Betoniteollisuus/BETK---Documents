@@ -165,6 +165,9 @@ BETK-työryhmän määrittelemässä taulukossa 2 esitetään minimitietovaatimu
 ### 2.2 UHF RFID-tunniste tiedonkantajana (AIDC) betonielementissä
 BETK-työryhmän tuoteyksilöintimäärittelyjen testaamiseksi päätettiin kokeilla betonielementtien tuotetunnistusta RFID-teknologiaan perustuvien tiedonkantajin kautta haastavimmassa mahdollisessa käyttötapauksessa. RFID-teknologia perustuu radiotaajuuksilla tapahtuvaan tiedonsiirtoon, jossa RFID-lukija lähettää radiosignaalin aktivoidakseen tunnisteen. Tunniste vastaa signaaliin heijastamalla siihen tallennetut tiedot takaisin lukijalle, joka edelleen välittää ne tietojärjestelmään.
 
+<img width="3257" height="993" alt="2025-10-29_Kuva1" src="https://github.com/user-attachments/assets/b8281117-4963-4c66-9190-e39deec020fd" />
+
+
 RFID-järjestelmä ei edellytä suoraa näköyhteyttä ja mahdollistaa automaattisen sekä etäluettavan yksilöinnin. Tunnisteet luokitellaan passiivisiin, puolipassiivisiin ja aktiivisiin niiden virransyöttömekanismin perusteella. RFID-järjestelmät toimivat eri radiotaajuuksilla, joista yleisin on LF-taajuus (matala taajuus, 30–300 kHz), HF (korkea taajuus, 3–30 MHz) ja UHF (erittäin korkea taajuus, 300 MHz - 3 GHz).
 
 Testissä käytettiin koteloituja metallipinnoille soveltuvia passiivisia EPC/RFID Gen2 UHF -tunnisteita, jotka valettiin betonielementtien sisään. Tunnisteen valinta perustui RFID-teknologia-asiantuntijoiden näkemykseen, jossa passiivisten UHF-tunnisteiden lukuetäisyys, kustannustehokkuus ja käyttöympäristön soveltuvuus olivat keskeisiä valintakriteerejä kyseiselle RFID-teknologialle. EPC Globalin Gen2-luokan passiivinen UHF-RFID teknologia on laajasti käytetty, joka toimii 840–960 MHz:n taajuuksilla alueellisista radiomääräyksistä riippuen. Se on kehitetty erityisesti logistiikkaverkoissa käytettäväksi, ja siinä on keskitytty useiden tunnisteiden nopeaan lukemiseen, hy-vään lukuetäisyyteen ja alhaisiin kustannuksiin.
