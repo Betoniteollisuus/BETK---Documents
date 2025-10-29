@@ -1951,5 +1951,7 @@ Koska tutkimuksen otanta oli rajallinen, tuloksia tulee pitää suuntaa-antavina
 
 ## 6 Liitteet
 ![IMG_20240529_144022](https://github.com/user-attachments/assets/89a4ef84-a0fb-47d4-9669-74d2b1b10be0)
-![IMG_20240529_144504](https://github.com/user-attachments/assets/ba7df94c-60c1-4fd3-a8ff-c593a8910a40)
+
+![IMG_20240529_144503](https://github.com/user-attachments/assets/738e84ae-97b1-4002-8d64-25194d0e44c3)
+
 ![IMG_20240529_145019](https://github.com/user-attachments/assets/79e5dfcd-5d06-4290-ad4b-b5f3b755fd1c)
