@@ -302,7 +302,8 @@ Kiinteän lukijan yhteydessä toimivat kaksi antennia, **Times-7 A5010** ja **BR
 
 RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, ja jokaiseen elementtiin sijoitettiin kolme tunnistetta. RFID-tunnisteet valettiin osaksi betonielementtiä siten, että ne sijoitettiin elementin molempiin päihin sekä yläpintaan. Asennussijaintien periaate on esitetty alla olevassa kuvassa.
 
-<img width="959" height="875" alt="RFID tunnisteiden asennuspaikat" src="https://github.com/user-attachments/assets/abfc967c-aaa0-4fe6-80e5-6308a8fc6eba" /> <br> Kuva. Case 1: RFID tunnisteiden asennuspaikat
+<img width="960" height="874" alt="Case 1 orientaatio (FI)" src="https://github.com/user-attachments/assets/825ca439-71b2-4edc-a8f0-9225c03cafd1" />  <br> Kuva. Case 1: RFID tunnisteiden asennuspaikat
+
 
 #### 3.1.5 Case 1: Kiinteän RFID-portin asemointi työmaalla
 
@@ -435,7 +436,9 @@ Kokonaisuutena laitteisto toimi luotettavasti, ja sen avulla voitiin todentaa au
 
 #### 3.2.4 Case 2: RFID-tunnisteiden sijoittaminen elementtiin
 
-  <td rowspan="7"><img width="962" height="875" alt="Case 2 orientaatio-F (FI)" src="https://github.com/user-attachments/assets/1e15aefe-4d57-4595-8717-a5e63cfd0503" /><br> Kuva. RFID tunnisteiden asennuspaikat</td>
+<img width="962" height="875" alt="Case 2 orientaatio-F (FI)" src="https://github.com/user-attachments/assets/d0214a07-33bd-4098-a9f9-f99ea88142bd" /><br> Kuva. RFID tunnisteiden asennuspaikat</td>
+
+
 
 
 #### 3.2.5 Case 2: Kiinteän RFID-portin asemointi elementtitehtaalla
