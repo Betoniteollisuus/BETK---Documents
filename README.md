@@ -16,6 +16,7 @@ This repository contains guidelines and other materials produced by the BETK Wor
 <tr>CC BY-SA 4.0 © BETK</tr><br>
 </html>
 
+---
 
 ## FI - BETK-toimitusketjutyöryhmä – Soveltamisohjeet ja aineisto
 
@@ -36,6 +37,8 @@ Tämä repository kokoaa BETK-työryhmän laatimat soveltamisohjeet ja muun tuot
 ## doc_drafts
 
 📝This repository contains draft documents.<br>
+
+---
 
 # Contributing to BETK
 Want to contribute to BETK? Start simple:
