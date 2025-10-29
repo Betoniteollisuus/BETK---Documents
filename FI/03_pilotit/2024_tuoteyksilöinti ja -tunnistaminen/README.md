@@ -442,11 +442,16 @@ Kokonaisuutena laitteisto toimi luotettavasti, ja sen avulla voitiin todentaa au
 
 RFID-tunnisteiden sijoittaminen betonielementteihin toteutettiin suunnitelmallisesti siten, että tunnisteiden sijainti ja asennustapa voitiin määrittää joko ennalta sovittujen reunaehtojen mukaisesti tai elementtisuunnitelmia hyödyntäen. Tässä projektissa lähtökohtana oli, että RFID-tunnisteiden asemointi tehtiin elementtisuunnittelijan laatiman tasokuvan perusteella. Sijoituspaikat määriteltiin eri tavoin elementin geometrian ja käyttötarkoituksen mukaan, mutta yhtenä periaatteena oli suunnata tunnisteen lukusuunta elementin etupintaa kohti, jotta tunnistaminen olisi mahdollisimman luotettavaa elementin ollessa paikallaan tai varastoituna.
 
-Käytännön toteutuksessa RFID-tunnisteita asennettiin yhteensä viiteentoista (15) väliseinäelementtiin. Jokainen elementti varustettiin yhdellä tai kahdella tunnisteella, jotka valettiin osaksi betonielementtiä. Asennusperiaate on havainnollistettu alla olevassa kuvassa.
-
-<img width="962" height="875" alt="Case 2 orientaatio-F (FI)" src="https://github.com/user-attachments/assets/d0214a07-33bd-4098-a9f9-f99ea88142bd" /><br> Kuva. RFID tunnisteiden asennuspaikat</td>
+Käytännön toteutuksessa RFID-tunnisteita asennettiin yhteensä viiteentoista (15) väliseinäelementtiin. Jokainen elementti varustettiin yhdellä tai kahdella tunnisteella, jotka valettiin osaksi betonielementtiä. Asennusperiaate on havainnollistettu alla olevassa kuvassa. Lisättävät RFID-tagien paikka tiedot lisättiin erilliseen RFID-Tag asemointi suunnitelmaan. Lisättävät RFID-tagien paikka tiedot lisättiin erilliseen RFID-Tag asemointi suunnitelmaan. Lisäksi jokaisesta erilaisesta asennuksesta on oma detaljinsa, jotka viitattiin yksittäisille elementtitunnuksille ja tällöin suunnitelmat olivat tekijöiden käytössä.
 
 
+
+
+<img width="962" height="875" alt="Case 2 orientaatio-F (FI)" src="https://github.com/user-attachments/assets/d0214a07-33bd-4098-a9f9-f99ea88142bd" /><br> Kuva. RFID tunnisteiden asennuspaikat
+
+<img width="1114" height="710" alt="image" src="https://github.com/user-attachments/assets/f64ab8a5-dce3-42c4-8bd2-13b4b405b2a8" /><br> Kuva. BIM tasokuva
+
+<img width="1696" height="951" alt="image" src="https://github.com/user-attachments/assets/842cd50b-971f-425c-a69b-a2742a862149" />
 
 
 #### 3.2.5 Case 2: Kiinteän RFID-portin asemointi elementtitehtaalla
