@@ -190,6 +190,7 @@ BEAst Label koostuu neljästä versiosta, joilla on eri käyttötarkoitukset. La
 Etikettien tietokenttien rakenne, fontit, tehosteet, linjapaksuudet ja mittasuhteet on määritelty tarkasti. Tekstin asettelu on optimoitu luettavuuden ja dynaamisen fonttikoon perusteella. BEAst Labelin fyysinen koko on yleensä 105×251 mm, mikä vastaa standardoitua STE/STILL-kuljetusetikettiä, jota käytetään rinnakkain kuljetusvaiheen tunnistamisessa. BEAst Labelin tunniste käyttää applikointitunnistetta (AI) 90, kun taas STE/STILL käyttää (AI) 00, mikä mahdollistaa järjestelmien välisen erottelun samalla SSCC-numerolla.
 
 BEAst Label tukee GPS-pohjaisia purkupaikkakoordinaatteja, puhelinnumeroita ja EDI-yhteensopivaa tiedonvaihtoa, mikä mahdollistaa logistiikan hallinnan koko toimitusketjussa. Standardin avulla voidaan automatisoida materiaalivirtojen kohdistus, parantaa sisälogistiikan läpinäkyvyyttä ja vähentää virhetoimituksia sekä hukkatyötä työmailla. BEAst Label muodostaa siten keskeisen teknisen rajapinnan digitaalisen rakennuslogistiikan toteuttamisessa.
+
 <img width="604" height="424" alt="image" src="https://github.com/user-attachments/assets/b90691a3-730f-44a7-90c6-ce82dc2bd869" />
 <img width="604" height="534" alt="image" src="https://github.com/user-attachments/assets/704fb214-00fd-411d-b887-c8a49bd8aabf" />
 
