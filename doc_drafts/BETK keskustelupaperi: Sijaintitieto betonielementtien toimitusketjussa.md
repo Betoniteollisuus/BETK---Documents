@@ -82,7 +82,7 @@ Ohjetta täydentävät muut BETK-hankkeen soveltamisohjeet:
 •	Soveltamisohje GS1 EPCIS (tapahtumatieto) käytöstä [syksyllä tehdään] [3]
 
 ## 2	Kirjoituksen tarkoitus ja rajaukset
-Hankkeen rakennusosien sijaintitiedolle on monenlaisia käyttötarkoituksia ja vaadittava tarkkuusta-so vaihtelee tiedon käyttäjän mukaan. Esimerkiksi rakennesuunnittelijalle lohkoa usein rajaavat ra-kenteelliset liikuntasaumat ja samaan aikaan elementtiasentajalle tärkeä tieto on mm. betonielemen-tin asennuslohko. LVI-suunnittelija usein jakaa rakennuksen TATE-järjestelmien mukaisiin palvelu-alueisiin ja esim. TATE-toimitusketjun kannalta yksittäisen tilan yksilöinti on tärkeä sijaintitieto. Tä-män takia tämä kirjoitus on ns. keskustelupaperi, jossa ei pyritä ratkaisemaan sijaintitietoa täydelli-sesti vaan keskittyen betonielementtien toimituksen kannalta tärkeisiin tietoihin ja niissä havaittuihin ongelmiin ja myös ehdotuksia näiden ratkaisemiseksi. 
+Hankkeen rakennusosien sijaintitiedolle on monenlaisia käyttötarkoituksia ja vaadittava tarkkuustaso vaihtelee tiedon käyttäjän mukaan. Esimerkiksi rakennesuunnittelijalle lohkoa usein rajaavat rakenteelliset liikuntasaumat ja samaan aikaan elementtiasentajalle tärkeä tieto on mm. betonielementin asennuslohko. LVI-suunnittelija usein jakaa rakennuksen TATE-järjestelmien mukaisiin palvelu-alueisiin ja esim. TATE-toimitusketjun kannalta yksittäisen tilan yksilöinti on tärkeä sijaintitieto. Tämän takia tämä kirjoitus on ns. keskustelupaperi, jossa ei pyritä ratkaisemaan sijaintitietoa täydellisesti vaan keskittyen betonielementtien toimituksen kannalta tärkeisiin tietoihin ja niissä havaittuihin ongelmiin ja myös ehdotuksia näiden ratkaisemiseksi pohjoismaisella tasolla. 
 
 ## 3	Sijaintieto tietomallissa
 ### 3.1	Koordinaatistot. 
