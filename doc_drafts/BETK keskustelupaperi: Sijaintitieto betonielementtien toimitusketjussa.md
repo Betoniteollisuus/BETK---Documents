@@ -69,17 +69,13 @@
 ​ 
 ## 1 Tausta
 
-Tällä hetkellä rakennushankkeen tietomallit ovat yleinen osa hankkeen tarjouspyyntöjä ja niiden määrä- ja kustannuslaskentaa. Suunnittelijoiden tekemiä tietomalleja käyttävät rakennusliikkeet ja tuoteosatoimittajat mm. määrä- ja tarjouslaskennassa, hankkeen toteutuksen suunnittelussa ja aikatauluttamisessa jne. BEC2012-hankkeessa luodut vakioidut tietokentät, mallinnusohje ja mallinnustyökalut ovat alalla yleisesti käytössä. Betonielementtien lohko- ja kerrostiedot ovat myös tärkeä osa betonielementtien toimitusketjua ja luotettavan tiedon saaminen suunnittelijoiden tietomalleista on havaittu olevan iso ongelma. Työmaalla tehtävän asennuslohkojaon ja aikataulutiedon välittämisessä on käytössä monenlaisia ratkaisuja, eikä alalla ole tullut vakioituja digitaalisia ratkaisuja toimitusketjun osapuolten välille.
+Tällä hetkellä rakennushankkeen tietomallit ovat yleinen osa hankkeen tarjouspyyntöjä ja niiden määrä- ja kustannuslaskentaa. Suunnittelijoiden tekemiä tietomalleja käyttävät rakennusliikkeet ja tuoteosatoimittajat mm. määrä- ja tarjouslaskennassa, hankkeen toteutuksen suunnittelussa ja aikatauluttamisessa jne. BEC2012-hankkeessa luodut vakioidut tietokentät, mallinnusohje ja mallinnustyökalut ovat alalla yleisesti käytössä. Betonielementtien lohko- ja kerrostiedot ovat myös tärkeä osa betonielementtien toimitusketjua ja luotettavan tiedon saaminen suunnittelijoiden tietomalleista on havaittu olevan iso ongelma. Työmaalla tehtävän asennuslohkojaon ja aikataulutiedon välittämisessä on käytössä monenlaisia ratkaisuja, eikä alalla ole tullut vakioituja digitaalisia ratkaisuja toimitusketjun osapuolten välille. Koska sijaintitietojen pitää virrata suunnitteluvaiheesta tilaus-toimitusketjuun, tulee vakiointityössä ottaa huomioon tilaus-toimistusvaiheen tiedonsiirron fyysinen (ihmisluettava) ja digitaalinen (koneluettava) ulottuvuus. 
 
 
 <img width="524" height="433" alt="image" src="https://github.com/user-attachments/assets/a07ce81f-f492-496f-8bf3-df2607f6af1a" /><br> Kuva 1. Esimerkki yhdistelmämallin kerrostiedoista
 
-
-
-​ 
-
-​ 
-Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusketjun digitali-soinnin kehityshanketta, BETK-työryhmän toimesta. Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja raken-teettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. 
+ 
+​Tämä soveltamisohje on tehty osana Rakennusteollisuus RT:n tuotetiedon ja toimitusketjun digitali-soinnin kehityshanketta, BETK-työryhmän toimesta. Kehityshankkeen ensisijainen tavoite on edistää rakennusalan tuotteiden toimitusketjun hallinnan menetelmien siirtymistä manuaalisesta ja raken-teettomasta tiedonvaihdosta täysin rakenteelliseen ja koneluettavaan tiedonvaihtoon. 
 Ohjetta täydentävät muut BETK-hankkeen soveltamisohjeet:
 •	BETK Soveltamisohje_Tuoteyksilöinti ja -tunnistaminen[1]
 •	Excel-taulukko muuttujista [2]
