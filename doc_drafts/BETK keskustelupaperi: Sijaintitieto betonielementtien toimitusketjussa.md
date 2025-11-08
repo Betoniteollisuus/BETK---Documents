@@ -65,7 +65,7 @@
 7. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)  
 8. [Viittaukset](#viittaukset)
 
-
+---
 ​ 
 ## 1 Tausta
 
@@ -81,8 +81,12 @@ Ohjetta täydentävät muut BETK-hankkeen soveltamisohjeet:
 •	Excel-taulukko muuttujista [2]
 •	Soveltamisohje GS1 EPCIS (tapahtumatieto) käytöstä [syksyllä tehdään] [3]
 
+---
+
 ## 2	Kirjoituksen tarkoitus ja rajaukset
 Hankkeen rakennusosien sijaintitiedolle on monenlaisia käyttötarkoituksia ja vaadittava tarkkuustaso vaihtelee tiedon käyttäjän mukaan. Esimerkiksi rakennesuunnittelijalle lohkoa usein rajaavat rakenteelliset liikuntasaumat ja samaan aikaan elementtiasentajalle tärkeä tieto on mm. betonielementin asennuslohko. LVI-suunnittelija usein jakaa rakennuksen TATE-järjestelmien mukaisiin palvelu-alueisiin ja esim. TATE-toimitusketjun kannalta yksittäisen tilan yksilöinti on tärkeä sijaintitieto. Tämän takia tämä kirjoitus on ns. keskustelupaperi, jossa ei pyritä ratkaisemaan sijaintitietoa täydellisesti vaan keskittyen betonielementtien toimituksen kannalta tärkeisiin tietoihin ja niissä havaittuihin ongelmiin ja myös ehdotuksia näiden ratkaisemiseksi pohjoismaisella tasolla. 
+
+---
 
 ## 3	Sijaintieto tietomallissa
 ### 3.1	Koordinaatistot. 
@@ -165,6 +169,7 @@ Asennussijainnit Peppol
  
 <img width="511" height="531" alt="image" src="https://github.com/user-attachments/assets/a7507ad8-d45e-4eda-97de-235de943ae75" /><br> Kuva 11. 
 
+---
 
 ## 4	Sijaintitietojen esittäminen tietomalleissa
 Rakennettujen kohteiden tietomalleissa sijaintitieto muodostaa keskeisen osan tuotetiedon ja prosessitiedon yhteentoimivuutta. IFC-standardin (Industry Foundation Classes) rakenteessa sijainti ja tilallinen organisointi määritellään kahden toisiaan täydentävän periaatteen kautta: placement (sijoittaminen) ja spatial organization (tilallinen rakenne).<br>
@@ -172,7 +177,6 @@ Rakennettujen kohteiden tietomalleissa sijaintitieto muodostaa keskeisen osan tu
 **Placement** kuvaa kohteen paikan suhteessa koordinaattijärjestelmään, toiseen objektiin tai paikalliseen referenssiin. IFC:n määritelmissä tämä toteutetaan luokan IfcObjectPlacement kautta, joka voi olla absoluuttinen (maailmankoordinatisto), suhteellinen (toiseen tuotteeseen) tai rajoitettu (esimerkiksi verkkoon tai lineaariseen kohteeseen sidottu). Paikallinen sijoitus määritellään IfcLocalPlacement-luokalla, ja suuremmassa mittakaavassa georeferointi yhdistää mallin maantieteelliseen sijaintiin. Koordinaattiverkot (IfcGrid) mahdollistavat kohteiden sijoittamisen eri geometristen asetelmien mukaan, kuten suorakulmaisina, radiaalisina tai kolmiomaisina rakenteina.<br>
 
 <img width="4163" height="1220" alt="2025-11-08_Kuva1" src="https://github.com/user-attachments/assets/887316e8-9821-4e62-9425-d89a754edb6c" /> Kuva x. Koordinaattiverkot (Domer & Bernadello, 2023)
-
 
 
 **Spatial organization** puolestaan määrittää, miten rakennuksen tai muun rakenteen osat järjestyvät hierarkkisesti ja tilallisesti. Tämä voidaan esittää kahdella tavalla:<br>
@@ -183,38 +187,27 @@ Spatial composition – geometrisesti kuvattu tilallinen koostumus, kuten IfcSpa
 
 <img width="4450" height="2223" alt="2025-11-07_Kuva1" src="https://github.com/user-attachments/assets/ce41cd97-a614-42a7-a3a7-2a58f3e410b6" /><br> Kuva x. Rakennuksen tilayksiköt (Domer & Bernadello, 2023)
 
-
 Rakennuksen tilahierarkia seuraa tyypillisesti rakennuksen suunnittelun ja rakentamisen logiikkaa: IfcProject toimii ylimpänä kontekstina, jonka alla sijaitsevat IfcSite, IfcBuilding, IfcBuildingStorey ja IfcSpace. Näin muodostetaan yhtenäinen tietorakenne rakentamiskohteen informaatiomalliin (BIM), jonka avulla eri suunnittelualojen ja toimitusketjun toimijat voivat viitata samoihin tilallisiin ja paikallisiin konteksteihin mallissa (BIM).<br>
 
 Lisäksi IFC tukee koostettuja elementtejä (assemblies), joiden avulla voidaan yhdistää useita rakennusosia (esim. palkki- ja runkorakenteita) yhdeksi loogiseksi kokonaisuudeksi IfcElementAssembly-luokan kautta. Sijainti- ja tilatietojen yhteys varmistetaan relaatioiden, kuten IfcRelContainedInSpatialStructure ja IfcRelAggregates, avulla, jolloin kohteiden keskinäiset suhteet säilyvät yksiselitteisinä tietomallissa.<br>
 
-Sijaintitiedon standardoitu rakenne on keskeinen edellytys digitaalisten toimitusketjujen hallinnalle, koska se mahdollistaa sekä fyysisten tuotteiden että niihin liittyvien tapahtumien (esim. toimitukset, asennukset) liittämisen samaan kontekstiin. Yhtenäinen sijaintimäärittely tukee myös linkitetyn datan sovelluksia, joissa rakennustuotteiden yksilöivä tunnistus (esim. GS1- tai DPP-järjestelmien kautta) voidaan yhdistää rakennuksen tilalliseen ja koordinaattipohjaiseen rakenteeseen.<br>
+Sijaintitiedon standardoitu rakenne on keskeinen edellytys digitaalisten toimitusketjujen hallinnalle, koska se mahdollistaa sekä fyysisten tuotteiden että niihin liittyvien tapahtumien (esim. toimitukset, asennukset) liittämisen samaan kontekstiin. Yhtenäinen sijaintimäärittely tukee myös linkitetyn datan sovelluksia, joissa rakennustuotteiden yksilöivä tunniste voidaan yhdistää rakennuksen tilalliseen ja koordinaattipohjaiseen rakenteeseen.<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ## 5 Sijaintitiedot toimituksissa (case Ruotsi)
 
-BEAst Label on ruotsalaisen BEAst AB:n kehittämä standardi rakennustyömaiden toimitusten kollietiketeille. Sen tekninen tarkoitus on mahdollistaa rakennusmateriaalien yksiselitteinen tunnistus, paikannus ja ohjattu käsittely työmaalla sekä tukea sähköistä tiedonvaihtoa toimitusketjun osapuolten välillä. Standardi perustuu GS1-järjestelmään ja sen SSCC-tunnuksiin (Serial Shipping Container Code) sekä GS1-128-, DataMatrix- ja QR-viivakoodeihin, joita käytetään kolli-ID:n, GPS-koordinaattien ja yhteystietojen koneelliseen lukuun.
+Ruotsalaisen rakennustuoteteollisuuden tarpeisiin kehitetty BEAst Label on rakennusalan toimitusketjujen tueksi laadittu kollietikettistandardi, jonka tarkoituksena on yhdenmukaistaa tavaroiden ja materiaalien merkintä ja tunnistettavuus toimitusprosessin eri vaiheissa. Standardin tekninen tehtävä on mahdollistaa rakennusmateriaalien yksiselitteinen tunnistus, paikannus ja ohjattu käsittely työmaalla sekä tukea sähköistä tiedonvaihtoa toimitusketjun osapuolten välillä. BEAst Label perustuu GS1-järjestelmään ja sen SSCC-tunnuksiin (Serial Shipping Container Code) sekä hyödyntää GS1-128-, DataMatrix- ja QR-viivakoodeja, joita käytetään muun muassa kolli-ID:n, GPS-koordinaattien ja yhteystietojen koneelliseen lukuun.<br>
 
-Etikettien tiedot tuotetaan automaattisesti BEAst Supply Material -standardin mukaisesta sähköisestä tilausviestistä (EDI), jossa määritellään toimituksen kohdetiedot, kuten rakennuksen, kerroksen, huoneen ja purkupaikan osoittavat kentät. Näin varmistetaan, että toimittaja voi tulostaa kollikohtaiset etiketit yhdenmukaisella tietosisällöllä.
+Standardin ydinperiaate on, että fyysinen etiketti ja sähköinen tiedonvaihto muodostavat yhdenmukaisen tietorakenteen. Etikettien tiedot tuotetaan automaattisesti BEAst Supply Material -standardin mukaisesta sähköisestä tilausviestistä (EDI), jossa määritellään toimituksen kohdetiedot kuten rakennus, porrashuone, kerros, huone ja purkupaikka. Tämän rakenteen ansiosta toimittajat voivat tulostaa kollikohtaiset etiketit samansisältöisinä eri toimituksissa ilman manuaalista tietojen syöttöä.<br>
 
-BEAst Label koostuu neljästä versiosta, joilla on eri käyttötarkoitukset. Label A on pääasiassa lavatavaralle, ja se sisältää suurella kirjasinkoolla tulostetut kohdekentät, jotta esimerkiksi trukin kuljettaja voi lukea ne etäältä. Label B on tarkoitettu muille kuin lavatavarapakkauksille ja alikolleille, ja se sisältää myös kollin sisällön. Label C toimii lisäsisältöluettelona tilanteissa, joissa Label B:n kentät eivät riitä. Label D on tuote- tai artikkelietiketti, joka täydentää valmistajan omaa merkintää ja sovitetaan tuotekohtaiseen muotoon.
+BEAst Labelista on neljä eri versiota, jotka on suunniteltu erilaisiin käyttötarkoituksiin. Label A soveltuu lavatavaralle ja sisältää suurikokoiset kohdekentät, jotka helpottavat etäluettavuutta esimerkiksi trukin käytön yhteydessä. Label B on tarkoitettu muille pakkauksille ja alikolleille, ja se sisältää tarkemmat tiedot kollin sisällöstä. Label C toimii lisäluettelona tilanteissa, joissa tarvitaan enemmän tietokenttiä kuin Label B tarjoaa. Label D on tuote- tai artikkelikohtainen etiketti, joka täydentää valmistajan omaa merkintää ja mukautetaan tuotekohtaisesti.<br>
 
-Etikettien tietokenttien rakenne, fontit, tehosteet, linjapaksuudet ja mittasuhteet on määritelty tarkasti. Tekstin asettelu on optimoitu luettavuuden ja dynaamisen fonttikoon perusteella. BEAst Labelin fyysinen koko on yleensä 105×251 mm, mikä vastaa standardoitua STE/STILL-kuljetusetikettiä, jota käytetään rinnakkain kuljetusvaiheen tunnistamisessa. BEAst Labelin tunniste käyttää applikointitunnistetta (AI) 90, kun taas STE/STILL käyttää (AI) 00, mikä mahdollistaa järjestelmien välisen erottelun samalla SSCC-numerolla.
+Etiketti sisältää sekä tekstimuotoisia tietoja että viivakoodeja, joita voidaan esittää yksiulotteisina (1D) tai kaksiulotteisina (2D) koodeina, kuten DataMatrix tai QR. Näin voidaan välittää suuri määrä tietoa kompaktissa muodossa ja varmistaa tiedon koneellinen luettavuus koko toimitusketjun läpi. BEAst Label tukee myös GPS-pohjaisten purkupaikkakoordinaattien ja yhteystietojen liittämistä etikettiin.<br>
 
-BEAst Label tukee GPS-pohjaisia purkupaikkakoordinaatteja, puhelinnumeroita ja EDI-yhteensopivaa tiedonvaihtoa, mikä mahdollistaa logistiikan hallinnan koko toimitusketjussa. Standardin avulla voidaan automatisoida materiaalivirtojen kohdistus, parantaa sisälogistiikan läpinäkyvyyttä ja vähentää virhetoimituksia sekä hukkatyötä työmailla. BEAst Label muodostaa siten keskeisen teknisen rajapinnan digitaalisen rakennuslogistiikan toteuttamisessa.
+Standardi käyttää applikointitunnistetta (AI) 90 erotuksena STE/STILL-kuljetusetiketin tunnisteesta (AI) 00, mikä mahdollistaa järjestelmien rinnakkaisen käytön samalla SSCC-tunnisteella. BEAst Labelia sovelletaan toimitusketjun eri vaiheissa materiaalien tunnistamiseen, sähköisten sanomien tietosisällön yhdistämiseen ja toimitusten kohdistamiseen työmaan sisäisiin loppukohteisiin.<br>
+
+BEAst Label muodostaa teknisen rajapinnan fyysisen etiketin ja sähköisen tiedonhallinnan välillä. Sen avulla toimitusketjun tiedot voidaan esittää yhteismitallisesti eri järjestelmissä ja varmistaa, että tunnistetiedot säilyvät yhdenmukaisina koko materiaalivirran läpi rakennuslogistiikassa.
 
 <img width="604" height="424" alt="image" src="https://github.com/user-attachments/assets/b90691a3-730f-44a7-90c6-ce82dc2bd869" />
 <img width="604" height="534" alt="image" src="https://github.com/user-attachments/assets/704fb214-00fd-411d-b887-c8a49bd8aabf" />
