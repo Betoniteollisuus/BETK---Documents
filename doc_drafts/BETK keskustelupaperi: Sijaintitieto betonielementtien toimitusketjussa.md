@@ -11,7 +11,7 @@
 | Selite                | Arvo                                                                |
 |-----------------------|---------------------------------------------------------------------|
 | Asiakirjan nimi       | BETK soveltamisohje: Sijaintieto betonielementtien toimitusketjussa |
-| Asiakirjan päivämäärä | 3.7.2025                                                            |
+| Asiakirjan päivämäärä | 9.11.2025                                                            |
 | Asiakirjan versio     | 0.4                                                                 |
 | Asiakirjan status     | Luonnos                                                             |
 
