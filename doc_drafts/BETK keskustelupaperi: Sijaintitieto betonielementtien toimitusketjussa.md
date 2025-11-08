@@ -3,7 +3,7 @@
 
 **Sijaintitieto suunnittelijan tietomallista toimitukseen**  
 >Julkaisija: Rakennusteollisuus ry\
->Luonnos: 6.11.2025
+>Luonnos: 9.11.2025
 
 <details>
 <summary>Asiakirjan tiedot </summary>
