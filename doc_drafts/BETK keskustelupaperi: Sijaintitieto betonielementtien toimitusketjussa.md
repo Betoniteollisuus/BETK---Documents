@@ -250,13 +250,9 @@ BEAst Label tukee GPS-pohjaisia purkupaikkakoordinaatteja, puhelinnumeroita ja E
 
 
 ## Viittaukset
-Nykyisessä asiakirjassa ei ole lähteitä.
-
 
 ​ 
-
-​ 
-
+[xx] Domer & Bernadello, 2023, Interoperability: An introduction to IFC and buildingSmart standards integrating infrastructure modeling
 ​ 
 
 ​ 
