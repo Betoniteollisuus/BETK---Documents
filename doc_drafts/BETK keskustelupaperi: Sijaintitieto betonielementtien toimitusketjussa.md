@@ -47,7 +47,7 @@
 | 0.1     | 21.5.2025   | anpekk  | Luonnos vaihe              |
 | 0.2     | 30.5.2025   | anpekk  | Tekstiosuuksia täydennetty |
 | 0.3     | 3.7.2025    | anpekk  | Tekstiosuuksia täydennetty |
-| 0.4     | 6.11.2025   | TeAla   | Tekstiosuuksia täydennetty |
+| 0.4     | 9.11.2025   | TeAla   | Tekstiosuuksia täydennetty |
 
  </details>
 
