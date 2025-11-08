@@ -167,14 +167,6 @@ Asennussijainnit Peppol
 
 
 ## 4	Sijaintitietojen esittäminen tietomalleissa
-Tähän vielä tarvittaessa jotain viisasta. 
-Sijaintitiedot tietomallissa
-Rakennus
-Lohko
-Purkupaikka
-Kerros
-
-
 Rakennettujen kohteiden tietomalleissa sijaintitieto muodostaa keskeisen osan tuotetiedon ja prosessitiedon yhteentoimivuutta. IFC-standardin (Industry Foundation Classes) rakenteessa sijainti ja tilallinen organisointi määritellään kahden toisiaan täydentävän periaatteen kautta: placement (sijoittaminen) ja spatial organization (tilallinen rakenne).<br>
 
 **Placement** kuvaa kohteen paikan suhteessa koordinaattijärjestelmään, toiseen objektiin tai paikalliseen referenssiin. IFC:n määritelmissä tämä toteutetaan luokan IfcObjectPlacement kautta, joka voi olla absoluuttinen (maailmankoordinatisto), suhteellinen (toiseen tuotteeseen) tai rajoitettu (esimerkiksi verkkoon tai lineaariseen kohteeseen sidottu). Paikallinen sijoitus määritellään IfcLocalPlacement-luokalla, ja suuremmassa mittakaavassa georeferointi yhdistää mallin maantieteelliseen sijaintiin. Koordinaattiverkot (IfcGrid) mahdollistavat kohteiden sijoittamisen eri geometristen asetelmien mukaan, kuten suorakulmaisina, radiaalisina tai kolmiomaisina rakenteina.<br>
@@ -192,7 +184,7 @@ Spatial composition – geometrisesti kuvattu tilallinen koostumus, kuten IfcSpa
 <img width="4450" height="2223" alt="2025-11-07_Kuva1" src="https://github.com/user-attachments/assets/ce41cd97-a614-42a7-a3a7-2a58f3e410b6" /><br> Kuva x. Rakennuksen tilayksiköt
 
 
-Rakennuksen tilahierarkia seuraa tyypillisesti rakennuksen suunnittelun ja rakentamisen logiikkaa: IfcProject toimii ylimpänä kontekstina, jonka alla sijaitsevat IfcSite, IfcBuilding, IfcBuildingStorey ja IfcSpace. Näin muodostetaan yhtenäinen tietorakenne, jonka avulla eri suunnittelualojen ja toimitusketjun toimijat voivat viitata samoihin tilallisiin ja paikallisiin konteksteihin.<br>
+Rakennuksen tilahierarkia seuraa tyypillisesti rakennuksen suunnittelun ja rakentamisen logiikkaa: IfcProject toimii ylimpänä kontekstina, jonka alla sijaitsevat IfcSite, IfcBuilding, IfcBuildingStorey ja IfcSpace. Näin muodostetaan yhtenäinen tietorakenne rakentamiskohteen informaatiomalliin (BIM), jonka avulla eri suunnittelualojen ja toimitusketjun toimijat voivat viitata samoihin tilallisiin ja paikallisiin konteksteihin mallissa (BIM).<br>
 
 Lisäksi IFC tukee koostettuja elementtejä (assemblies), joiden avulla voidaan yhdistää useita rakennusosia (esim. palkki- ja runkorakenteita) yhdeksi loogiseksi kokonaisuudeksi IfcElementAssembly-luokan kautta. Sijainti- ja tilatietojen yhteys varmistetaan relaatioiden, kuten IfcRelContainedInSpatialStructure ja IfcRelAggregates, avulla, jolloin kohteiden keskinäiset suhteet säilyvät yksiselitteisinä tietomallissa.<br>
 
