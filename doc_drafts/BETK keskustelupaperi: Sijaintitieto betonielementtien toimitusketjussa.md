@@ -63,9 +63,9 @@
   3.2.1 [Kerrostiedot IFC-mallissa](#321kerrostiedot-ifc-mallissa)  
   3.2.2 [Lohkotiedot IFC-mallissa](#322lohkotiedot-ifc-mallissa)  
 4. [Sijaintitietojen esittäminen tietomalleissa](#4sijaintitietojen-esittäminen-tietomalleissa)  
-5. [Sijaintitiedot toimituksissa (case Ruotsi)](#5sijaintitiedot-toimituksissa-case-ruotsi)  
-6. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)  
-7. [Viittaukset](#viittaukset)
+5. [Sijaintitiedot toimituksissa (case Ruotsi)](#5sijaintitiedot-toimituksissa-case-ruotsi)
+7. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)  
+8. [Viittaukset](#viittaukset)
 
 ---
 ​ 
