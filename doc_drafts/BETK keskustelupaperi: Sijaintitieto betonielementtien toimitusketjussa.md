@@ -54,16 +54,18 @@
  
 ## Sisällysluettelo
 
-1. [Tausta](#1-tausta)
-3. [Kirjoituksen tarkoitus ja rajaukset](#2kirjoituksen-tarkoitus-ja-rajaukset)  
-4. [Sijaintieto tietomallissa](#3sijaintieto-tietomallissa)  
-   3.1 [Koordinaatistot](#31koordinaatistot)  
-   3.2 [Sijaintitiedot tietomallissa](#32sijaintitiedot-tietomallissa)  
-   &nbsp;&nbsp;&nbsp;&nbsp;3.2.1 [Kerrostiedot IFC-mallissa](#321kerrostiedot-ifc-mallissa)  
-   &nbsp;&nbsp;&nbsp;&nbsp;3.2.2 [Lohkotiedot IFC-mallissa](#322lohkotiedot-ifc-mallissa)
-6. [XXX](#4xxx)  
-7. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)  
-8. [Viittaukset](#viittaukset)
+
+1. [Tausta](#1-tausta)  
+2. [Kirjoituksen tarkoitus ja rajaukset](#2kirjoituksen-tarkoitus-ja-rajaukset)  
+3. [Sijaintieto tietomallissa](#3sijaintieto-tietomallissa)  
+ 3.1 [Koordinaatistot](#31koordinaatistot)  
+ 3.2 [Sijaintitiedot tietomallissa](#32sijaintitiedot-tietomallissa)  
+  3.2.1 [Kerrostiedot IFC-mallissa](#321kerrostiedot-ifc-mallissa)  
+  3.2.2 [Lohkotiedot IFC-mallissa](#322lohkotiedot-ifc-mallissa)  
+4. [Sijaintitietojen esittäminen tietomalleissa](#4sijaintitietojen-esittäminen-tietomalleissa)  
+5. [Sijaintitiedot toimituksissa (case Ruotsi)](#5sijaintitiedot-toimituksissa-case-ruotsi)  
+6. [Lyhenteet ja terminologia](#lyhenteet-ja-terminologia)  
+7. [Viittaukset](#viittaukset)
 
 ---
 ​ 
