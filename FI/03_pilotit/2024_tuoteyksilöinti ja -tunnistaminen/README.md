@@ -183,8 +183,6 @@ Toinen testattu tunniste (RFID tunniste 2) oli vastaavasti anti-metal-tyyppinen 
 
 Molemmat tunnisteet toimivat passiivisina EPC Class 1 Gen 2 / ISO 18000-6C -standardin mukaisina R/W-tunnisteina taajuusalueella 860–920 MHz, mikä mahdollistaa yhteensopivuuden laajasti käytössä olevien UHF-lukijoiden kanssa. Tunnisteiden valinnassa painotettiin erityisesti testiympäristön vaatimusten mukaista kestävyyttä, luotettavaa luentaa metallipintojen läheisyydessä sekä tiedon pysyvyyttä tuotteen elinkaaren ajan.
 
-****!!!!****Näiden kahden tunnistetyypin vertailun tarkoituksena oli arvioida niiden käytettävyyttä, luettavuutta ja kestävyyttä todellisissa tuotanto- ja työmaaolosuhteissa. Tulokset muodostivat perustan myöhemmille testauksille, joissa RFID-tunnisteet integroitiin osaksi digitaalista tuotetietoketjua ja EPCIS-pohjaista tapahtumatiedonhallintaa.*
-
 <table border="1" cellspacing="5" cellpadding="5">
  <tbody>
   <tr>
