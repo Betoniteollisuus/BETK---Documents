@@ -121,13 +121,7 @@ Tilauksesta suunniteltavien rakennustuotteiden toimitusketjuissa keskeinen haast
 BETK-työryhmässä tuoteyksilöinti päätettiin toteuttaa GS1-standardiperheen mukaiseen kolmitasoiseen malliin perustuen, mikä on esitetty kuvassa 2. Ensimmäinen taso on tuoteryhmätason tuoteyksilöinti, jossa käytettävä tunniste (MTO GTIN) määrittää valmistajan perustuotteen. Toinen taso on tuotevariaatiotason tuoteyksilöinti, jossa lisätunniste (MTO-varianttinumero) erottaa perustuotteen yksittäisen, tilauksen perusteella muodostuvan variantin. Kolmas taso on tuoteyksilötason tuoteyksilöinti, jossa sarjanumero yksilöi saman variantin identtiset tuoteyksilöt ja mahdollistaa niiden erottamisen toisistaan.
 
 
-sekavaa loppua
 
-
-
-Ensimmäisellä tasolla tuoteryhmätason tuoteyksilöinti (MTO GTIN) tunnistaa valmistajan perustuotteen eli tuoteluokan, johon tilauskohtaiset tuotteet kuuluvat.
-
-BETK-työryhmässä päädyttiin hyödyntämään GS1-standardia ns. kolmella tuoteyksilöinnin tasolla (esitetty taulukossa 1). Tässä mallissa GTIN-koodilla yksilöidään tietyn valmistajan tietyntyyppinen perustuote. Made-to-Order variation -numeron avulla yksilöidään tämän perustuotteen tietty variantti ja lopulta sarjanumerolla yksilöidään perustuotteen saman variantin identtiset yksilöt. Tässä tapauksessa pelkkä GTIN ei siis yksilöi tiettyä tuotetta, vaan yleisen luokan mahdollisista tilauksen perusteella valmistettavista tuotteen variaatioista.
 
 <img width="2343" height="3541" alt="2025-10-13_Kuva1(fi)" src="https://github.com/user-attachments/assets/8b3d332d-0bfd-411d-b3ab-7927fceb5e97" />
 
