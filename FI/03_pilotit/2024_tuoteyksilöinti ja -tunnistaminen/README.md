@@ -273,9 +273,15 @@ Kiinteän lukijan yhteydessä toimivat kaksi antennia, **Times-7 A5010** ja **BR
 
 #### 3.1.4 Case 1: RFID-tunnisteiden sijoittaminen elementtiin
 
-RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, ja jokaiseen elementtiin sijoitettiin kolme tunnistetta. RFID-tunnisteet valettiin osaksi betonielementtiä siten, että ne sijoitettiin elementin molempiin päihin sekä yläpintaan. RFID-tunnisteen antennit oli suunnattu elementin sauman suuntaisesti. RFID-tunnisteiden asennussijaintien ja antennien suuntauksen periaate on esitetty alla olevassa kuvassa.
+RFID-tunnisteita asennettiin yhteensä kymmeneen väliseinäelementtiin, ja jokaiseen elementtiin sijoitettiin kolme tunnistetta. Tunnisteet integroitiin osaksi elementtiä valamalla ne rakenteeseen tuotannon yhteydessä. Asennuspaikat valittiin siten, että tunnisteet voitiin lukea sekä elementtitehtaalla että työmaalla elementtien tavanomaisten käsittelyprosessien yhteydessä. RFID-tunnisteiden sijoitus- ja suuntausperiaate on esitetty alla olevassa kuvassa.
+
+Tunnisteista kaksi sijoitettiin elementin yläpintaan ja yksi elementin päätyyn. Yläpintaan sijoitettujen tunnisteiden antenni suunnattiin kohtisuoraan ylöspäin, kun taas päätyyn sijoitetun tunnisteen antenni suunnattiin elementin lyhyelle sivulle. Tunnisteiden orientaatio määritettiin siten, että antennin suunnalla oli optimaalinen yhteys lukijan suuntaan sekä elementtien varastoinnin että työmaalle toimituksen aikana.
 
 <img width="960" height="874" alt="Case 1 orientaatio (FI)" src="https://github.com/user-attachments/assets/825ca439-71b2-4edc-a8f0-9225c03cafd1" />  <br> Kuva. Case 1: RFID tunnisteiden asennuspaikat
+
+Ennen betonivalua tunnisteet kiinnitettiin raudoitukseen joko mekaanisesti kuparilangan tai vastaavien sidontamateriaalien avulla tai vaihtoehtoisesti painamalla tunniste suoraan tuoreeseen betonimassaan ilman erillisiä kiinnitystarvikkeita. Raudoitukseen kiinnittämistä käytettiin erityisesti silloin, kun haluttiin varmistaa tunnisteen pysyminen täsmällisessä asennossa valun aikana. Massaan painaminen soveltui tilanteisiin, joissa tunniste sijoitettiin valupinnan kautta ja sen asentoa voitiin hallita riittävällä tarkkuudella. Alla olevissa kuvissa on esitetty esimerkkejä käytetyistä kiinnitysmenetelmistä.
+
+Betonivalun jälkeen tunnisteiden sijainti tarkastettiin visuaalisesti valupinnan läpi sekä suorittamalla alustavat luentatestit käsilukijalla. Tavoitteena oli varmistaa, että tunnisteet säilyttivät suunnitellun orientaationsa ja että betoniin upottaminen ei estänyt radiotaajuiseen etälukuun perustuvaa tiedonsiirtoa. Luentatestien avulla voitiin myös arvioida, millaisia vaikutuksia betonin kosteudella ja raudoituksella oli luentatulokseen.
 
 <img width="1698" height="1135" alt="image" src="https://github.com/user-attachments/assets/e7887267-d9f6-422d-9e52-3f4f6de5bca0" /><br> Kuva. Case 1: RFID-tunnisteen asennus elementin yläpintaan
 
