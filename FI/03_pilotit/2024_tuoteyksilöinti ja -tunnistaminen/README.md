@@ -461,22 +461,8 @@ Kiinteän UHF RFID-portin asemointi suoritettiin elementtitehtaalla tuotantolinj
 
 RFID-lukujärjestelmä koostui Nordic ID FR22 LTE -lukulaitteesta ja neljästä Nordic ID GA30 -UHF-antenneista. Antennit asennettiin tuulikaapin sisäseinään pareittain pystysuunnassa siten, että ylempi antenni sijoitettiin noin 2 metrin ja alempi noin 1,0 metrin korkeudelle lattiapinnasta. Antennien sijoittelu perustui kenttämittauksiin, joiden perusteella haluttiin varmistaa luentapeitto sekä ajoneuvon lavalla olevien että lattiatason läheisyydessä sijaitsevien RFID-tunnisteiden osalta.
 
+<img width="1231" height="1114" alt="image" src="https://github.com/user-attachments/assets/d41dac59-ec1f-4d4a-880a-f85d5cc13f5d" /><br> Kuva X. Case 2: Kiinteän RFID-portin asemointi elementtitehtaalla
 
-<img width="841" height="956" alt="image" src="https://github.com/user-attachments/assets/b5224014-d4e5-4b35-8088-3703feed797b" />
-
-
-<table>
- <body>
-  <tr><td><img width="1004" height="410" alt="image" src="https://github.com/user-attachments/assets/5d8eab07-8152-4dfe-872e-a8ce2bd4763a" /></td></td></tr>
-  <tr>
-  <td>
-   <img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/d516c5f4-27e2-4b3b-82ba-67c5e9db39de" />
-   <img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/0fa7a9b8-2970-4d5c-af84-b3b50d1bab50" />
-   <img width="400" height="800" alt="image" src="https://github.com/user-attachments/assets/5b00e0d3-c49d-453b-b020-162f59771d5f" />
-  </td>
-  </tr>
- </body>
-</table>
 
 ---
 ## 4 Tulokset
@@ -1964,16 +1950,17 @@ Koska tutkimuksen otanta oli rajallinen, tuloksia tulee pitää suuntaa-antavina
 ## 6 Liitteet
 
 
-<img width="1698" height="1135" alt="image" src="https://github.com/user-attachments/assets/e7887267-d9f6-422d-9e52-3f4f6de5bca0" /><br> Kuva X. Case 1: Elementin yläpinnan RFID-tunnisteen asennus
+<img width="1698" height="1135" alt="image" src="https://github.com/user-attachments/assets/e7887267-d9f6-422d-9e52-3f4f6de5bca0" /><br> Kuva X. Case 1: RFID-tunnisteen asennus elementin yläpintaan
+
+<img width="1698" height="1135" alt="image" src="https://github.com/user-attachments/assets/360a5248-be2d-47a5-a535-b0a5e94aea22" /><br> Kuva X. Case 1: RFID-tunnisteen asennus elementin sivulle
 
 
 
-![IMG_20240529_144022](https://github.com/user-attachments/assets/89a4ef84-a0fb-47d4-9669-74d2b1b10be0)
 
 ![IMG_20240529_144503](https://github.com/user-attachments/assets/738e84ae-97b1-4002-8d64-25194d0e44c3)
 
 ![IMG_20240529_145019](https://github.com/user-attachments/assets/79e5dfcd-5d06-4290-ad4b-b5f3b755fd1c)
-![2024-08-16_K1_V-2803 (0011)](https://github.com/user-attachments/assets/ec47788b-1f72-4882-b6a3-c0c24bdaf109)
+
 
 ![IMG20240904134821](https://github.com/user-attachments/assets/8bffd103-2ae5-4586-8a9a-76feec61cb3f)
 <img width="500" alt="2024-09-09_K5_V-2502 (0019)" src="https://github.com/user-attachments/assets/23486cb6-ce3b-4839-867b-bdd648a9713d" /><br>Kuva. 2024-09-09_K5_V-2502 (0019)
