@@ -125,6 +125,8 @@ Ensimmäisellä tasolla tuoteryhmätason tuoteyksilöinti (MTO GTIN) tunnistaa v
 
 BETK-työryhmässä päädyttiin hyödyntämään GS1-standardia ns. kolmella tuoteyksilöinnin tasolla (esitetty taulukossa 1). Tässä mallissa GTIN-koodilla yksilöidään tietyn valmistajan tietyntyyppinen perustuote. Made-to-Order variation -numeron avulla yksilöidään tämän perustuotteen tietty variantti ja lopulta sarjanumerolla yksilöidään perustuotteen saman variantin identtiset yksilöt. Tässä tapauksessa pelkkä GTIN ei siis yksilöi tiettyä tuotetta, vaan yleisen luokan mahdollisista tilauksen perusteella valmistettavista tuotteen variaatioista.
 
+<img width="2343" height="3541" alt="2025-10-13_Kuva1(fi)" src="https://github.com/user-attachments/assets/8b3d332d-0bfd-411d-b3ab-7927fceb5e97" />
+
 ###### Taulukko 1. GS1-standardiperheen mukaiset tuoteyksilöinnin hierarkia tasot tarkempaan yksilöintiin
 <table>
   <tr>
