@@ -464,6 +464,10 @@ Kun luenta tehtiin käsilukijalla asennuksen jälkeen ja tunniste oli esteettöm
 
 Tulosten perusteella vaihtelu lukutuloksissa johtui ensisijaisesti tunnisteen orientaatiosta suhteessa lukijan antenniin, näkymäkulmasta ja rakenteiden vaikutuksesta antennikenttään. Kun tunniste oli asennettu niin, että sen antenni oli suunnattu samaan tasoon lukijan säteilykuvion kanssa, lukemat olivat toistettavia ja signaalin voimakkuus pysyi korkeana. Sen sijaan poikittainen tai yläviistoinen orientaatio heikensi kentän kytkeytymistä ja johti epävakaisiin lukutuloksiin. Näin ollen päätysijoitus osoittautui teknisesti toimivimmaksi ratkaisuksi, kun taas kiinteän portin kokoonpano ja antennien suuntaus vaativat jatko-optimointia, jotta automaattinen luenta onnistuisi luotettavasti kaikille elementeille.
 
+<img width="1697" height="1135" alt="image" src="https://github.com/user-attachments/assets/9152cc62-d324-4f8d-a5f9-2e1717403efa" />
+
+<img width="1697" height="1135" alt="image" src="https://github.com/user-attachments/assets/b01c301a-0b3a-4598-aaa6-7e74c7ebb2dc" />
+
 
 <details> 
 <Summary>Case 1. Koontitulokset</Summary>
@@ -1931,10 +1935,6 @@ Koska tutkimuksen otanta oli rajallinen, tuloksia tulee pitää suuntaa-antavina
 ## 6 Liitteet
 
 
-![IMG_20240529_144503](https://github.com/user-attachments/assets/738e84ae-97b1-4002-8d64-25194d0e44c3)
-
 ![IMG_20240529_145019](https://github.com/user-attachments/assets/79e5dfcd-5d06-4290-ad4b-b5f3b755fd1c)
 
 
-![IMG20240904134821](https://github.com/user-attachments/assets/8bffd103-2ae5-4586-8a9a-76feec61cb3f)
-<img width="500" alt="2024-09-09_K5_V-2502 (0019)" src="https://github.com/user-attachments/assets/23486cb6-ce3b-4839-867b-bdd648a9713d" /><br>Kuva. 2024-09-09_K5_V-2502 (0019)
