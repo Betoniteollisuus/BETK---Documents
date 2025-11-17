@@ -273,7 +273,7 @@ Kiinteän lukijan yhteydessä toimivat kaksi antennia, **Times-7 A5010** ja **BR
 
 #### 3.1.4 Case 1: RFID-tunnisteiden sijoittaminen elementtiin
 
-RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, ja jokaiseen elementtiin sijoitettiin kolme tunnistetta. RFID-tunnisteet valettiin osaksi betonielementtiä siten, että ne sijoitettiin elementin molempiin päihin sekä yläpintaan. RFID-tunnisteen antennit oli suunnattu elementin sauman suuntaisesti. Asennussijaintien periaate on esitetty alla olevassa kuvassa.
+RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, ja jokaiseen elementtiin sijoitettiin kolme tunnistetta. RFID-tunnisteet valettiin osaksi betonielementtiä siten, että ne sijoitettiin elementin molempiin päihin sekä yläpintaan. RFID-tunnisteen antennit oli suunnattu elementin sauman suuntaisesti. RFID-tunnisteiden asennussijaintien ja antennien suuntauksen periaate on esitetty alla olevassa kuvassa.
 
 <img width="960" height="874" alt="Case 1 orientaatio (FI)" src="https://github.com/user-attachments/assets/825ca439-71b2-4edc-a8f0-9225c03cafd1" />  <br> Kuva. Case 1: RFID tunnisteiden asennuspaikat
 
