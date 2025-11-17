@@ -116,7 +116,12 @@ Betonielementtien RFID-tunnisteteknologian pilotointi toteutettiin touko–marra
 Pilottiin osallistuivat betonielementtivalmistajat Parma Consolis Oy ja Lujabetoni Oy sekä rakennusyritykset Fira Rakennus Oy ja NCC Suomi Oy. RFID-teknologiaosaamista projektiin toivat Riffid Oy ja NordicID Oy. Lisäksi toteutuksessa olivat mukana Rakennusteollisuus RT, RFID Lab Finland Oy, Aalto-yliopisto ja GS1 Finland Oy.
 
 ### 2.1 Betonielementtien tuoteyksilöinti (UPID)
-Tilauksesta suunniteltavien rakennustuotteiden toimitusketjussa haasteena on, että kyseisen valmistuslogiikan mukaisesti suunniteltavat ja valmistettavat tuotteet ovat yksilöitä, mikä edellyttää tuoteyksilöinnin osalta enemmän informaatiota ja käytettävältä tiedonkantajalta riittävää tallennustilaa.
+Tilauksesta suunniteltavien rakennustuotteiden toimitusketjuissa haasteena on, että valmistuslogiikan mukaisesti suunniteltavat ja valmistettavat tuotteet ovat yksilöllisiä. Tämä edellyttää tuoteyksilöinniltä laajaa ja rakenteellisesti yhtenäistä tietosisältöä sekä tiedonkantajalta riittävää kapasiteettia yksilöintitiedon tallentamiseen.
+
+BETK-työryhmässä tuoteyksilöinti päätettiin toteuttaa GS1-standardiperheen mukaiseen kolmitasoiseen malliin perustuen, joka on esitetty kuvassa 2. Ensimmäinen taso on tuoteryhmätason tuoteyksilöinti (MTO GTIN), jossa tunniste määrittää valmistajan perustuotteen, joka toimii perustana tilauskohtaisille variaatioille. Toinen taso on tuotevariaatiotason tuoteyksilöinti (MTO-varianttinumero), jossa perustuotteen yksittäinen variantti tunnistetaan tilaustietojen perusteella. Kolmannella tasolla määritetään tuoteyksilötason tuoteyksilöinti (sarjanumero), joka mahdollistaa saman variantin identtisten yksilöiden erottamisen toisistaan.
+
+
+Ensimmäisellä tasolla tuoteryhmätason tuoteyksilöinti (MTO GTIN) tunnistaa valmistajan perustuotteen eli tuoteluokan, johon tilauskohtaiset tuotteet kuuluvat.
 
 BETK-työryhmässä päädyttiin hyödyntämään GS1-standardia ns. kolmella tuoteyksilöinnin tasolla (esitetty taulukossa 1). Tässä mallissa GTIN-koodilla yksilöidään tietyn valmistajan tietyntyyppinen perustuote. Made-to-Order variation -numeron avulla yksilöidään tämän perustuotteen tietty variantti ja lopulta sarjanumerolla yksilöidään perustuotteen saman variantin identtiset yksilöt. Tässä tapauksessa pelkkä GTIN ei siis yksilöi tiettyä tuotetta, vaan yleisen luokan mahdollisista tilauksen perusteella valmistettavista tuotteen variaatioista.
 
