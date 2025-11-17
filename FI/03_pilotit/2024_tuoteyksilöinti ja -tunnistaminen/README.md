@@ -92,12 +92,26 @@ Kehityshankkeen ensisijaisena tavoitteena on edistää rakennusalan tuotteiden t
 ---
 
 ## 2 Yleiskuvaus pilotista
-Työn tarkoituksena oli selvittää ja todentaa konseptitodistuksen (engl. Proof of Concept, PoC) avulla RFID-teknologian toimivuutta vakioidun yksilöintitiedon kantamiseen betonielementtien toimitusketjussa ja luoda lähtökohdat yhteisen, avoimen, GS1 EPC -standardeja käyttävän RFID/EPC-pohjaisen järjestelmän käyttöönotolle. Tämä toteutettiin käyttämällä betonielementtien sisään valettuja passiivisia UHF RFID -tunnisteita. Hankkeen yhtenä tarkoituksena oli myös luoda tulevaisuuden toimintamalleja, joissa RFID-teknologiaa hyödynnetään tuotteiden tunnistamisessa koko arvoverkossa. Lisäksi tavoitteena oli havainnoida käyttöympäristön tuomia haasteita toimitusketjun hallinnan näkökulmasta. 
 
-**Pilotoinnin toteutus**<br>
-Betonielementtien RFID-tunnisteteknologian pilotointi toteutettiin touko–marraskuun 2024 aikana kahdella kerrostalotyömaalla Helsingissä ja Tampereella. Testaus kattoi toimitusketjun vaiheet tuotevalmistuksesta työmaalle asennukseen asti. Toimitusketjun hallinnan näkökulmasta pilotointi rajattiin keskittymään tuoteyksilöinnin ja -tunnistamisen menetelmiin (kuva 1). Tämä lähestymistapa loi perustan laajemmalle toimitusketjun tapahtumatiedon jakamisen testaamiselle, joka on suunniteltu toteutettavaksi myöhemmässä vaiheessa.  
+Tutkimuksen ensisijaisena tarkoituksena oli selvittää, missä määrin radioaaltotunnistukseen perustuva RFID-teknologia soveltuu vakioidun tuoteyksilöintitiedon kantamiseen ja lukemiseen betonielementtien toimitusketjussa. Tavoitteena oli lisäksi muodostaa perusteet GS1-standardeihin pohjautuvien ja eri toimijoiden yhteisesti hyödynnettävissä olevien tuoteyksilöinti- ja tunnistusmenetelmien käyttöönotolle rakennustuoteteollisuudessa. RFID-teknologiaa tarkasteltiin menetelmänä, joka mahdollistaa yksilöintitiedon liittämisen fyysiseen tuotteeseen ja sen systemaattisen keräämisen toimitusketjun eri vaiheiden aikana.
 
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/68ad12b2-839b-4beb-8800-ee0ef6edd3de" />
+Tutkimus toteutettiin Proof of Concept -kokeiluna, jossa passiiviset UHF RFID -tunnisteet upotettiin betonielementteihin valmistusvaiheessa. Kokeilun tavoitteena oli arvioida tunnisteiden teknistä toimivuutta toimitusketjun eri osapuolten prosesseissa sekä tunnisteiden luettavuutta käytännön prosessi- ja käyttöympäristöissä. Luettavuudessa havaittavat vaihtelut muodostavat keskeisen kriteerin teknologian soveltuvuudelle rakenteellisten tuotteiden yksilöinnissä.
+
+Teknisen toimivuuden arvioinnin ohella tarkasteltiin RFID-pohjaisen yksilöinnin käyttöönoton vaikutuksia toimitusketjun toimintaan. Teknologian integroiminen tuotantoon, logistiikkaan ja työmaaprosesseihin edellyttää muutoksia osapuolten toimintakäytännöissä, tiedonkeruun järjestelyissä ja prosessien välisessä koordinoinnissa. Näiden vaikutusten ymmärtäminen on keskeistä RFID-teknologian käyttöönoton kokonaisarvioinnissa, sillä organisatoriset ja prosessuaaliset tekijät määrittävät teknisen toimivuuden rinnalla ratkaisun todellisen soveltuvuuden.
+
+Tutkimuksessa selvitettiin myös käyttöympäristön mahdollisia vaikutuksia passiivisten UHF RFID -tunnisteiden suorituskykyyn. Tarkastelussa huomioitiin betonin kosteuspitoisuus, materiaalikoostumus ja teräsvahvistusten läsnäolo sekä tunnisteen ja lukijan väliset sähkömagneettiset luentarajapinnat, joiden tunnetaan vaikuttavan antennin toimintakykyyn ja luentamatkaan. Lisäksi analysoitiin lukutapahtuman onnistumiseen vaikuttavia tekijöitä, kuten tunnisteen sijaintia ja orientaatiota betonin sisällä, RFID-lukujärjestelmän antennien sijoittelua suhteessa tunnisteeseen sekä ympäristön radiohäiriöitä. Näiden tekijöiden tunnistaminen on välttämätöntä arvioitaessa RFID-teknologian käyttökelpoisuutta betonielementtien toimitusketjun hallinnassa.
+
+Tutkimuksen tuloksena luotiin lähtötaso tuleville toimintamalleille, joissa RFID-teknologiaa voidaan hyödyntää yhtenä tiedonkeruun ja tuoteyksilöinnin mahdollistavana ratkaisuna koko arvoverkon laajuudella. Tämä muodostaa perustan jatkokehitykselle, jossa tunnisteiden tekninen toimivuus ja järjestelmien yhteentoimivuus voidaan integroida osaksi digitaalista toimitusketjuarkkitehtuuria.
+
+**Pilotoinnin toteutus**
+
+Betonielementtien RFID-tunnisteteknologian pilotointi toteutettiin touko–marraskuun 2024 aikana kahdella kerrostalotyömaalla Helsingissä ja Tampereella. Testaus kattoi toimitusketjun vaiheet tuotevalmistuksesta työmaalla tapahtuvaan asennukseen asti. Toimitusketjun hallinnan näkökulmasta pilotointi rajattiin keskittymään tuoteyksilöinnin ja tunnistamisen menetelmiin (kuva 1). Tämä lähestymistapa muodosti perustan myöhemmin toteutettavalle toimitusketjun tapahtumatiedon jakamisen pilotoinnille.
+
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/68ad12b2-839b-4beb-8800-ee0ef6edd3de" /><br>Kuva 1. Tuoteyksilöinnin ja RFID-tunnistusteknologian pilotointilaajuus toimitusketjun digitaalisen hallinnan näkökulmasta.
+
+**Osallistujat ja yhteistyötahot**
+
+Pilottiin osallistuivat betonielementtivalmistajat Parma Oy ja Lujabetoni Oy sekä rakennusyritykset Fira Rakennus Oy ja NCC Suomi Oy. RFID-teknologiaosaamista projektiin toivat Riffid Oy ja NordicID Oy. Lisäksi toteutuksessa olivat mukana Rakennusteollisuus RT, RFID Lab Finland Oy, Aalto-yliopisto ja GS1 Finland Oy.
 
 ###### Kuva 1. Tuoteyksilöinnin ja RFID-tunnistusteknologian pilotointilaajuus toimitusketjun digitaalisen hallinnan näkökulmasta.
 
