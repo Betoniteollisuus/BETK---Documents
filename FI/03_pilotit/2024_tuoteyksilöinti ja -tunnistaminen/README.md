@@ -308,34 +308,15 @@ RFID-tunnisteita asennettiin yhteensä kymmeneen (10) väliseinäelementtiin, ja
 
 <img width="960" height="874" alt="Case 1 orientaatio (FI)" src="https://github.com/user-attachments/assets/825ca439-71b2-4edc-a8f0-9225c03cafd1" />  <br> Kuva. Case 1: RFID tunnisteiden asennuspaikat
 
+<img width="1698" height="1135" alt="image" src="https://github.com/user-attachments/assets/e7887267-d9f6-422d-9e52-3f4f6de5bca0" /><br> Kuva. Case 1: RFID-tunnisteen asennus elementin yläpintaan
+
+<img width="1698" height="1135" alt="image" src="https://github.com/user-attachments/assets/360a5248-be2d-47a5-a535-b0a5e94aea22" /><br> Kuva. Case 1: RFID-tunnisteen asennus elementin sivulle
 
 #### 3.1.5 Case 1: Kiinteän RFID-portin asemointi työmaalla
 
 Kiinteän RFID-portin asemointi toteutettiin työmaaolosuhteissa elementtien purkualueelle siten, että lukujärjestelmä mahdollistaisi automaattisen tapahtumatiedon keruun kuljetusten saapuessa ja purettaessa elementtitelineeseen. Portti muodostettiin kahdelle puolelle asennetuista UHF-antenneista, jotka sijoitettiin 9,2 metrin etäisyydelle toisistaan purkukaistan molemmille puolille. Molempien puolien UHF-antennit sijoitettiin 4,5 metrin korkeuteen, mahdollistaen tunnisteiden luennan myös korkeammalle kuormatuista betonielementeistä sekä ajoneuvojen yläosista. Tien puoleiselle reunalle asennettiin lisäksi toinen antenni 1,8 metrin korkeuteen, jonka tehtävänä oli varmistaa tunnisteiden luenta alemmilta tasoilta, kuten elementtien alaosista ja ajoneuvon lavan läheisyydestä. Antennit kiinnitettiin pystyrakenteisiin, jotka ankkuroitiin työmaan suojarakenteisiin ja julkisivuun. Lukulaitteet ja virransyöttö sijoitettiin sähkökotelointiin (IP-luokan suojaus) purkualueen laidalle, jossa ne yhdistettiin paikalliseen sähköverkkoon. Kaapelointi suojattiin mekaaniselta rasitukselta ja sijoitettiin aidan sisäpuolelle turvallisuuden ja käyttövarmuuden takaamiseksi.
 
-
-<table>
- <body>
-  <tr>
-   <td><img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/0e3f180d-890a-4ead-b332-2ef33ccc8c59" />
-    <img width="400" height="600" alt="IMG_20240905_092858" src="https://github.com/user-attachments/assets/34e58939-53b1-4da9-9948-9df0d2c6e566"/></td>
-  </tr>
-  <tr>
-    <td><img width="800" height="600" alt="IMG_20240905_092858" src="https://github.com/user-attachments/assets/af5e5f40-f019-43ce-8939-05b84f7ef409"/></td>
-  </tr>
-  <tr>
-   <td><img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/78ff5a92-eaeb-46f1-ac76-1013f1dbb79f" />
-   <img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/93aaa61f-d959-49ac-b8b1-bc3da67d4170" /></td>
-  </tr>
-  <tr>
-   <td>
-    <img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/2e37303a-c022-4b5a-9d01-1c9b86258a82" />
-    <img width="400" height="600" alt="2024-12-16_RFID portin asemointi Hexagon" src="https://github.com/user-attachments/assets/be9aec9d-6fe4-4b20-ae14-b38648a8d314" />
-   </td>
-  </tr>
- </body>
-</table>
-
+<img width="1704" height="1658" alt="image" src="https://github.com/user-attachments/assets/2628e839-afaf-43a0-b97d-4cb80151208b" /><br> Kuva. Case 1: Kiinteän RFID-portin asemointi työmaalla
 
 ---
 
@@ -1948,13 +1929,6 @@ Koska tutkimuksen otanta oli rajallinen, tuloksia tulee pitää suuntaa-antavina
 ---
 
 ## 6 Liitteet
-
-
-<img width="1698" height="1135" alt="image" src="https://github.com/user-attachments/assets/e7887267-d9f6-422d-9e52-3f4f6de5bca0" /><br> Kuva. Case 1: RFID-tunnisteen asennus elementin yläpintaan
-
-<img width="1698" height="1135" alt="image" src="https://github.com/user-attachments/assets/360a5248-be2d-47a5-a535-b0a5e94aea22" /><br> Kuva. Case 1: RFID-tunnisteen asennus elementin sivulle
-
-
 
 
 ![IMG_20240529_144503](https://github.com/user-attachments/assets/738e84ae-97b1-4002-8d64-25194d0e44c3)
