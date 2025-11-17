@@ -1962,13 +1962,18 @@ Koska tutkimuksen otanta oli rajallinen, tuloksia tulee pitää suuntaa-antavina
 ---
 
 ## 6 Liitteet
+
+
+<img width="1698" height="1135" alt="image" src="https://github.com/user-attachments/assets/e7887267-d9f6-422d-9e52-3f4f6de5bca0" /><br> Kuva X. Case 1: Elementin yläpinnan RFID-tunnisteen asennus
+
+
+
 ![IMG_20240529_144022](https://github.com/user-attachments/assets/89a4ef84-a0fb-47d4-9669-74d2b1b10be0)
 
 ![IMG_20240529_144503](https://github.com/user-attachments/assets/738e84ae-97b1-4002-8d64-25194d0e44c3)
 
 ![IMG_20240529_145019](https://github.com/user-attachments/assets/79e5dfcd-5d06-4290-ad4b-b5f3b755fd1c)
 ![2024-08-16_K1_V-2803 (0011)](https://github.com/user-attachments/assets/ec47788b-1f72-4882-b6a3-c0c24bdaf109)
-![2024-08-12_K2_V-2509 (0006)](https://github.com/user-attachments/assets/142b6db6-a107-417a-a97d-40a898aafdc8)
-![2024-08-12_K3_V-2509 (0006)](https://github.com/user-attachments/assets/2e13a980-d282-4dea-855f-dfba76d31dec)
+
 ![IMG20240904134821](https://github.com/user-attachments/assets/8bffd103-2ae5-4586-8a9a-76feec61cb3f)
 <img width="500" alt="2024-09-09_K5_V-2502 (0019)" src="https://github.com/user-attachments/assets/23486cb6-ce3b-4839-867b-bdd648a9713d" /><br>Kuva. 2024-09-09_K5_V-2502 (0019)
