@@ -461,6 +461,10 @@ Kiinteän UHF RFID-portin asemointi suoritettiin elementtitehtaalla tuotantolinj
 
 RFID-lukujärjestelmä koostui Nordic ID FR22 LTE -lukulaitteesta ja neljästä Nordic ID GA30 -UHF-antenneista. Antennit asennettiin tuulikaapin sisäseinään pareittain pystysuunnassa siten, että ylempi antenni sijoitettiin noin 2 metrin ja alempi noin 1,0 metrin korkeudelle lattiapinnasta. Antennien sijoittelu perustui kenttämittauksiin, joiden perusteella haluttiin varmistaa luentapeitto sekä ajoneuvon lavalla olevien että lattiatason läheisyydessä sijaitsevien RFID-tunnisteiden osalta.
 
+
+<img width="841" height="956" alt="image" src="https://github.com/user-attachments/assets/b5224014-d4e5-4b35-8088-3703feed797b" />
+
+
 <table>
  <body>
   <tr><td><img width="1004" height="410" alt="image" src="https://github.com/user-attachments/assets/5d8eab07-8152-4dfe-872e-a8ce2bd4763a" /></td></td></tr>
