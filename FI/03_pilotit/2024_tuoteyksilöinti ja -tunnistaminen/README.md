@@ -153,7 +153,9 @@ Tiedonkantajien osalta betonielementtien käyttöympäristön haasteena nähtiin
 ---
 
 ## 3 RFID-teknologian testaus toimitusketjussa
-RFID-teknologian toimivuutta betonielementtien sisään upotettuna tiedonkantajana testattiin kahdessa erillisessä rakennushankkeessa Helsingissä (Case 1) ja Tampereella (Case 2). Testaukseen osallistuivat kaksi eri pääurakoitsijaa, kaksi eri betonielementtivalmistajaa ja kaksi eri RFID-teknologiatoimittajaa. Testaus toteutettiin suoraan toimitettaviin betonielementteihin ilman erillistä mock-up-vaihetta. Tavoitteena oli arvioida RFID-tunnisteiden asennuksen vaikutusta tuotantoprosessiin ja testata niiden käyttöä toimivassa tuotantoketjussa mahdollisimman vähäisin häiriöin. Testauksessa hyödynnettiin valmiiksi BETK tuoteyksiölintiohjeen mukaan koodattuja RFID-tunnisteita, joita luettiin enimmäkseen käsilukijoilla, mutta myös automaattisilla porttilukijoilla.
+RFID-teknologian toimivuutta betonielementtien sisään upotettuna tiedonkantajana testattiin kahdessa erillisessä rakennushankkeessa Helsingissä (Case 1) ja Tampereella (Case 2). Testaukseen osallistuivat kaksi pääurakoitsijaa, kaksi betonielementtivalmistajaa ja kaksi RFID-teknologiatoimittajaa. Testaus toteutettiin osana todellisia toimitusketjuja kunkin yrityksen omilla resursseilla ja ilman erillistä mock-up-vaihetta, jolloin tunnisteiden käyttöä voitiin tarkastella osana käynnissä olevaa tuotantoketjua ja ilman merkittäviä muutoksia vakiintuneisiin prosesseihin.
+
+RFID-tunnisteet koodattiin etukäteen RFID-teknologiatoimittajien toimesta BETK-työryhmän tuoteyksilöintiohjeen mukaisesti. Tunnisteita luettiin ensisijaisesti käsikäyttöisillä lukijoilla, ja lisäksi hyödynnettiin automaattisia porttilukijoita, joiden avulla voitiin tarkastella lukumenetelmien soveltuvuutta toimitusketjun eri vaiheisiin sekä niiden yhteensopivuutta elementtien tavanomaisten käsittely- ja logistiikkaprosessien kanssa.
 
 ---
 
