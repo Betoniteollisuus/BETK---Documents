@@ -1529,6 +1529,10 @@ Tulokset osoittivat, että reunasijoitus noin 1,25–1,35 metrin korkeudelle on 
 
 Yhteenvetona voidaan todeta, että RFID-tunnisteet toimivat teknisesti betonielementeissä, mutta luennan toistettavuus riippuu tunnisteen sijainnista, antennien asemoinnista ja asennuksen laadusta. Kun tunniste sijoitetaan päätyyn noin metrin korkeudelle, antennit suunnataan kulkulinjan mukaisesti ja asennus varmistetaan koeluennalla, järjestelmä tuottaa toistettavia lukutuloksia myös haastavissa olosuhteissa. Ilman näitä toimenpiteitä luentatulokset jäävät satunnaisiksi ja porttiluentojen hyöty jää rajalliseksi.
 
+<img width="1768" height="1024" alt="image" src="https://github.com/user-attachments/assets/a358c37c-4288-4b5a-93f7-0fad83ef4b03" />
+
+
+
 <details> 
 <Summary>Case 2. Koontitulokset</Summary>
 <table border="1" cellspacing="5" cellpadding="5">
