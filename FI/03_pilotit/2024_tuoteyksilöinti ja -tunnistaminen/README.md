@@ -107,16 +107,13 @@ Tutkimuksen tuloksena luotiin lähtötaso tuleville toimintamalleille, joissa RF
 
 Betonielementtien RFID-tunnisteteknologian pilotointi toteutettiin touko–marraskuun 2024 aikana kahdella kerrostalotyömaalla Helsingissä ja Tampereella. Testaus kattoi toimitusketjun vaiheet tuotevalmistuksesta työmaalla tapahtuvaan asennukseen asti. Toimitusketjun hallinnan näkökulmasta pilotointi rajattiin keskittymään tuoteyksilöinnin ja tunnistamisen menetelmiin (kuva 1). Tämä lähestymistapa muodosti perustan myöhemmin toteutettavalle toimitusketjun tapahtumatiedon jakamisen pilotoinnille.
 
-<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/68ad12b2-839b-4beb-8800-ee0ef6edd3de" /><br>Kuva 1. Tuoteyksilöinnin ja RFID-tunnistusteknologian pilotointilaajuus toimitusketjun digitaalisen hallinnan näkökulmasta.
-
-**Osallistujat ja yhteistyötahot**
-
-Pilottiin osallistuivat betonielementtivalmistajat Parma Oy ja Lujabetoni Oy sekä rakennusyritykset Fira Rakennus Oy ja NCC Suomi Oy. RFID-teknologiaosaamista projektiin toivat Riffid Oy ja NordicID Oy. Lisäksi toteutuksessa olivat mukana Rakennusteollisuus RT, RFID Lab Finland Oy, Aalto-yliopisto ja GS1 Finland Oy.
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/68ad12b2-839b-4beb-8800-ee0ef6edd3de" />
 
 ###### Kuva 1. Tuoteyksilöinnin ja RFID-tunnistusteknologian pilotointilaajuus toimitusketjun digitaalisen hallinnan näkökulmasta.
 
-**Osallistujat ja yhteistyötahot**<br>
-Pilotoinnissa olivat mukana betonielementtien tuotevalmistajat Parma Oy ja Lujabetoni Oy sekä rakennusyritykset Fira Rakennus Oy ja NCC Suomi Oy. RFID-teknologiaosaamista projektiin toivat Riffid Oy ja NordicId Oy. Lisäksi toteutukseen osallistuivat Rakennusteollisuus RT, RFID Lab Finland Oy, Aalto-yliopisto ja GS1 Finland Oy.
+**Osallistujat ja yhteistyötahot**
+
+Pilottiin osallistuivat betonielementtivalmistajat Parma Consolis Oy ja Lujabetoni Oy sekä rakennusyritykset Fira Rakennus Oy ja NCC Suomi Oy. RFID-teknologiaosaamista projektiin toivat Riffid Oy ja NordicID Oy. Lisäksi toteutuksessa olivat mukana Rakennusteollisuus RT, RFID Lab Finland Oy, Aalto-yliopisto ja GS1 Finland Oy.
 
 ### 2.1 Betonielementtien tuoteyksilöinti (UPID)
 Tilauksesta suunniteltavien rakennustuotteiden toimitusketjussa haasteena on, että kyseisen valmistuslogiikan mukaisesti suunniteltavat ja valmistettavat tuotteet ovat yksilöitä, mikä edellyttää tuoteyksilöinnin osalta enemmän informaatiota ja käytettävältä tiedonkantajalta riittävää tallennustilaa.
