@@ -116,9 +116,13 @@ Betonielementtien RFID-tunnisteteknologian pilotointi toteutettiin touko–marra
 Pilottiin osallistuivat betonielementtivalmistajat Parma Consolis Oy ja Lujabetoni Oy sekä rakennusyritykset Fira Rakennus Oy ja NCC Suomi Oy. RFID-teknologiaosaamista projektiin toivat Riffid Oy ja NordicID Oy. Lisäksi toteutuksessa olivat mukana Rakennusteollisuus RT, RFID Lab Finland Oy, Aalto-yliopisto ja GS1 Finland Oy.
 
 ### 2.1 Betonielementtien tuoteyksilöinti (UPID)
-Tilauksesta suunniteltavien rakennustuotteiden toimitusketjuissa haasteena on, että valmistuslogiikan mukaisesti suunniteltavat ja valmistettavat tuotteet ovat yksilöllisiä. Tämä edellyttää tuoteyksilöinniltä laajaa ja rakenteellisesti yhtenäistä tietosisältöä sekä tiedonkantajalta riittävää kapasiteettia yksilöintitiedon tallentamiseen.
+Tilauksesta suunniteltavien rakennustuotteiden toimitusketjuissa keskeinen haaste on, että tuotteet suunnitellaan ja valmistetaan yksilöllisesti tilausten perusteella. Tämä edellyttää tuoteyksilöinniltä laajaa, rakenteellisesti yhtenäistä tietosisältöä sekä tiedonkantajalta riittävää kapasiteettia yksilöintitiedon tallentamiseen.
 
-BETK-työryhmässä tuoteyksilöinti päätettiin toteuttaa GS1-standardiperheen mukaiseen kolmitasoiseen malliin perustuen, joka on esitetty kuvassa 2. Ensimmäinen taso on tuoteryhmätason tuoteyksilöinti (MTO GTIN), jossa tunniste määrittää valmistajan perustuotteen, joka toimii perustana tilauskohtaisille variaatioille. Toinen taso on tuotevariaatiotason tuoteyksilöinti (MTO-varianttinumero), jossa perustuotteen yksittäinen variantti tunnistetaan tilaustietojen perusteella. Kolmannella tasolla määritetään tuoteyksilötason tuoteyksilöinti (sarjanumero), joka mahdollistaa saman variantin identtisten yksilöiden erottamisen toisistaan.
+BETK-työryhmässä tuoteyksilöinti päätettiin toteuttaa GS1-standardiperheen mukaiseen kolmitasoiseen malliin perustuen, mikä on esitetty kuvassa 2. Ensimmäinen taso on tuoteryhmätason tuoteyksilöinti, jossa käytettävä tunniste (MTO GTIN) määrittää valmistajan perustuotteen. Toinen taso on tuotevariaatiotason tuoteyksilöinti, jossa lisätunniste (MTO-varianttinumero) erottaa perustuotteen yksittäisen, tilauksen perusteella muodostuvan variantin. Kolmas taso on tuoteyksilötason tuoteyksilöinti, jossa sarjanumero yksilöi saman variantin identtiset tuoteyksilöt ja mahdollistaa niiden erottamisen toisistaan.
+
+
+sekavaa loppua
+
 
 
 Ensimmäisellä tasolla tuoteryhmätason tuoteyksilöinti (MTO GTIN) tunnistaa valmistajan perustuotteen eli tuoteluokan, johon tilauskohtaiset tuotteet kuuluvat.
@@ -127,58 +131,11 @@ BETK-työryhmässä päädyttiin hyödyntämään GS1-standardia ns. kolmella tu
 
 <img width="2343" height="3541" alt="2025-10-13_Kuva1(fi)" src="https://github.com/user-attachments/assets/8b3d332d-0bfd-411d-b3ab-7927fceb5e97" />
 
-###### Taulukko 1. GS1-standardiperheen mukaiset tuoteyksilöinnin hierarkia tasot tarkempaan yksilöintiin
-<table>
-  <tr>
-    <td colspan="2"><strong>Tuoteyksilöinnin tasot</strong></td>
-  </tr><tr>
-    <td><strong>Taso 1</strong><br>Tuoteryhmä/perustuote</td>
-    <td>MTO GTIN</td>
-  </tr><tr>
-    <td><strong>Taso 2</strong><br>Tuotevariaation taso</td>
-    <td>GTIN + MTO Varianttinumero</td>
-  </tr><tr>
-    <td><strong>Taso 3</strong><br>Tuoteyksilön taso</td>
-    <td>GTIN + (MTO Varianttinumero) + Sarjanumero (sGTIN)</td>
-  </tr>
-</table>
 
 BETK-työryhmän määrittelemässä taulukossa 2 esitetään minimitietovaatimukset tilauksesta suunniteltavien (ETO) rakennustuotteiden yksilöintiin GS1-sovellustunnusten avulla. GS1-sovellustunnukset (Application Identifiers, AI) ovat rakenteellisia tietokenttiä, jotka mahdollistavat tuotteiden ja logististen yksiköiden yksiselitteisen tunnistamisen sekä tiedon hallinnan toimitusketjussa. Jokainen sovellustunnus määrittelee tietyn tyyppisen informaation, kuten tuotteen globaalin tunnisteen (GTIN), yksilöllisen sarjanumeron, tilauksesta suunnitellun tuotteen (MTO) varianttinumeron tai muita kontekstikohtaisia lisätietoja, kuten elementtitunnuksen ja GUID-tunnisteen.
 
 
-###### Taulukko 2. BETK-työryhmän määrittämät tiedonkantajaan sisällytettävät yksilöintitiedot betonielementtien osalta
-<table>
-  <tr>
-    <td colspan="2"><strong>Minimitietovaatimukset tilauksesta suunniteltavien (ETO) rakennustuotteiden yksilöintiin</strong></td>
-  </tr><tr>
-    <td><strong>GS1 Sovellustunnukset (AI) </strong></td>
-    <td><strong>Esimerkki</strong></td>
-  </tr><tr>
-    <td><strong>(03) MTO GTIN-koodi</strong></td>
-    <td><code>06400001000247</code></td>
-  </tr><tr>
-    <td><strong>(242) Made-To-Order (MTO) varianttinumero</strong></td>
-    <td><code>123456</code></td>
-  </tr><tr>
-    <td><strong>(21) Sarjanumero</strong></td>
-    <td><code>12345678910</code></td>
-  </tr>
-    <tr>
-    <td colspan="2"><strong>Valinnaiset lisätiedot betonielementtien tapauksessa</strong></td>
-  </tr><tr>
-    <td><strong>GS1 Sovellustunnukset (AI) </strong></td>
-    <td><strong>Esimerkki</strong></td>
-  </tr><tr>
-    <td><strong>(91) Elementtitunnus</strong></td>
-    <td><code>V-1001</code></td>
-  </tr><tr>
-    <td><strong>(92) GUID</strong></td>
-    <td><code>ba34cf17-0c4b-4c6f-9295-cae05aa74ad4 </code></td>
-  </tr><tr>
-    <td><strong>(99) Verkkotunnus</strong></td>
-    <td><code>id.rt.fi </code></td>
-    </tr>
-</table>
+
 
 ### 2.2 UHF RFID-tunniste tiedonkantajana (AIDC) betonielementissä
 BETK-työryhmän tuoteyksilöintimäärittelyjen testaamiseksi päätettiin kokeilla betonielementtien tuotetunnistusta RFID-teknologiaan perustuvien tiedonkantajin kautta haastavimmassa mahdollisessa käyttötapauksessa. RFID-teknologia perustuu radiotaajuuksilla tapahtuvaan tiedonsiirtoon, jossa RFID-lukija lähettää radiosignaalin aktivoidakseen tunnisteen. Tunniste vastaa signaaliin heijastamalla siihen tallennetut tiedot takaisin lukijalle, joka edelleen välittää ne tietojärjestelmään.
