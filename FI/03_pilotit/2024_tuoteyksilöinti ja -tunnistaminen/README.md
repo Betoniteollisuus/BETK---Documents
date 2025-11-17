@@ -118,18 +118,22 @@ Pilottiin osallistuivat betonielementtivalmistajat Parma Consolis Oy ja Lujabeto
 ### 2.1 Betonielementtien tuoteyksilöinti (UPID)
 Tilauksesta suunniteltavien rakennustuotteiden toimitusketjuissa keskeinen haaste on, että tuotteet suunnitellaan ja valmistetaan yksilöllisesti tilausten perusteella. Tämä edellyttää tuoteyksilöinniltä laajaa, rakenteellisesti yhtenäistä tietosisältöä sekä tiedonkantajalta riittävää kapasiteettia yksilöintitiedon tallentamiseen.
 
-BETK-työryhmässä tuoteyksilöinti päätettiin toteuttaa GS1-standardiperheen mukaiseen kolmitasoiseen malliin perustuen, mikä on esitetty kuvassa 2. Ensimmäinen taso on tuoteryhmätason tuoteyksilöinti, jossa käytettävä tunniste (MTO GTIN) määrittää valmistajan perustuotteen. Toinen taso on tuotevariaatiotason tuoteyksilöinti, jossa lisätunniste (MTO-varianttinumero) erottaa perustuotteen yksittäisen, tilauksen perusteella muodostuvan variantin. Kolmas taso on tuoteyksilötason tuoteyksilöinti, jossa sarjanumero yksilöi saman variantin identtiset tuoteyksilöt ja mahdollistaa niiden erottamisen toisistaan.
+BETK-työryhmässä tuoteyksilöinti päätettiin toteuttaa hyödyntämällä GS1-standardiperheen tunnisterakenteita. Menetelmä soveltuu erityisesti tilauksesta suunniteltaviin tuotteisiin, joissa hierarkkinen yksilöintimalli tukee tuotetiedon kohdistamista ja sen jäljitettävyyttä toimitusketjun eri osapuolten välillä.
 
+Kuvassa 2 esitetään tilauksesta suunniteltavien betonielementtien tuoteyksilöinti GS1-standardiperheen mukaisten tunnisteiden ja sovellustunnusten perusteella. Kuvan yläosa kuvaa kolmitasoisen tuoteyksilöintimallin, jossa jokaisella tasolla tarkennetaan tuotteen yksilöintiä toimitusketjun tarpeisiin.
 
+Ensimmäinen taso on tuoteryhmätason tuoteyksilöinti, jossa käytettävä tunniste (MTO GTIN) määrittää valmistajan perustuotteen. Tämä tunniste toimii perustason viitetietona, jonka avulla elementti voidaan liittää tiettyyn tuotelajiin ja sen tuotemallistoon.
+
+Toinen taso on tuotevariaatiotason tuoteyksilöinti, jossa perustuotteelle määritetään varianttikohtainen lisätunniste (MTO-varianttinumero). Tällä tunnisteella erotetaan toisistaan perustuotteen eri tilauskohtaiset versiot, jotka voivat poiketa esimerkiksi mitoiltaan, varustelultaan tai muista suunnittelua koskevista lähtötiedoista.
+
+Kolmas taso on tuoteyksilötason tuoteyksilöinti, jossa sarjanumero yhdistetään tuoteryhmätason tunnisteeseen ja varianttinumeroon. Tämä mahdollistaa saman variantin yksittäisten tuoteyksilöiden erottamisen toisistaan ja tukee tuotteen jäljitettävyyttä elementin koko elinkaaren ajan.
+
+Kuvan keskiosassa esitetään ne GS1-sovellustunnukset, jotka muodostavat betonielementtien yksilöinnin minimitietosisällön. Pakollisia sovellustunnuksia ovat tuoteryhmätason tunniste (03), tuotevariaatiotason tunniste (242) ja tuoteyksilötason sarjanumero (21). Kuvassa esitetään lisäksi valinnaisia sovellustunnuksia, kuten elementtitunnus (91), GUID-tunniste (92) ja verkkotunnus (99), jotka mahdollistavat tuotteen liittämisen järjestelmäkohtaisiin tietoihin ja digitaalisiin tietorakenteisiin. Nämä lisätunnisteet parantavat tuotteen jäljitettävyyttä ja tukevat tietojen yhdistettävyyttä toimitusketjun eri osapuolten välillä.
+
+Kuvan alaosa esittää yksilöintitiedon toteutusvaihtoehtoja käytännössä. Esitetyt tiedonkantajat ovat GS1 Digital Link -tunniste (2D-viivakoodi), GS1 DataMatrix (2D-viivakoodi) ja EPC/RFID-tunniste, jotka mahdollistavat tiedon liittämisen fyysiseen tuotteeseen ja tiedon lukemisen osana toimitusketjun prosesseja. Näiden tiedonkantajien avulla kuvassa esitetyt tunnisteet voidaan sijoittaa joko tuotteen pinnalle tai upottaa osaksi tuotetta, mikä mahdollistaa tuoteyksilöinnin teknisen käytettävyyden myös haastavissa työmaa- ja tuotanto-olosuhteissa.
 
 
 <img width="2343" height="3541" alt="2025-10-13_Kuva1(fi)" src="https://github.com/user-attachments/assets/8b3d332d-0bfd-411d-b3ab-7927fceb5e97" />
-
-
-BETK-työryhmän määrittelemässä taulukossa 2 esitetään minimitietovaatimukset tilauksesta suunniteltavien (ETO) rakennustuotteiden yksilöintiin GS1-sovellustunnusten avulla. GS1-sovellustunnukset (Application Identifiers, AI) ovat rakenteellisia tietokenttiä, jotka mahdollistavat tuotteiden ja logististen yksiköiden yksiselitteisen tunnistamisen sekä tiedon hallinnan toimitusketjussa. Jokainen sovellustunnus määrittelee tietyn tyyppisen informaation, kuten tuotteen globaalin tunnisteen (GTIN), yksilöllisen sarjanumeron, tilauksesta suunnitellun tuotteen (MTO) varianttinumeron tai muita kontekstikohtaisia lisätietoja, kuten elementtitunnuksen ja GUID-tunnisteen.
-
-
-
 
 ### 2.2 UHF RFID-tunniste tiedonkantajana (AIDC) betonielementissä
 BETK-työryhmän tuoteyksilöintimäärittelyjen testaamiseksi päätettiin kokeilla betonielementtien tuotetunnistusta RFID-teknologiaan perustuvien tiedonkantajin kautta haastavimmassa mahdollisessa käyttötapauksessa. RFID-teknologia perustuu radiotaajuuksilla tapahtuvaan tiedonsiirtoon, jossa RFID-lukija lähettää radiosignaalin aktivoidakseen tunnisteen. Tunniste vastaa signaaliin heijastamalla siihen tallennetut tiedot takaisin lukijalle, joka edelleen välittää ne tietojärjestelmään.
