@@ -135,14 +135,14 @@ Kuvan alaosa esittää yksilöintitiedon toteutusvaihtoehtoja käytännössä. E
 
 <img width="2343" height="3541" alt="2025-10-13_Kuva1(fi)" src="https://github.com/user-attachments/assets/8b3d332d-0bfd-411d-b3ab-7927fceb5e97" />
 
-###### Kuva 2. 
+###### Kuva 2. tilauksesta suunniteltavien betonielementtien tuoteyksilöinti ja tiedonkantajat
 
 ### 2.2 UHF RFID-tunniste tiedonkantajana (AIDC) betonielementissä
 BETK-työryhmän tuoteyksilöintimäärittelyjen testaamiseksi päätettiin kokeilla betonielementtien tuotetunnistusta RFID-teknologiaan perustuvien tiedonkantajin kautta haastavimmassa mahdollisessa käyttötapauksessa. RFID-teknologia perustuu radiotaajuuksilla tapahtuvaan tiedonsiirtoon, jossa RFID-lukija lähettää radiosignaalin aktivoidakseen tunnisteen. Tunniste vastaa signaaliin heijastamalla siihen tallennetut tiedot takaisin lukijalle, joka edelleen välittää ne tietojärjestelmään.
 
 <img width="3257" height="993" alt="2025-10-29_Kuva1" src="https://github.com/user-attachments/assets/6bbfae60-e3aa-461c-adf8-3e3bd9464714" />
 
-###### Kuva 2. RFID-teknologian perusperiaate
+###### Kuva 3. RFID-teknologian perusperiaate
 
 RFID-järjestelmä ei edellytä suoraa näköyhteyttä ja mahdollistaa automaattisen sekä etäluettavan yksilöinnin. Tunnisteet luokitellaan passiivisiin, puolipassiivisiin ja aktiivisiin niiden virransyöttömekanismin perusteella. RFID-järjestelmät toimivat eri radiotaajuuksilla, joista yleisin on LF-taajuus (matala taajuus, 30–300 kHz), HF (korkea taajuus, 3–30 MHz) ja UHF (erittäin korkea taajuus, 300 MHz - 3 GHz).
 
