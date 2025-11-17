@@ -449,7 +449,7 @@ Käytännön toteutuksessa RFID-tunnisteita asennettiin yhteensä viiteentoista 
 
 <img width="962" height="875" alt="Case 2 orientaatio-F (FI)" src="https://github.com/user-attachments/assets/d0214a07-33bd-4098-a9f9-f99ea88142bd" /><br> Kuva. RFID tunnisteiden asennuspaikat
 
-<img width="1114" height="710" alt="image" src="https://github.com/user-attachments/assets/f64ab8a5-dce3-42c4-8bd2-13b4b405b2a8" /><br> Kuva. BIM tasokuva
+<img width="1051" height="1183" alt="image" src="https://github.com/user-attachments/assets/33a129f6-f66e-4af3-99dc-211eed56f1f3" /><br> Kuva. Case 2: tasokuva
 
 <img width="1812" height="861" alt="image" src="https://github.com/user-attachments/assets/f3487c53-4059-4f89-b7ad-5aca2fd7b5d9" /><br> Kuva. RFID-tunnisteiden asennusvaihe
 
